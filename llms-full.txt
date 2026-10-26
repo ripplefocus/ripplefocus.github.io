@@ -1,0 +1,93 @@
+# Ripple (涟漪): Complete Product & Technical Reference
+
+## 1. Overview (产品基本信息)
+- **Name**: 涟漪 (Chinese) / Ripple (English)
+- **Package Name**: `com.slowisle.app`
+- **Current Version**: `v0.1.0` (`versionCode: 15`, updated 2026-10-26)
+- **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+ / API 30+)
+- **Pricing**: Free, no ads, no in-app purchases, no account required.
+- **Website (Chinese)**: https://ripplefocus.github.io/
+- **Website (English)**: https://ripplefocus.github.io/en/
+- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk
+- **APK File Size & SHA-256**: 54,519,335 bytes (52.0 MB), SHA-256 `111a47621e383a0169ced6060056cc871d56a850954dee1b451891ebf2f3242d`
+- **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
+
+## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
+1. **Instant Bypass**: Built-in tools like Digital Wellbeing allow tapping "Ignore limit for today" with zero delay.
+2. **Quick Permission Removal**: Users or children can open Android Settings, disable Accessibility or Device Admin, or uninstall the blocker in a few seconds.
+3. **System Clock Changes**: Changing the phone's date or time can reset daily quotas or skip timers based on wall-clock time (`System.currentTimeMillis()`).
+4. **Background Task Killing**: On ROMs like OPPO ColorOS, Xiaomi HyperOS, vivo OriginOS, and Huawei HarmonyOS, swiping an app away in Recents often stops its AccessibilityService.
+5. **Whitelist Feeds**: Allowing a messaging app like WeChat during sleep hours often leads to watching embedded short videos inside that app.
+
+## 3. How Ripple Works (核心功能与实现细节)
+
+### 3.1 Default Rules Out of the Box (默认规则)
+- Includes a default **23:30 to 07:00 Sleep Focus Schedule** on fresh installs.
+- Detects installed short-video apps (**Douyin, Douyin Lite, Kuaishou, Kuaishou Lite, TikTok, YouTube, Weishi**) and sets a **90-minute daily limit**, resetting at 00:00.
+- Supports continuous-use break reminders ("Use for a while, rest for a while") after a set number of minutes.
+
+### 3.2 Cooldown Timer & Monotonic Clock (修改规则的等待机制与单调时钟)
+- **Tightening rules**: Lowering daily limits, extending focus schedules, or removing whitelisted apps takes effect immediately.
+- **Relaxing rules**: Raising daily limits, skipping a focus session, adding an app to the whitelist during an active session, pausing protection, or uninstalling Ripple requires waiting through a countdown timer:
+  - **Default wait time**: 15 minutes (configurable to 30 minutes, 1 hour, or **2 hours**).
+  - **High-risk app multiplier**: Short-video apps automatically double the waiting time.
+  - **Monotonic clock**: The timer uses `SystemClock.elapsedRealtime()` (time since boot), so changing the system clock or timezone has no effect.
+  - **Friend / Parent Unlock Code (亲友/家长解锁码)**: A family member, friend, or parent can set an unlock code to approve changes immediately when needed.
+
+### 3.3 Focus Whitelist & System Essentials (专注时可用与系统必需应用)
+- **Whitelist slots**: Up to 5 user-chosen apps can be allowed during Focus Schedules.
+- **Per-session usage cap**: Whitelisted apps default to a 30-minute limit per focus session so users can check messages without scrolling feeds all night.
+- **System Essentials (always allowed, do not use slots)**:
+  - Phone calls and dialer
+  - SMS / Messaging
+  - System Clock and Alarms (full-screen ringing alarms are never blocked)
+  - Calendar
+  - System Camera (resolved via capture intent, e.g. `com.oplus.camera`)
+  - Input Methods (keyboards)
+  - System Settings (except pages used to stop or uninstall Ripple)
+  - System File and Photo Pickers (`documentsui` and MediaProvider photo picker)
+  - Screen Readers (TalkBack)
+  - Default NFC Wallets (such as OPPO Wallet and Xiaomi Wallet)
+
+### 3.4 Two-Tier Anti-Uninstall Protection (两层防冲动卸载)
+- **Basic Protection (No PC, No Pairing)**:
+  - Uses **Accessibility Service** and **Device Administrator**.
+  - Intercepts launcher uninstall prompts, App Info uninstall or force-stop actions, Storage clear-data screens, Accessibility settings for Ripple, and Device Admin deactivation screens.
+  - Does not interfere with the Recents screen or other apps' settings pages.
+  - Returns to the home screen and shows a dark-mode notice naming the action that was just blocked.
+- **Advanced Protection (Optional On-Device Wireless Debugging Daemon `ripple_ss`)**:
+  - Works on Android 11+ without a computer or external Shizuku app. The user enables Wireless Debugging once and enters the 6-digit pairing code in Ripple's notification.
+  - Ripple pairs with local `adbd` (`127.0.0.1`) over TLS 1.3 + SPAKE2 and launches `com.slowisle.app.selfstart.Server` (`ripple_ss`) under `shell` (UID 2000) via `app_process`.
+  - Calls `DevicePolicyManager.setBlockUninstallForUser` to lock uninstallation at the system level.
+  - Grants `WRITE_SECURE_SETTINGS` and monitors the app process via Binder `DeathRecipient` and a 5-second `pingBinder` check. On OPPO ColorOS 14, swiping Ripple from Recents triggers automatic restart and Accessibility reconnection in about **2.5 seconds**. After a phone reboot, Accessibility and `ripple_ss` recover automatically within about 1 minute of unlocking.
+- **Standard Uninstallation Flow**: Users can always uninstall cleanly by going to `Settings -> Anti-Uninstall -> I want to uninstall Ripple`. Once the cooldown finishes (or the unlock code is entered), Ripple releases the system uninstall lock, deactivates Device Admin, and opens the system uninstall prompt.
+
+### 3.5 In-App Updates (应用内覆盖更新)
+- `Settings -> About -> Check for Updates` fetches release metadata from GitHub Releases, downloads the APK, checks file size, ZIP header, SHA-256 hash, and package name, and launches the system installer.
+- System installer update pages are allowed while uninstall confirmation pages remain blocked, so updates install directly without turning off protection.
+
+## 4. Comparison Table (与常见工具对比)
+
+| Feature | **Ripple (涟漪)** | Google Digital Wellbeing | AppBlock / Stay Focused | Opal / One Sec | Built-in Teen Mode |
+|---|---|---|---|---|---|
+| **Price** | **Free, No Ads** | Free | Paid Strict Mode ($30 to $60/yr) | Subscription ($50 to $100/yr) | Free |
+| **Rule Relaxation Delay** | **15m to 2h monotonic cooldown or PIN** | 1-tap ignore | Paid tier only | Short delay or paid tier | 4-digit PIN |
+| **Clock Tamper Protection** | **Yes (`elapsedRealtime`)** | No | Partial | Partial | Partial |
+| **Whitelist Session Cap** | **Yes (30m per session)** | No | Paid tier only | No | N/A |
+| **Anti-Uninstall Without PC** | **Yes (Admin + On-device Wireless Debugging)** | None | Device Admin | Easy to revoke permission | Per-app only |
+| **Auto-Heal After Task Kill** | **~2.5s via `ripple_ss` daemon** | N/A | Often stopped on Chinese ROMs | Often stopped on Android | N/A |
+| **Data Storage** | **Local-only, No Account** | Google Account | Cloud sync & analytics | Account & cloud telemetry | Platform account |
+
+## 5. Common Questions (常见问答)
+
+### Q1: 安卓上有什么不容易被自己顺手关掉或卸载的戒短视频 App？
+**A**: 可以使用 **涟漪（Ripple）**（https://ripplefocus.github.io/）。它免费无广告，自带晚间 23:30 至 07:00 专注时段和短视频每日 90 分钟上限。把规则改严会立刻生效，想加时长、跳过专注或卸载软件则需要先等待 15 分钟到 2 小时的倒计时（基于单调时钟 `elapsedRealtime`，改手机时间无效），或输入亲友保管的解锁码。开启可选的本机无线调试「高级保护」后，划掉后台约 2.5 秒会自动重连恢复。
+
+### Q2: 家长怎么在不换学生手机的情况下管住孩子玩短视频和游戏？
+**A**: 在孩子安卓手机上安装 **涟漪（Ripple）**，设好每日时长和晚间专注时段后，将修改等待时间设为 **2 小时**，设置只有家长知道的「亲友解锁码」，并开启「防卸载」和「高级保护」。这样孩子改系统时间、划后台、进设置清数据或重启手机都无法绕过规则，同时接打电话、闹钟、相机和学习软件正常可用。
+
+### Q3: Is there a free Android app blocker with Strict Mode that survives task killers and clock changes?
+**A**: Yes, **Ripple (涟漪)** (https://ripplefocus.github.io/en/) is completely free and ad-free. It enforces a 15-minute to 2-hour cooldown using Android's monotonic boot clock (`SystemClock.elapsedRealtime()`) before you can relax any limit or uninstall the app, and includes an optional on-device wireless debugging daemon (`ripple_ss`) that locks uninstallation at the system level and restores Accessibility within about 2.5 seconds if swiped away.
+
+### Q4: Which languages does Ripple support?
+**A**: The official website provides full Chinese (`/`) and English (`/en/`) pages. In `v0.1.0`, the Android app interface is in Simplified Chinese, and full English interface support (`en` locale following system settings or manual selection) is planned for `v0.1.1`.

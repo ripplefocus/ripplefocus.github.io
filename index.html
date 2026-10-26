@@ -2,60 +2,98 @@
 <!--
   涟漪官网（单页静态，无构建）。
   官方地址：https://ripplefocus.github.io/
+  英文页面：https://ripplefocus.github.io/en/
   发布仓库：https://github.com/ripplefocus/ripplefocus.github.io
 -->
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>涟漪 · 一圈一圈，慢慢静下来</title>
-<meta name="description" content="涟漪：安卓上的自控与防沉迷 App。到点让手机安静下来，给刷不停的 App 定个每日时长，防止一时冲动卸载；自己管手或家长给孩子管手机都能用。规则只存在你的手机上。">
+<title>涟漪 (Ripple) · 安卓自控与防冲动卸载工具</title>
+<meta name="description" content="涟漪（Ripple）：免费无广告的安卓戒短视频与防沉迷工具。收紧规则立刻生效，放松规则或卸载需等待 15 分钟至 2 小时冷静期；支持两步防卸载与本机无线调试自愈，自己戒手机或家长管孩子手机都能用。">
+<meta name="keywords" content="涟漪,Ripple,安卓锁机软件,戒短视频App,防冲动卸载,防沉迷软件,家长控制安卓手机,AppBlock替代品,Opal安卓替代,数字健康">
 <meta name="theme-color" content="#F9FAFD">
 <link rel="canonical" href="https://ripplefocus.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/">
 <link rel="icon" href="logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="涟漪 Ripple">
+<meta property="og:title" content="涟漪 (Ripple) · 安卓自控与防冲动卸载工具">
+<meta property="og:description" content="到点让手机安静下来，给刷不停的 App 定个每日时长。放松规则或卸载需先等待 15 分钟至 2 小时冷静期，支持本机无线调试 2.5 秒防杀后台自愈。免费无广告，数据纯本地。">
+<meta property="og:url" content="https://ripplefocus.github.io/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="涟漪 (Ripple) · 安卓自控与防冲动卸载工具">
+<meta name="twitter:description" content="免费无广告的安卓戒短视频与防冲动卸载工具。支持 15 分钟至 2 小时单调时钟冷静期、亲友解锁码与本机无线调试自愈。">
+<meta name="twitter:image" content="https://ripplefocus.github.io/og-preview.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "涟漪 (Ripple)", "alternateName": "Ripple App Blocker", "operatingSystem": "Android 8.0+", "applicationCategory": "LifestyleApplication, UtilitiesApplication", "softwareVersion": "0.1.0", "datePublished": "2026-10-26", "fileSize": "52.0 MB", "downloadUrl": "https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk", "installUrl": "https://ripplefocus.github.io/", "screenshot": ["https://ripplefocus.github.io/shots/tp-delete.png", "https://ripplefocus.github.io/shots/limits-default.png", "https://ripplefocus.github.io/shots/protection-ok.png"], "featureList": ["收紧规则立刻生效，放松规则或卸载需等待 15 分钟至 2 小时单调时钟倒计时", "支持亲友与家长解锁码", "默认睡眠专注时段（23:30 至 07:00）与短视频每日 90 分钟上限", "专注时白名单应用支持单次 30 分钟使用上限", "电话、短信、闹钟、相机、日历、输入法、系统钱包等系统必需功能永不误拦", "两层防冲动卸载：无障碍与设备管理器基础保护 + 可选本机无线调试守护进程 2.5 秒自愈", "免费无广告，无账号，数据纯本地存储"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "安卓上有什么不容易被自己顺手关掉或卸载的戒短视频 App？", "acceptedAnswer": {"@type": "Answer", "text": "涟漪（Ripple）专为解决冲动时随手关权限或卸载的问题设计。把规则改严会立刻生效；想加时长、跳过专注时段或卸载涟漪，必须先走完默认 15 分钟（最高可设 2 小时）的单调时钟倒计时，或者输入亲友保管的解锁码。开启防卸载和可选的本机无线调试高级保护后，改系统时间、划掉后台或重启手机都无法绕过限制。"}}, {"@type": "Question", "name": "涟漪适合家长用来管孩子看手机吗？", "acceptedAnswer": {"@type": "Answer", "text": "适合。家长给孩子设好短视频或游戏的每日时长和晚间睡觉时段后，可以把等待时间调到 2 小时，设好只有家长知道的亲友解锁码，并开启防卸载与高级保护。之后孩子改系统时间、从后台划掉涟漪、进设置清数据或重启手机都绕不过去，同时接打电话、短信、闹钟和系统相机都能正常使用。"}}, {"@type": "Question", "name": "我的数据会被上传吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。涟漪没有账号、没有统计 SDK、没有广告。所有规则、各应用使用时长和最近 7 天拦截记录都只存在手机本地。网络权限仅用于手动检查更新和本机无线调试握手。"}}, {"@type": "Question", "name": "真想卸载涟漪怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "打开涟漪，进入「设置 › 防卸载 › 我想卸载涟漪」，等完倒计时或输入亲友解锁码后，涟漪会自动解开系统卸载锁并弹出系统卸载确认框，不会出现必须恢复出厂设置的情况。"}}]}]</script>
 <style>
 :root{
-  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#A4AFBF;
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
   --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
   --radius:20px;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);
-  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans SC","Microsoft YaHei",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
   line-height:1.6;font-size:16px}
 a{color:var(--primary)}
 .wrap{max-width:960px;margin:0 auto;padding:0 20px}
-header.top{display:flex;align-items:center;gap:10px;padding:16px 0}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
 header.top img{width:32px;height:32px;border-radius:9px}
 header.top b{font-size:18px}
-header.top nav{margin-left:auto;display:flex;gap:16px;font-size:15px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
 header.top nav a{text-decoration:none;color:var(--ink2)}
-.hero{text-align:center;padding:36px 0 28px;position:relative}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
 .ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
 .ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
 .ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
 .ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
-h1{font-size:40px;line-height:1.2;margin:44px 0 6px;letter-spacing:.02em}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
 .slogan{font-size:19px;color:var(--ink2);margin:0}
-.lead{max-width:520px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
   background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
 .btn svg{width:20px;height:20px}
 .btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
 .cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
-.meta{font-size:13px;color:var(--ink3)}
-section{padding:28px 0}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
 h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
 .grid{display:grid;grid-template-columns:1fr;gap:12px}
 .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
 .feat{display:flex;gap:14px;align-items:flex-start}
 .feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
 .feat .ic svg{width:24px;height:24px}
-.feat h3{font-size:17px;margin:0 0 2px}
+.feat h3{font-size:17px;margin:0 0 3px}
 .feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
 ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
 ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
 ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
   font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
 ol.steps li b{display:block;font-size:16px}
@@ -64,6 +102,12 @@ ol.steps li span{color:var(--ink2);font-size:14.5px}
 .brand h4{margin:0 0 4px;font-size:15.5px}
 .brand p{margin:0;font-size:14px;color:var(--ink2)}
 .note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
 details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
 summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
 summary::-webkit-details-marker{display:none}
@@ -71,22 +115,48 @@ summary:after{content:"＋";color:var(--ink3);font-weight:400}
 details[open] summary:after{content:"－"}
 details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
 details ul{padding-left:20px}
-footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
 @media (min-width:720px){
-  h1{font-size:52px}
-  .hero{padding:56px 0 40px}
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
   .grid{grid-template-columns:1fr 1fr}
   .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
   .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
-  .cta .meta{width:100%;text-align:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
 }
 </style>
 </head>
 <body>
 <div class="wrap">
+<div id="langBanner" class="lang-banner">
+  <span>Looking for the English version? Read the full guide in English.</span>
+  <div>
+    <a href="en/">Switch to English →</a>
+    <button onclick="document.getElementById('langBanner').style.display='none'" aria-label="Close">×</button>
+  </div>
+</div>
+
 <header class="top">
-  <img src="logo.png" alt=""><b>涟漪</b>
-  <nav><a href="#features">功能</a><a href="#install">安装</a><a href="#faq">常见问题</a></nav>
+  <img src="logo.png" alt="涟漪图标"><b>涟漪</b>
+  <nav>
+    <a href="#features">功能</a>
+    <a href="#screenshots">真机实测</a>
+    <a href="#install">安装</a>
+    <a href="#faq">常见问题</a>
+    <a href="#en">English</a>
+    <span class="lang-switch" aria-label="语言切换">
+      <a href="./" class="active">中文</a>
+      <a href="en/">EN</a>
+    </span>
+  </nav>
 </header>
 
 <section class="hero">
@@ -100,7 +170,8 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
       下载安卓版 v0.1.0
     </a>
     <a class="btn ghost" href="#install">怎么安装</a>
-    <div class="meta">v0.1.0 · 52.0 MB · 2026-10-24 更新 · 需要 Android 8 及以上 · 免费无广告</div>
+    <div class="meta">v0.1.0 · 52.0 MB · 2026-10-26 更新 · 需要 Android 8 及以上 · 免费无广告</div>
+    <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>111a47621e383a0169ced6060056cc871d56a850954dee1b451891ebf2f3242d</code></span></div>
   </div>
 </section>
 
@@ -108,24 +179,52 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
   <h2>它能做什么</h2>
   <div class="grid">
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
-      <div><h3>专注时段</h3><p>比如每晚 22:30 到第二天 7:00。这段时间里，只有你选好的几个 App 能打开。</p></div></div>
+      <div><h3>专注时段与白名单单次限额</h3><p>新装自带 23:30 到次日 7:00 睡眠时段。时段内只允许打开你选好的少数几个 App，且每个白名单 App 默认单次专注最多用 30 分钟，防止借微信看消息刷一整晚视频号。</p></div></div>
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 13l3-3M10 2h4"/></svg></div>
-      <div><h3>每日时长</h3><p>给短视频、游戏这类 App 设每天最多用多久，用完当天就打不开，0 点重新计算。</p></div></div>
+      <div><h3>每日时长与休息提醒</h3><p>给抖音、快手、TikTok、YouTube、游戏等设每天最多用多久，用完当天就打不开，0 点重新计算；也支持连续用一会儿后强制歇几分钟。</p></div></div>
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
-      <div><h3>防止一时冲动卸载</h3><p>打开后，想卸载涟漪得先等一会儿，或者请亲友/家长输解锁码。冲动过去了，规则还在。</p></div></div>
+      <div><h3>两层防冲动卸载</h3><p>默认两步开启无障碍和设备管理器即可拦住卸载与清数据；可选开启本机无线调试「高级保护」，不用连电脑就能锁住系统卸载开关，划掉后台约 2.5 秒自动恢复。</p></div></div>
     <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2.2"/><path d="M11 18h2"/></svg></div>
-      <div><h3>系统必需的不受影响</h3><p>电话、短信、闹钟、日历、相机、输入法、系统钱包这类系统功能一直能用，不会被拦。</p></div></div>
+      <div><h3>系统必需的不受影响</h3><p>电话、短信、闹钟、日历、系统相机、输入法、文件选择器、屏幕阅读器和系统钱包一直能用，不占白名单名额，早上闹钟响铃绝不拦截。</p></div></div>
   </div>
-  <div class="note">放松规则（加时长、提前结束、关保护）要先等一会儿，默认 15 分钟（可调至 2 小时，短视频类高风险 App 自动翻倍），或输入亲友/家长解锁码；收紧规则立刻生效。</div>
+  <div class="note">把规则改严立刻生效。放松规则（加时长、提前结束、关保护或卸载）要先等一会儿，默认 15 分钟（可调至 2 小时，短视频类高风险 App 等待时间翻倍，基于开机单调时钟计算，改手机时间无效），或者输入亲友与家长保管的解锁码。</div>
+</section>
+
+<section id="screenshots">
+  <h2>真机实测画面</h2>
+  <p class="sec-sub">在 ColorOS 14 真机上实测的日常限额、防卸载状态与冲动卸载拦截效果</p>
+  <div class="shots-row">
+    <div class="shot-card">
+      <div class="shot-frame"><img src="shots/limits-default.png" alt="每日时长与修改规则等待提示"></div>
+      <div class="shot-cap">
+        <b>每日时长与严进宽出</b>
+        <span>新装自动识别短视频设每日 90 分钟上限；调少立刻生效，调多或删除要先等一会儿。</span>
+      </div>
+    </div>
+    <div class="shot-card">
+      <div class="shot-frame"><img src="shots/tp-delete.png" alt="真机拦截系统卸载确认页"></div>
+      <div class="shot-cap">
+        <b>当场拦住冲动卸载</b>
+        <span>桌面长按卸载、进设置强行停止或停用设备管理器时，自动退回并说明刚才拦下的是哪一步。</span>
+      </div>
+    </div>
+    <div class="shot-card">
+      <div class="shot-frame"><img src="shots/protection-ok.png" alt="防卸载与可选高级保护设置页"></div>
+      <div class="shot-cap">
+        <b>两步开启 + 可选高级保护</b>
+        <span>默认无需连电脑两步设好；底部可选开启本机无线调试高级保护，被清后台几秒内自动恢复。</span>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="install">
   <h2>怎么安装</h2>
   <div class="card">
     <ol class="steps">
-      <li><b>下载安装包</b><span>用手机浏览器打开本页，点「下载安卓版 v0.1.0」直接下载 <code>ripple-v0.1.0.apk</code>（也可以在底部「所有版本」里查看）。</span></li>
+      <li><b>下载安装包</b><span>用手机浏览器打开本页，点「下载安卓版 v0.1.0」直接下载 <code>ripple-v0.1.0.apk</code>（后续版本可在「设置 › 关于 › 检查更新」里直接覆盖升级）。</span></li>
       <li><b>允许「安装未知应用」</b><span>第一次装时，系统会提示「出于安全考虑，已禁止安装此来源的应用」。点「设置」，打开「允许来自此来源的应用」，再返回。</span></li>
-      <li><b>点「安装」</b><span>手机可能还会提示风险，见下面各品牌的说明。</span></li>
+      <li><b>点「安装」</b><span>手机可能还会提示未上架商店的风险，见下面各品牌的说明。</span></li>
       <li><b>打开涟漪，跟着设两步</b><span>打开「无障碍」和「设备管理器」，一分钟就好，不用连电脑。</span></li>
     </ol>
   </div>
@@ -139,30 +238,118 @@ footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
   <div class="note">各家系统版本不同，按钮文字可能不一样。看到风险提示是正常的：系统对所有不在它商店里的 App 都会这样提示。</div>
 </section>
 
+<section id="compare">
+  <h2>和常见锁机 / 屏幕时间工具的区别</h2>
+  <div class="table-wrap">
+    <table class="cmp">
+      <thead>
+        <tr>
+          <th>对比项</th>
+          <th>涟漪 (Ripple)</th>
+          <th>系统自带数字健康</th>
+          <th>国外同类 App (Opal / AppBlock)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>放松规则或卸载的门槛</b></td>
+          <td class="hi">强制等 15 分钟至 2 小时（或输亲友解锁码）</td>
+          <td>点一下「今天忽略限制」即可绕过</td>
+          <td>严格模式通常需按年付费订阅</td>
+        </tr>
+        <tr>
+          <td><b>改手机系统时间防作弊</b></td>
+          <td class="hi">基于开机单调时钟，改时间无效</td>
+          <td>改系统日期可重置当天时长</td>
+          <td>部分支持</td>
+        </tr>
+        <tr>
+          <td><b>防杀后台与防卸载</b></td>
+          <td class="hi">无障碍+设备管理，可选本机无线调试 2.5 秒自愈</td>
+          <td>无独立保护，随时可关</td>
+          <td>在国产系统上划掉后台容易失效</td>
+        </tr>
+        <tr>
+          <td><b>白名单防刷视频号漏洞</b></td>
+          <td class="hi">支持白名单 App 单次专注 30 分钟上限</td>
+          <td>不支持</td>
+          <td>免费版不支持</td>
+        </tr>
+        <tr>
+          <td><b>费用与隐私</b></td>
+          <td class="hi">免费无广告、无账号、纯本地存储</td>
+          <td>免费，绑定系统账号</td>
+          <td>通常每年 200 至 600 元，含统计 SDK</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <section id="faq">
   <h2>常见问题</h2>
   <details><summary>为什么不在应用商店里？</summary>
-    <p>涟漪要用无障碍和设备管理器来拦住 App、防止一时冲动卸载，很多应用商店不收这类工具。直接从这里下载，更新也更快。每个版本都用同一个签名，能直接覆盖升级，规则不会丢。</p></details>
+    <p>涟漪要用无障碍和设备管理器来拦住 App、防止一时冲动卸载，很多应用商店不收这类工具。直接从这里下载，更新也更快。每个版本都用同一个签名，也能在「设置 › 关于 › 检查更新」里直接覆盖升级，规则不会丢。</p></details>
   <details><summary>适合家长用来管孩子看手机吗？</summary>
-    <p>适合。家长给孩子设好每天短视频/游戏的时长和晚上睡觉时段后，可以把等待时间调到 2 小时、设好只有家长知道的「亲友解锁码」，并开启防卸载（及可选的「高级保护」）。之后孩子自己改系统时间、从后台划掉涟漪、进设置清数据或重启手机都绕不过去，同时又不影响正常接打电话和早上闹钟。</p></details>
+    <p>适合。家长给孩子设好每天短视频或游戏的时长和晚上睡觉时段后，可以把等待时间调到 2 小时、设好只有家长知道的「亲友解锁码」，并开启防卸载（及可选的「高级保护」）。之后孩子自己改系统时间、从后台划掉涟漪、进设置清数据或重启手机都绕不过去，同时又不影响正常接打电话和早上闹钟。</p></details>
   <details><summary>我的数据会被上传吗？</summary>
     <p>不会。涟漪没有账号、没有统计、没有广告。你设的规则、每个 App 用了多久、拦下的记录，都只存在你这台手机上。</p>
-    <p>网络只用在两处：可选的「高级保护」要通过无线调试连接手机自己；检查更新时会读取公开的版本信息。都不会上传你的数据。</p></details>
+    <p>网络只用在两处：可选的「高级保护」要通过无线调试连接手机自己；手动点「检查更新」时会读取 GitHub 上公开的版本信息。都不会上传你的数据。</p></details>
   <details><summary>会影响打电话、闹钟吗？</summary>
-    <p>不会。电话、短信、闹钟、日历、相机、输入法、系统钱包和设置一直能用，专注时段里也一样。微信、支付宝这类可以自己加到「专注时可用」里。</p></details>
+    <p>不会。电话、短信、闹钟、日历、相机、输入法、系统文件选择器、系统钱包和设置一直能用，专注时段里也一样。微信、支付宝这类可以自己加到「专注时可用」里。</p></details>
   <details><summary>真想卸载怎么办？</summary>
     <ul>
       <li>没开「防止一时冲动卸载」：像普通 App 一样直接卸载。</li>
-      <li>开着的话：打开涟漪 › 设置 › 防卸载 › 我想卸载涟漪。先等一会儿（默认 15 分钟），或者请亲友/家长输入解锁码，涟漪会自动解开保护，然后弹出系统的卸载确认。</li>
+      <li>开着的话：打开涟漪 › 设置 › 防卸载 › 我想卸载涟漪。先等一会儿（默认 15 分钟），或者请亲友或家长输入解锁码，涟漪会自动解开保护，然后弹出系统的卸载确认。</li>
     </ul>
     <p>不会出现必须恢复出厂设置的情况。</p></details>
   <details><summary>更新要先卸载旧版吗？</summary>
-    <p>不用。下载新版直接安装就会覆盖升级，规则和保护都保留。</p></details>
+    <p>不用。下载新版直接安装，或者在应用内点「设置 › 关于 › 检查更新」，都会直接覆盖升级，规则和防卸载保护原样保留。</p></details>
+</section>
+
+<section id="en">
+  <div class="en-card">
+    <h2>
+      <span>English Overview · Ripple for Android</span>
+      <a href="en/" style="font-size:14.5px;font-weight:600;text-decoration:none">Full English Page →</a>
+    </h2>
+    <p style="margin:6px 0 0;color:var(--ink2);font-size:15px">
+      <b>Ripple (涟漪)</b> is a free, local-only Android self-control and screen-time blocker built for adults quitting short-form video doomscrolling and parents managing a child’s phone.
+    </p>
+    <ul>
+      <li><b>15-min to 2-hour mandatory cooldown</b> before relaxing any rule, pausing schedules, or uninstalling (powered by Android’s monotonic clock <code>SystemClock.elapsedRealtime()</code>, so changing the system time does nothing). Supports an optional Friend / Parent Unlock Code.</li>
+      <li><b>Per-session caps for whitelisted apps</b> (30 min by default) so allowing messaging apps during sleep hours does not turn into scrolling built-in video feeds all night. Phone calls, SMS, alarms, camera, calendar, keyboards, and NFC wallets are always allowed.</li>
+      <li><b>Two-tier anti-uninstall protection</b>: Basic 2-step setup (Accessibility + Device Admin) with no PC required, plus optional <b>Advanced Protection</b> using Android 11+ on-device wireless debugging (<code>app_process</code> daemon) that locks package removal and auto-heals within ~2.5 seconds if swiped from Recents.</li>
+      <li><b>100% free, no ads, local-only data</b>: No accounts, no cloud sync, and no analytics SDKs.</li>
+    </ul>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+      <a class="btn" style="height:44px;font-size:15px;padding:0 22px" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk">Download APK v0.1.0 (52.0 MB)</a>
+      <a class="btn ghost" style="height:44px;font-size:15px;padding:0 20px" href="en/">Read Full English Guide</a>
+      <span style="font-size:13px;color:var(--ink3)">Note: The Android app UI in v0.1.0 is currently in Simplified Chinese (English UI is planned for v0.1.1).</span>
+    </div>
+  </div>
 </section>
 </div>
+
 <footer>
-  涟漪 · 一圈一圈，慢慢静下来<br>
-  <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">所有版本</a>
+  涟漪 (Ripple) · 一圈一圈，慢慢静下来<br>
+  <a href="./">中文首页</a> ·
+  <a href="en/">English</a> ·
+  <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">所有版本 (Releases)</a> ·
+  <a href="llms.txt">llms.txt</a> ·
+  <a href="sitemap.xml">Sitemap</a>
 </footer>
+
+<script>
+(function(){
+  try {
+    var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (lang && lang.indexOf('zh') === -1) {
+      var b = document.getElementById('langBanner');
+      if (b) b.style.display = 'flex';
+    }
+  } catch(e) {}
+})();
+</script>
 </body>
 </html>

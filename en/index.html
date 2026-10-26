@@ -1,0 +1,302 @@
+<!doctype html>
+<!--
+  Ripple Official Website (English Page).
+  Canonical URL: https://ripplefocus.github.io/en/
+  Chinese URL: https://ripplefocus.github.io/
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ripple (涟漪) · Free Android App Blocker with Anti-Uninstall & Cooldown</title>
+<meta name="description" content="Ripple is a free, ad-free Android app blocker and screen-time tool. Tightening rules is instant; relaxing limits or uninstalling requires a 15-min to 2-hour monotonic cooldown or Friend/Parent PIN, with optional on-device wireless debugging auto-heal.">
+<meta name="keywords" content="Ripple app blocker,Android screen time blocker,anti-uninstall app blocker,free Opal alternative Android,free AppBlock alternative,Stay Focused alternative,on-device wireless debugging daemon,parental control Android">
+<meta name="theme-color" content="#F9FAFD">
+<link rel="canonical" href="https://ripplefocus.github.io/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ripple (涟漪)">
+<meta property="og:title" content="Ripple · Free Android App Blocker with Mandatory Cooldown & Anti-Uninstall">
+<meta property="og:description" content="Stop bypassing or uninstalling your own screen-time blocker when cravings hit. Enforces a 15m–2h monotonic cooldown, per-session whitelist caps, and optional on-device wireless debugging auto-heal.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ripple · Free Android App Blocker with Mandatory Cooldown & Anti-Uninstall">
+<meta name="twitter:description" content="Free, local-only Android app blocker with a 15m–2h monotonic cooldown and optional on-device wireless debugging auto-heal.">
+<meta name="twitter:image" content="https://ripplefocus.github.io/og-preview.png">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ripple (涟漪)", "alternateName": "Ripple Android App Blocker", "operatingSystem": "Android 8.0+", "applicationCategory": "LifestyleApplication, UtilitiesApplication", "softwareVersion": "0.1.0", "datePublished": "2026-10-26", "fileSize": "52.0 MB", "downloadUrl": "https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk", "installUrl": "https://ripplefocus.github.io/en/", "screenshot": ["https://ripplefocus.github.io/shots/tp-delete.png", "https://ripplefocus.github.io/shots/limits-default.png", "https://ripplefocus.github.io/shots/protection-ok.png"], "featureList": ["Mandatory 15-minute to 2-hour monotonic clock cooldown before relaxing rules or uninstalling", "Friend or Parent Unlock Code for emergency overrides and parental control", "Default 23:30 to 07:00 sleep schedule and 90-minute daily cap for short-video apps", "30-minute per-session cap for whitelisted apps during focus hours", "System essentials (calls, SMS, alarms, camera, calendar, keyboards, NFC wallets) are always allowed", "Two-tier anti-uninstall with optional on-device wireless debugging daemon that auto-heals in ~2.5 seconds", "100% free, no ads, no account, local-only data storage"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What makes Ripple different from Google Digital Wellbeing, AppBlock, or Opal?", "acceptedAnswer": {"@type": "Answer", "text": "Standard blockers either let you tap Ignore Limit immediately or lock Strict Mode behind an expensive subscription. Ripple is 100% free and enforces a 15-minute to 2-hour cooldown timer on Android's monotonic clock (SystemClock.elapsedRealtime) before you can add time, pause schedules, or uninstall the app. It also includes an optional on-device wireless debugging daemon that locks package removal and restores Accessibility within about 2.5 seconds if swiped from Recents."}}, {"@type": "Question", "name": "Can I use Ripple for parental control on a child's Android phone?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Set the daily limits and sleep schedule, change the cooldown timer to 2 hours, set a Parent Unlock Code, and enable Anti-Uninstall with Advanced Protection. Your child cannot bypass the limits by changing the system clock, swiping the app away in Recents, clearing storage, or rebooting the phone, while phone calls, SMS, alarms, and camera continue working normally."}}, {"@type": "Question", "name": "Does Ripple upload any usage data to the cloud?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ripple has no accounts, no analytics SDKs, and no ads. All schedules, daily usage counters, and block logs stay on your device. Internet permission is used only for manual update checks against GitHub Releases and local wireless debugging loopback on 127.0.0.1."}}, {"@type": "Question", "name": "How do I uninstall Ripple when Anti-Uninstall is enabled?", "acceptedAnswer": {"@type": "Answer", "text": "Open Ripple and go to Settings > Anti-Uninstall > I want to uninstall Ripple. Wait for the cooldown timer to finish (or enter your Friend/Parent Unlock Code). Ripple will automatically clear the system uninstall lock, deactivate Device Admin, and launch the standard Android uninstall prompt."}}]}]</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <img src="../logo.png" alt="Ripple Logo"><b>Ripple <span style="font-weight:400;color:var(--ink2);font-size:15px">涟漪</span></b>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#install">Install</a>
+    <a href="#compare">Compare</a>
+    <a href="#faq">FAQ</a>
+    <span class="lang-switch" aria-label="Language Switcher">
+      <a href="../">中文</a>
+      <a href="./" class="active">EN</a>
+    </span>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="ripple"><img src="../logo.png" alt="Ripple Icon"></div>
+  <h1>Ripple</h1>
+  <p class="slogan">Slow down, one ripple at a time</p>
+  <p class="lead">A free, local-only Android app blocker built for moments when your willpower drops. Tightening rules takes effect immediately; relaxing limits or uninstalling requires waiting through a mandatory cooldown first. Works for adults quitting short-form video and parents managing a child’s phone.</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
+      Download Android APK v0.1.0
+    </a>
+    <a class="btn ghost" href="#install">Installation Guide</a>
+    <div class="meta">v0.1.0 · 52.0 MB · Updated 2026-10-26 · Android 8.0+ · 100% Free &amp; No Ads</div>
+    <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>111a47621e383a0169ced6060056cc871d56a850954dee1b451891ebf2f3242d</code></span></div>
+  </div>
+</section>
+
+<section id="features">
+  <h2>What It Does</h2>
+  <div class="grid">
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></div>
+      <div><h3>15-Min to 2-Hour Mandatory Cooldown</h3><p>Tightening rules is instant. Adding time, skipping a focus schedule, pausing protection, or uninstalling requires waiting through a countdown timer (15 min by default, up to 2 hours, doubled for short-video apps) or entering a Friend / Parent Unlock Code.</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
+      <div><h3>Focus Schedules &amp; Per-Session Caps</h3><p>Ships with a 23:30 to 07:00 sleep schedule and 90-minute daily caps for TikTok, YouTube, Douyin, and Kuaishou. Allowed apps during focus hours have a 30-minute per-session cap so you do not scroll embedded feeds all night.</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+      <div><h3>Two-Tier Anti-Uninstall &amp; Auto-Heal</h3><p>Basic protection uses Accessibility + Device Admin to block impulsive uninstalls, force-stops, and storage clearing. Optional Advanced Protection uses Android 11+ on-device wireless debugging (no PC needed) to lock package removal and auto-heal in ~2.5s if swiped from Recents.</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2.2"/><path d="M11 18h2"/></svg></div>
+      <div><h3>System Essentials Stay Untouched</h3><p>Phone calls, SMS, alarms (including full-screen ringing screens), calendar, system camera, keyboards, file pickers, TalkBack, and NFC wallets are permanently allowed and never count toward your whitelist limit.</p></div></div>
+  </div>
+  <div class="note"><b>Monotonic Clock Enforcement:</b> Cooldown timers run on Android’s <code>SystemClock.elapsedRealtime()</code> (time since boot). Changing the phone’s date, time, or timezone will not skip the countdown or reset daily limits early.</div>
+</section>
+
+<section id="screenshots">
+  <h2>Real-Device Screenshots</h2>
+  <p class="sec-sub">Tested on Android 14 (OPPO ColorOS 14). Note: The in-app UI in v0.1.0 is currently in Simplified Chinese; English UI localization is coming in v0.1.1.</p>
+  <div class="shots-row">
+    <div class="shot-card">
+      <div class="shot-frame"><img src="../shots/limits-default.png" alt="Daily time limits and asymmetric rule rules"></div>
+      <div class="shot-cap">
+        <b>Daily Limits &amp; Cooldown Rules</b>
+        <span>Auto-detects short-video apps with a 90m daily limit. Lowering a limit is instant; raising or deleting it requires waiting.</span>
+      </div>
+    </div>
+    <div class="shot-card">
+      <div class="shot-frame"><img src="../shots/tp-delete.png" alt="Dark-mode intercept screen blocking impulsive uninstallation"></div>
+      <div class="shot-cap">
+        <b>Impulsive Uninstall Intercepted</b>
+        <span>Attempts to uninstall, force-stop, clear data, or disable Device Admin bounce back to this calm screen naming the blocked action.</span>
+      </div>
+    </div>
+    <div class="shot-card">
+      <div class="shot-frame"><img src="../shots/protection-ok.png" alt="Anti-uninstall settings and optional Advanced Protection"></div>
+      <div class="shot-cap">
+        <b>Two-Tier Protection Status</b>
+        <span>2-step basic setup works without a PC. Optional Advanced Protection uses on-device wireless debugging to survive task killers.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="install">
+  <h2>How to Install</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>Download the APK</b><span>Tap “Download Android APK v0.1.0” above to download <code>ripple-v0.1.0.apk</code> directly from GitHub Releases. Future updates can be installed in-place via Settings › About › Check for Updates.</span></li>
+      <li><b>Allow “Install Unknown Apps”</b><span>On your first install, Android will ask for permission to install from your browser. Tap Settings, enable “Allow from this source”, and go back.</span></li>
+      <li><b>Complete Installation</b><span>Confirm the installation prompt. Because Ripple is distributed directly outside the Play Store, OEM ROMs may display a standard unknown-source warning.</span></li>
+      <li><b>Enable 2-Step Basic Protection</b><span>Open Ripple and follow the 1-minute onboarding to enable <b>Accessibility Service</b> (无障碍) and <b>Device Administrator</b> (设备管理器). No computer is needed.</span></li>
+    </ol>
+  </div>
+  <div class="note"><b>UI Language Note:</b> In <code>v0.1.0</code>, the app interface is in Simplified Chinese. The onboarding has two blue buttons: Step 1 opens Accessibility settings (find <b>涟漪</b> and toggle it on), and Step 2 activates Device Admin. Full English app UI is scheduled for <code>v0.1.1</code>.</div>
+</section>
+
+<section id="compare">
+  <h2>How Ripple Compares</h2>
+  <div class="table-wrap">
+    <table class="cmp">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Ripple (涟漪)</th>
+          <th>Google Digital Wellbeing</th>
+          <th>AppBlock / Opal / Stay Focused</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Friction When Relaxing Limits</b></td>
+          <td class="hi">15m–2h monotonic cooldown or Friend/Parent PIN</td>
+          <td>1-tap “Ignore limit”</td>
+          <td>Strict Mode requires paid subscription</td>
+        </tr>
+        <tr>
+          <td><b>Clock Tamper Resistance</b></td>
+          <td class="hi">Yes (<code>SystemClock.elapsedRealtime()</code>)</td>
+          <td>No (changing date resets quota)</td>
+          <td>Partial</td>
+        </tr>
+        <tr>
+          <td><b>Anti-Uninstall &amp; Auto-Heal</b></td>
+          <td class="hi">2-tier: Admin + On-device Wireless Debugging (~2.5s heal)</td>
+          <td>None</td>
+          <td>Often killed by ColorOS / MIUI / HyperOS</td>
+        </tr>
+        <tr>
+          <td><b>Whitelist Feed Protection</b></td>
+          <td class="hi">30-min per-session cap for allowed apps</td>
+          <td>No</td>
+          <td>Paid tier only</td>
+        </tr>
+        <tr>
+          <td><b>Price &amp; Privacy</b></td>
+          <td class="hi">100% Free, No Ads, No Account, Local-Only</td>
+          <td>Free, tied to Google Account</td>
+          <td>$30–$100/year, cloud telemetry</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <details><summary>Why is Ripple distributed as a direct APK instead of on Google Play?</summary>
+    <p>Ripple uses Accessibility Service, Device Administrator, and optional on-device wireless debugging (<code>app_process</code>) to prevent impulsive uninstallation and auto-recover after being killed by aggressive OEM battery managers. Distributing directly via GitHub Releases allows these features to work without compromise. Every release is signed with the same certificate so you can update in-place without disabling protection.</p></details>
+  <details><summary>Can parents use Ripple to manage a child’s Android phone?</summary>
+    <p>Yes. Set the daily limits for short-video/game apps and the nightly sleep schedule, set the cooldown waiting time to <b>2 hours</b>, configure a <b>Parent Unlock Code</b> that only you know, and turn on Anti-Uninstall (plus optional Advanced Protection). Your child will not be able to bypass limits by changing the system time, swiping Ripple away in Recents, clearing app data, or rebooting the phone, while calls, SMS, alarms, and school apps continue working normally.</p></details>
+  <details><summary>How does “Advanced Protection” work without a computer or Root?</summary>
+    <p>On Android 11 and above, Android includes built-in Wireless Debugging. When you pair Ripple once using the 6-digit pairing code in the notification shade, Ripple connects to the local ADB daemon on <code>127.0.0.1</code> and starts a lightweight background helper (<code>ripple_ss</code>) running under the <code>shell</code> user (UID 2000). This helper locks package uninstallation via <code>DevicePolicyManager</code>, grants <code>WRITE_SECURE_SETTINGS</code>, and automatically restarts Ripple’s Accessibility service within ~2.5 seconds if swiped from Recents.</p></details>
+  <details><summary>Does Ripple collect or upload any personal data?</summary>
+    <p>No. Ripple has no user accounts, no cloud servers, no analytics SDKs, and no ads. All rules, daily usage stats, and 7-day block logs stay strictly on your phone. The <code>INTERNET</code> permission is used only when you manually tap “Check for Updates” (which fetches from GitHub Releases) and when connecting to <code>127.0.0.1</code> for on-device wireless debugging.</p></details>
+  <details><summary>How do I uninstall Ripple if I no longer need it?</summary>
+    <ul>
+      <li>If Anti-Uninstall is off: uninstall it like any normal Android app.</li>
+      <li>If Anti-Uninstall is on: open Ripple › Settings (设置) › Anti-Uninstall (防卸载) › I want to uninstall Ripple (我想卸载涟漪). Wait for the cooldown timer to finish (or enter your unlock code), and Ripple will automatically release the uninstall lock, deactivate Device Admin, and open the system uninstall dialog.</li>
+    </ul>
+    <p>You will never be locked out or forced to factory-reset your phone.</p></details>
+</section>
+</div>
+
+<footer>
+  Ripple (涟漪) · Slow down, one ripple at a time<br>
+  <a href="../">中文首页</a> ·
+  <a href="./">English</a> ·
+  <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">GitHub Releases</a> ·
+  <a href="../llms.txt">llms.txt</a> ·
+  <a href="../llms-full.txt">llms-full.txt</a> ·
+  <a href="../sitemap.xml">Sitemap</a>
+</footer>
+</body>
+</html>
