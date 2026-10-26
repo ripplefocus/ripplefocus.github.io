@@ -1,0 +1,168 @@
+<!doctype html>
+<!--
+  涟漪官网（单页静态，无构建）。
+  官方地址：https://ripplefocus.github.io/
+  发布仓库：https://github.com/ripplefocus/ripplefocus.github.io
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>涟漪 · 一圈一圈，慢慢静下来</title>
+<meta name="description" content="涟漪：安卓上的自控与防沉迷 App。到点让手机安静下来，给刷不停的 App 定个每日时长，防止一时冲动卸载；自己管手或家长给孩子管手机都能用。规则只存在你的手机上。">
+<meta name="theme-color" content="#F9FAFD">
+<link rel="canonical" href="https://ripplefocus.github.io/">
+<link rel="icon" href="logo.png">
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#A4AFBF;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;gap:16px;font-size:15px}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+.hero{text-align:center;padding:36px 0 28px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:44px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:520px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3)}
+section{padding:28px 0}
+h2{font-size:24px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 2px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px}
+@media (min-width:720px){
+  h1{font-size:52px}
+  .hero{padding:56px 0 40px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <img src="logo.png" alt=""><b>涟漪</b>
+  <nav><a href="#features">功能</a><a href="#install">安装</a><a href="#faq">常见问题</a></nav>
+</header>
+
+<section class="hero">
+  <div class="ripple"><img src="logo.png" alt="涟漪图标"></div>
+  <h1>涟漪</h1>
+  <p class="slogan">一圈一圈，慢慢静下来</p>
+  <p class="lead">安卓上的自控小工具。到点让手机安静下来，给刷不停的 App 定个时长；想放松规则，先等一会儿。自己戒短视频，或者家长给孩子管手机都能用。</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
+      下载安卓版 v0.1.0
+    </a>
+    <a class="btn ghost" href="#install">怎么安装</a>
+    <div class="meta">v0.1.0 · 52.0 MB · 2026-10-24 更新 · 需要 Android 8 及以上 · 免费无广告</div>
+  </div>
+</section>
+
+<section id="features">
+  <h2>它能做什么</h2>
+  <div class="grid">
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg></div>
+      <div><h3>专注时段</h3><p>比如每晚 22:30 到第二天 7:00。这段时间里，只有你选好的几个 App 能打开。</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 13l3-3M10 2h4"/></svg></div>
+      <div><h3>每日时长</h3><p>给短视频、游戏这类 App 设每天最多用多久，用完当天就打不开，0 点重新计算。</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div>
+      <div><h3>防止一时冲动卸载</h3><p>打开后，想卸载涟漪得先等一会儿，或者请亲友/家长输解锁码。冲动过去了，规则还在。</p></div></div>
+    <div class="card feat"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="2.2"/><path d="M11 18h2"/></svg></div>
+      <div><h3>系统必需的不受影响</h3><p>电话、短信、闹钟、日历、相机、输入法、系统钱包这类系统功能一直能用，不会被拦。</p></div></div>
+  </div>
+  <div class="note">放松规则（加时长、提前结束、关保护）要先等一会儿，默认 15 分钟（可调至 2 小时，短视频类高风险 App 自动翻倍），或输入亲友/家长解锁码；收紧规则立刻生效。</div>
+</section>
+
+<section id="install">
+  <h2>怎么安装</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>下载安装包</b><span>用手机浏览器打开本页，点「下载安卓版 v0.1.0」直接下载 <code>ripple-v0.1.0.apk</code>（也可以在底部「所有版本」里查看）。</span></li>
+      <li><b>允许「安装未知应用」</b><span>第一次装时，系统会提示「出于安全考虑，已禁止安装此来源的应用」。点「设置」，打开「允许来自此来源的应用」，再返回。</span></li>
+      <li><b>点「安装」</b><span>手机可能还会提示风险，见下面各品牌的说明。</span></li>
+      <li><b>打开涟漪，跟着设两步</b><span>打开「无障碍」和「设备管理器」，一分钟就好，不用连电脑。</span></li>
+    </ol>
+  </div>
+  <h2 style="margin-top:22px;font-size:19px">各品牌常见提示</h2>
+  <div class="brands">
+    <div class="card brand"><h4>OPPO / 一加（ColorOS）</h4><p>可能会做一次安全检测，或提示「来自未知来源」。确认是从本页下载的，选择继续安装即可。</p></div>
+    <div class="card brand"><h4>小米 / 红米（HyperOS / MIUI）</h4><p>如果开着「安全守护」或「纯净模式」，会拦下安装。选择本次允许安装，或暂时关掉后再装。</p></div>
+    <div class="card brand"><h4>vivo / iQOO（OriginOS）</h4><p>可能要求输入 vivo 账号密码，或提示风险。按提示验证后选择继续安装。</p></div>
+    <div class="card brand"><h4>华为 / 荣耀（HarmonyOS / MagicOS）</h4><p>开着「纯净模式」时会拦下，选择仍然安装或先退出纯净模式。只支持鸿蒙 NEXT 的新机型不能装安卓 App。</p></div>
+  </div>
+  <div class="note">各家系统版本不同，按钮文字可能不一样。看到风险提示是正常的：系统对所有不在它商店里的 App 都会这样提示。</div>
+</section>
+
+<section id="faq">
+  <h2>常见问题</h2>
+  <details><summary>为什么不在应用商店里？</summary>
+    <p>涟漪要用无障碍和设备管理器来拦住 App、防止一时冲动卸载，很多应用商店不收这类工具。直接从这里下载，更新也更快。每个版本都用同一个签名，能直接覆盖升级，规则不会丢。</p></details>
+  <details><summary>适合家长用来管孩子看手机吗？</summary>
+    <p>适合。家长给孩子设好每天短视频/游戏的时长和晚上睡觉时段后，可以把等待时间调到 2 小时、设好只有家长知道的「亲友解锁码」，并开启防卸载（及可选的「高级保护」）。之后孩子自己改系统时间、从后台划掉涟漪、进设置清数据或重启手机都绕不过去，同时又不影响正常接打电话和早上闹钟。</p></details>
+  <details><summary>我的数据会被上传吗？</summary>
+    <p>不会。涟漪没有账号、没有统计、没有广告。你设的规则、每个 App 用了多久、拦下的记录，都只存在你这台手机上。</p>
+    <p>网络只用在两处：可选的「高级保护」要通过无线调试连接手机自己；检查更新时会读取公开的版本信息。都不会上传你的数据。</p></details>
+  <details><summary>会影响打电话、闹钟吗？</summary>
+    <p>不会。电话、短信、闹钟、日历、相机、输入法、系统钱包和设置一直能用，专注时段里也一样。微信、支付宝这类可以自己加到「专注时可用」里。</p></details>
+  <details><summary>真想卸载怎么办？</summary>
+    <ul>
+      <li>没开「防止一时冲动卸载」：像普通 App 一样直接卸载。</li>
+      <li>开着的话：打开涟漪 › 设置 › 防卸载 › 我想卸载涟漪。先等一会儿（默认 15 分钟），或者请亲友/家长输入解锁码，涟漪会自动解开保护，然后弹出系统的卸载确认。</li>
+    </ul>
+    <p>不会出现必须恢复出厂设置的情况。</p></details>
+  <details><summary>更新要先卸载旧版吗？</summary>
+    <p>不用。下载新版直接安装就会覆盖升级，规则和保护都保留。</p></details>
+</section>
+</div>
+<footer>
+  涟漪 · 一圈一圈，慢慢静下来<br>
+  <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">所有版本</a>
+</footer>
+</body>
+</html>
