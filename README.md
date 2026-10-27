@@ -5,7 +5,7 @@
 涟漪是一款安卓上的自控与防沉迷小工具：到点让手机安静下来，给刷不停的 App 定个每日时长；想放松规则或卸载，先等一会儿。无论自己戒短视频，还是家长给孩子管手机都能用。
 
 - **官方网站**：<https://ripplefocus.github.io/>
-- **下载最新版（v0.1.2）**：[ripple-v0.1.2.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk)（52.3 MB，Android 8.0 及以上）
+- **下载最新版（v0.1.2）**：[ripple-v0.1.2.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk)（8.6 MB，Android 8.0 及以上）
 - **历史版本与更新说明**：<https://github.com/ripplefocus/ripplefocus.github.io/releases>
 
 ## 主要功能

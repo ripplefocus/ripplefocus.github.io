@@ -5,7 +5,7 @@
 ## Key Links
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
-- [Direct APK Download (v0.1.2)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk): Latest signed release (`ripple-v0.1.2.apk`, 52.3 MB, SHA-256: `b1a08fd3a57cc3ce219343e1550934a987066c74eeda1ee7fb1633a8f45ecca6`).
+- [Direct APK Download (v0.1.2)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk): Latest signed release (`ripple-v0.1.2.apk`, 8.6 MB, SHA-256: `27544ece72f551d40023ab1c0815dde4feee29e2e448f7a36315ba2a31cc9ad8`).
 - [GitHub Releases](https://github.com/ripplefocus/ripplefocus.github.io/releases): Release notes, version history, and SHA-256 checksums.
 - [Short-Video Detox Guide (中文戒短视频指南)](https://ripplefocus.github.io/block-short-videos/): How to cap Douyin, Kuaishou, Xiaohongshu, and WeChat Channels (视频号) without blocking WeChat messaging.
 - [Short-Video Detox Guide (English)](https://ripplefocus.github.io/en/block-short-videos/): How to block TikTok, Instagram Reels, and YouTube Shorts on Android while keeping messaging apps working.

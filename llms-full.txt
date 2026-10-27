@@ -9,7 +9,7 @@
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk
-- **APK File Size & SHA-256**: 54,848,395 bytes (52.3 MB), SHA-256 `b1a08fd3a57cc3ce219343e1550934a987066c74eeda1ee7fb1633a8f45ecca6`
+- **APK File Size & SHA-256**: 8,986,421 bytes (8.6 MB), SHA-256 `27544ece72f551d40023ab1c0815dde4feee29e2e448f7a36315ba2a31cc9ad8`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
