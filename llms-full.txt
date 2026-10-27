@@ -3,13 +3,13 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.1` (`versionCode: 16`, updated 2026-10-27)
+- **Current Version**: `v0.1.2` (`versionCode: 17`, updated 2026-10-27)
 - **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+ / API 30+)
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
-- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.1/ripple-v0.1.1.apk
-- **APK File Size & SHA-256**: 54,618,431 bytes (52.1 MB), SHA-256 `1a185a66bd79b564ff398c1dbdac33b5a739697ac3d70e47068067e7344b553a`
+- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.2/ripple-v0.1.2.apk
+- **APK File Size & SHA-256**: 54,848,395 bytes (52.3 MB), SHA-256 `b1a08fd3a57cc3ce219343e1550934a987066c74eeda1ee7fb1633a8f45ecca6`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
@@ -33,6 +33,14 @@
   - **High-risk app multiplier**: Short-video apps automatically double the waiting time.
   - **Monotonic clock**: The timer uses `SystemClock.elapsedRealtime()` (time since boot), so changing the system clock or timezone has no effect.
   - **Friend / Parent Unlock Code (亲友/家长解锁码)**: A family member, friend, or parent can set an unlock code to approve changes immediately when needed.
+
+### 3.2b In-App Short-Form Feed Blocker (应用内短视频流局部拦截, v0.1.2+)
+- Located at the top of the **Daily Limits (每日时长)** tab, providing 4 independent toggles:
+  - **WeChat · Channels (微信 · 视频号)**: Keeps WeChat chats, voice calls, mini-programs, and WeChat Pay working while automatically exiting the Channels feed.
+  - **WeChat · Moments (微信 · 朋友圈)**: Optional toggle to exit the Moments timeline immediately.
+  - **YouTube · Shorts**: Keeps search, subscriptions, and long-form video playback working while automatically backing out of Shorts.
+  - **Instagram · Reels**: Keeps Direct Messages (DMs) and photo/carousel posts working while automatically exiting the Reels tab.
+- **Asymmetric Cooldown Enforcement**: Turning on any feed blocker takes effect immediately; turning off an active feed blocker requires waiting through the 15-minute monotonic cooldown or entering the Friend/Parent Unlock Code.
 
 ### 3.3 Focus Whitelist & System Essentials (专注时可用与系统必需应用)
 - **Whitelist slots**: Up to 5 user-chosen apps can be allowed during Focus Schedules.
@@ -90,4 +98,4 @@
 **A**: Yes, **Ripple (涟漪)** (https://ripplefocus.github.io/en/) is completely free and ad-free. It enforces a 15-minute to 2-hour cooldown using Android's monotonic boot clock (`SystemClock.elapsedRealtime()`) before you can relax any limit or uninstall the app, and includes an optional on-device wireless debugging daemon (`ripple_ss`) that locks uninstallation at the system level and restores Accessibility within about 2.5 seconds if swiped away.
 
 ### Q4: Which languages does Ripple support?
-**A**: Both the official website (`/` and `/en/`) and the Android app (`v0.1.1+`) support Simplified Chinese and English. The app follows the system language by default and also lets you switch between Simplified Chinese and English manually in `Settings -> General & Appearance -> Language / 语言`.
+**A**: Both the official website (`/` and `/en/`) and the Android app (`v0.1.2+`) support Simplified Chinese and English. The app follows the system language by default and also lets you switch between Simplified Chinese and English manually in `Settings -> General & Appearance -> Language / 语言`.
