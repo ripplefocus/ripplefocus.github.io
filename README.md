@@ -18,4 +18,4 @@
 
 - **English Website**: https://ripplefocus.github.io/en/
 - **Obtainium 一键追踪更新**: [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io) (`obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io`)
-- **专题指南**: [家长管孩子手机防破解指南](https://ripplefocus.github.io/parental-control/) · [与 AppBlock / Stay Focused / Opal 对比](https://ripplefocus.github.io/en/vs-appblock-stayfocused/)
+- **专题指南**: [安卓戒抖音/快手/视频号指南](https://ripplefocus.github.io/block-short-videos/) · [Block TikTok/Reels/Shorts Guide](https://ripplefocus.github.io/en/block-short-videos/) · [家长管孩子手机防破解指南](https://ripplefocus.github.io/parental-control/) · [Parental Control Guide](https://ripplefocus.github.io/en/parental-control/) · [同类锁机软件对比](https://ripplefocus.github.io/vs-appblock-stayfocused/) · [Ripple vs AppBlock / Stay Focused / Opal](https://ripplefocus.github.io/en/vs-appblock-stayfocused/)

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>怎么戒掉抖音、快手、微信视频号与小红书？安卓防刷短视频且不耽误回消息指南 · 涟漪 (Ripple)</title>
+<meta name="description" content="想戒掉熬夜刷抖音、快手、微信视频号、小红书和B站，又不能彻底卸载微信耽误回消息？用免费无广告的安卓工具「涟漪（Ripple）」设置短视频每日总额度、专注白名单单次 30 分钟上限与双倍冷静倒计时。">
+<meta name="keywords" content="怎么戒掉抖音,戒短视频软件,怎么关闭微信视频号防沉迷,控制刷小红书时间,安卓防熬夜刷视频,涟漪,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/block-short-videos/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/block-short-videos/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/block-short-videos/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="怎么戒掉抖音、快手、微信视频号与小红书？安卓防刷短视频指南 · 涟漪">
+<meta property="og:description" content="兼顾正常微信联系与防沉迷：短视频每日 90 分钟自动限额 + 专注时段微信单次 30 分钟上限 + 单调时钟双倍冷静期。">
+<meta property="og:url" content="https://ripplefocus.github.io/block-short-videos/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "如何在安卓手机上戒掉抖音、快手、微信视频号与小红书且不耽误微信回消息", "description": "使用免费无广告的涟漪（Ripple）配置短视频每日总额度、连续使用休息提醒、专注时段微信单次 30 分钟上限与防冲动卸载保护。", "step": [{"@type": "HowToStep", "name": "启用短视频每日额度与连续使用休息提醒", "text": "安装涟漪后自动识别抖音、快手、TikTok、YouTube、微视并设置每日 90 分钟总上限（0点清零），可按需加入小红书与B站，并开启连续看 30 分钟强制歇 5 分钟。"}, {"@type": "HowToStep", "name": "为微信等沟通软件开启专注白名单单次 30 分钟限额", "text": "在 23:30-07:00 睡眠专注时段将微信放入白名单，保持默认的单次 30 分钟上限，回完消息自动收起，防止滑进微信视频号刷通宵。"}, {"@type": "HowToStep", "name": "开启短视频双倍等待倒计时与防卸载保护", "text": "短视频类高风险应用加时默认触发双倍等待倒计时（基于开机单调时钟，改系统时间无效），配合无障碍、设备管理器或本机无线调试防止深夜冲动卸载。"}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="./" style="color:var(--primary);font-weight:600">戒短视频指南</a>
+    <a href="../parental-control/">家长管手机</a>
+    <a href="../vs-appblock-stayfocused/">同类对比</a>
+    <span class="lang-switch">
+      <a href="./" class="active">中文</a>
+      <a href="../en/block-short-videos/">EN</a>
+    </span>
+  </nav>
+</header>
+
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:32px;margin:12px 0 10px">怎么戒掉抖音、快手、微信视频号与小红书？</h1>
+  <p class="lead" style="max-width:680px">直接卸载抖音很容易在周末重装回来，而微信因为工作和家人联系又不能卸载，结果到了夜里十一点半滑进微信视频号或小红书一刷就是两小时。本指南说明如何用免费无广告的「涟漪（Ripple）」管住短视频，同时不耽误正常沟通。</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.1/ripple-v0.1.1.apk">下载涟漪安卓版 v0.1.1</a>
+    <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io">用 Obtainium 追踪更新</a>
+    <div class="meta">v0.1.1 · 免费无广告 · 纯本地运行 · 短视频加时自动双倍冷静期</div>
+  </div>
+</section>
+
+<section>
+  <h2>为什么每次立志戒短视频都撑不过三天？</h2>
+  <div class="grid">
+    <div class="card"><h3>痛点 1：彻底卸载后很快重装，或者转战别的软件</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">删了抖音还有快手、小红书、B站和微信视频号。全盘封死容易产生逆反心理，留一个合理的每日配额反而更容易长期坚持。</p></div>
+    <div class="card"><h3>痛点 2：微信不能锁死，结果刷了一整晚视频号</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">晚上睡觉时段为了防漏接消息把微信放进白名单，本想回一条工作消息，顺手点开朋友圈或视频号就刷到了凌晨两点。</p></div>
+    <div class="card"><h3>痛点 3：系统自带限额点一下「忽略限制」就失效</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">安卓自带的数字健康或应用内青少年模式，到点弹窗只需两秒钟就能点「今天忽略限制」继续刷。</p></div>
+    <div class="card"><h3>痛点 4：连刷两小时停不下来，缺乏中途打断</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">就算每天设了 90 分钟总额度，一口气连刷 90 分钟也会让人头昏脑涨，需要在连续刷满 20 到 30 分钟时强制打断休息。</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>三步配好「能正常回消息、刷不爽短视频」的规则</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>给抖音、快手、小红书、B站设「每日总额度 + 连续休息提醒」</b><span>安装涟漪后，系统会自动识别手机里的抖音、快手、TikTok、YouTube、微视并默认设为每天 90 分钟上限（0 点清零）。你可以把小红书、B站也勾上，并开启「用一会儿，歇一会儿」（例如连续刷 25 分钟强制休息 5 分钟），打断算法推荐的沉浸感。</span></li>
+      <li><b>利用「白名单单次 30 分钟上限」管住微信视频号</b><span>在每晚 <code>23:30–07:00</code> 的睡眠专注时段（或白天工作专注时段），把微信放进专注白名单。涟漪会对每个白名单应用执行 <b>单次专注最多使用 30 分钟</b> 的限制：平时回消息、接语音完全够用，但如果半夜拿着微信连续刷满 30 分钟视频号，就会像其他娱乐应用一样被收起。</span></li>
+      <li><b>利用「短视频双倍等待期」与「防卸载保护」挡住深夜冲动</b><span>把时间调少立刻生效；夜里想给短视频加时间或卸载涟漪，必须先走完一段倒计时（默认 15 分钟，抖音、快手等高风险短视频应用会自动翻倍为 <b>30 分钟以上</b>，最高可设到 4 小时），或者输入伴侣/家人保管的亲友解锁码。配合两步基础防卸载或 Android 11+ 本机无线调试高级保护，彻底堵住进设置强行停止的捷径。</span></li>
+    </ol>
+  </div>
+  <div class="note"><b>纯本地零隐私顾虑：</b>涟漪只通过安卓标准 <code>UsageStatsManager</code> 与无障碍窗口包名判断当前打开的是哪个应用，不会读取你的微信聊天内容或屏幕文字，所有统计仅保存在手机本地。</div>
+</section>
+</div>
+<footer>
+  涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../en/block-short-videos/">English Short-Video Guide</a> · <a href="../parental-control/">家长防沉迷指南</a> · <a href="../vs-appblock-stayfocused/">同类软件对比</a>
+</footer>
+</body>
+</html>

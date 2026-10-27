@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to Block TikTok, Instagram Reels &amp; YouTube Shorts on Android Without Losing Messaging · Ripple</title>
+<meta name="description" content="Stop late-night doomscrolling on TikTok, Instagram Reels, and YouTube Shorts on Android while keeping messaging apps working. Configure daily quotas, 30-minute focus whitelist session caps, and 2x monotonic cooldowns with Ripple (100% free, no ads).">
+<meta name="keywords" content="block tiktok android,block instagram reels android,block youtube shorts android,stop doomscrolling android app,free app blocker android,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/block-short-videos/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/block-short-videos/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/block-short-videos/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Block TikTok, Reels &amp; YouTube Shorts on Android Without Losing Messaging · Ripple">
+<meta property="og:description" content="Combine daily short-video quotas, continuous-use break timers, and 30-minute focus whitelist session caps on Android. 100% free, no ads, local-only.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/block-short-videos/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "How to Block TikTok, Instagram Reels, and YouTube Shorts on Android Without Blocking Messaging", "description": "Use Ripple (free, no-ads Android blocker) to set daily cumulative video quotas, continuous-use break reminders, 30-minute session caps on whitelisted messaging apps, and 2x monotonic cooldowns.", "step": [{"@type": "HowToStep", "name": "Set Daily Quotas and Continuous-Use Break Reminders", "text": "Ripple automatically detects TikTok and YouTube with a 90-minute daily cap (reset at midnight) and lets you enforce a 5-minute rest break after every 25-30 minutes of continuous watching."}, {"@type": "HowToStep", "name": "Use 30-Minute Focus Session Caps for Messaging Apps", "text": "Whitelist up to 5 messaging apps during your 23:30-07:00 sleep schedule. Each whitelisted app is capped at 30 minutes per focus window so you can reply to messages without scrolling Reels for hours."}, {"@type": "HowToStep", "name": "Enable 2x Monotonic Cooldown and Anti-Uninstall Protection", "text": "High-risk video apps automatically trigger a 2x cooldown timer backed by SystemClock.elapsedRealtime() before limits can be raised, paired with two-layer anti-uninstall protection."}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple Logo"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="./" style="color:var(--primary);font-weight:600">Block Short Videos</a>
+    <a href="../parental-control/">Parental Control</a>
+    <a href="../vs-appblock-stayfocused/">vs AppBlock &amp; Opal</a>
+    <span class="lang-switch">
+      <a href="../../block-short-videos/">中文</a>
+      <a href="./" class="active">EN</a>
+    </span>
+  </nav>
+</header>
+
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:32px;margin:12px 0 10px">How to Stop Doomscrolling TikTok, Reels &amp; Shorts on Android Without Losing Messaging</h1>
+  <p class="lead" style="max-width:680px">Deleting social apps completely often backfires when you still need DMs and group chats, while built-in app timers take two seconds to ignore at midnight. Here is how to use Ripple (100% free, no ads, local-only) to cap short-form video feeds and prevent late-night bypasses.</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.1/ripple-v0.1.1.apk">Download Android APK v0.1.1</a>
+    <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io">Add to Obtainium</a>
+    <div class="meta">v0.1.1 · English &amp; Chinese UI · 2x Cooldown for Short-Video Apps · Zero Ads</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Standard App Timers Fail Against Short-Form Feeds</h2>
+  <div class="grid">
+    <div class="card"><h3>1. The Messaging Loophole</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">You open an app to answer a friend’s message at 11:15 PM, tap one video in the feed, and wake up at 1:00 AM after scrolling Reels or Shorts for two hours.</p></div>
+    <div class="card"><h3>2. One-Tap “Ignore Limit” Buttons</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">Built-in Digital Wellbeing and in-app reminders let you add 15 minutes or disable the timer in two taps right when your willpower is lowest.</p></div>
+    <div class="card"><h3>3. Uninterrupted 90-Minute Binges</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">A daily cap alone still allows burning your entire 90-minute allowance in one sitting without a single pause to snap out of autopilot.</p></div>
+    <div class="card"><h3>4. Uninstalling the Blocker in 5 Seconds</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">When a blocker gets in the way at night, standard Android apps can be force-stopped in Settings or uninstalled from the home screen immediately.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>3-Step Setup in Ripple</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>Set Daily Quotas + Continuous-Use Rest Breaks</b><span>On first install, Ripple detects TikTok, YouTube, and other short-video apps and sets a default 90-minute daily cap (resetting at 00:00). Enable <b>Continuous-Use Rest Reminders</b> (for example, a mandatory 5-minute break after 25 minutes of continuous watching) to interrupt infinite scroll loops.</span></li>
+      <li><b>Cap Whitelisted Messaging Apps to 30 Minutes per Focus Window</b><span>During your nightly sleep schedule (<code>23:30–07:00</code> by default) or daytime work blocks, add up to 5 essential messaging apps to your Focus Whitelist. Ripple enforces a <b>30-minute per-session limit</b> on each whitelisted app so you can reply to messages without drifting into embedded video feeds all night.</span></li>
+      <li><b>Rely on 2x Monotonic Cooldowns &amp; Two-Layer Anti-Uninstall</b><span>Tightening limits happens immediately. Trying to add time to a short-form video app automatically doubles the mandatory waiting period (30 minutes by default, configurable up to 4 hours for video apps) tracked by Android’s monotonic boot clock (<code>SystemClock.elapsedRealtime()</code>), or requires a Trusted Unlock Code held by a partner or friend. Pair with Accessibility + Device Admin or Android 11+ on-device wireless debugging so the blocker cannot be force-stopped or uninstalled on impulse.</span></li>
+    </ol>
+  </div>
+  <div class="note"><b>100% Local Privacy:</b> Ripple checks only the foreground package name via standard Android APIs. It never reads screen text, messages, or personal data, and includes zero analytics SDKs or cloud accounts.</div>
+</section>
+</div>
+<footer>
+  Ripple (涟漪) · <a href="../">Back to English Home</a> · <a href="../../block-short-videos/">中文戒短视频指南</a> · <a href="../parental-control/">Parental Control Guide</a> · <a href="../vs-appblock-stayfocused/">Ripple vs AppBlock &amp; Stay Focused</a>
+</footer>
+</body>
+</html>
