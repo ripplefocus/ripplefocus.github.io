@@ -3,13 +3,13 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.0` (`versionCode: 15`, updated 2026-10-26)
+- **Current Version**: `v0.1.1` (`versionCode: 16`, updated 2026-10-27)
 - **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+ / API 30+)
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
-- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk
-- **APK File Size & SHA-256**: 54,519,335 bytes (52.0 MB), SHA-256 `111a47621e383a0169ced6060056cc871d56a850954dee1b451891ebf2f3242d`
+- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.1/ripple-v0.1.1.apk
+- **APK File Size & SHA-256**: 54,618,431 bytes (52.1 MB), SHA-256 `1a185a66bd79b564ff398c1dbdac33b5a739697ac3d70e47068067e7344b553a`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
@@ -90,4 +90,4 @@
 **A**: Yes, **Ripple (涟漪)** (https://ripplefocus.github.io/en/) is completely free and ad-free. It enforces a 15-minute to 2-hour cooldown using Android's monotonic boot clock (`SystemClock.elapsedRealtime()`) before you can relax any limit or uninstall the app, and includes an optional on-device wireless debugging daemon (`ripple_ss`) that locks uninstallation at the system level and restores Accessibility within about 2.5 seconds if swiped away.
 
 ### Q4: Which languages does Ripple support?
-**A**: The official website provides full Chinese (`/`) and English (`/en/`) pages. In `v0.1.0`, the Android app interface is in Simplified Chinese, and full English interface support (`en` locale following system settings or manual selection) is planned for `v0.1.1`.
+**A**: Both the official website (`/` and `/en/`) and the Android app (`v0.1.1+`) support Simplified Chinese and English. The app follows the system language by default and also lets you switch between Simplified Chinese and English manually in `Settings -> General & Appearance -> Language / 语言`.

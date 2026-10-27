@@ -5,7 +5,7 @@
 ## Key Links
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
-- [Direct APK Download (v0.1.0)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.0/ripple-v0.1.0.apk): Latest signed release (`ripple-v0.1.0.apk`, 52.0 MB, SHA-256: `111a47621e383a0169ced6060056cc871d56a850954dee1b451891ebf2f3242d`).
+- [Direct APK Download (v0.1.1)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.1/ripple-v0.1.1.apk): Latest signed release (`ripple-v0.1.1.apk`, 52.1 MB, SHA-256: `1a185a66bd79b564ff398c1dbdac33b5a739697ac3d70e47068067e7344b553a`).
 - [GitHub Releases](https://github.com/ripplefocus/ripplefocus.github.io/releases): Release notes, version history, and SHA-256 checksums.
 - [Full Technical Reference (llms-full.txt)](https://ripplefocus.github.io/llms-full.txt): Detailed feature list, comparison table, and on-device wireless debugging details.
 
