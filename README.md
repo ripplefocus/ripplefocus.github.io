@@ -15,3 +15,7 @@
 - **防一时冲动卸载（支持家长解锁码与高级保护）**：开启后，想放松规则或卸载涟漪需要先等一会儿（15 分钟～2 小时，高风险应用翻倍，改系统时间无效），或输入由亲友/家长保管的解锁码；可选本机无线调试「高级保护」，杀后台或重启手机都能自动恢复。
 - **系统必需不受影响**：电话、短信、闹钟、日历、相机、输入法、系统钱包和系统设置始终可用。
 - **本地隐私保护**：无账号、无广告、无统计，所有规则与使用记录只保存在你的手机本地。
+
+- **English Website**: https://ripplefocus.github.io/en/
+- **Obtainium 一键追踪更新**: [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io) (`obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io`)
+- **专题指南**: [家长管孩子手机防破解指南](https://ripplefocus.github.io/parental-control/) · [与 AppBlock / Stay Focused / Opal 对比](https://ripplefocus.github.io/en/vs-appblock-stayfocused/)
