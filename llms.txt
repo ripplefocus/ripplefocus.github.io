@@ -13,6 +13,8 @@
 - [Android 14/15 Accessibility Keep-Alive Guide (English)](https://ripplefocus.github.io/en/keep-alive-guide/): How to stop Samsung One UI, Xiaomi HyperOS, OnePlus, and Pixel from killing your app blocker's AccessibilityService.
 - [小学、初中、高中孩子安卓手机分年龄段管控方案 (中文)](https://ripplefocus.github.io/kids-phone-by-age/): Age-based parent setup for primary, middle and high school kids: uninstall protection, clock tamper protection, parent-held unlock code, blocking only WeChat Channels/Moments while chats keep working.
 - [Set Up a Child's Android Phone by Age (English)](https://ripplefocus.github.io/en/kids-phone-by-age/): Age-based parental setup guide covering uninstall protection, monotonic clock tamper protection, and blocking only YouTube Shorts, Instagram Reels and WeChat Channels.
+- [孩子改系统时间绕过手机管控怎么办 (中文)](https://ripplefocus.github.io/stop-clock-change/): How Ripple handles kids changing the clock or time zone, force-stopping, uninstalling or rebooting to bypass limits, with setup steps.
+- [Kid Changes the Phone Clock to Bypass Screen Time (English)](https://ripplefocus.github.io/en/stop-clock-change/): Monotonic clock timers, force-stop recovery and uninstall lock on Android, with setup steps for parents.
 - [Parental Control Setup Guide (中文)](https://ripplefocus.github.io/parental-control/): Step-by-step Android parental control setup without buying a student dumbphone.
 - [Parental Control Setup Guide (English)](https://ripplefocus.github.io/en/parental-control/): How to lock down a child's Android phone against clock changes and task killers.
 - [Comparison: Ripple vs AppBlock, Stay Focused & Opal (English)](https://ripplefocus.github.io/en/vs-appblock-stayfocused/): Detailed comparison of Android app blockers.

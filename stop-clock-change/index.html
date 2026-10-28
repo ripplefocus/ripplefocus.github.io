@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>孩子改系统时间绕过手机管控怎么办：安卓防改时间、防强杀、防卸载设置方法 - 涟漪 Ripple</title>
+<meta name="description" content="孩子把手机时间调快、改时区或强行停止管控软件，限制就失效了？涟漪（Ripple v0.1.5）按开机后经过的时间计算倒计时，改系统时间不会提前解锁，配合本机无线调试守护防卸载防强杀，只关微信视频号和朋友圈，保留正常聊天。">
+<meta name="keywords" content="孩子改系统时间,孩子改时间绕过家长控制,安卓防改时间,家长控制被绕过,孩子强行停止管控软件,孩子卸载管控软件,学生手机防沉迷,只关微信视频号,涟漪,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/stop-clock-change/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stop-clock-change/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/stop-clock-change/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/stop-clock-change/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="孩子改系统时间绕过手机管控怎么办：安卓防改时间、防强杀、防卸载设置方法 - 涟漪 Ripple">
+<meta property="og:description" content="孩子把手机时间调快、改时区或强行停止管控软件，限制就失效了？涟漪（Ripple v0.1.5）按开机后经过的时间计算倒计时，改系统时间不会提前解锁，配合本机无线调试守护防卸载防强杀，只关微信视频号和朋友圈，保留正常聊天。">
+<meta property="og:url" content="https://ripplefocus.github.io/stop-clock-change/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "防止孩子通过修改系统时间绕过安卓手机限制", "step": [{"@type": "HowToStep", "name": "安装涟漪并开启无障碍服务", "text": "在孩子现有的安卓手机上安装涟漪，按引导开启无障碍服务和设备管理器。Android 13 及以上需要先在应用详情页允许受限设置。"}, {"@type": "HowToStep", "name": "设置家长保管的紧急解锁码", "text": "家长设置紧急解锁码并自己保存，孩子不知道码时放宽规则要等 15 分钟冷静期。"}, {"@type": "HowToStep", "name": "开启防卸载守护", "text": "Android 11 及以上在手机本机开启无线调试守护，锁住卸载开关，被划掉或强行停止约 2.5 秒后自动恢复。"}, {"@type": "HowToStep", "name": "选择要拦截的应用或页面", "text": "可以整体限制短视频和游戏应用，也可以只关闭微信视频号、朋友圈和 YouTube Shorts，保留微信聊天。"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "孩子把系统时间调快几个小时，限制会提前结束吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。涟漪的冷静期和专注倒计时按开机后经过的时间计算（单调时钟），和系统设置里的日期时间无关。孩子把时间调快、调慢或者改时区，剩余时间都不变。"}}, {"@type": "Question", "name": "关掉自动设置时间、改时区也没用吗？", "acceptedAnswer": {"@type": "Answer", "text": "没用。改时区和关闭网络自动校时改变的都是系统显示的时间，涟漪计时用的是开机后经过的时间，这两项操作不会影响它。"}}, {"@type": "Question", "name": "孩子重启手机能清掉倒计时吗？", "acceptedAnswer": {"@type": "Answer", "text": "开启防卸载守护后，手机重启并解锁约 1 分钟内涟漪会自动恢复拦截，规则保存在手机本地，不会因为重启丢失。"}}, {"@type": "Question", "name": "孩子在最近任务里把涟漪划掉，或者去设置里强行停止呢？", "acceptedAnswer": {"@type": "Answer", "text": "Android 11 及以上开启本机无线调试守护后，涟漪被划掉或强行停止约 2.5 秒后会自动恢复，系统卸载开关也会被锁住。整个配置在孩子手机上完成，不需要电脑。"}}, {"@type": "Question", "name": "家长临时想给孩子放开一会儿怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "家长在设置时保存紧急解锁码，输入解锁码可以立即放开。孩子不知道解锁码时，放宽任何规则都要先等满 15 分钟冷静期。"}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="../parental-control/">家长管手机</a>
+    <a href="../kids-phone-by-age/">分年龄段方案</a>
+    <a href="./" style="color:var(--primary);font-weight:600">防改时间</a>
+    <a href="../keep-alive-guide/">防杀后台保活</a>
+    <span class="lang-switch"><a href="./" class="active">中文</a><a href="../en/stop-clock-change/">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">孩子改系统时间绕过手机管控怎么办：安卓防改时间设置方法</h1>
+  <p class="lead" style="max-width:680px">不少家长发现，孩子把手机时间往后调几个小时，定好的晚上 9 点锁机就提前结束了。还有孩子会关掉自动校时、改时区，或者干脆在设置里强行停止管控软件。这页说明涟漪（Ripple）怎么处理这几种绕过方式，以及在孩子现有的安卓手机上怎么设置。</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">免梯直连下载 v0.1.5 (8.57 MB)</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.5">GitHub Releases 下载</a>
+    <div class="meta">v0.1.5 · 8.57 MB (arm64-v8a) · 免费无广告 · 无需注册账号</div>
+  </div>
+</section>
+<section>
+  <h2>为什么改时间能绕过很多限制</h2>
+  <div class="card"><p style="margin:0;color:var(--ink2);font-size:15px">如果一个限制是按系统时钟判断的，比如“到 21:00 解锁”或“还剩 30 分钟”，那么系统时间一变，软件看到的时间也跟着变。孩子把时间调到第二天早上，软件就会认为限制已经过去了。涟漪的冷静期和专注倒计时按开机后实际经过的时间计算，这个计数在系统设置里改不了，所以改日期、改时间、改时区都不会让剩余时间减少。</p></div>
+</section>
+<section>
+  <h2>孩子常用的几种绕过方式和涟漪的处理</h2>
+  <div class="grid">
+    <div class="card"><h3>调快系统时间或改时区</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">倒计时按开机后经过的时间走，剩余时间不变。</p></div>
+    <div class="card"><h3>在最近任务里划掉、去设置里强行停止</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">开启本机无线调试守护后约 2.5 秒自动恢复。步骤见 <a href="../keep-alive-guide/">防杀后台保活指南</a>。</p></div>
+    <div class="card"><h3>直接卸载</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">设备管理器加上无线调试守护会锁住系统卸载开关，要卸载得先在涟漪里走解除流程。</p></div>
+    <div class="card"><h3>重启手机</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">开启守护后，重启解锁约 1 分钟内自动恢复拦截，规则保存在手机本地。</p></div>
+    <div class="card"><h3>说要用微信聊天，结果在刷视频号</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">只关闭微信里的视频号和朋友圈页面，聊天、语音、视频通话和支付照常可用。</p></div>
+    <div class="card"><h3>自己打开涟漪改规则</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">放宽规则要等 15 分钟冷静期，家长手里的紧急解锁码可以立即放开。</p></div>
+  </div>
+</section>
+<section>
+  <h2>设置步骤</h2>
+  <div class="card"><ol class="steps">
+    <li><b>安装并开启无障碍服务和设备管理器</b><span>Android 13 到 15 如果提示受限设置，在「设置 › 应用 › 涟漪」右上角菜单里点「允许受限设置」再回来开启。</span></li>
+    <li><b>家长设置紧急解锁码</b><span>码由家长自己保存，不要写在孩子能看到的地方。</span></li>
+    <li><b>开启防卸载守护</b><span>Android 11 及以上在孩子手机本机开启无线调试并配对一次，不需要电脑。</span></li>
+    <li><b>选择拦截范围</b><span>按年龄段的建议见 <a href="../kids-phone-by-age/">分年龄段设置方案</a>。</span></li>
+  </ol></div>
+</section>
+<section>
+  <h2>常见问题</h2>
+  <details><summary>孩子把系统时间调快几个小时，限制会提前结束吗？</summary><p>不会。涟漪的冷静期和专注倒计时按开机后经过的时间计算（单调时钟），和系统设置里的日期时间无关。孩子把时间调快、调慢或者改时区，剩余时间都不变。</p></details><details><summary>关掉自动设置时间、改时区也没用吗？</summary><p>没用。改时区和关闭网络自动校时改变的都是系统显示的时间，涟漪计时用的是开机后经过的时间，这两项操作不会影响它。</p></details><details><summary>孩子重启手机能清掉倒计时吗？</summary><p>开启防卸载守护后，手机重启并解锁约 1 分钟内涟漪会自动恢复拦截，规则保存在手机本地，不会因为重启丢失。</p></details><details><summary>孩子在最近任务里把涟漪划掉，或者去设置里强行停止呢？</summary><p>Android 11 及以上开启本机无线调试守护后，涟漪被划掉或强行停止约 2.5 秒后会自动恢复，系统卸载开关也会被锁住。整个配置在孩子手机上完成，不需要电脑。</p></details><details><summary>家长临时想给孩子放开一会儿怎么办？</summary><p>家长在设置时保存紧急解锁码，输入解锁码可以立即放开。孩子不知道解锁码时，放宽任何规则都要先等满 15 分钟冷静期。</p></details>
+</section>
+</div>
+<footer>涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../parental-control/">家长防沉迷指南</a> · <a href="../kids-phone-by-age/">分年龄段方案</a> · <a href="../keep-alive-guide/">防杀后台保活</a> · <a href="../en/stop-clock-change/">English version</a></footer>
+</body>
+</html>

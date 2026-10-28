@@ -121,4 +121,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/kids-phone-by-age/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/kids-phone-by-age/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/stop-clock-change/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stop-clock-change/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/stop-clock-change/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stop-clock-change/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
+  </url>
 </urlset>
