@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小学、初中、高中孩子安卓手机怎么管：分年龄段防卸载、防改时间、只关视频号设置方案 - 涟漪 Ripple</title>
+<meta name="description" content="按小学、初中、高中三个年龄段整理的安卓学生手机管控方案：用涟漪（Ripple v0.1.3）开启防卸载和防改系统时间，紧急解锁码由家长保管，只关闭微信视频号和朋友圈，保留孩子和家长的正常微信联系。">
+<meta name="keywords" content="孩子手机怎么管,初中生手机管控,小学生手机防沉迷,高中生手机自律,安卓家长控制防卸载,孩子改系统时间绕过,只关微信视频号,孩子偷刷短视频,学生手机管控软件,涟漪,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/kids-phone-by-age/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/kids-phone-by-age/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/kids-phone-by-age/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/kids-phone-by-age/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="小学、初中、高中孩子安卓手机怎么管：分年龄段防卸载、防改时间、只关视频号设置方案 - 涟漪 Ripple">
+<meta property="og:description" content="按小学、初中、高中三个年龄段整理的安卓学生手机管控方案：用涟漪（Ripple v0.1.3）开启防卸载和防改系统时间，紧急解锁码由家长保管，只关闭微信视频号和朋友圈，保留孩子和家长的正常微信联系。">
+<meta property="og:url" content="https://ripplefocus.github.io/kids-phone-by-age/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "按年龄段给孩子的安卓手机设置防卸载和防刷短视频", "step": [{"@type": "HowToStep", "name": "安装并开启无障碍服务", "text": "在孩子手机上安装涟漪，按引导开启无障碍服务和设备管理器。Android 13 及以上需要先在应用详情页允许受限设置。"}, {"@type": "HowToStep", "name": "设置家长保管的紧急解锁码", "text": "在涟漪里设置紧急解锁码并由家长保存，孩子不知道码时，放宽规则要等 15 分钟冷静期。"}, {"@type": "HowToStep", "name": "按年龄段选择拦截范围", "text": "小学阶段可整体限制娱乐应用，初中阶段只关微信视频号、朋友圈和 YouTube Shorts，高中阶段以孩子自己设置为主，家长保留解锁码。"}, {"@type": "HowToStep", "name": "开启防卸载守护", "text": "Android 11 及以上在手机本机开启无线调试守护，锁住卸载开关，后台被划掉约 2.5 秒后自动恢复。"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "孩子把系统时间往后调，能提前结束限制吗？", "acceptedAnswer": {"@type": "Answer", "text": "不能。涟漪的冷静期和专注倒计时按开机后的单调时钟计算，和系统设置里的日期时间无关，所以改时间不会让限制提前结束。"}}, {"@type": "Question", "name": "孩子会不会直接把涟漪卸载或者强行停止？", "acceptedAnswer": {"@type": "Answer", "text": "开启设备管理器后，普通卸载需要先在涟漪里走解除流程。Android 11 及以上还可以在手机本机开启无线调试守护，不用电脑配对，系统卸载开关会被锁住，后台卡片被划掉后约 2.5 秒自动恢复。"}}, {"@type": "Question", "name": "只关视频号和朋友圈，孩子还能正常用微信联系家长吗？", "acceptedAnswer": {"@type": "Answer", "text": "可以。涟漪在微信内部只拦截视频号和朋友圈的内容页面，聊天、语音、视频通话和支付都照常使用，家长随时联系得到孩子。"}}, {"@type": "Question", "name": "紧急情况下需要临时放开怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "家长在设置时保存一个紧急解锁码，孩子遇到确实需要的情况可以找家长要码。不知道解锁码时，任何放宽规则的操作都要先等满 15 分钟冷静期。"}}, {"@type": "Question", "name": "需要给孩子换专门的学生手机吗？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。涟漪是一个 8.57 MB 的普通安卓应用，装在孩子现有的安卓手机上即可，免费、无广告、不需要注册账号，数据只保存在手机本地。"}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="../block-short-videos/">戒短视频指南</a>
+    <a href="../parental-control/">家长管手机</a>
+    <a href="./" style="color:var(--primary);font-weight:600">分年龄段方案</a>
+    <a href="../keep-alive-guide/">防杀后台保活</a>
+    <span class="lang-switch"><a href="./" class="active">中文</a><a href="../en/kids-phone-by-age/">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">小学、初中、高中孩子的安卓手机怎么管：分年龄段设置方案</h1>
+  <p class="lead" style="max-width:680px">很多家长装过管控软件，过几天就发现孩子把它卸了，或者把系统时间往后一调，限制就失效了。也有家长干脆收走手机，结果孩子没法用微信联系家里。这页按年龄段整理了用涟漪（Ripple）给孩子现有安卓手机做的设置，重点是防卸载、防改时间，以及只关微信视频号和朋友圈，保留正常聊天。</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.3.apk">免梯直连下载 v0.1.3 (8.57 MB)</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.3">GitHub Releases 下载</a>
+    <div class="meta">v0.1.3 · 8.57 MB (arm64-v8a) · 免费无广告 · 无需注册账号</div>
+  </div>
+</section>
+<section>
+  <h2>所有年龄段都先做的三件事</h2>
+  <div class="card"><ol class="steps">
+    <li><b>开启无障碍服务和设备管理器</b><span>安装后按应用内引导打开。Android 13 到 15 如果提示受限设置，在「设置 › 应用 › 涟漪」右上角菜单里点「允许受限设置」再回来开启。</span></li>
+    <li><b>家长设置并保管紧急解锁码</b><span>孩子不知道解锁码时，任何放宽规则、关闭保护的操作都要先等满 15 分钟冷静期，冲动之下改设置的情况会少很多。</span></li>
+    <li><b>开启防卸载守护（Android 11 及以上）</b><span>在孩子手机本机开启无线调试并配对一次，不需要电脑。之后系统卸载开关被锁住，最近任务里划掉涟漪约 2.5 秒后会自动恢复。详细步骤见 <a href="../keep-alive-guide/">防杀后台保活指南</a>。</span></li>
+  </ol></div>
+  <div class="note">涟漪的冷静期和倒计时按开机后的单调时钟计算，孩子在系统设置里改日期或时间，不会让限制提前结束。</div>
+</section>
+<section>
+  <h2>分年龄段的拦截范围建议</h2>
+  <p class="sec-sub">下面是常见做法，家长可以按孩子的实际情况调整。</p>
+  <div class="grid">
+    <div class="card"><h3>小学阶段（6 到 12 岁）</h3><ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px"><li>手机主要用来联系家长和查学习资料，可以把短视频、游戏类应用整体加入限制。</li><li>微信内单独关闭视频号和朋友圈，聊天和视频通话照常可用。</li><li>紧急解锁码只由家长保管，孩子需要放开时当面找家长。</li></ul></div>
+    <div class="card"><h3>初中阶段（12 到 15 岁）</h3><ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px"><li>孩子开始用手机查资料、看网课，整体禁用容易引起抵触。</li><li>只拦截短视频入口：微信视频号、朋友圈、YouTube Shorts、Instagram Reels，长视频和网课不受影响。</li><li>防卸载守护和防改时间在这个阶段最有用，孩子已经会上网搜绕过方法。</li></ul></div>
+    <div class="card"><h3>高中阶段（15 到 18 岁）</h3><ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px"><li>建议让孩子自己参与设置，比如自己选晚上几点以后限制哪些应用。</li><li>家长保留紧急解锁码作为兜底，平时不需要每天检查。</li><li>备考阶段可以把短视频入口全部关掉，15 分钟冷静期能挡住大部分临时想刷的念头。</li></ul></div>
+    <div class="card"><h3>和孩子沟通的几点建议</h3><ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px"><li>设置前和孩子说清楚限制什么、为什么限制，以及什么情况下可以申请解锁。</li><li>保留微信正常聊天，孩子联系得到家长，抵触情绪会小一些。</li><li>规则定下来以后尽量少改，家长自己也别频繁用解锁码。</li></ul></div>
+  </div>
+</section>
+<section>
+  <h2>常见问题</h2>
+  <details><summary>孩子把系统时间往后调，能提前结束限制吗？</summary><p>不能。涟漪的冷静期和专注倒计时按开机后的单调时钟计算，和系统设置里的日期时间无关，所以改时间不会让限制提前结束。</p></details><details><summary>孩子会不会直接把涟漪卸载或者强行停止？</summary><p>开启设备管理器后，普通卸载需要先在涟漪里走解除流程。Android 11 及以上还可以在手机本机开启无线调试守护，不用电脑配对，系统卸载开关会被锁住，后台卡片被划掉后约 2.5 秒自动恢复。</p></details><details><summary>只关视频号和朋友圈，孩子还能正常用微信联系家长吗？</summary><p>可以。涟漪在微信内部只拦截视频号和朋友圈的内容页面，聊天、语音、视频通话和支付都照常使用，家长随时联系得到孩子。</p></details><details><summary>紧急情况下需要临时放开怎么办？</summary><p>家长在设置时保存一个紧急解锁码，孩子遇到确实需要的情况可以找家长要码。不知道解锁码时，任何放宽规则的操作都要先等满 15 分钟冷静期。</p></details><details><summary>需要给孩子换专门的学生手机吗？</summary><p>不需要。涟漪是一个 8.57 MB 的普通安卓应用，装在孩子现有的安卓手机上即可，免费、无广告、不需要注册账号，数据只保存在手机本地。</p></details>
+</section>
+</div>
+<footer>涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../parental-control/">家长防沉迷指南</a> · <a href="../block-short-videos/">戒短视频指南</a> · <a href="../keep-alive-guide/">防杀后台保活</a> · <a href="../en/kids-phone-by-age/">English version</a></footer>
+</body>
+</html>

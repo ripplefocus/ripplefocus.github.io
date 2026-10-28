@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南 - 涟漪 Ripple</title>
-<meta name="description" content="详细解答小米澎湃 HyperOS、OPPO ColorOS、一加、vivo OriginOS、荣耀 MagicOS 安卓无障碍服务被杀、受限设置灰色无法开启，以及如何用涟漪（Ripple v0.1.3，8.57 MB）免电脑开启本机无线调试防卸载与 2.5 秒无障碍自动恢复。">
+<meta name="description" content="详细解答小米澎湃 HyperOS、OPPO ColorOS、一加、vivo OriginOS、荣耀 MagicOS 安卓无障碍服务被杀、受限设置灰色无法开启，以及如何用涟漪（Ripple v0.1.4，8.57 MB）免电脑开启本机无线调试防卸载与 2.5 秒无障碍自动恢复。">
 <meta name="keywords" content="无障碍服务被杀,小米HyperOS无障碍保活,OPPO ColorOS无障碍自动关闭,vivo无障碍保活,安卓14受限设置怎么开,防卸载锁机软件,本机无线调试保活,涟漪,Ripple">
 <link rel="canonical" href="https://ripplefocus.github.io/keep-alive-guide/">
 <link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/keep-alive-guide/">
@@ -17,7 +17,7 @@
 <meta property="og:url" content="https://ripplefocus.github.io/keep-alive-guide/">
 <meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南", "description": "在国产安卓系统上解锁受限设置、配置省电策略，并通过涟漪（Ripple v0.1.3）本机无线调试守护实现无障碍服务 2.5 秒自动重连与系统级防卸载。", "step": [{"@type": "HowToStep", "name": "解锁 Android 13/14/15 受限设置", "text": "当系统提示受限设置灰色不可点时，进入系统设置 > 应用管理 > 涟漪，点击右上角菜单选择允许受限设置，再返回无障碍列表开启涟漪。"}, {"@type": "HowToStep", "name": "配置品牌专属自启动、无限制省电与最近任务加锁", "text": "在小米澎湃 HyperOS、OPPO ColorOS、vivo OriginOS 或荣耀 MagicOS 中将涟漪省电策略设为无限制，开启自启动，并在最近任务界面下拉卡片加锁。"}, {"@type": "HowToStep", "name": "开启免电脑的本机无线调试高级保护（2.5 秒自愈）", "text": "在涟漪设置 > 防卸载 > 高级保护中通过手机本机无线调试配对一次，启动 ripple_ss 守护进程，锁死系统卸载开关并在后台被划掉后约 2.5 秒内自动重连恢复无障碍服务。"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南", "description": "在国产安卓系统上解锁受限设置、配置省电策略，并通过涟漪（Ripple v0.1.4）本机无线调试守护实现无障碍服务 2.5 秒自动重连与系统级防卸载。", "step": [{"@type": "HowToStep", "name": "解锁 Android 13/14/15 受限设置", "text": "当系统提示受限设置灰色不可点时，进入系统设置 > 应用管理 > 涟漪，点击右上角菜单选择允许受限设置，再返回无障碍列表开启涟漪。"}, {"@type": "HowToStep", "name": "配置品牌专属自启动、无限制省电与最近任务加锁", "text": "在小米澎湃 HyperOS、OPPO ColorOS、vivo OriginOS 或荣耀 MagicOS 中将涟漪省电策略设为无限制，开启自启动，并在最近任务界面下拉卡片加锁。"}, {"@type": "HowToStep", "name": "开启免电脑的本机无线调试高级保护（2.5 秒自愈）", "text": "在涟漪设置 > 防卸载 > 高级保护中通过手机本机无线调试配对一次，启动 ripple_ss 守护进程，锁死系统卸载开关并在后台被划掉后约 2.5 秒内自动重连恢复无障碍服务。"}]}</script>
 <style>
 :root{
   --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
@@ -138,11 +138,11 @@ footer a:hover{color:var(--primary)}
 
 <section class="hero" style="padding:28px 0 18px">
   <h1 style="font-size:30px;margin:12px 0 10px">小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南</h1>
-  <p class="lead" style="max-width:680px">很多安卓用户装好屏幕时间管理软件后，发现从最近任务列表顺手一划，或者夜里锁屏待机几小时，系统无障碍服务就被自动关掉了。本指南整理了 Android 13 至 15「受限设置」解锁方法、四大主流国产系统的后台保活路径，以及涟漪（Ripple v0.1.3）免电脑本机无线调试 2.5 秒自愈方案。</p>
+  <p class="lead" style="max-width:680px">很多安卓用户装好屏幕时间管理软件后，发现从最近任务列表顺手一划，或者夜里锁屏待机几小时，系统无障碍服务就被自动关掉了。本指南整理了 Android 13 至 15「受限设置」解锁方法、四大主流国产系统的后台保活路径，以及涟漪（Ripple v0.1.4）免电脑本机无线调试 2.5 秒自愈方案。</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.3.apk">免梯直连下载 v0.1.3 (8.57 MB)</a>
-    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.3">GitHub Releases 下载</a>
-    <div class="meta">v0.1.3 · 8.57 MB (arm64-v8a) · SHA-256: 8fae00a6...f529423 · 免费无广告</div>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.4.apk">免梯直连下载 v0.1.4 (8.57 MB)</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.4">GitHub Releases 下载</a>
+    <div class="meta">v0.1.4 · 8.57 MB (arm64-v8a) · SHA-256: 888ec6e2...ecbffa1 · 免费无广告</div>
   </div>
 </section>
 
