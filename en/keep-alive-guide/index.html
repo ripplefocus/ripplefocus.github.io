@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>How to Stop Android 14/15 (Samsung, Xiaomi, Pixel, OnePlus) from Killing Your App Blocker Accessibility Service - Ripple v0.1.4 Guide</title>
-<meta name="description" content="Complete step-by-step guide to stop Android 14 and 15 (Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS, OPPO ColorOS, Google Pixel) from killing your app blocker's AccessibilityService, unlock Restricted Settings, and enable Ripple v0.1.4 on-device wireless debugging self-healing.">
-<meta name="keywords" content="android accessibility service keeps turning off,samsung one ui kills accessibility service,xiaomi hyperos accessibility keep alive,android 14 allow restricted settings,app blocker self healing wireless debugging,Ripple v0.1.4">
+<title>How to Stop Android 14/15 (Samsung, Xiaomi, Pixel, OnePlus) from Killing Your App Blocker Accessibility Service - Ripple v0.1.5 Guide</title>
+<meta name="description" content="Complete step-by-step guide to stop Android 14 and 15 (Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS, OPPO ColorOS, Google Pixel) from killing your app blocker's AccessibilityService, unlock Restricted Settings, and enable Ripple v0.1.5 on-device wireless debugging self-healing.">
+<meta name="keywords" content="android accessibility service keeps turning off,samsung one ui kills accessibility service,xiaomi hyperos accessibility keep alive,android 14 allow restricted settings,app blocker self healing wireless debugging,Ripple v0.1.5">
 <link rel="canonical" href="https://ripplefocus.github.io/en/keep-alive-guide/">
 <link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/keep-alive-guide/">
 <link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/keep-alive-guide/">
 <link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/keep-alive-guide/">
 <link rel="icon" href="../../logo.png">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How to Stop Android 14/15 from Killing Your App Blocker Accessibility Service - Ripple v0.1.4 Guide">
+<meta property="og:title" content="How to Stop Android 14/15 from Killing Your App Blocker Accessibility Service - Ripple v0.1.5 Guide">
 <meta property="og:description" content="Unlock Android 13-15 Restricted Settings, configure Samsung/Xiaomi/OnePlus/Pixel battery rules, and use Ripple's on-device wireless debugging daemon to auto-restore Accessibility in ~2.5 seconds.">
 <meta property="og:url" content="https://ripplefocus.github.io/en/keep-alive-guide/">
 <meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "How to Stop Android 14/15 from Killing Your App Blocker Accessibility Service", "description": "Unlock Android 13-15 Restricted Settings, configure OEM battery rules on Samsung, Xiaomi, OnePlus, and Pixel, and enable Ripple v0.1.4 on-device wireless debugging self-healing.", "step": [{"@type": "HowToStep", "name": "Unlock Android 13/14/15 Restricted Settings", "text": "Open Android Settings > Apps > Ripple, tap the top-right 3-dot menu, select Allow restricted settings, and then enable Ripple in Accessibility Settings."}, {"@type": "HowToStep", "name": "Configure Unrestricted Battery and Recents Lock", "text": "Set Ripple's battery usage to Unrestricted on Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS/ColorOS, or Google Pixel, and lock the app card in Recents."}, {"@type": "HowToStep", "name": "Enable On-Device Wireless Debugging Self-Healing (ripple_ss)", "text": "Pair Ripple once using Android 11+ on-device wireless debugging to lock the OS uninstall switch and automatically restore AccessibilityService within about 2.5 seconds if swiped away from Recents."}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "How to Stop Android 14/15 from Killing Your App Blocker Accessibility Service", "description": "Unlock Android 13-15 Restricted Settings, configure OEM battery rules on Samsung, Xiaomi, OnePlus, and Pixel, and enable Ripple v0.1.5 on-device wireless debugging self-healing.", "step": [{"@type": "HowToStep", "name": "Unlock Android 13/14/15 Restricted Settings", "text": "Open Android Settings > Apps > Ripple, tap the top-right 3-dot menu, select Allow restricted settings, and then enable Ripple in Accessibility Settings."}, {"@type": "HowToStep", "name": "Configure Unrestricted Battery and Recents Lock", "text": "Set Ripple's battery usage to Unrestricted on Samsung One UI, Xiaomi HyperOS, OnePlus OxygenOS/ColorOS, or Google Pixel, and lock the app card in Recents."}, {"@type": "HowToStep", "name": "Enable On-Device Wireless Debugging Self-Healing (ripple_ss)", "text": "Pair Ripple once using Android 11+ on-device wireless debugging to lock the OS uninstall switch and automatically restore AccessibilityService within about 2.5 seconds if swiped away from Recents."}]}</script>
 <style>
 :root{
   --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
@@ -138,11 +138,11 @@ footer a:hover{color:var(--primary)}
 
 <section class="hero" style="padding:28px 0 18px">
   <h1 style="font-size:30px;margin:12px 0 10px">How to Stop Android 14/15 (Samsung, Xiaomi, Pixel, OnePlus) from Killing Your App Blocker Accessibility Service</h1>
-  <p class="lead" style="max-width:680px">On modern Android phones, swiping an app blocker away from the Recents screen or leaving the phone idle overnight often kills its <code>AccessibilityService</code>. This guide covers how to unlock Android 13 to 15 Restricted Settings, configure OEM battery settings on Samsung, Xiaomi, OnePlus, and Pixel, and enable Ripple v0.1.4's on-device wireless debugging self-healing daemon.</p>
+  <p class="lead" style="max-width:680px">On modern Android phones, swiping an app blocker away from the Recents screen or leaving the phone idle overnight often kills its <code>AccessibilityService</code>. This guide covers how to unlock Android 13 to 15 Restricted Settings, configure OEM battery settings on Samsung, Xiaomi, OnePlus, and Pixel, and enable Ripple v0.1.5's on-device wireless debugging self-healing daemon.</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.4.apk">Direct Download APK v0.1.4 (8.57 MB)</a>
-    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.4">GitHub Releases (v0.1.4)</a>
-    <div class="meta">v0.1.4 · 8.57 MB (arm64-v8a) · SHA-256: 888ec6e2...ecbffa1 · 100% Free &amp; No Ads</div>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">Direct Download APK v0.1.5 (8.57 MB)</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.5">GitHub Releases (v0.1.5)</a>
+    <div class="meta">v0.1.5 · 8.57 MB (arm64-v8a) · SHA-256: a5f2e43e...5a7a038 · 100% Free &amp; No Ads</div>
   </div>
 </section>
 
@@ -198,7 +198,7 @@ footer a:hover{color:var(--primary)}
 <section>
   <h2>Step 3: 2.5-Second Self-Healing via On-Device Wireless Debugging (No PC or Root)</h2>
   <div class="card">
-    <p style="margin:0 0 12px;color:var(--ink2);font-size:14.5px">Even with Unrestricted battery enabled, swiping an app card away from the Android Recents screen on Xiaomi, OPPO, vivo, or OnePlus force-stops the app process and unbinds its <code>AccessibilityService</code>. Ripple v0.1.4 includes an optional <b>Advanced Protection</b> daemon (<code>ripple_ss</code>) that closes this loophole directly on the phone without needing a PC, USB cable, or root:</p>
+    <p style="margin:0 0 12px;color:var(--ink2);font-size:14.5px">Even with Unrestricted battery enabled, swiping an app card away from the Android Recents screen on Xiaomi, OPPO, vivo, or OnePlus force-stops the app process and unbinds its <code>AccessibilityService</code>. Ripple v0.1.5 includes an optional <b>Advanced Protection</b> daemon (<code>ripple_ss</code>) that closes this loophole directly on the phone without needing a PC, USB cable, or root:</p>
     <ol class="steps">
       <li><b>One-time on-device pairing</b><span>Open Ripple and go to <code>Protection › Advanced Protection</code>. Follow the 4-step guide to open Developer Options and Wireless Debugging, tap <b>Pair device with pairing code</b>, and enter the 6-digit code directly into Ripple’s notification banner.</span></li>
       <li><b>OS-level uninstall lock (<code>setBlockUninstallForUser</code>)</b><span>Ripple spawns a lightweight JVM daemon (<code>ripple_ss</code>) running under Android’s local <code>shell</code> user (UID 2000) on <code>127.0.0.1</code> and locks the package uninstall switch at the OS level.</span></li>
