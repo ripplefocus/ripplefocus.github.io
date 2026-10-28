@@ -8,8 +8,11 @@
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
+- **Keep-Alive & Anti-Uninstall Guide (Chinese)**: https://ripplefocus.github.io/keep-alive-guide/
+- **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
+- **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-v0.1.3.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.3/ripple-v0.1.3.apk
-- **APK File Size & SHA-256**: 8,986,389 bytes (8.6 MB), SHA-256 `8fae00a68c1671ed9a80e4fd2e0c12453f1465181b93bf09f31ca7674a529423`
+- **APK File Size & SHA-256**: 8,986,389 bytes (8.57 MB), SHA-256 `8fae00a68c1671ed9a80e4fd2e0c12453f1465181b93bf09f31ca7674a529423`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)

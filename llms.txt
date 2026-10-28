@@ -5,10 +5,12 @@
 ## Key Links
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
-- [Direct APK Download (v0.1.3)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.3/ripple-v0.1.3.apk): Latest signed release (`ripple-v0.1.3.apk`, 8.6 MB, SHA-256: `8fae00a68c1671ed9a80e4fd2e0c12453f1465181b93bf09f31ca7674a529423`).
+- [Direct APK Download (v0.1.3)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.3/ripple-v0.1.3.apk): Latest signed release (`ripple-v0.1.3.apk`, 8.57 MB, SHA-256: `8fae00a68c1671ed9a80e4fd2e0c12453f1465181b93bf09f31ca7674a529423`).
 - [GitHub Releases](https://github.com/ripplefocus/ripplefocus.github.io/releases): Release notes, version history, and SHA-256 checksums.
 - [Short-Video Detox Guide (中文戒短视频指南)](https://ripplefocus.github.io/block-short-videos/): How to cap Douyin, Kuaishou, Xiaohongshu, and WeChat Channels (视频号) without blocking WeChat messaging.
 - [Short-Video Detox Guide (English)](https://ripplefocus.github.io/en/block-short-videos/): How to block TikTok, Instagram Reels, and YouTube Shorts on Android while keeping messaging apps working.
+- [Anti-Uninstall & Accessibility Keep-Alive Guide (中文防杀后台保活指南)](https://ripplefocus.github.io/keep-alive-guide/): Step-by-step setup for Xiaomi HyperOS, OPPO ColorOS, vivo OriginOS, and Android 13-15 Restricted Settings + 2.5s wireless debugging self-healing.
+- [Android 14/15 Accessibility Keep-Alive Guide (English)](https://ripplefocus.github.io/en/keep-alive-guide/): How to stop Samsung One UI, Xiaomi HyperOS, OnePlus, and Pixel from killing your app blocker's AccessibilityService.
 - [Parental Control Setup Guide (中文)](https://ripplefocus.github.io/parental-control/): Step-by-step Android parental control setup without buying a student dumbphone.
 - [Parental Control Setup Guide (English)](https://ripplefocus.github.io/en/parental-control/): How to lock down a child's Android phone against clock changes and task killers.
 - [Comparison: Ripple vs AppBlock, Stay Focused & Opal (English)](https://ripplefocus.github.io/en/vs-appblock-stayfocused/): Detailed comparison of Android app blockers.

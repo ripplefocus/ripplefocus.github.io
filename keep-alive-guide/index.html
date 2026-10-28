@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南 - 涟漪 Ripple</title>
+<meta name="description" content="详细解答小米澎湃 HyperOS、OPPO ColorOS、一加、vivo OriginOS、荣耀 MagicOS 安卓无障碍服务被杀、受限设置灰色无法开启，以及如何用涟漪（Ripple v0.1.3，8.57 MB）免电脑开启本机无线调试防卸载与 2.5 秒无障碍自动恢复。">
+<meta name="keywords" content="无障碍服务被杀,小米HyperOS无障碍保活,OPPO ColorOS无障碍自动关闭,vivo无障碍保活,安卓14受限设置怎么开,防卸载锁机软件,本机无线调试保活,涟漪,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/keep-alive-guide/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/keep-alive-guide/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/keep-alive-guide/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/keep-alive-guide/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍保活设置指南 - 涟漪 Ripple">
+<meta property="og:description" content="解决安卓 13/14/15 受限设置灰色、划掉后台无障碍失效问题：各品牌后台保活路径 + 免电脑本机无线调试 2.5 秒自动恢复无障碍。">
+<meta property="og:url" content="https://ripplefocus.github.io/keep-alive-guide/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南", "description": "在国产安卓系统上解锁受限设置、配置省电策略，并通过涟漪（Ripple v0.1.3）本机无线调试守护实现无障碍服务 2.5 秒自动重连与系统级防卸载。", "step": [{"@type": "HowToStep", "name": "解锁 Android 13/14/15 受限设置", "text": "当系统提示受限设置灰色不可点时，进入系统设置 > 应用管理 > 涟漪，点击右上角菜单选择允许受限设置，再返回无障碍列表开启涟漪。"}, {"@type": "HowToStep", "name": "配置品牌专属自启动、无限制省电与最近任务加锁", "text": "在小米澎湃 HyperOS、OPPO ColorOS、vivo OriginOS 或荣耀 MagicOS 中将涟漪省电策略设为无限制，开启自启动，并在最近任务界面下拉卡片加锁。"}, {"@type": "HowToStep", "name": "开启免电脑的本机无线调试高级保护（2.5 秒自愈）", "text": "在涟漪设置 > 防卸载 > 高级保护中通过手机本机无线调试配对一次，启动 ripple_ss 守护进程，锁死系统卸载开关并在后台被划掉后约 2.5 秒内自动重连恢复无障碍服务。"}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="../block-short-videos/">戒短视频指南</a>
+    <a href="../parental-control/">家长管手机</a>
+    <a href="./" style="color:var(--primary);font-weight:600">防杀后台保活</a>
+    <a href="../vs-appblock-stayfocused/">同类对比</a>
+    <span class="lang-switch">
+      <a href="./" class="active">中文</a>
+      <a href="../en/keep-alive-guide/">EN</a>
+    </span>
+  </nav>
+</header>
+
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">小米 HyperOS / OPPO ColorOS / vivo OriginOS 防卸载与无障碍服务保活设置指南</h1>
+  <p class="lead" style="max-width:680px">很多安卓用户装好屏幕时间管理软件后，发现从最近任务列表顺手一划，或者夜里锁屏待机几小时，系统无障碍服务就被自动关掉了。本指南整理了 Android 13 至 15「受限设置」解锁方法、四大主流国产系统的后台保活路径，以及涟漪（Ripple v0.1.3）免电脑本机无线调试 2.5 秒自愈方案。</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.3.apk">免梯直连下载 v0.1.3 (8.57 MB)</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.3">GitHub Releases 下载</a>
+    <div class="meta">v0.1.3 · 8.57 MB (arm64-v8a) · SHA-256: 8fae00a6...f529423 · 免费无广告</div>
+  </div>
+</section>
+
+<section>
+  <h2>第一步：解决 Android 13 / 14 / 15「受限设置」灰色无法开启无障碍</h2>
+  <div class="card">
+    <p style="margin:0 0 12px;color:var(--ink2);font-size:14.5px">从浏览器直接下载安装 APK 后，首次去系统「无障碍」页面开启涟漪时，Android 13、14、15 会弹出「出于安全考虑，此设置目前不可用（受限设置）」的提示。按下面 3 步操作一次即可永久解锁：</p>
+    <ol class="steps">
+      <li><b>先触发一次灰色开关</b><span>在系统「设置 › 无障碍 › 已下载的应用 › 涟漪」页面点一下灰色的开关，让系统弹出「受限设置」提示框并点确定。</span></li>
+      <li><b>进入应用详情允许受限设置</b><span>打开手机「设置 › 应用（或应用管理）› 应用列表 › 搜索并点开 <b>涟漪</b>」，点击页面<b>右上角三点菜单（⋮）</b>（部分小米机型滑到应用信息页面最底部），点击<b>「允许受限设置」</b>并验证锁屏密码或指纹。</span></li>
+      <li><b>返回无障碍开启服务与设备管理器</b><span>回到无障碍列表即可正常打开「涟漪」开关；再按应用内引导开启「设备管理器」，基础防卸载就完成了。</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <h2>第二步：小米 / OPPO / vivo / 荣耀 各品牌系统后台保活路径</h2>
+  <p class="sec-sub">开启无障碍后，建议花一分钟完成对应品牌的省电与卡片加锁设置，避免系统在夜间深度待机时清理进程。</p>
+  <div class="grid">
+    <div class="card">
+      <h3>小米 / 红米（澎湃 HyperOS &amp; MIUI）</h3>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px">
+        <li><b>开启自启动</b>：设置 › 应用设置 › 应用管理 › 涟漪 › 开启<b>「自启动」</b>（HyperOS 位于「后台自启动」）。</li>
+        <li><b>省电策略无限制</b>：在同一个应用信息页点击「省电策略」，改为<b>「无限制」</b>。</li>
+        <li><b>最近任务加锁</b>：上滑进入最近任务界面，长按或下拉「涟漪」卡片，点击<b>小锁图标</b>锁定后台。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>OPPO / 一加 / Realme（ColorOS）</h3>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px">
+        <li><b>允许完全后台行为</b>：设置 › 应用 › 应用管理 › 涟漪 › 耗电管理 › 开启<b>「允许完全后台行为」</b>与<b>「允许自启动」</b>。</li>
+        <li><b>最近任务锁定</b>：打开最近任务视图，点击「涟漪」卡片顶部的三点菜单，选择<b>「锁定」</b>。</li>
+        <li><b>关闭睡眠待机优化</b>：设置 › 电池 › 更多设置 › 睡眠待机优化（如夜间断连可关闭此项）。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>vivo / iQOO（OriginOS）</h3>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px">
+        <li><b>允许后台高耗电</b>：设置 › 电池 › 后台耗电管理 › 找到「涟漪」并设为<b>「允许后台高耗电」</b>。</li>
+        <li><b>开启自启动与关联启动</b>：设置 › 应用与权限 › 权限管理 › 权限 › 自启动 › 开启「涟漪」。</li>
+        <li><b>后台卡片加锁</b>：进入后台多任务界面，下拉「涟漪」卡片右上角出现小锁图标即完成锁定。</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>荣耀 MagicOS / 华为 HarmonyOS</h3>
+      <ul style="margin:8px 0 0;padding-left:18px;color:var(--ink2);font-size:14px">
+        <li><b>切换为手动管理</b>：设置 › 应用和服务 › 应用启动管理 › 找到「涟漪」关闭自动管理，在弹窗中全部勾选<b>「允许自启动」「允许关联启动」「允许后台活动」</b>。</li>
+        <li><b>多任务加锁</b>：进入最近任务界面，将「涟漪」卡片向下拉一下，顶部显示小锁图标即可。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>第三步：终极防杀后台与防卸载（Android 11+ 免电脑本机无线调试自愈）</h2>
+  <div class="card">
+    <p style="margin:0 0 12px;color:var(--ink2);font-size:14.5px">在国产系统上，只要用户在最近任务界面把卡片手动划掉，普通应用的进程和无障碍服务仍然会被系统强行终止。为了解决这个痛点，涟漪内置了免电脑、免 Root、免装额外软件的<b>本机无线调试守护进程（<code>ripple_ss</code>）</b>：</p>
+    <ol class="steps">
+      <li><b>手机本机配对一次（无需连接电脑）</b><span>进入涟漪「保护（或设置 › 防卸载）› 开启高级保护」，按应用内 4 步图文向导打开「开发者选项」和「无线调试」，点「使用配对码配对设备」，直接在顶部下拉通知栏填入 6 位配对码即可完成握手。</span></li>
+      <li><b>系统级锁死卸载开关（<code>setBlockUninstallForUser</code>）</b><span>配对成功后，<code>ripple_ss</code> 守护进程以系统 <code>shell</code>（UID 2000）权限在本地运行，直接调用系统级接口锁死卸载开关，在桌面或设置里点卸载都会被系统底层拒绝。</span></li>
+      <li><b>划掉后台约 2.5 秒自动恢复无障碍服务</b><span><code>ripple_ss</code> 会自动为涟漪授予 <code>WRITE_SECURE_SETTINGS</code> 权限并监听应用存活状态。哪怕你在最近任务里把涟漪卡片划掉，守护进程也会在约 <b>2.5 秒</b>内重新拉起服务并写回 <code>enabled_accessibility_services</code>，无障碍拦截立即恢复；手机重启解锁后约 1 分钟内同样会自动自愈。</span></li>
+    </ol>
+  </div>
+  <div class="note"><b>需要正常卸载时怎么办？</b>涟漪绝不恶意锁机。打开「涟漪 › 设置 › 防卸载 › 我想卸载涟漪」，等完你设定的冷静期倒计时（基于开机单调时钟 <code>SystemClock.elapsedRealtime()</code>，默认 15 分钟）或输入亲友解锁码后，涟漪会自动解除系统卸载锁与设备管理器，弹出标准卸载确认框。</div>
+</section>
+</div>
+<footer>
+  涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../en/keep-alive-guide/">English Keep-Alive Guide</a> · <a href="../block-short-videos/">戒短视频指南</a> · <a href="../parental-control/">家长防沉迷指南</a> · <a href="../vs-appblock-stayfocused/">同类软件对比</a>
+</footer>
+</body>
+</html>
