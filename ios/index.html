@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间管控工具 - Ripple</title>
+<meta name="description" content="iPhone 自带屏幕使用时间 4 位密码容易被孩子试出，或者自己顺手点忽略限额？涟漪（Ripple v0.1.5）iOS 版基于苹果官方 Screen Time API 构建，支持系统级禁止删除应用（denyAppRemoval）、开机单调时钟 15 分钟冷静期与 8 位亲友家长解锁码。">
+<meta name="keywords" content="涟漪 iOS,Ripple iOS,iPhone防沉迷,苹果屏幕使用时间替代,iOS防卸载锁机,Screen Time API,iPhone家长控制,iPhone戒手机软件">
+<link rel="canonical" href="https://ripplefocus.github.io/ios/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/ios/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/ios/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/ios/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间管控工具 - Ripple">
+<meta property="og:description" content="涟漪 iOS 版基于苹果 Screen Time API（FamilyControls / ManagedSettings / DeviceActivity）构建，支持系统级禁止删除应用、独立后台扩展到点拦截、开机单调时钟冷静期与 8 位家长解锁码。">
+<meta property="og:url" content="https://ripplefocus.github.io/ios/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "涟漪 (Ripple) iOS 版", "operatingSystem": "iOS 16.0+", "applicationCategory": "LifestyleApplication, UtilitiesApplication", "softwareVersion": "0.1.5", "datePublished": "2026-10-28", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？", "acceptedAnswer": {"@type": "Answer", "text": "iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 8 位亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。"}}, {"@type": "Question", "name": "把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？", "acceptedAnswer": {"@type": "Answer", "text": "会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。"}}, {"@type": "Question", "name": "去 iPhone 设置里手动把时间改快，能跳过冷静期吗？", "acceptedAnswer": {"@type": "Answer", "text": "不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。"}}, {"@type": "Question", "name": "涟漪 iOS 版会上传我的屏幕使用数据吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。所有配额规则、专注时段与状态都只保存在本机 App Group 容器（group.com.slowisle.app）内，无账号、无广告、无第三方统计 SDK。"}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:28px 0 18px}
+h1{font-size:32px;line-height:1.25;margin:12px 0 10px}
+.lead{max-width:680px;margin:0 auto;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 26px;border-radius:25px;
+  background:var(--primary);color:#fff;font-size:16px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.meta{width:100%;font-size:13px;color:var(--ink3);margin-top:4px}
+section{padding:22px 0}
+h2{font-size:23px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--ink2);font-size:14.5px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3)}
+details[open] summary:after{content:"－"}
+details p{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+@media (min-width:720px){
+  .grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="./" style="color:var(--primary);font-weight:600">iOS 版</a>
+    <a href="../block-short-videos/">只关短视频</a>
+    <a href="../parental-control/">家长管手机</a>
+    <a href="../wechat-channels-parental-control/">管微信视频号</a>
+    <span class="lang-switch"><a href="./" class="active">中文</a><a href="../en/ios/">EN</a></span>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间工具</h1>
+  <p class="lead">涟漪（Ripple v0.1.5）现已同时支持 Android 与 iOS（iOS 16.0 及以上）。iOS 版基于苹果官方 Screen Time 接口（FamilyControls、ManagedSettings、DeviceActivity）构建，把「收紧立刻生效、放松先等 15 分钟冷静期、系统级禁止删除应用、8 位亲友或家长解锁码」完整带到 iPhone 上。</p>
+  <div class="cta">
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases">查看 v0.1.5 版本与安装说明</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">下载 Android 版 APK (8.57 MB)</a>
+    <div class="meta">支持 iOS 16.0+ 与 Android 8.0+ · 免费无广告 · 纯本地零联网权限</div>
+  </div>
+</section>
+
+<section>
+  <h2>为什么 iPhone 自带的「屏幕使用时间」经常管不住</h2>
+  <div class="card">
+    <p>很多人在 iPhone 上用过系统自带的屏幕使用时间，但无论是自己戒短视频还是帮孩子管手机，都会遇到三个实际问题：第一，自己给自己设限额时，弹出提醒后点一下「忽略限额」或「再使用 15 分钟」就能继续刷，没有任何缓冲；第二，给孩子设的 4 位数字密码位数太短，孩子在旁边看几次键盘手势或者试几次就能解开；第三，市面上多数第三方自律软件只要长按桌面图标删除，里面的限制就会立刻失效。涟漪 iOS 版针对这三点做了专门处理。</p>
+  </div>
+</section>
+
+<section>
+  <h2>iOS 版四大核心能力</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>1. 系统级禁止卸载（denyAppRemoval = true）</h3>
+      <p>在涟漪里开启防卸载后，会直接调用苹果 ManagedSettings 框架将系统的 <code>denyAppRemoval</code> 设为开启状态。长按桌面图标不会出现删除按钮，防止冲动时或孩子顺手删掉软件。</p>
+    </div>
+    <div class="card">
+      <h3>2. 独立系统扩展后台到点拦截</h3>
+      <p>内置 <code>RippleDeviceActivityMonitor</code> 与 <code>RippleShieldConfiguration</code> 两个系统级扩展进程。即使把涟漪从后台划掉，iOS 系统也会在达到每日时长上限或进入 23:30 睡眠时段时，自动弹出「深呼吸，停一下」全屏拦截层。</p>
+    </div>
+    <div class="card">
+      <h3>3. 开机单调时钟 15 分钟冷静期</h3>
+      <p>把规则改严立刻生效；想要增加每日时长、关闭专注时段或关闭防卸载，必须先等完 15 分钟到 2 小时的倒计时。计时采用 iOS 内核开机单调时钟（<code>ProcessInfo.processInfo.systemUptime</code>），去系统设置里把时间改快或改时区完全无效。</p>
+    </div>
+    <div class="card">
+      <h3>4. 8 位家长与好友解锁码 + 纯本地存储</h3>
+      <p>支持设置 8 位数字字母组合解锁码，由父母或同伴手机保管，比系统自带 4 位纯数字更难被试出。所有配置仅保存在本机 <code>group.com.slowisle.app</code> 容器内，零联网上传。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>涟漪 iOS 版与 iPhone 自带屏幕使用时间、Opal 对比</h2>
+  <div class="table-wrap">
+    <table class="cmp">
+      <thead>
+        <tr>
+          <th>对比项</th>
+          <th>涟漪 (Ripple iOS)</th>
+          <th>iPhone 自带屏幕使用时间</th>
+          <th>Opal / One Sec 等国外软件</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>放松规则或解开限制的门槛</b></td>
+          <td class="hi">强制等 15 分钟至 2 小时冷静期，或输入 8 位解锁码</td>
+          <td>点一下忽略限额，或输 4 位数字密码</td>
+          <td>严格模式通常需每年付费数千元或数百元</td>
+        </tr>
+        <tr>
+          <td><b>防长按删除应用</b></td>
+          <td class="hi">支持（调用 ManagedSettings 系统级禁止卸载）</td>
+          <td>系统内置应用，但密码被试出后可随时关总开关</td>
+          <td>部分支持，多在付费档位</td>
+        </tr>
+        <tr>
+          <td><b>防改系统时间绕过冷静期</b></td>
+          <td class="hi">基于 systemUptime 开机单调时钟，改时间无效</td>
+          <td>关闭自动设置时间后容易出现统计错乱</td>
+          <td>部分支持</td>
+        </tr>
+        <tr>
+          <td><b>划掉后台后是否继续生效</b></td>
+          <td class="hi">由 DeviceActivityMonitor 系统扩展接管，划掉照常拦截</td>
+          <td>系统级常驻</td>
+          <td>支持</td>
+        </tr>
+        <tr>
+          <td><b>费用与隐私</b></td>
+          <td class="hi">免费无广告、无账号、数据只存本机 App Group</td>
+          <td>免费，绑定 Apple ID</td>
+          <td>按年订阅收费，需注册云端账号</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>iOS 版使用与设置步骤</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>安装并授予「屏幕使用时间」权限</b><span>首次打开涟漪 iOS 版（桌面显示名称为「涟漪」，英文环境为 Ripple），按引导点击授权，通过 Face ID 或 Apple ID 授予苹果 FamilyControls 屏幕使用时间权限。</span></li>
+      <li><b>在原生选择器中勾选要管控的 App</b><span>在苹果系统级应用选择器（FamilyActivityPicker）中勾选抖音、快手、小红书、B 站、YouTube 或游戏，设置每日总时长（默认 90 分钟）和晚间专注时段（默认 23:30 至 07:00）。</span></li>
+      <li><b>开启防卸载与 8 位解锁码</b><span>进入「设置 › 防卸载」打开开关，系统会锁住桌面删除功能；家长管孩子手机时，将等待时间设为 2 小时并由父母保存 8 位解锁码。</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <h2>常见问题</h2>
+  <details><summary>涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？</summary><p>iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 8 位亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。</p></details>
+  <details><summary>把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？</summary><p>会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。</p></details>
+  <details><summary>去 iPhone 设置里手动把时间改快，能跳过冷静期吗？</summary><p>不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。</p></details>
+  <details><summary>真想卸载涟漪 iOS 版时怎么操作？</summary><p>打开涟漪进入「设置 › 防卸载」，走完冷静期倒计时或输入 8 位解锁码后关闭防卸载开关，iOS 系统会立刻恢复正常的桌面删除权限，不会锁死手机。</p></details>
+</section>
+</div>
+<footer>涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../block-short-videos/">只关短视频</a> · <a href="../parental-control/">家长防沉迷指南</a> · <a href="../wechat-channels-parental-control/">管微信视频号</a> · <a href="../en/ios/">English version</a></footer>
+</body>
+</html>

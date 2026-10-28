@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to Block WeChat Channels, YouTube Shorts, and Reels on a Child's Phone While Keeping Chat Working - Ripple</title>
+<meta name="description" content="Your child needs WeChat, WhatsApp, or YouTube for school and family messages, but keeps scrolling WeChat Channels, Shorts, and Reels? Ripple (v0.1.5) blocks only the short-video feeds inside those apps, with an 8-character Parent Unlock Code, monotonic clock timers, and anti-uninstall protection.">
+<meta name="keywords" content="block WeChat Channels parental control,WeChat Teen Mode bypass,block YouTube Shorts keep YouTube,block Instagram Reels keep DMs,parental control short videos Android iOS,Ripple app blocker">
+<link rel="canonical" href="https://ripplefocus.github.io/en/wechat-channels-parental-control/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/wechat-channels-parental-control/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/wechat-channels-parental-control/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/wechat-channels-parental-control/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Block WeChat Channels, YouTube Shorts, and Reels on a Child's Phone While Keeping Chat Working - Ripple">
+<meta property="og:description" content="Block only WeChat Channels, Moments, YouTube Shorts, and Instagram Reels while keeping family messaging and school videos working. Protected by a Parent Unlock Code and anti-uninstall lock.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/wechat-channels-parental-control/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "Block WeChat Channels, YouTube Shorts, and Instagram Reels on a child's phone without blocking messaging", "step": [{"@type": "HowToStep", "name": "Turn on in-app short-video toggles", "text": "In Ripple's Daily Limits tab, enable the switches for WeChat Channels, WeChat Moments, YouTube Shorts, and Instagram Reels."}, {"@type": "HowToStep", "name": "Set a 2-hour cooldown and Parent Unlock Code", "text": "In Settings, set the rule relaxation wait time to 2 hours and create an 8-character Parent Unlock Code kept on the parent's phone."}, {"@type": "HowToStep", "name": "Enable Anti-Uninstall and Wireless Debugging Guard", "text": "Turn on Accessibility, Device Admin, and Android 11+ on-device wireless debugging protection so the app cannot be force-stopped or uninstalled."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do built-in Teen Modes in WeChat or YouTube often fail for older kids?", "acceptedAnswer": {"@type": "Answer", "text": "Built-in teen modes usually rely on a 4-digit PIN that kids can observe or guess, and they do not prevent a child from installing other video apps, changing the system clock, or using another browser."}}, {"@type": "Question", "name": "If I block WeChat Channels or Instagram Reels in Ripple, can my child still message me and make voice calls?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ripple only backs out of the Channels, Moments, Shorts, and Reels screens. Regular chats, voice/video calls, WeChat Pay, Instagram DMs, and long-form YouTube videos continue working normally."}}, {"@type": "Question", "name": "What if my child stays up late chatting in a whitelisted messaging app?", "acceptedAnswer": {"@type": "Answer", "text": "Ripple's focus whitelist includes a 30-minute per-session cap. Even if WeChat is allowed during sleep hours for emergencies, continuous use beyond 30 minutes is paused automatically."}}, {"@type": "Question", "name": "Can a child bypass Ripple by changing the phone time or uninstalling the app?", "acceptedAnswer": {"@type": "Answer", "text": "No. Cooldowns and quotas use the monotonic boot clock, so changing the system time or timezone has no effect. With on-device wireless debugging enabled on Android (or Screen Time ManagedSettings on iOS), the uninstall button is locked at the OS level."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:28px 0 18px}
+h1{font-size:30px;line-height:1.25;margin:12px 0 10px}
+.lead{max-width:680px;margin:0 auto;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:50px;padding:0 26px;border-radius:25px;
+  background:var(--primary);color:#fff;font-size:16px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.meta{width:100%;font-size:13px;color:var(--ink3);margin-top:4px}
+section{padding:22px 0}
+h2{font-size:23px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--ink2);font-size:14.5px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:560px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3)}
+details[open] summary:after{content:"－"}
+details p{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+@media (min-width:720px){
+  .grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../parental-control/">Parental Control</a>
+    <a href="./" style="color:var(--primary);font-weight:600">WeChat Channels &amp; Shorts</a>
+    <a href="../stop-clock-change/">Clock Tamper Guide</a>
+    <a href="../ios/">iOS Edition</a>
+    <span class="lang-switch"><a href="../../wechat-channels-parental-control/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>How to Block WeChat Channels, YouTube Shorts, and Reels on a Child's Phone While Keeping Chat Working</h1>
+  <p class="lead">Students often need WeChat, Instagram, or YouTube for class groups, family messages, and homework videos. Deleting those apps completely is rarely practical, yet leaving them open means kids can spend hours inside WeChat Channels, YouTube Shorts, or Instagram Reels. This guide shows how to block only the short-video feeds inside those apps while locking down clock changes and uninstallation.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">Download Android APK v0.1.5 (8.57 MB)</a>
+    <a class="btn ghost" href="../ios/">See iOS (iPhone) Edition</a>
+    <div class="meta">v0.1.5 · 8.57 MB · Free &amp; No Ads · Parent Unlock Code + Anti-Uninstall</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Built-In Teen Modes Are Easy for Kids to Bypass</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>1. Discover Tab Toggles Have No Password</h3>
+      <p>Hiding Channels or Moments under WeChat's Discover tab settings does not require a PIN. A child can turn those switches back on in five seconds.</p>
+    </div>
+    <div class="card">
+      <h3>2. 4-Digit Teen Mode PINs Are Easy to Guess</h3>
+      <p>Built-in teen modes typically use a 4-digit numeric PIN. Kids frequently see a parent enter it once or guess common family dates.</p>
+    </div>
+    <div class="card">
+      <h3>3. Shared Video Cards Still Open Feeds</h3>
+      <p>Links shared inside group chats can still drop a child into a vertical video player unless the screen itself is intercepted.</p>
+    </div>
+    <div class="card">
+      <h3>4. No Protection Across Other Apps or System Clock</h3>
+      <p>In-app teen modes do not stop a child from changing the phone's clock to reset daily timers or opening another short-video app.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Ripple vs WeChat Teen Mode vs Whole-App Blockers</h2>
+  <div class="table-wrap">
+    <table class="cmp">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Ripple (v0.1.5)</th>
+          <th>Built-In WeChat Teen Mode</th>
+          <th>Whole-App Blockers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Family Chat, Calls &amp; Payments</b></td>
+          <td class="hi">Always working for family &amp; school contact</td>
+          <td>Working</td>
+          <td>Blocked whenever the app quota runs out</td>
+        </tr>
+        <tr>
+          <td><b>Block Channels, Moments, Shorts &amp; Reels</b></td>
+          <td class="hi">Automatically exits short-video feeds immediately</td>
+          <td>WeChat only, unlocked if 4-digit PIN is known</td>
+          <td>Must block the entire app</td>
+        </tr>
+        <tr>
+          <td><b>Passcode &amp; Cooldown Protection</b></td>
+          <td class="hi">8-char Parent Unlock Code + up to 2h boot-clock cooldown</td>
+          <td>4-digit numeric PIN</td>
+          <td>Often bypassed via Force Stop in Settings</td>
+        </tr>
+        <tr>
+          <td><b>Nighttime Whitelist Cap</b></td>
+          <td class="hi">30-minute per-session cap during sleep hours</td>
+          <td>No bedtime schedule</td>
+          <td>Whitelisted apps can be used all night</td>
+        </tr>
+        <tr>
+          <td><b>Anti-Uninstall &amp; Clock Tamper Lock</b></td>
+          <td class="hi">On-device wireless debugging lock + monotonic clock</td>
+          <td>None</td>
+          <td>Changing phone date resets daily limits</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>3-Step Setup for Parents</h2>
+  <div class="card">
+    <ol class="steps">
+      <li><b>Turn On In-App Feed Switches in Daily Limits</b><span>Open the Daily Limits tab in Ripple and toggle on <b>WeChat · Channels</b>, <b>WeChat · Moments</b>, <b>YouTube · Shorts</b>, and <b>Instagram · Reels</b> at the top. Set daily time quotas for standalone games or TikTok below.</span></li>
+      <li><b>Keep Messaging Allowed During Sleep Hours with a 30-Min Cap</b><span>In Focus Schedules, set the nightly bedtime window (for example 22:30 to 07:00) and add WeChat to the allowed list so your child can always reach you, while the 30-minute session cap prevents all-night chatting.</span></li>
+      <li><b>Set an 8-Character Parent Unlock Code &amp; Anti-Uninstall</b><span>In Settings, set the wait time to 2 hours, save an 8-character Parent Unlock Code on your own phone, and enable Anti-Uninstall plus Android 11+ on-device wireless debugging protection (no PC required).</span></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Why do built-in Teen Modes in WeChat or YouTube often fail for older kids?</summary><p>Built-in teen modes usually rely on a 4-digit PIN that kids can observe or guess, and they do not prevent a child from installing other video apps, changing the system clock, or using another browser.</p></details>
+  <details><summary>If I block WeChat Channels or Instagram Reels in Ripple, can my child still message me and make voice calls?</summary><p>Yes. Ripple only backs out of the Channels, Moments, Shorts, and Reels screens. Regular chats, voice/video calls, WeChat Pay, Instagram DMs, and long-form YouTube videos continue working normally.</p></details>
+  <details><summary>What if my child stays up late chatting in a whitelisted messaging app?</summary><p>Ripple's focus whitelist includes a 30-minute per-session cap. Even if WeChat is allowed during sleep hours for emergencies, continuous use beyond 30 minutes is paused automatically.</p></details>
+  <details><summary>Can a child bypass Ripple by changing the phone time or uninstalling the app?</summary><p>No. Cooldowns and quotas use the monotonic boot clock, so changing the system time or timezone has no effect. With on-device wireless debugging enabled on Android (or Screen Time ManagedSettings on iOS), the uninstall button is locked at the OS level.</p></details>
+</section>
+</div>
+<footer>Ripple · <a href="../">English home</a> · <a href="../parental-control/">Parental control</a> · <a href="../kids-phone-by-age/">Setup by age</a> · <a href="../stop-clock-change/">Clock tamper guide</a> · <a href="../ios/">iOS Edition</a> · <a href="../../wechat-channels-parental-control/">中文版</a></footer>
+</body>
+</html>

@@ -4,7 +4,7 @@
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
 - **Current Version**: `v0.1.5` (`versionCode: 20`, updated 2026-10-28)
-- **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+ / API 30+)
+- **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+) and iOS 16.0+ (built on Apple Screen Time API: `FamilyControls`, `ManagedSettings`, `DeviceActivityMonitor`, `ShieldConfiguration`)
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
@@ -76,6 +76,15 @@
 ### 3.5 In-App Updates (应用内覆盖更新)
 - `Settings -> About -> Check for Updates` fetches release metadata from GitHub Releases, downloads the APK, checks file size, ZIP header, SHA-256 hash, and package name, and launches the system installer.
 - System installer update pages are allowed while uninstall confirmation pages remain blocked, so updates install directly without turning off protection.
+
+
+### 3.6 Native iOS Edition (iOS 16.0+ Screen Time API)
+- **Guide (Chinese)**: https://ripplefocus.github.io/ios/
+- **Guide (English)**: https://ripplefocus.github.io/en/ios/
+- **Architecture**: Built with `ScreenTimeGuardPlugin` (`com.slowisle.app/guard` channel), shared `group.com.slowisle.app` container, and two independent system extensions (`RippleDeviceActivityMonitor` and `RippleShieldConfiguration`).
+- **System-Level Anti-Uninstall**: When Anti-Uninstall is enabled, sets `ManagedSettingsStore.application.denyAppRemoval = true` so the app cannot be deleted from the iPhone Home Screen.
+- **Monotonic Boot-Clock Cooldown**: Uses `ProcessInfo.processInfo.systemUptime` so changing the iPhone clock or timezone cannot skip the 15-minute to 2-hour cooldown.
+- **8-Character Friend / Parent Unlock Code**: Solves the 4-digit Apple Screen Time PIN weakness where children easily guess or shoulder-surf the passcode.
 
 ## 4. Comparison Table (与常见工具对比)
 

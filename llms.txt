@@ -1,6 +1,6 @@
-# Ripple (涟漪): Android Self-Control & Anti-Uninstall App Blocker
+# Ripple (涟漪): Android & iOS Self-Control & Anti-Uninstall App Blocker
 
-> Ripple (涟漪, package `com.slowisle.app`) is a free, ad-free, local-only Android screen-time and focus app (Android 8.0 / API 26+). It prevents users from impulsively bypassing limits, turning off permissions, or uninstalling the blocker when a craving hits. Suitable for adults cutting down on short-form video and parents managing a child's Android phone.
+> Ripple (涟漪, package `com.slowisle.app`) is a free, ad-free, local-only Android and iOS screen-time and focus app (Android 8.0+ and iOS 16.0+ Screen Time API). It prevents users from impulsively bypassing limits, turning off permissions, or uninstalling the blocker when a craving hits. Suitable for adults cutting down on short-form video and parents managing a child's Android phone.
 
 ## Key Links
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
@@ -21,6 +21,10 @@
 - [Parental Control Setup Guide (English)](https://ripplefocus.github.io/en/parental-control/): How to lock down a child's Android phone against clock changes and task killers.
 - [Comparison: Ripple vs AppBlock, Stay Focused & Opal (English)](https://ripplefocus.github.io/en/vs-appblock-stayfocused/): Detailed comparison of Android app blockers.
 - [Comparison: 涟漪 vs 数字健康 / AppBlock / Opal (中文)](https://ripplefocus.github.io/vs-appblock-stayfocused/): 中文同类锁机与防沉迷工具对比。
+- [涟漪 iOS 版指南 (基于苹果 Screen Time API 防卸载与冷静期)](https://ripplefocus.github.io/ios/): Native iOS 16.0+ Screen Time blocker (`FamilyControls`, `ManagedSettings.denyAppRemoval`, `DeviceActivityMonitor`), 15m-2h `systemUptime` monotonic cooldown, and 8-character Parent/Friend Unlock Code.
+- [Ripple for iOS (English Guide)](https://ripplefocus.github.io/en/ios/): Native iPhone Screen Time blocker with OS-level app deletion lock, background shield extensions, monotonic boot-clock cooldowns, and 8-character unlock codes.
+- [孩子用微信联系家长但总偷刷视频号和朋友圈怎么办 (中文)](https://ripplefocus.github.io/wechat-channels-parental-control/): How to block only WeChat Channels and Moments on a child's phone while keeping family chats and voice calls working, compared with WeChat Teen Mode.
+- [How to Block WeChat Channels, Shorts & Reels on a Child's Phone (English)](https://ripplefocus.github.io/en/wechat-channels-parental-control/): Parental control guide for blocking embedded short-video feeds inside messaging apps without breaking family contact.
 - [Obtainium One-Click Import](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io): Direct `obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io` support for automated GitHub Releases updates.
 - [Full Technical Reference (llms-full.txt)](https://ripplefocus.github.io/llms-full.txt): Detailed feature list, comparison table, and on-device wireless debugging details.
 - [LLM Summary Index (llms.txt)](https://ripplefocus.github.io/llms.txt): Concise machine-readable product index.
