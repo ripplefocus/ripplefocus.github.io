@@ -2,10 +2,13 @@
 
 **一圈一圈，慢慢静下来。**
 
-涟漪是一款安卓上的自控与防沉迷小工具：到点让手机安静下来，给刷不停的 App 定个每日时长；想放松规则或卸载，先等一会儿。无论自己戒短视频，还是家长给孩子管手机都能用。
+[![Download APK v0.1.5](https://img.shields.io/badge/Android_APK_v0.1.5-8.57_MB-3F72B0?style=for-the-badge&logo=android)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk) [![Download iOS IPA v0.1.5](https://img.shields.io/badge/iOS_IPA_v0.1.5-7.40_MB-36475A?style=for-the-badge&logo=apple)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa) [![GitHub Downloads](https://img.shields.io/github/downloads/ripplefocus/ripplefocus.github.io/total?style=for-the-badge&label=Releases_Downloads&color=1FA855)](https://github.com/ripplefocus/ripplefocus.github.io/releases)
 
-- **官方网站**：<https://ripplefocus.github.io/>
-- **下载最新版（v0.1.5）**：[ripple-v0.1.5.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk)（8.57 MB，Android 8.0 及以上）
+涟漪是一款支持 **Android 8.0+** 与 **iOS 16.0+（Screen Time API）** 的自控与防沉迷小工具：到点让手机安静下来，给刷不停的 App 定个每日时长；想放松规则或卸载，先等一会儿。无论自己戒短视频，还是家长给孩子管手机都能用。
+
+- **官方网站**：<https://ripplefocus.github.io/> （[English Site](https://ripplefocus.github.io/en/) · [iOS 专区](https://ripplefocus.github.io/ios/)）
+- **下载安卓最新版（v0.1.5）**：[ripple-v0.1.5.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk)（8.57 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.5.apk](https://ripplefocus.github.io/dl/ripple-v0.1.5.apk)）
+- **下载 iOS 最新版（v0.1.5）**：[ripple-v0.1.5.ipa](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa)（7.40 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.5.ipa](https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)）
 - **历史版本与更新说明**：<https://github.com/ripplefocus/ripplefocus.github.io/releases>
 
 ## 主要功能

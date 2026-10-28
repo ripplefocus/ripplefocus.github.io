@@ -140,7 +140,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:30px;margin:12px 0 10px">How to Stop Android 14/15 (Samsung, Xiaomi, Pixel, OnePlus) from Killing Your App Blocker Accessibility Service</h1>
   <p class="lead" style="max-width:680px">On modern Android phones, swiping an app blocker away from the Recents screen or leaving the phone idle overnight often kills its <code>AccessibilityService</code>. This guide covers how to unlock Android 13 to 15 Restricted Settings, configure OEM battery settings on Samsung, Xiaomi, OnePlus, and Pixel, and enable Ripple v0.1.5's on-device wireless debugging self-healing daemon.</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">Direct Download APK v0.1.5 (8.57 MB)</a>
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk">Direct Download APK v0.1.5 (8.57 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.5">GitHub Releases (v0.1.5)</a>
     <div class="meta">v0.1.5 · 8.57 MB (arm64-v8a) · SHA-256: a5f2e43e...5a7a038 · 100% Free &amp; No Ads</div>
   </div>
@@ -211,5 +211,20 @@ footer a:hover{color:var(--primary)}
 <footer>
   Ripple (涟漪) · <a href="../">Back to English Home</a> · <a href="../../keep-alive-guide/">中文防杀后台保活指南</a> · <a href="../block-short-videos/">Block Short Videos</a> · <a href="../parental-control/">Parental Control Guide</a> · <a href="../vs-appblock-stayfocused/">Ripple vs AppBlock &amp; Stay Focused</a>
 </footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}
+  }
+},true);
+</script>
 </body>
 </html>

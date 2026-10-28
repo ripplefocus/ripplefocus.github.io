@@ -12,6 +12,7 @@
 - **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-v0.1.5.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk
+- **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
 - **APK File Size & SHA-256**: 8,989,081 bytes (8.57 MB), SHA-256 `a5f2e43e88e7778eb9b03be0d8914640b7871a3e82d53aec5a62cf8fb5a7a038`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 

@@ -207,5 +207,20 @@ footer a:hover{color:var(--primary)}
 <footer>
   涟漪 (Ripple) · <a href="../">返回中文首页</a> · <a href="../block-short-videos/">戒短视频指南</a> · <a href="../parental-control/">家长防沉迷设置指南</a> · <a href="../en/vs-appblock-stayfocused/">English Comparison</a> · <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">所有版本</a>
 </footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}
+  }
+},true);
+</script>
 </body>
 </html>

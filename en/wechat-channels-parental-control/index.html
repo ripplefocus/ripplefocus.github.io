@@ -98,7 +98,7 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
   <h1>How to Block WeChat Channels, YouTube Shorts, and Reels on a Child's Phone While Keeping Chat Working</h1>
   <p class="lead">Students often need WeChat, Instagram, or YouTube for class groups, family messages, and homework videos. Deleting those apps completely is rarely practical, yet leaving them open means kids can spend hours inside WeChat Channels, YouTube Shorts, or Instagram Reels. This guide shows how to block only the short-video feeds inside those apps while locking down clock changes and uninstallation.</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">Download Android APK v0.1.5 (8.57 MB)</a>
+    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk">Download Android APK v0.1.5 (8.57 MB)</a>
     <a class="btn ghost" href="../ios/">See iOS (iPhone) Edition</a>
     <div class="meta">v0.1.5 · 8.57 MB · Free &amp; No Ads · Parent Unlock Code + Anti-Uninstall</div>
   </div>
@@ -194,5 +194,20 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
 </section>
 </div>
 <footer>Ripple · <a href="../">English home</a> · <a href="../parental-control/">Parental control</a> · <a href="../kids-phone-by-age/">Setup by age</a> · <a href="../stop-clock-change/">Clock tamper guide</a> · <a href="../ios/">iOS Edition</a> · <a href="../../wechat-channels-parental-control/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}
+  }
+},true);
+</script>
 </body>
 </html>

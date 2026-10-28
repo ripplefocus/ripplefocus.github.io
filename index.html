@@ -172,14 +172,15 @@ footer a:hover{color:var(--primary)}
   <div class="cta">
     <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
-      下载安卓版 v0.1.5
+      下载安卓版 v0.1.5 (8.57 MB)
     </a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">下载 iOS 版 v0.1.5 (.ipa)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk">GitHub 原始下载</a>
-    <a class="btn ghost" href="ios/">iOS 版 (iPhone) 说明</a>
+    <a class="btn ghost" href="ios/">iOS 版说明</a>
     <a class="btn ghost" href="#install">怎么安装</a>
     <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io" title="使用开源更新器 Obtainium 自动追踪 GitHub Releases 更新">用 Obtainium 追踪更新</a>
     <div class="meta">v0.1.5 · 8.57 MB · 2026-10-28 更新 · 支持中英双语 · 支持 Android 8.0+ 与 iOS 16.0+ · 免费无广告</div>
-    <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>a5f2e43e88e7778eb9b03be0d8914640b7871a3e82d53aec5a62cf8fb5a7a038</code></span></div>
+    <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>a5f2e43e88e7778eb9b03be0d8914640b7871a3e82d53aec5a62cf8fb5a7a038</code> · IPA SHA-256: <code>3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f</code></span></div>
   </div>
 </section>
 
@@ -332,7 +333,8 @@ footer a:hover{color:var(--primary)}
       <li><b>100% free, no ads, local-only data</b>: No accounts, no cloud sync, and no analytics SDKs.</li>
     </ul>
     <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px">
-      <a class="btn" style="height:44px;font-size:15px;padding:0 22px" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.apk">Download APK v0.1.5 (8.57 MB)</a>
+      <a class="btn" style="height:44px;font-size:15px;padding:0 22px" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk">Download Android APK v0.1.5 (8.57 MB)</a>
+      <a class="btn ghost" style="height:44px;font-size:15px;padding:0 20px" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa">Download iOS IPA v0.1.5 (7.4 MB)</a>
       <a class="btn ghost" style="height:44px;font-size:15px;padding:0 20px" href="en/">Read Full English Guide</a>
       <span style="font-size:13px;color:var(--ink3)">v0.1.5 includes a complete Chinese and English bilingual interface (follows system locale by default, or switch in Settings).</span>
     </div>
@@ -367,6 +369,21 @@ footer a:hover{color:var(--primary)}
     }
   } catch(e) {}
 })();
+</script>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}
+  }
+},true);
 </script>
 </body>
 </html>
