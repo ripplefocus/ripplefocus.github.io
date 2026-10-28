@@ -15,6 +15,8 @@
 - [Set Up a Child's Android Phone by Age (English)](https://ripplefocus.github.io/en/kids-phone-by-age/): Age-based parental setup guide covering uninstall protection, monotonic clock tamper protection, and blocking only YouTube Shorts, Instagram Reels and WeChat Channels.
 - [孩子改系统时间绕过手机管控怎么办 (中文)](https://ripplefocus.github.io/stop-clock-change/): How Ripple handles kids changing the clock or time zone, force-stopping, uninstalling or rebooting to bypass limits, with setup steps.
 - [Kid Changes the Phone Clock to Bypass Screen Time (English)](https://ripplefocus.github.io/en/stop-clock-change/): Monotonic clock timers, force-stop recovery and uninstall lock on Android, with setup steps for parents.
+- [考研考公备考防刷短视频设置方法 (中文)](https://ripplefocus.github.io/exam-focus/): Exam season setup for students: 15 minute cooldown, unlock code held by a roommate or parent, blocking only Douyin, WeChat Channels and YouTube Shorts, bedtime schedule and uninstall lock.
+- [Stop Scrolling Shorts While Studying for Exams (English)](https://ripplefocus.github.io/en/exam-focus/): Study and bedtime schedules, cooldown before rules loosen, friend held unlock code, Shorts and Reels only blocking, uninstall lock without root.
 - [Parental Control Setup Guide (中文)](https://ripplefocus.github.io/parental-control/): Step-by-step Android parental control setup without buying a student dumbphone.
 - [Parental Control Setup Guide (English)](https://ripplefocus.github.io/en/parental-control/): How to lock down a child's Android phone against clock changes and task killers.
 - [Comparison: Ripple vs AppBlock, Stay Focused & Opal (English)](https://ripplefocus.github.io/en/vs-appblock-stayfocused/): Detailed comparison of Android app blockers.

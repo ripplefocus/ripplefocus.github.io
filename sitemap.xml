@@ -139,4 +139,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/stop-clock-change/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/exam-focus/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-focus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/exam-focus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/exam-focus/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/exam-focus/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-focus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/exam-focus/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/exam-focus/"/>
+  </url>
 </urlset>
