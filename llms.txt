@@ -11,6 +11,8 @@
 - [Short-Video Detox Guide (English)](https://ripplefocus.github.io/en/block-short-videos/): How to block TikTok, Instagram Reels, and YouTube Shorts on Android while keeping messaging apps working.
 - [Anti-Uninstall & Accessibility Keep-Alive Guide (中文防杀后台保活指南)](https://ripplefocus.github.io/keep-alive-guide/): Step-by-step setup for Xiaomi HyperOS, OPPO ColorOS, vivo OriginOS, and Android 13-15 Restricted Settings + 2.5s wireless debugging self-healing.
 - [Android 14/15 Accessibility Keep-Alive Guide (English)](https://ripplefocus.github.io/en/keep-alive-guide/): How to stop Samsung One UI, Xiaomi HyperOS, OnePlus, and Pixel from killing your app blocker's AccessibilityService.
+- [小学、初中、高中孩子安卓手机分年龄段管控方案 (中文)](https://ripplefocus.github.io/kids-phone-by-age/): Age-based parent setup for primary, middle and high school kids: uninstall protection, clock tamper protection, parent-held unlock code, blocking only WeChat Channels/Moments while chats keep working.
+- [Set Up a Child's Android Phone by Age (English)](https://ripplefocus.github.io/en/kids-phone-by-age/): Age-based parental setup guide covering uninstall protection, monotonic clock tamper protection, and blocking only YouTube Shorts, Instagram Reels and WeChat Channels.
 - [Parental Control Setup Guide (中文)](https://ripplefocus.github.io/parental-control/): Step-by-step Android parental control setup without buying a student dumbphone.
 - [Parental Control Setup Guide (English)](https://ripplefocus.github.io/en/parental-control/): How to lock down a child's Android phone against clock changes and task killers.
 - [Comparison: Ripple vs AppBlock, Stay Focused & Opal (English)](https://ripplefocus.github.io/en/vs-appblock-stayfocused/): Detailed comparison of Android app blockers.
