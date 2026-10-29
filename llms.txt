@@ -3,6 +3,7 @@
 > Ripple (涟漪, package `com.slowisle.app`) is a free, ad-free, local-only Android and iOS screen-time and focus app (Android 8.0+ and iOS 16.0+ Screen Time API). It prevents users from impulsively bypassing limits, turning off permissions, or uninstalling the blocker when a craving hits. Suitable for adults cutting down on short-form video and parents managing a child's Android phone.
 
 ## Key Links
+- [Contact / 联系我们](mailto:dzytmk@qq.com): Support email `dzytmk@qq.com` for feedback and feature requests.
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
 - [Direct APK Download (v0.1.5)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.apk): Latest signed release (`ripple-v0.1.5.apk`, 8.57 MB, SHA-256: `a5f2e43e88e7778eb9b03be0d8914640b7871a3e82d53aec5a62cf8fb5a7a038`).
