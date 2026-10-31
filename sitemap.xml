@@ -207,4 +207,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/school-hours/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/school-hours/"/>
   </url>
+
+  <url>
+    <loc>https://ripplefocus.github.io/travel/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/travel/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
+  </url>
 </urlset>
