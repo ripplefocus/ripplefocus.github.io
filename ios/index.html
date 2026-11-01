@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间管控工具 - Ripple</title>
-<meta name="description" content="iPhone 自带屏幕使用时间 4 位密码容易被孩子试出，或者自己顺手点忽略限额？涟漪（Ripple v0.1.5）iOS 版基于苹果官方 Screen Time API 构建，支持系统级禁止删除应用（denyAppRemoval）、开机单调时钟 15 分钟冷静期与 8 位亲友家长解锁码。">
+<meta name="description" content="iPhone 自带屏幕使用时间 4 位密码容易被孩子试出，或者自己顺手点忽略限额？涟漪（Ripple v0.1.5）iOS 版基于苹果官方 Screen Time API 构建，支持系统级禁止删除应用（denyAppRemoval）、开机单调时钟 15 分钟冷静期与 亲友或家长解锁码。">
 <meta name="keywords" content="涟漪 iOS,Ripple iOS,iPhone防沉迷,苹果屏幕使用时间替代,iOS防卸载锁机,Screen Time API,iPhone家长控制,iPhone戒手机软件">
 <link rel="canonical" href="https://ripplefocus.github.io/ios/">
 <link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/ios/">
@@ -13,11 +13,11 @@
 <link rel="icon" href="../logo.png">
 <meta property="og:type" content="article">
 <meta property="og:title" content="涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间管控工具 - Ripple">
-<meta property="og:description" content="涟漪 iOS 版基于苹果 Screen Time API（FamilyControls / ManagedSettings / DeviceActivity）构建，支持系统级禁止删除应用、独立后台扩展到点拦截、开机单调时钟冷静期与 8 位家长解锁码。">
+<meta property="og:description" content="涟漪 iOS 版基于苹果 Screen Time API（FamilyControls / ManagedSettings / DeviceActivity）构建，支持系统级禁止删除应用、独立后台扩展到点拦截、开机单调时钟冷静期与 家长解锁码。">
 <meta property="og:url" content="https://ripplefocus.github.io/ios/">
 <meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "涟漪 (Ripple) iOS 版", "operatingSystem": "iOS 16.0+", "applicationCategory": "LifestyleApplication, UtilitiesApplication", "softwareVersion": "0.1.5", "datePublished": "2026-10-28", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？", "acceptedAnswer": {"@type": "Answer", "text": "iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 8 位亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。"}}, {"@type": "Question", "name": "把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？", "acceptedAnswer": {"@type": "Answer", "text": "会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。"}}, {"@type": "Question", "name": "去 iPhone 设置里手动把时间改快，能跳过冷静期吗？", "acceptedAnswer": {"@type": "Answer", "text": "不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。"}}, {"@type": "Question", "name": "涟漪 iOS 版会上传我的屏幕使用数据吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。所有配额规则、专注时段与状态都只保存在本机 App Group 容器（group.com.slowisle.app）内，无账号、无广告、无第三方统计 SDK。"}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "涟漪 (Ripple) iOS 版", "operatingSystem": "iOS 16.0+", "applicationCategory": "LifestyleApplication, UtilitiesApplication", "softwareVersion": "0.1.5", "datePublished": "2026-10-28", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？", "acceptedAnswer": {"@type": "Answer", "text": "iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。"}}, {"@type": "Question", "name": "把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？", "acceptedAnswer": {"@type": "Answer", "text": "会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。"}}, {"@type": "Question", "name": "去 iPhone 设置里手动把时间改快，能跳过冷静期吗？", "acceptedAnswer": {"@type": "Answer", "text": "不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。"}}, {"@type": "Question", "name": "涟漪 iOS 版会上传我的屏幕使用数据吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。所有配额规则、专注时段与状态都只保存在本机 App Group 容器（group.com.slowisle.app）内，无账号、无广告、无第三方统计 SDK。"}}]}]}</script>
 <style>
 :root{
   --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
@@ -97,7 +97,7 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
 
 <section class="hero">
   <h1>涟漪 iOS 版：基于苹果 Screen Time API 的防卸载与屏幕时间工具</h1>
-  <p class="lead">涟漪（Ripple v0.1.5）现已同时支持 Android 与 iOS（iOS 16.0 及以上）。iOS 版基于苹果官方 Screen Time 接口（FamilyControls、ManagedSettings、DeviceActivity）构建，把「收紧立刻生效、放松先等 15 分钟冷静期、系统级禁止删除应用、8 位亲友或家长解锁码」完整带到 iPhone 上。</p>
+  <p class="lead">涟漪（Ripple v0.1.5）现已同时支持 Android 与 iOS（iOS 16.0 及以上）。iOS 版基于苹果官方 Screen Time 接口（FamilyControls、ManagedSettings、DeviceActivity）构建，把「收紧立刻生效、放松先等 15 分钟冷静期、系统级禁止删除应用、亲友或家长解锁码」完整带到 iPhone 上。</p>
   <div class="cta">
     <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">免梯直连下载 iOS 版 v0.1.5 (.ipa, 7.4 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa">GitHub Release 下载 (.ipa)</a>
@@ -129,8 +129,8 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
       <p>把规则改严立刻生效；想要增加每日时长、关闭专注时段或关闭防卸载，必须先等完 15 分钟到 2 小时的倒计时。计时采用 iOS 内核开机单调时钟（<code>ProcessInfo.processInfo.systemUptime</code>），去系统设置里把时间改快或改时区完全无效。</p>
     </div>
     <div class="card">
-      <h3>4. 8 位家长与好友解锁码 + 纯本地存储</h3>
-      <p>支持设置 8 位数字字母组合解锁码，由父母或同伴手机保管，比系统自带 4 位纯数字更难被试出。所有配置仅保存在本机 <code>group.com.slowisle.app</code> 容器内，零联网上传。</p>
+      <h3>4. 家长与好友解锁码 + 纯本地存储</h3>
+      <p>支持设置 数字字母组合的解锁码，由父母或同伴手机保管，比系统自带 4 位纯数字更难被试出。所有配置仅保存在本机 <code>group.com.slowisle.app</code> 容器内，零联网上传。</p>
     </div>
   </div>
 </section>
@@ -150,7 +150,7 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
       <tbody>
         <tr>
           <td><b>放松规则或解开限制的门槛</b></td>
-          <td class="hi">强制等 15 分钟至 2 小时冷静期，或输入 8 位解锁码</td>
+          <td class="hi">强制等 15 分钟至 2 小时冷静期，或输入解锁码</td>
           <td>点一下忽略限额，或输 4 位数字密码</td>
           <td>严格模式通常需每年付费数千元或数百元</td>
         </tr>
@@ -189,17 +189,17 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
     <ol class="steps">
       <li><b>安装并授予「屏幕使用时间」权限</b><span>首次打开涟漪 iOS 版（桌面显示名称为「涟漪」，英文环境为 Ripple），按引导点击授权，通过 Face ID 或 Apple ID 授予苹果 FamilyControls 屏幕使用时间权限。</span></li>
       <li><b>在原生选择器中勾选要管控的 App</b><span>在苹果系统级应用选择器（FamilyActivityPicker）中勾选抖音、快手、小红书、B 站、YouTube 或游戏，设置每日总时长（默认 90 分钟）和晚间专注时段（默认 23:30 至 07:00）。</span></li>
-      <li><b>开启防卸载与 8 位解锁码</b><span>进入「设置 › 防卸载」打开开关，系统会锁住桌面删除功能；家长管孩子手机时，将等待时间设为 2 小时并由父母保存 8 位解锁码。</span></li>
+      <li><b>开启防卸载与解锁码</b><span>进入「设置 › 防卸载」打开开关，系统会锁住桌面删除功能；家长管孩子手机时，将等待时间设为 2 小时并由父母保存解锁码。</span></li>
     </ol>
   </div>
 </section>
 
 <section>
   <h2>常见问题</h2>
-  <details><summary>涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？</summary><p>iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 8 位亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。</p></details>
+  <details><summary>涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？</summary><p>iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。</p></details>
   <details><summary>把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？</summary><p>会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。</p></details>
   <details><summary>去 iPhone 设置里手动把时间改快，能跳过冷静期吗？</summary><p>不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。</p></details>
-  <details><summary>真想卸载涟漪 iOS 版时怎么操作？</summary><p>打开涟漪进入「设置 › 防卸载」，走完冷静期倒计时或输入 8 位解锁码后关闭防卸载开关，iOS 系统会立刻恢复正常的桌面删除权限，不会锁死手机。</p></details>
+  <details><summary>真想卸载涟漪 iOS 版时怎么操作？</summary><p>打开涟漪进入「设置 › 防卸载」，走完冷静期倒计时或输入解锁码后关闭防卸载开关，iOS 系统会立刻恢复正常的桌面删除权限，不会锁死手机。</p></details>
 </section>
 </div>
 <footer>
