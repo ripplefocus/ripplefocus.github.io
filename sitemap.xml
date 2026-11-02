@@ -320,4 +320,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/elderly-parents/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/morning/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/morning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/morning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/morning/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/morning/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/morning/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/morning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/morning/"/>
+  </url>
 </urlset>
