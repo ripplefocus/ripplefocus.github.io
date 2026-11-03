@@ -566,4 +566,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/bathroom/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bathroom/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/bathroom/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bathroom/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bathroom/"/>
+  </url>
 </urlset>
