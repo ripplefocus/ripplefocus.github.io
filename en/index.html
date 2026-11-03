@@ -131,6 +131,8 @@ footer a:hover{color:var(--primary)}
   .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
   .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
 }
+
+@media (max-width:640px){.hero{padding-top:14px}.hero .ripple{transform:scale(.68);margin:-21px auto -21px}.hero h1{margin-top:4px}}
 </style>
 <script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
@@ -159,18 +161,27 @@ footer a:hover{color:var(--primary)}
   <div class="ripple"><img src="../logo.png" alt="Ripple Icon"></div>
   <h1>Ripple</h1>
   <p class="slogan">Slow down, one ripple at a time</p>
-  <p class="lead">A free, local-only Android and iOS (Screen Time API) app blocker built for moments when your willpower drops. Tightening rules takes effect immediately; relaxing limits or uninstalling requires waiting through a mandatory cooldown first. Works for adults quitting short-form video and parents managing a child’s phone.</p>
   <div class="cta">
     <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
       Download Android APK v0.1.8 (8.73 MB)
     </a>
+    <div class="meta" style="margin-top:4px;color:var(--ink);font-size:14px">New in Android v0.1.8: one-tap quick focus, a daily open limit with a pause before opening, and blocking in split screen, floating windows and picture-in-picture. These three are Android only; the iPhone version is still v0.1.5. <a href="quick-focus/">See what is new</a></div>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa">Download iOS IPA v0.1.5 (7.4 MB)</a>
     <a class="btn ghost" href="ios/">iOS Setup Guide</a>
     <a class="btn ghost" href="#install">Installation Guide</a>
     <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io" title="Track GitHub Releases updates automatically in Obtainium">Add to Obtainium</a>
     <div class="meta">Android v0.1.8 · 8.73 MB · Updated 2026-11-03 · iPhone v0.1.5 · English &amp; Chinese UI · Android 8.0+ &amp; iOS 16.0+ · 100% Free &amp; No Ads</div>
     <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>1734129fa4ac7aa56560ca7276c2e94344f032e29ad8851fb280aa5d3bf44df5</code> · IPA SHA-256: <code>3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f</code></span></div>
+  </div>
+  <p class="lead">A free, local-only Android and iOS (Screen Time API) app blocker built for moments when your willpower drops. Tightening rules takes effect immediately; relaxing limits or uninstalling requires waiting through a mandatory cooldown first. Works for adults quitting short-form video and parents managing a child’s phone.</p>
+</section>
+
+<section id="demo">
+  <h2>See it in 20 seconds</h2>
+  <div style="max-width:360px;margin:0 auto">
+    <video src="../shots/ripple-demo.mp4" poster="../shots/ripple-demo-poster.jpg" autoplay muted loop playsinline controls preload="metadata" style="width:100%;border-radius:16px;display:block" aria-label="Ripple for Android v0.1.8 demo: daily open limit, pause before opening, opens used up, quick focus, uninstall protection"></video>
+    <p style="font-size:13px;color:var(--ink2);text-align:center;margin:8px 0 0">The demo shows the Android v0.1.8 screens with the Chinese interface. The last card lists what Android and iPhone each have. <a href="../shots/ripple-demo.gif">GIF version</a></p>
   </div>
 </section>
 
