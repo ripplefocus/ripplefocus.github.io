@@ -140,7 +140,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:32px;margin:12px 0 10px">不买专用学生手机，怎么管住孩子玩安卓手机？</h1>
   <p class="lead" style="max-width:680px">很多家长给孩子配了普通安卓手机后，发现应用自带的青少年模式或普通锁机软件很容易被孩子绕开。本指南说明如何用免费无广告的「涟漪（Ripple）」堵住改系统时间、进设置清数据、划掉后台和微信视频号这四个常见漏洞。</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.7.apk">下载涟漪安卓版 v0.1.7</a>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">下载涟漪安卓版 v0.1.7</a>
     <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io">用 Obtainium 追踪更新</a>
     <div class="meta">v0.1.7 · 免费无广告 · 纯本地存储 · 不影响电话短信与早上闹钟</div>
   </div>
@@ -190,7 +190,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];

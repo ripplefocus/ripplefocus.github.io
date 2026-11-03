@@ -137,7 +137,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:30px;margin:12px 0 10px">小学、初中、高中孩子的安卓手机怎么管：分年龄段设置方案</h1>
   <p class="lead" style="max-width:680px">很多家长装过管控软件，过几天就发现孩子把它卸了，或者把系统时间往后一调，限制就失效了。也有家长干脆收走手机，结果孩子没法用微信联系家里。这页按年龄段整理了用涟漪（Ripple）给孩子现有安卓手机做的设置，重点是防卸载、防改时间，以及只关微信视频号和朋友圈，保留正常聊天。</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.7.apk">免梯直连下载 v0.1.7 (8.66 MB)</a>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">免梯直连下载 v0.1.7 (8.66 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.7">GitHub Releases 下载</a>
     <div class="meta">v0.1.7 · 8.66 MB (arm64-v8a) · 免费无广告 · 无需注册账号</div>
   </div>
@@ -177,7 +177,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];

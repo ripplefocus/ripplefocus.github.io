@@ -137,7 +137,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:30px;margin:12px 0 10px">通勤路上一直刷手机，孩子上学放学路上也低头玩</h1>
   <p class="lead" style="max-width:680px">很多人每天在地铁和公交上要待一个多小时，一上车就打开短视频，到站时眼睛发酸，想看的书一页没翻。孩子有了自己的手机以后，上学放学路上边走边看视频、打游戏，过马路也不抬头。下面分两部分写，前面是成年人给自己的手机设通勤时段，后面是家长给孩子的手机设上下学时段，安卓和 iPhone 都讲到。</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.7.apk">安卓免梯直连下载 v0.1.7 (8.66 MB)</a>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">安卓免梯直连下载 v0.1.7 (8.66 MB)</a>
     <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone 版下载 v0.1.5 (.ipa)</a>
     <div class="meta">安卓 + iOS 16 及以上 · 免费无广告 · 无需注册账号 · 设置只存在手机本地</div>
   </div>
@@ -188,7 +188,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];

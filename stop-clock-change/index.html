@@ -137,7 +137,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:30px;margin:12px 0 10px">孩子改系统时间绕过手机管控怎么办：安卓防改时间设置方法</h1>
   <p class="lead" style="max-width:680px">不少家长发现，孩子把手机时间往后调几个小时，定好的晚上 9 点锁机就提前结束了。还有孩子会关掉自动校时、改时区，或者干脆在设置里强行停止管控软件。这页说明涟漪（Ripple）怎么处理这几种绕过方式，以及在孩子现有的安卓手机上怎么设置。</p>
   <div class="cta">
-    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.7.apk">免梯直连下载 v0.1.7 (8.66 MB)</a>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">免梯直连下载 v0.1.7 (8.66 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/tag/v0.1.7">GitHub Releases 下载</a>
     <div class="meta">v0.1.7 · 8.66 MB (arm64-v8a) · 免费无广告 · 无需注册账号</div>
   </div>
@@ -182,7 +182,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];

@@ -101,7 +101,7 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
   <div class="cta">
     <a class="btn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">免梯直连下载 iOS 版 v0.1.5 (.ipa, 7.4 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa">GitHub Release 下载 (.ipa)</a>
-    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.7.apk">下载 Android 版 APK (8.66 MB)</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-latest.apk">下载 Android 版 APK (8.66 MB)</a>
     <div class="meta">v0.1.5 · iOS 16.0+ &amp; Android 8.0+ · 免费无广告 · 纯本地零联网 · IPA SHA-256: <code>3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f</code></div>
   </div>
 </section>
@@ -213,7 +213,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];

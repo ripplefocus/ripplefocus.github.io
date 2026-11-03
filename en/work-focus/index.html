@@ -137,7 +137,7 @@ footer a:hover{color:var(--primary)}
   <h1 style="font-size:30px;margin:12px 0 10px">Scrolling at Work and in Meetings, and Kids Distracted During Homework</h1>
   <p class="lead" style="max-width:680px">Plenty of people reach for the phone while writing something at work and lose twenty minutes to short videos, or keep scrolling under the table in a meeting. At home, kids doing homework or sitting in an online class switch to TikTok or a game the moment a parent looks away. The first part below is for adults setting work hours on their own phone, and the second part is for parents setting homework and online class hours on a child's phone. Both Android and iPhone are covered.</p>
   <div class="cta">
-    <a class="btn" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.7/ripple-v0.1.7.apk">Download Android APK v0.1.7 (8.66 MB)</a>
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download Android APK v0.1.7 (8.66 MB)</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa">Download iPhone IPA v0.1.5</a>
     <div class="meta">Android and iOS 16+ · Free, no ads · No account · Settings stay on the phone</div>
   </div>
@@ -188,7 +188,7 @@ document.addEventListener("click",function(e){
   var k=null;
   if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
   else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
-  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)k="apk_gh_click";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
   else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
   if(k){
     var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
