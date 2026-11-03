@@ -21,6 +21,25 @@
 - **APK File Size & SHA-256**: 9,149,413 bytes (8.73 MB), SHA-256 `1734129fa4ac7aa56560ca7276c2e94344f032e29ad8851fb280aa5d3bf44df5`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
+## 1b. Features by Platform (每个功能在哪个平台有)
+| Feature | Android v0.1.8 | iPhone v0.1.5 |
+|---|---|---|
+| Block apps on a schedule (sleep, class, work hours) | Yes | Yes |
+| Loosening rules needs a cooldown (15 min to 2 h) or an unlock code | Yes | Yes |
+| Changing the clock does not help (device uptime timing) | Yes | Yes |
+| Uninstall protection | Yes (accessibility and device admin, optional on-device wireless debugging guard) | Yes (system block on deleting apps) |
+| Daily time limit per app | Yes | Not yet |
+| 0 minute daily limit that keeps an app closed all day | Yes (since v0.1.6) | Not yet |
+| Strict mode: rules loosen only with the unlock code | Yes (since v0.1.6) | Not yet |
+| Block only WeChat Channels and Moments, YouTube Shorts, Instagram Reels | Yes | Not yet |
+| Blocks split screen, floating windows and picture-in-picture | Yes (since v0.1.8) | Not yet |
+| One-tap quick focus, 25 minutes to 12 hours | Yes (since v0.1.8) | Not yet |
+| Daily open limit per app and a pause before opening | Yes (since v0.1.8) | Not yet |
+| Calls, SMS, alarms and camera always work | Yes | Yes |
+| Free, no ads, no account | Yes | Yes |
+
+FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en/faq/
+
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
 1. **Instant Bypass**: Built-in tools like Digital Wellbeing allow tapping "Ignore limit for today" with zero delay.
 2. **Quick Permission Removal**: Users or children can open Android Settings, disable Accessibility or Device Admin, or uninstall the blocker in a few seconds.

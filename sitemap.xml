@@ -492,4 +492,36 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/open-limit/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/faq/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/faq/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/faq/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/online-class/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/online-class/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/online-class/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/online-class/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/online-class/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/online-class/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/online-class/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/online-class/"/>
+  </url>
 </urlset>
