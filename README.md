@@ -2,12 +2,12 @@
 
 **一圈一圈，慢慢静下来。**
 
-[![Download APK v0.1.6](https://img.shields.io/badge/Android_APK_v0.1.6-8.66_MB-3F72B0?style=for-the-badge&logo=android)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.6/ripple-v0.1.6.apk) [![Download iOS IPA v0.1.5](https://img.shields.io/badge/iOS_IPA_v0.1.5-7.40_MB-36475A?style=for-the-badge&logo=apple)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa) [![GitHub Downloads](https://img.shields.io/github/downloads/ripplefocus/ripplefocus.github.io/total?style=for-the-badge&label=Releases_Downloads&color=1FA855)](https://github.com/ripplefocus/ripplefocus.github.io/releases)
+[![Download APK v0.1.7](https://img.shields.io/badge/Android_APK_v0.1.7-8.66_MB-3F72B0?style=for-the-badge&logo=android)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.7/ripple-v0.1.7.apk) [![Download iOS IPA v0.1.5](https://img.shields.io/badge/iOS_IPA_v0.1.5-7.40_MB-36475A?style=for-the-badge&logo=apple)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa) [![GitHub Downloads](https://img.shields.io/github/downloads/ripplefocus/ripplefocus.github.io/total?style=for-the-badge&label=Releases_Downloads&color=1FA855)](https://github.com/ripplefocus/ripplefocus.github.io/releases)
 
 涟漪是一款支持 **Android 8.0+** 与 **iOS 16.0+（Screen Time API）** 的自控与防沉迷小工具：到点让手机安静下来，给刷不停的 App 定个每日时长；想放松规则或卸载，先等一会儿。无论自己戒短视频，还是家长给孩子管手机都能用。
 
 - **官方网站**：<https://ripplefocus.github.io/> （[English Site](https://ripplefocus.github.io/en/) · [iOS 专区](https://ripplefocus.github.io/ios/)）
-- **下载安卓最新版（v0.1.6）**：[ripple-v0.1.6.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.6/ripple-v0.1.6.apk)（8.66 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.6.apk](https://ripplefocus.github.io/dl/ripple-v0.1.6.apk)）
+- **下载安卓最新版（v0.1.7）**：[ripple-v0.1.7.apk](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.7/ripple-v0.1.7.apk)（8.66 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.7.apk](https://ripplefocus.github.io/dl/ripple-v0.1.7.apk)）
 - **下载 iOS 最新版（v0.1.5）**：[ripple-v0.1.5.ipa](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa)（7.40 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.5.ipa](https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)）
 - **历史版本与更新说明**：<https://github.com/ripplefocus/ripplefocus.github.io/releases>
 
@@ -18,7 +18,7 @@
 - **每日时长**：给短视频、游戏等 App 设定每天最多可用的时长，用完当天打不开，0 点重置。
 - **防一时冲动卸载（支持家长解锁码与高级保护）**：开启后，想放松规则或卸载涟漪需要先等一会儿（15 分钟～2 小时，高风险应用翻倍，改系统时间无效），或输入由亲友/家长保管的解锁码；可选本机无线调试「高级保护」，杀后台或重启手机都能自动恢复。
 - **系统必需不受影响**：电话、短信、闹钟、日历、相机、输入法、系统钱包和系统设置始终可用。
-- **本地隐私保护**：无账号、无广告，所有规则与使用记录只保存在你的手机本地。从 v0.1.6 起，每天第一次打开时会匿名计一次数，不带使用内容，也不带设备信息。
+- **本地隐私保护**：无账号、无广告，所有规则与使用记录只保存在你的手机本地。从 v0.1.6 起，每天第一次打开时会匿名计一次数，不带使用内容，也不带设备信息。从 v0.1.7 起，这次计数会带上装机天数的大致区间和新装还是升级，装机天数按系统记录的安装时间算。
 
 - **English Website**: https://ripplefocus.github.io/en/
 - **Obtainium 一键追踪更新**: [Add to Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io) (`obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io`)

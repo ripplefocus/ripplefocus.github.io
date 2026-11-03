@@ -5,7 +5,8 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.6` (`versionCode: 21`, updated 2026-11-02)
+- **Current Version**: `v0.1.7` (`versionCode: 22`, updated 2026-11-03)
+- **New in Android v0.1.7**: the daily anonymous count works out install age from the system install time and tells new installs from upgrades, with no device identifiers. The iPhone build is still v0.1.5.
 - **New in Android v0.1.6**: daily limits can be set to 0 minutes; strict mode (loosen rules only with the unlock code, turns on Anti-Uninstall, a forgotten code can be lifted by a request after 72 hours); contact email dzytmk@qq.com on the About page; one anonymous count per day with no usage content and no device information; lower battery use for blocking inside WeChat, YouTube and Instagram. The iPhone build is still v0.1.5.
 - **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+) and iOS 16.0+ (built on Apple Screen Time API: `FamilyControls`, `ManagedSettings`, `DeviceActivityMonitor`, `ShieldConfiguration`)
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
@@ -13,10 +14,10 @@
 - **Website (English)**: https://ripplefocus.github.io/en/
 - **Keep-Alive & Anti-Uninstall Guide (Chinese)**: https://ripplefocus.github.io/keep-alive-guide/
 - **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
-- **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-v0.1.6.apk
-- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.6/ripple-v0.1.6.apk
+- **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-v0.1.7.apk
+- **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.7/ripple-v0.1.7.apk
 - **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
-- **APK File Size & SHA-256**: 9,080,029 bytes (8.66 MB), SHA-256 `5e535507dd4b04101e8820fb2d0b0748dd087b7d8ad642de270444ccc9877720`
+- **APK File Size & SHA-256**: 9,080,029 bytes (8.66 MB), SHA-256 `e8c9043bf9636333e903fa02853f59237a2cca2153df7ed6d2dac25d8321d688`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
