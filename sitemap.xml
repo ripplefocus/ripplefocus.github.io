@@ -418,4 +418,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/commute/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/commute/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/short-drama-games/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-drama-games/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-drama-games/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-drama-games/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/short-drama-games/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-drama-games/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-drama-games/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-drama-games/"/>
+  </url>
 </urlset>
