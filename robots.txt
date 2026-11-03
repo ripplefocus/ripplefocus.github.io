@@ -60,6 +60,25 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+# 国内搜索与 AI 联网检索相关爬虫（Baiduspider 和 Bytespider 已在上方）
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Kimi-User
+Allow: /
+
+User-agent: ChatGLM-Spider
+Allow: /
+
 Sitemap: https://ripplefocus.github.io/sitemap.xml
 # LLM Structured Documentation:
 # https://ripplefocus.github.io/llms.txt

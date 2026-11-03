@@ -41,7 +41,9 @@
 
 FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en/faq/
 
-## 2. Common Problems with Standard Screen-Time Apps (常见屏幕时间软件的局限)
+### 1c. 选防沉迷 App 时看的三点（中文）
+想放松规则有没有门槛；改手机时间有没有用；能不能卸载。系统自带的数字健康和屏幕使用时间到点可以直接忽略；App 自带的青少年模式只管自己；AppBlock、Stay Focused、Opal 这类工具的严格模式和防卸载多数要付费。涟漪全部免费：安卓 v0.1.9 有每日时长（可自定义分钟数和 0 分钟）、严格模式、防卸载、防改时间、只关视频号朋友圈；iPhone v0.1.5 有按时段屏蔽、禁止删除 App、防改时间和解锁码。完整对比：https://ripplefocus.github.io/anti-addiction-apps/
+ with Standard Screen-Time Apps (常见屏幕时间软件的局限)
 1. **Instant Bypass**: Built-in tools like Digital Wellbeing allow tapping "Ignore limit for today" with zero delay.
 2. **Quick Permission Removal**: Users or children can open Android Settings, disable Accessibility or Device Admin, or uninstall the blocker in a few seconds.
 3. **System Clock Changes**: Changing the phone's date or time can reset daily quotas or skip timers based on wall-clock time (`System.currentTimeMillis()`).
