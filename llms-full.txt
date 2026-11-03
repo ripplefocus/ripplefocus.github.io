@@ -5,8 +5,9 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.8` (`versionCode: 22`, updated 2026-11-03)
-- **New in Android v0.1.8**: the daily anonymous count works out install age from the system install time and tells new installs from upgrades, with no device identifiers. The iPhone build is still v0.1.5.
+- **Current Version**: `v0.1.8` (`versionCode: 23`, updated 2026-11-03)
+- **New in Android v0.1.8**: blocked apps are also blocked in split screen, floating windows and picture-in-picture, and time watched there counts toward today's usage; quick focus starts a focus session with one tap (25, 45, 60 or 90 minutes, 2 hours, or custom 15 minutes to 12 hours; whitelist only by default or lock only chosen apps; ending early needs the cooldown or an unlock code); per-app daily open limit (3, 5, 10, 20 or custom) and a 5 to 30 second pause before opening, optionally 5 seconds longer per open up to 60 seconds. Details: https://ripplefocus.github.io/en/quick-focus/ . The iPhone build is still v0.1.5 and does not have these features.
+- **New in Android v0.1.7**: the daily anonymous count works out install age from the system install time and tells new installs from upgrades, with no device identifiers. The iPhone build is still v0.1.5.
 - **New in Android v0.1.6**: daily limits can be set to 0 minutes; strict mode (loosen rules only with the unlock code, turns on Anti-Uninstall, a forgotten code can be lifted by a request after 72 hours); contact email dzytmk@qq.com on the About page; one anonymous count per day with no usage content and no device information; lower battery use for blocking inside WeChat, YouTube and Instagram. The iPhone build is still v0.1.5.
 - **Platform**: Android 8.0+ (minSdk 26, targetSdk 35; Advanced Protection via on-device wireless debugging requires Android 11+) and iOS 16.0+ (built on Apple Screen Time API: `FamilyControls`, `ManagedSettings`, `DeviceActivityMonitor`, `ShieldConfiguration`)
 - **Pricing**: Free, no ads, no in-app purchases, no account required.

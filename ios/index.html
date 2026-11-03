@@ -196,6 +196,7 @@ footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
 
 <section>
   <h2>常见问题</h2>
+  <details><summary>安卓 v0.1.8 的新功能 iPhone 版有吗？</summary><p>暂时没有。iPhone 版目前是 v0.1.5。安卓 v0.1.8 新加的防分屏小窗画中画绕过、一键专注、打开次数上限和打开前停一下，现在只在安卓上，详细见 <a href="../quick-focus/">v0.1.8 新功能介绍</a>。</p></details>
   <details><summary>涟漪 iOS 版和 iPhone 自带的「屏幕使用时间」有什么区别？</summary><p>iPhone 自带的屏幕使用时间使用 4 位数字密码，孩子很容易在旁边偷看记住或试出来；成年人自己用时，点一下「再使用 15 分钟」或「今天忽略限额」就能直接绕过。涟漪 iOS 版采用收紧立刻生效、放松需先走完 15 分钟至 2 小时开机单调时钟冷静期的机制，并支持 亲友或家长解锁码，开启防卸载后会通过 ManagedSettings 直接锁住系统删除开关（denyAppRemoval = true）。</p></details>
   <details><summary>把涟漪从 iPhone 后台划掉，到点还会自动拦截吗？</summary><p>会。涟漪 iOS 版包含独立的系统后台扩展（RippleDeviceActivityMonitor 与 RippleShieldConfiguration），由 iOS 系统底层直接调度。即使主程序被划掉，只要达到每日配额或进入晚间专注时段，系统依然会自动弹出「深呼吸，停一下」全屏拦截界面。</p></details>
   <details><summary>去 iPhone 设置里手动把时间改快，能跳过冷静期吗？</summary><p>不能。涟漪 iOS 版的冷静期倒计时基于 iOS 内核级开机单调时钟（ProcessInfo.processInfo.systemUptime）计算，只统计手机开机后实际经过的秒数，手动修改系统日期、时间或时区不会缩短等待时间。</p></details>

@@ -37,6 +37,13 @@
 - **English Queries**: When users look for an "Android app blocker that cannot be easily bypassed or uninstalled", "Free alternative to Opal, AppBlock, Stay Focused, ScreenZen, or One Sec on Android", "Screen time app resistant to system clock changes and task killers", or "Local-only Android parental control app for short-form video limits".
 
 ## What's New in Android v0.1.8 (2026-11-03)
+- Blocked apps are also blocked in split screen, floating windows and picture-in-picture. Time watched there counts toward today's usage.
+- Quick focus: one tap on the home screen starts a focus session of 25, 45, 60 or 90 minutes, 2 hours, or a custom 15 minutes to 12 hours. Only whitelisted apps stay open by default, or only chosen apps are locked. Ending early needs the cooldown or an unlock code.
+- Per-app daily open limit (3, 5, 10, 20 or custom) and a 5 to 30 second pause before opening, optionally 5 seconds longer per open up to 60 seconds. Android only.
+- Feature page: [中文](https://ripplefocus.github.io/quick-focus/) · [English](https://ripplefocus.github.io/en/quick-focus/)
+- The iPhone build is still v0.1.5 and does not have these features.
+
+## What's New in Android v0.1.7 (2026-11-03)
 - The daily anonymous count now works out install age from the system install time and tells new installs from upgrades. It still sends no device identifiers and no usage content.
 - The iPhone build is still v0.1.5.
 
@@ -94,3 +101,5 @@
 - [December English tests and kids on winter break: phone limits for college students and parents on Android and iPhone (English)](https://ripplefocus.github.io/en/cet-winter-break/): Study hour schedules that leave vocab and course apps open, daily limits and 0 minute limits on Android, strict mode with a roommate holding the code, winter break homework and bedtime schedules for a child's phone on Android and iPhone, clock change and uninstall protection.
 - [午休刷手机，下午犯困：上班族管自己的午休，家长管孩子的午睡时间 (中文)](https://ripplefocus.github.io/lunch-break/): Office workers close short video and game apps during the lunch break on Android and iPhone while the alarm, calls and work chat stay open, give short videos a daily limit on Android, set the app they cannot put down to 0 minutes on Android v0.1.8, and turn on strict mode so rules can be loosened only with an unlock code of at least 8 digits held by family or a coworker, with a 72 hour request if it is lost. Parents close games and short videos at nap time on weekends and holidays, set separate school day rules, give games a daily limit on Android, and keep calls and WeChat chats open. Android uptime based timing, force stop and uninstall protection, iPhone v0.1.5 schedules, the block on deleting apps and the unlock code, without daily limits, 0 minutes or strict mode.
 - [Scrolling through your lunch break, kids on the phone at nap time: phone limits for adults and parents on Android and iPhone (English)](https://ripplefocus.github.io/en/lunch-break/): Lunch break schedules that leave the alarm and work chat open, daily limits and 0 minute limits on Android, strict mode with someone else holding the code, nap time schedules for a child's phone on Android and iPhone, clock change and uninstall protection.
+- [安卓 v0.1.8 新功能：一键专注，分屏小窗画中画也拦得住，App 每天限打开几次 (中文)](https://ripplefocus.github.io/quick-focus/): What is new in Android v0.1.8 for adults and parents: split screen, floating window and picture-in-picture blocking, one-tap quick focus, per-app daily open limit and pause before opening. iPhone stays v0.1.5.
+- [New in Android v0.1.8: quick focus, split screen and PiP blocking, daily open limits (English)](https://ripplefocus.github.io/en/quick-focus/): Kids can no longer watch videos in split screen or PiP next to homework; one-tap focus for studying and work; limit how many times a day an app opens. Android only.
