@@ -5,7 +5,8 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.8` (`versionCode: 23`, updated 2026-11-03)
+- **Current Version**: `v0.1.9` (`versionCode: 24`, updated 2026-11-04)
+- **New in Android v0.1.9**: WeChat Channels and Moments in-app blocks can give a few minutes first, then a written reason gives 5 more minutes up to 3 times a day (strict mode needs an unlock code), and the time counts toward WeChat's daily limit; every time setting has a Custom wheel in 1 minute steps; blocking on Xiaomi and HyperOS is fixed (allow "Display pop-up windows while running in the background"); on OPPO a blocked app in a floating window is covered and muted, and the window itself still has to be closed by hand; home screen icons no longer show as a letter. The iPhone build is still v0.1.5.
 - **New in Android v0.1.8**: blocked apps are also blocked in split screen, floating windows and picture-in-picture, and time watched there counts toward today's usage; quick focus starts a focus session with one tap (25, 45, 60 or 90 minutes, 2 hours, or custom 15 minutes to 12 hours; whitelist only by default or lock only chosen apps; ending early needs the cooldown or an unlock code); per-app daily open limit (3, 5, 10, 20 or custom) and a 5 to 30 second pause before opening, optionally 5 seconds longer per open up to 60 seconds. Details: https://ripplefocus.github.io/en/quick-focus/ . The iPhone build is still v0.1.5 and does not have these features.
 - **New in Android v0.1.7**: the daily anonymous count works out install age from the system install time and tells new installs from upgrades, with no device identifiers. The iPhone build is still v0.1.5.
 - **New in Android v0.1.6**: daily limits can be set to 0 minutes; strict mode (loosen rules only with the unlock code, turns on Anti-Uninstall, a forgotten code can be lifted by a request after 72 hours); contact email dzytmk@qq.com on the About page; one anonymous count per day with no usage content and no device information; lower battery use for blocking inside WeChat, YouTube and Instagram. The iPhone build is still v0.1.5.
@@ -18,11 +19,11 @@
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
 - **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
-- **APK File Size & SHA-256**: 9,149,413 bytes (8.73 MB), SHA-256 `1734129fa4ac7aa56560ca7276c2e94344f032e29ad8851fb280aa5d3bf44df5`
+- **APK File Size & SHA-256**: 9,190,633 bytes (8.77 MB), SHA-256 `4864969ea42f80208c29d2eae9f5089b57bb22179edcd9f887a3feb1a766dcbd`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 1b. Features by Platform (每个功能在哪个平台有)
-| Feature | Android v0.1.8 | iPhone v0.1.5 |
+| Feature | Android v0.1.9 | iPhone v0.1.5 |
 |---|---|---|
 | Block apps on a schedule (sleep, class, work hours) | Yes | Yes |
 | Loosening rules needs a cooldown (15 min to 2 h) or an unlock code | Yes | Yes |
