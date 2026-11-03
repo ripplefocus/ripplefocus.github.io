@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Can't Read a Book Without Picking Up Your Phone? Phone Limits for Adult Readers and Kids' Reading Time (Android and iPhone) - Ripple</title>
+<meta name="description" content="You sit down with a book and reach for your phone after a few pages? Your child plays on the phone during reading time? Ripple for Android v0.1.8 starts a focus session with one tap and keeps only your reading apps open, and split screen and floating windows are blocked too. On iPhone v0.1.5 videos and games can be blocked on a schedule. Clock change and uninstall protection. Free, no ads.">
+<meta name="keywords" content="can't focus on reading phone,phone distraction while reading,read more books less phone,kids reading time phone,kids play phone during reading,lock phone while reading,focus mode android,parental control android,iphone screen time,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/reading/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/reading/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/reading/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/reading/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Can't Read a Book Without Picking Up Your Phone? Phone Limits for Adult Readers and Kids' Reading Time (Android and iPhone) - Ripple">
+<meta property="og:description" content="You sit down with a book and reach for your phone after a few pages? Your child plays on the phone during reading time? Ripple for Android v0.1.8 starts a focus session with one tap and keeps only your reading apps open, and split screen and floating windows are blocked too. On iPhone v0.1.5 videos and games can be blocked on a schedule. Clock change and uninstall protection. Free, no ads.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/reading/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "Use Ripple to keep the phone out of the way while you read and during a child's reading time", "step": [{"@type": "HowToStep", "name": "Install Ripple", "text": "On Android install the latest APK and turn on the accessibility service. On iPhone you need iOS 16 or later and Screen Time permission."}, {"@type": "HowToStep", "name": "Add reading apps to the focus list", "text": "For example your ebook app, a dictionary and the phone app. For paper books keep only the phone app."}, {"@type": "HowToStep", "name": "Android: tap quick focus before reading", "text": "Pick the length. Other apps stay closed until it ends. Add a focus schedule if you read at a fixed time."}, {"@type": "HowToStep", "name": "iPhone: set a reading schedule", "text": "Put short video, social and game apps into a schedule that matches reading time."}, {"@type": "HowToStep", "name": "Set the unlock code and uninstall protection", "text": "For your own phone give the code to family. On a child's phone keep it yourself. Turn on Anti-Uninstall on Android and the block on deleting apps on iPhone."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Will my ebook app be locked too?", "acceptedAnswer": {"@type": "Answer", "text": "No. Add it to the focus list, or switch quick focus to lock only the apps you choose."}}, {"@type": "Question", "name": "Something urgent comes up while I'm reading. What then?", "acceptedAnswer": {"@type": "Answer", "text": "Calls always work. For other apps, wait out the cooldown or enter the unlock code."}}, {"@type": "Question", "name": "Can my child still watch videos in split screen?", "acceptedAnswer": {"@type": "Answer", "text": "Not from Android v0.1.8 on. A blocked app in split screen, a floating window or picture-in-picture is blocked too."}}, {"@type": "Question", "name": "Does the iPhone version have quick focus?", "acceptedAnswer": {"@type": "Answer", "text": "Not yet. The iPhone version v0.1.5 has schedules, the block on deleting apps, clock change protection and the unlock code."}}, {"@type": "Question", "name": "Does it cost money or need an account?", "acceptedAnswer": {"@type": "Answer", "text": "It is free with no ads and no account. Settings stay on the phone."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../quick-focus/">New in v0.1.8</a>
+    <a href="./" style="color:var(--primary);font-weight:600">Reading</a>
+    <a href="../open-limit/">Open limits</a>
+    <a href="../strict-mode/">Strict mode</a>
+    <span class="lang-switch"><a href="../../reading/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">Can't Read a Book Without Picking Up Your Phone</h1>
+  <p class="lead" style="max-width:680px">Plenty of people buy books, sit down, read a few pages and then reach for the phone. They answer one message, watch a few videos, and half an hour later the book is still open on the same page. People who read ebooks on the phone often switch to another app halfway through a chapter. Kids do the same. The school asks for thirty minutes of reading a day, and as soon as the parent turns around the child is playing behind the book, or opens the reading app and watches a video next to it in split screen. The first part below is for adults setting limits on their own phone, and the second part is for parents. Both Android and iPhone are covered.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">Download iPhone IPA v0.1.5</a>
+    <div class="meta">Android and iOS 16+ · Free, no ads · No account · Settings stay on the phone</div>
+  </div>
+</section>
+<section>
+  <h2>See it in 20 seconds</h2>
+  <div style="max-width:360px;margin:0 auto">
+    <video src="../../shots/ripple-demo.mp4" poster="../../shots/ripple-demo-poster.jpg" autoplay muted loop playsinline controls preload="metadata" style="width:100%;border-radius:16px;display:block" aria-label="Ripple for Android v0.1.8 demo: daily open limit, pause before opening, opens used up, quick focus, uninstall protection"></video>
+    <p style="font-size:13px;color:var(--ink2);text-align:center;margin:8px 0 0">The demo shows the Android v0.1.8 screens with the Chinese interface. The last card lists what Android and iPhone each have. <a href="../../shots/ripple-demo.gif">GIF version</a></p>
+  </div>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:18px">
+    <figure style="margin:0;flex:1 1 150px;max-width:200px"><img src="../../shots/v018/quickfocus-sheet.jpg" alt="Pick a length and apps" loading="lazy" style="width:100%;border-radius:14px;display:block;box-shadow:0 4px 14px rgba(0,0,0,.08)"><figcaption style="font-size:13px;color:var(--ink2);text-align:center;margin-top:6px">Pick a length and apps</figcaption></figure>
+    <figure style="margin:0;flex:1 1 150px;max-width:200px"><img src="../../shots/v018/quickfocus-active.jpg" alt="Focus in progress" loading="lazy" style="width:100%;border-radius:14px;display:block;box-shadow:0 4px 14px rgba(0,0,0,.08)"><figcaption style="font-size:13px;color:var(--ink2);text-align:center;margin-top:6px">Focus in progress</figcaption></figure>
+    <figure style="margin:0;flex:1 1 150px;max-width:200px"><img src="../../shots/v018/quickfocus-block.jpg" alt="Blocked during focus" loading="lazy" style="width:100%;border-radius:14px;display:block;box-shadow:0 4px 14px rgba(0,0,0,.08)"><figcaption style="font-size:13px;color:var(--ink2);text-align:center;margin-top:6px">Blocked during focus</figcaption></figure>
+  </div>
+</section>
+<section>
+  <h2>Adults keeping the phone quiet while they read</h2>
+  <div class="grid">
+    <div class="card"><h3>Tap quick focus before you start</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android v0.1.8 tap quick focus on the home screen and pick 45 or 60 minutes or a custom length. By default only the apps in your focus list stay open, such as the phone app and your ebook reader. Everything else is blocked until the session ends on its own.</p></div>
+    <div class="card"><h3>Block only the worst apps</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If you look up words or take notes while reading, switch quick focus to lock only the apps you choose. Close short videos, social apps and games and leave the rest alone.</p></div>
+    <div class="card"><h3>A fixed reading hour</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If you read at the same time every night, create a focus schedule such as 21:00 to 22:00. It starts by itself, so you do not have to remember to tap anything.</p></div>
+    <div class="card"><h3>Stopping early takes a wait</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ending a session early needs a cooldown, 15 minutes by default, or the unlock code. Most people keep reading while they wait. A family member or friend can hold the code.</p></div>
+    <div class="card"><h3>Fewer pickups during the day</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">For apps you open out of habit during the day, set a daily open limit and a short pause before opening. See the <a href="../open-limit/">open limits page</a>.</p></div>
+    <div class="card"><h3>iPhone: schedules</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">The iPhone version is v0.1.5. Put short video and social apps into a reading schedule such as 21:00 to 22:00. On iOS 16 and later the system blocks them in the background, and someone else can hold the unlock code. Quick focus is Android only for now.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Parents dealing with phone use during a child's reading time</h2>
+  <div class="grid">
+    <div class="card"><h3>Start a session before reading time</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Before reading time, tap quick focus for 30 or 60 minutes on your child's Android phone and keep only the reading app and the phone app. The ring on the home screen shows the time left, and it ends by itself.</p></div>
+    <div class="card"><h3>Split screen and floating windows are blocked</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Some kids put the reading app and a video app side by side in split screen or shrink the video into a small window. Android v0.1.8 covers the blocked side with the block screen and closes picture-in-picture.</p></div>
+    <div class="card"><h3>A reading schedule on school nights</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If reading happens at a set time, add a schedule such as 19:30 to 20:00 on school nights and a different time on weekends.</p></div>
+    <div class="card"><h3>The child cannot undo it</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">The parent keeps the unlock code, and uninstall protection and strict mode are available. Android timing uses device uptime, so moving the clock forward does not end the session early. See the <a href="../stop-clock-change/">clock change page</a>.</p></div>
+    <div class="card"><h3>iPhone: block on a schedule</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If your child uses an iPhone, block games and videos during reading time. With the block on deleting apps turned on, long press removal does not work. See the <a href="../ios/">iPhone page</a>. Quick focus and split screen blocking are Android only for now.</p></div>
+    <div class="card"><h3>Calls and chats stay open</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Leave the phone app and chat apps off the list so your child can reach you while reading.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Setup steps</h2>
+  <div class="grid">
+    <div class="card"><h3>Install Ripple</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android install the latest APK and turn on the accessibility service. On iPhone you need iOS 16 or later and Screen Time permission.</p></div>
+    <div class="card"><h3>Add reading apps to the focus list</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">For example your ebook app, a dictionary and the phone app. For paper books keep only the phone app.</p></div>
+    <div class="card"><h3>Android: tap quick focus before reading</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Pick the length. Other apps stay closed until it ends. Add a focus schedule if you read at a fixed time.</p></div>
+    <div class="card"><h3>iPhone: set a reading schedule</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Put short video, social and game apps into a schedule that matches reading time.</p></div>
+    <div class="card"><h3>Set the unlock code and uninstall protection</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">For your own phone give the code to family. On a child's phone keep it yourself. Turn on Anti-Uninstall on Android and the block on deleting apps on iPhone.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Will my ebook app be locked too?</summary><p>No. Add it to the focus list, or switch quick focus to lock only the apps you choose.</p></details><details><summary>Something urgent comes up while I'm reading. What then?</summary><p>Calls always work. For other apps, wait out the cooldown or enter the unlock code.</p></details><details><summary>Can my child still watch videos in split screen?</summary><p>Not from Android v0.1.8 on. A blocked app in split screen, a floating window or picture-in-picture is blocked too.</p></details><details><summary>Does the iPhone version have quick focus?</summary><p>Not yet. The iPhone version v0.1.5 has schedules, the block on deleting apps, clock change protection and the unlock code.</p></details><details><summary>Does it cost money or need an account?</summary><p>It is free with no ads and no account. Settings stay on the phone.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">Back to English home</a> · <a href="../quick-focus/">New in v0.1.8</a> · <a href="../open-limit/">Open limits</a> · <a href="../bedtime/">Bedtime</a> · <a href="../strict-mode/">Strict mode</a> · <a href="../../reading/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>
