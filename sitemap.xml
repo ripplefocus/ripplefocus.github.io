@@ -738,4 +738,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/practice-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/practice-time/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/eye-break/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/eye-break/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/eye-break/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/eye-break/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/eye-break/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/eye-break/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/eye-break/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/eye-break/"/>
+  </url>
 </urlset>
