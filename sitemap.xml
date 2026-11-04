@@ -710,4 +710,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chat-apps/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/chat-apps/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/xiaomi-redmi/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/xiaomi-redmi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/xiaomi-redmi/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/xiaomi-redmi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
+  </url>
 </urlset>
