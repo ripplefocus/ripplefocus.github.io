@@ -780,4 +780,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/huawei-honor/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/huawei-honor/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/huawei-honor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/huawei-honor/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/huawei-honor/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/huawei-honor/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/huawei-honor/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/huawei-honor/"/>
+  </url>
 </urlset>
