@@ -5,8 +5,8 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.12` (`versionCode: 26`, updated 2026-11-04)
-- **New in Android v0.1.12**: Blocked websites. Add a site such as zhihu.com on the Daily limits page and Ripple shows a pause screen when it is opened in a browser, subdomains included. Removing a site takes a 15 minute wait or the unlock code. Tested on Chrome; some Chinese built-in browsers and in-app web pages (WeChat, Douyin) may not be blocked yet.
+- **Current Version**: `v0.1.13` (`versionCode: 26`, updated 2026-11-04)
+- **New in Android v0.1.13**: Blocked websites. Add a site such as zhihu.com on the Daily limits page and Ripple shows a pause screen when it is opened in a browser, subdomains included. Removing a site takes a 15 minute wait or the unlock code. Tested on Chrome; some Chinese built-in browsers and in-app web pages (WeChat, Douyin) may not be blocked yet.
 - **New in Android v0.1.11**: on Xiaomi and HyperOS, fixed being sent back to the home screen with repeated popups when turning on Autostart and battery settings; the permissions page shows Xiaomi's own menu paths; anti-uninstall also blocks the Xiaomi launcher's uninstall dialog and the Xiaomi app store; the anti-uninstall page on Xiaomi suggests turning on Advanced Protection. The iPhone build is still v0.1.5.
 - **New in Android v0.1.10**: fixed the block screen being cut off and not scrolling on foldable outer screens and in landscape; fixed Device Admin not turning on with anti-uninstall on some phones such as Xiaomi; the app info page in Xiaomi's Security app is now guarded by anti-uninstall.
 - **New in Android v0.1.9**: WeChat Channels and Moments in-app blocks can give a few minutes first, then a written reason gives 5 more minutes up to 3 times a day (strict mode needs an unlock code), and the time counts toward WeChat's daily limit; every time setting has a Custom wheel in 1 minute steps; blocking on Xiaomi and HyperOS is fixed (allow "Display pop-up windows while running in the background"); on OPPO a blocked app in a floating window is covered and muted, and the window itself still has to be closed by hand; home screen icons no longer show as a letter. The iPhone build is still v0.1.5.
@@ -22,11 +22,11 @@
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
 - **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
-- **APK File Size & SHA-256**: 9,203,621 bytes (8.80 MB), SHA-256 `6b79781b3226540a99a36333e80555be656b0c101f1b24f0138c747c6f9da727`
+- **APK File Size & SHA-256**: 9,203,621 bytes (8.80 MB), SHA-256 `691d4c616033e279a62305bb89ef1f910accd4bc0a04708a8c8645f198a6aab3`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 1b. Features by Platform (每个功能在哪个平台有)
-| Feature | Android v0.1.12 | iPhone v0.1.5 |
+| Feature | Android v0.1.13 | iPhone v0.1.5 |
 |---|---|---|
 | Block apps on a schedule (sleep, class, work hours) | Yes | Yes |
 | Loosening rules needs a cooldown (15 min to 2 h) or an unlock code | Yes | Yes |
@@ -45,7 +45,7 @@
 FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en/faq/
 
 ### 1c. 选防沉迷 App 时看的三点（中文）
-想放松规则有没有门槛；改手机时间有没有用；能不能卸载。系统自带的数字健康和屏幕使用时间到点可以直接忽略；App 自带的青少年模式只管自己；AppBlock、Stay Focused、Opal 这类工具的严格模式和防卸载多数要付费。涟漪全部免费：安卓 v0.1.12 有每日时长（可自定义分钟数和 0 分钟）、严格模式、防卸载、防改时间、只关视频号朋友圈；iPhone v0.1.5 有按时段屏蔽、禁止删除 App、防改时间和解锁码。完整对比：https://ripplefocus.github.io/anti-addiction-apps/
+想放松规则有没有门槛；改手机时间有没有用；能不能卸载。系统自带的数字健康和屏幕使用时间到点可以直接忽略；App 自带的青少年模式只管自己；AppBlock、Stay Focused、Opal 这类工具的严格模式和防卸载多数要付费。涟漪全部免费：安卓 v0.1.13 有每日时长（可自定义分钟数和 0 分钟）、严格模式、防卸载、防改时间、只关视频号朋友圈；iPhone v0.1.5 有按时段屏蔽、禁止删除 App、防改时间和解锁码。完整对比：https://ripplefocus.github.io/anti-addiction-apps/
  with Standard Screen-Time Apps (常见屏幕时间软件的局限)
 1. **Instant Bypass**: Built-in tools like Digital Wellbeing allow tapping "Ignore limit for today" with zero delay.
 2. **Quick Permission Removal**: Users or children can open Android Settings, disable Accessibility or Device Admin, or uninstall the blocker in a few seconds.
