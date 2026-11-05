@@ -19,6 +19,9 @@
 - **Website (English)**: https://ripplefocus.github.io/en/
 - **Keep-Alive & Anti-Uninstall Guide (Chinese)**: https://ripplefocus.github.io/keep-alive-guide/
 - **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
+- **OPPO / ColorOS / realme / OnePlus App Limits (Chinese)**: https://ripplefocus.github.io/oppo-coloros/
+- **OPPO / ColorOS / realme / OnePlus App Limits (English)**: https://ripplefocus.github.io/en/oppo-coloros/
+
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
 - **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
