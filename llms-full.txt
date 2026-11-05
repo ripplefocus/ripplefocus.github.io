@@ -25,6 +25,8 @@
 - **vivo / OriginOS / iQOO App Limits (English)**: https://ripplefocus.github.io/en/vivo-originos/
 - **Couples phone limits (Chinese)**: https://ripplefocus.github.io/couples-phone/
 - **Couples phone limits (English)**: https://ripplefocus.github.io/en/couples-phone/
+- **Back to routine after holidays (Chinese)**: https://ripplefocus.github.io/back-to-routine/
+- **Back to routine after holidays (English)**: https://ripplefocus.github.io/en/back-to-routine/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
