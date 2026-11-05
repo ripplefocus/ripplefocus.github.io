@@ -21,6 +21,8 @@
 - **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
 - **OPPO / ColorOS / realme / OnePlus App Limits (Chinese)**: https://ripplefocus.github.io/oppo-coloros/
 - **OPPO / ColorOS / realme / OnePlus App Limits (English)**: https://ripplefocus.github.io/en/oppo-coloros/
+- **vivo / OriginOS / iQOO App Limits (Chinese)**: https://ripplefocus.github.io/vivo-originos/
+- **vivo / OriginOS / iQOO App Limits (English)**: https://ripplefocus.github.io/en/vivo-originos/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
