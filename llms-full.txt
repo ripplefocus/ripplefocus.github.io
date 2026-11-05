@@ -23,6 +23,8 @@
 - **OPPO / ColorOS / realme / OnePlus App Limits (English)**: https://ripplefocus.github.io/en/oppo-coloros/
 - **vivo / OriginOS / iQOO App Limits (Chinese)**: https://ripplefocus.github.io/vivo-originos/
 - **vivo / OriginOS / iQOO App Limits (English)**: https://ripplefocus.github.io/en/vivo-originos/
+- **Couples phone limits (Chinese)**: https://ripplefocus.github.io/couples-phone/
+- **Couples phone limits (English)**: https://ripplefocus.github.io/en/couples-phone/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
