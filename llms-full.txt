@@ -31,6 +31,8 @@
 - **Library / study room phone limits (English)**: https://ripplefocus.github.io/en/library-study/
 - **Bedtime and morning phone scrolling (Chinese)**: https://ripplefocus.github.io/bedtime-morning/
 - **Bedtime and morning phone scrolling (English)**: https://ripplefocus.github.io/en/bedtime-morning/
+- **After-dinner phone scrolling (Chinese)**: https://ripplefocus.github.io/after-dinner/
+- **After-dinner phone scrolling (English)**: https://ripplefocus.github.io/en/after-dinner/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest

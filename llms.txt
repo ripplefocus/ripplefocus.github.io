@@ -113,6 +113,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: I keep scrolling at bedtime and again first thing in the morning, and my kid stays up or scrolls after the alarm. What can we set?
   A: On Ripple for Android v0.1.13, add an overnight bedtime schedule and a morning schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set school-night sleep and morning schedules, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/bedtime-morning/
 
+- Q: Keep scrolling after dinner on the sofa, and the whole family (or the kid after homework / in their room) keeps scrolling too. What can I set?
+  A: On Ripple for Android v0.1.13, add an after-dinner schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. One-tap focus can clear an evening block. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set an after-homework to bedtime window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/after-dinner/
+
+
 
 
 
@@ -184,6 +188,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - Q: 睡前刷到睡不着，早上一睁眼又刷，孩子晚上不睡早上赖床刷，怎么设？
   答：用涟漪安卓 v0.1.13 建跨夜睡前时段和早间时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设上学日睡觉和早起时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/bedtime-morning/
+
+- Q: 晚饭后沙发上刷不停，全家各刷各的，孩子写完作业后刷或躲房间刷，怎么设？
+  答：用涟漪安卓 v0.1.13 建晚饭后时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。想整晚清净一点可以开一键专注。怕自己关掉就开严格模式，把解锁码交给别人。孩子设晚饭后到睡觉前时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/after-dinner/
+
 
 
 
@@ -336,3 +344,5 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - [Phone scrolling in the library or study room for adult exam prep and kids studying (English)](https://ripplefocus.github.io/en/library-study/): One-tap focus, library schedules, open limits, daily limits and strict mode on Android v0.1.13 for adults and kids; iPhone schedules.
 - [睡前刷手机睡不着、早上一睁眼就刷：成年人和孩子怎么设 (中文)](https://ripplefocus.github.io/bedtime-morning/): Adults set overnight bedtime and morning schedules on Android v0.1.13, with daily limits, open limits, Channels allowance and strict mode; parents set school-night sleep and morning windows with Anti-Uninstall. iPhone v0.1.5 schedules.
 - [Scrolling at bedtime and first thing in the morning for adults and kids (English)](https://ripplefocus.github.io/en/bedtime-morning/): Overnight bedtime and morning schedules, daily limits, open limits, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
+- [晚饭后全家刷手机停不下来：成年人和孩子怎么设 (中文)](https://ripplefocus.github.io/after-dinner/): Adults set after-dinner schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set after-homework windows with Anti-Uninstall. iPhone v0.1.5 schedules.
+- [After-dinner phone scrolling for adults and kids (English)](https://ripplefocus.github.io/en/after-dinner/): After-dinner schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
