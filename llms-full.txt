@@ -33,6 +33,8 @@
 - **Bedtime and morning phone scrolling (English)**: https://ripplefocus.github.io/en/bedtime-morning/
 - **After-dinner phone scrolling (Chinese)**: https://ripplefocus.github.io/after-dinner/
 - **After-dinner phone scrolling (English)**: https://ripplefocus.github.io/en/after-dinner/
+- **Waiting room and queue phone scrolling (Chinese)**: https://ripplefocus.github.io/waiting-queue/
+- **Waiting room and queue phone scrolling (English)**: https://ripplefocus.github.io/en/waiting-queue/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
