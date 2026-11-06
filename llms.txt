@@ -107,6 +107,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: After a long holiday I keep scrolling at work, and my kid is still gaming the night before school. How do we get back to routine?
   A: On the last day off, use Ripple for Android v0.1.13 to make a Monday to Friday schedule with short video and game apps in it, add daily limits (1 minute to 12 hours) and open limits, start generous and lower them each week, and use one-tap focus for catch-up work. For a child, set a sleep schedule two or three days before school, give games 0 minutes in the first week, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/back-to-routine/
 
+- Q: I keep scrolling in the library or study room, and my kid sneaks phone time while supposedly studying. What can we set?
+  A: On Ripple for Android v0.1.13, start one-tap focus before you sit down and lock only short video and games, or add a weekday schedule for fixed library days, then set open limits and daily limits (1 minute to 12 hours). For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, start focus with only study apps allowed before they leave, add a study schedule, give short video a small daily budget or 0 minutes before exams, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/library-study/
+
+
 
 - **Q: I limited the app and then opened the website in my browser, and my kid plays browser games. Can I block websites on the phone?**
   A: Ripple for Android has Blocked Websites since v0.1.12 (latest v0.1.13). Open it from the Daily limits page and add sites such as reddit.com or youtube.com, up to 100. Subdomains are blocked too. Typing in the address bar is not blocked; after you press Enter, Ripple covers the page and shows how many times you opened it today. New sites apply at once, and removing one needs a 15 minute wait or the unlock code, and only the code in strict mode. It was tested on Chrome in the emulator. Edge, Firefox, Samsung Internet and Opera follow public address bar ids, while built-in OPPO, Xiaomi, vivo and Huawei browsers and Quark, UC and QQ Browser are untested and may not be blocked, and pages inside apps like WeChat are usually not blocked. In that case limit the browser app itself. On a child's phone add the game and video sites with Anti-Uninstall and strict mode. iPhone v0.1.5 has no website blocking and blocks apps by schedule. See https://ripplefocus.github.io/en/block-websites/
@@ -170,6 +174,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
   答：两边都装涟漪。安卓 v0.1.13 把至少 8 位解锁码交给对方保管，给短视频和游戏设每日时长或 0 分钟，约会和睡前建时段或开一键专注。开了严格模式，放松规则只能输对方手里的码。家长两个人先商量好睡觉和写作业时段，再一起装到孩子手机上并开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/couples-phone/
 - Q: 放完长假上班还在刷手机，孩子开学前一晚还在打游戏，怎么收心？
   答：假期最后一天用涟漪安卓 v0.1.13 建好周一到周五的时段，把短视频和游戏放进去，再设每日时长（1 分钟到 12 小时）和打开次数，先多留一点再每周往下调，要赶活时开一键专注。孩子开学前两三天就设好睡觉时段，游戏开学第一周先设 0 分钟，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/back-to-routine/
+
+- Q: 在图书馆或自习室总刷手机，孩子说去自习其实在刷视频，怎么设？
+  答：用涟漪安卓 v0.1.13，坐下前开一键专注只锁短视频和游戏，固定去的日子再建专注时段，再给常刷的 App 设打开次数和每日时长（1 分钟到 12 小时）。怕自己关掉就开严格模式，把解锁码交给别人。孩子出门前开一键专注只留学习 App，再建自习时段，平时给短视频留一点额度，考试前设 0 分钟，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/library-study/
+
 
 
 - **问：App 限制了又用浏览器打开网页版，孩子在浏览器里玩网页游戏，手机能限制网址吗？**
@@ -316,3 +324,5 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - [Couples cutting phone use together: hold each other's unlock code (English)](https://ripplefocus.github.io/en/couples-phone/): Partners hold unlock codes, schedules and daily limits on Android v0.1.13; parents set a child's phone as a team; iPhone schedules.
 - [长假和周末过后收不回心：上班第一天和孩子开学前怎么管手机 (中文)](https://ripplefocus.github.io/back-to-routine/): Adults back at work after a holiday set Monday to Friday schedules, daily limits lowered week by week, open limits and one-tap focus on Android v0.1.13; parents switch a child to a school sleep schedule early with 0 minute games and Anti-Uninstall. iPhone v0.1.5 schedules.
 - [Getting back to routine after a long holiday or weekend (English)](https://ripplefocus.github.io/en/back-to-routine/): Workday schedules, gradually lowered daily limits, open limits and one-tap focus on Android v0.1.13; school week sleep schedules for kids; iPhone schedules.
+- [图书馆和自习室老刷手机：考研考公备考和大孩子自习怎么管 (中文)](https://ripplefocus.github.io/library-study/): Adults start one-tap focus or a library schedule on Android v0.1.13, with open limits, daily limits and strict mode; parents start study focus with only learning apps allowed, Anti-Uninstall and 0 minutes before exams. iPhone v0.1.5 schedules.
+- [Phone scrolling in the library or study room for adult exam prep and kids studying (English)](https://ripplefocus.github.io/en/library-study/): One-tap focus, library schedules, open limits, daily limits and strict mode on Android v0.1.13 for adults and kids; iPhone schedules.

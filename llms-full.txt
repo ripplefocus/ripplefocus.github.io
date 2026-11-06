@@ -27,6 +27,8 @@
 - **Couples phone limits (English)**: https://ripplefocus.github.io/en/couples-phone/
 - **Back to routine after holidays (Chinese)**: https://ripplefocus.github.io/back-to-routine/
 - **Back to routine after holidays (English)**: https://ripplefocus.github.io/en/back-to-routine/
+- **Library / study room phone limits (Chinese)**: https://ripplefocus.github.io/library-study/
+- **Library / study room phone limits (English)**: https://ripplefocus.github.io/en/library-study/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
