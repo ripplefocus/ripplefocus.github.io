@@ -119,6 +119,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: Keep scrolling short video in hospital waiting rooms, bank queues or office halls, and miss the number call, or the kid scrolls while waiting with you. What can I set?
   A: On Ripple for Android v0.1.13, add a daytime errands or clinic schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. One-tap focus can clear a wait at the clinic door. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set a daytime waiting window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/waiting-queue/
 
+- Q: Keep scrolling short video while waiting outside tutoring or extracurricular classes, or the kid scrolls in the waiting area before and after class. What can I set?
+  A: On Ripple for Android v0.1.13, add an after-school pickup or tutoring schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. One-tap focus can clear the door when class ends. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set an after-school tutoring window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/tutoring-pickup/
+
+
 
 
 
@@ -198,6 +202,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - Q: 医院候诊、银行和办事大厅排队刷不停，叫号听不见，带孩子看病时孩子也刷，怎么设？
   答：用涟漪安卓 v0.1.13 建白天办事或候诊时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。到科室门口可以开一键专注。怕自己关掉就开严格模式，把解锁码交给别人。孩子设白天候诊时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/waiting-queue/
+
+- Q: 培训班接送和机构等候区刷不停，孩子课前课后也刷，怎么设？
+  答：用涟漪安卓 v0.1.13 建放学后接送或培训时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。课快下了可以开一键专注。怕自己关掉就开严格模式，把解锁码交给别人。孩子设放学后培训时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/tutoring-pickup/
+
 
 
 
@@ -356,3 +364,5 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - [After-dinner phone scrolling for adults and kids (English)](https://ripplefocus.github.io/en/after-dinner/): After-dinner schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
 - [医院候诊、银行和办事大厅排队刷手机停不下来：成年人和孩子怎么设 (中文)](https://ripplefocus.github.io/waiting-queue/): Adults set daytime clinic and office-queue schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set daytime waiting windows with Anti-Uninstall. iPhone v0.1.5 schedules.
 - [Phone scrolling in hospital, bank and office queues for adults and kids (English)](https://ripplefocus.github.io/en/waiting-queue/): Daytime waiting schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
+- [培训班接送和等候区刷手机停不下来：成年人和孩子怎么设 (中文)](https://ripplefocus.github.io/tutoring-pickup/): Adults set after-school pickup schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set after-school tutoring windows with Anti-Uninstall. iPhone v0.1.5 schedules.
+- [Phone scrolling at tutoring pickup and waiting areas for adults and kids (English)](https://ripplefocus.github.io/en/tutoring-pickup/): After-school pickup schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.

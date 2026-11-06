@@ -159,3 +159,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 
 ### Q4: Which languages does Ripple support?
 **A**: Both the official website (`/` and `/en/`) and the Android app (`v0.1.6+`) support Simplified Chinese and English. The app follows the system language by default and also lets you switch between Simplified Chinese and English manually in `Settings -> General & Appearance -> Language / 语言`.
+
+## tutoring-pickup
+- ZH: https://ripplefocus.github.io/tutoring-pickup/
+- EN: https://ripplefocus.github.io/en/tutoring-pickup/
+- After-school tutoring pickup and waiting-area phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
