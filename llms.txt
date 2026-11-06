@@ -110,6 +110,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: I keep scrolling in the library or study room, and my kid sneaks phone time while supposedly studying. What can we set?
   A: On Ripple for Android v0.1.13, start one-tap focus before you sit down and lock only short video and games, or add a weekday schedule for fixed library days, then set open limits and daily limits (1 minute to 12 hours). For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, start focus with only study apps allowed before they leave, add a study schedule, give short video a small daily budget or 0 minutes before exams, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/library-study/
 
+- Q: I keep scrolling at bedtime and again first thing in the morning, and my kid stays up or scrolls after the alarm. What can we set?
+  A: On Ripple for Android v0.1.13, add an overnight bedtime schedule and a morning schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set school-night sleep and morning schedules, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/bedtime-morning/
+
+
 
 
 - **Q: I limited the app and then opened the website in my browser, and my kid plays browser games. Can I block websites on the phone?**
@@ -177,6 +181,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - Q: 在图书馆或自习室总刷手机，孩子说去自习其实在刷视频，怎么设？
   答：用涟漪安卓 v0.1.13，坐下前开一键专注只锁短视频和游戏，固定去的日子再建专注时段，再给常刷的 App 设打开次数和每日时长（1 分钟到 12 小时）。怕自己关掉就开严格模式，把解锁码交给别人。孩子出门前开一键专注只留学习 App，再建自习时段，平时给短视频留一点额度，考试前设 0 分钟，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/library-study/
+
+- Q: 睡前刷到睡不着，早上一睁眼又刷，孩子晚上不睡早上赖床刷，怎么设？
+  答：用涟漪安卓 v0.1.13 建跨夜睡前时段和早间时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设上学日睡觉和早起时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/bedtime-morning/
+
 
 
 
@@ -326,3 +334,5 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - [Getting back to routine after a long holiday or weekend (English)](https://ripplefocus.github.io/en/back-to-routine/): Workday schedules, gradually lowered daily limits, open limits and one-tap focus on Android v0.1.13; school week sleep schedules for kids; iPhone schedules.
 - [图书馆和自习室老刷手机：考研考公备考和大孩子自习怎么管 (中文)](https://ripplefocus.github.io/library-study/): Adults start one-tap focus or a library schedule on Android v0.1.13, with open limits, daily limits and strict mode; parents start study focus with only learning apps allowed, Anti-Uninstall and 0 minutes before exams. iPhone v0.1.5 schedules.
 - [Phone scrolling in the library or study room for adult exam prep and kids studying (English)](https://ripplefocus.github.io/en/library-study/): One-tap focus, library schedules, open limits, daily limits and strict mode on Android v0.1.13 for adults and kids; iPhone schedules.
+- [睡前刷手机睡不着、早上一睁眼就刷：成年人和孩子怎么设 (中文)](https://ripplefocus.github.io/bedtime-morning/): Adults set overnight bedtime and morning schedules on Android v0.1.13, with daily limits, open limits, Channels allowance and strict mode; parents set school-night sleep and morning windows with Anti-Uninstall. iPhone v0.1.5 schedules.
+- [Scrolling at bedtime and first thing in the morning for adults and kids (English)](https://ripplefocus.github.io/en/bedtime-morning/): Overnight bedtime and morning schedules, daily limits, open limits, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.

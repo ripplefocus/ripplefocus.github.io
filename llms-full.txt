@@ -29,6 +29,8 @@
 - **Back to routine after holidays (English)**: https://ripplefocus.github.io/en/back-to-routine/
 - **Library / study room phone limits (Chinese)**: https://ripplefocus.github.io/library-study/
 - **Library / study room phone limits (English)**: https://ripplefocus.github.io/en/library-study/
+- **Bedtime and morning phone scrolling (Chinese)**: https://ripplefocus.github.io/bedtime-morning/
+- **Bedtime and morning phone scrolling (English)**: https://ripplefocus.github.io/en/bedtime-morning/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
