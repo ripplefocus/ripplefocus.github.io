@@ -137,6 +137,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: Keep scrolling short video while waiting for drinks at a cafe or tea shop, or while seated waiting for someone, or the kid scrolls on a milk-tea outing. What can I set?
   A: On Ripple for Android v0.1.13, add an outing or weekend schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. One-tap focus can clear a wait when your number is close or you need to pick up the order. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set an outing or weekend window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/cafe-tea-shop/
 
+- Q: Keep scrolling short video while waiting at the airport or train station, or the kid scrolls on a trip. What can I set?
+  A: On Ripple for Android v0.1.13, add a travel or waiting schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. One-tap focus can clear a wait when a gate change is close or you need to hear boarding. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set a travel or waiting window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/airport-train/
+
+
 
 
 
@@ -237,6 +241,10 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - Q: 咖啡馆奶茶店排队等出餐或落座等人刷不停，带孩子出门喝奶茶时孩子也刷，怎么设？
   答：用涟漪安卓 v0.1.13 建外出或周末时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。快叫到号或要取餐可以开一键专注。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设外出或周末时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/cafe-tea-shop/
+
+- Q: 机场候机或高铁站候车刷不停，带孩子出行时孩子也刷，怎么设？
+  答：用涟漪安卓 v0.1.13 建出行或候车时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。快到登机口变更或要听检票广播可以开一键专注。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设出行或候车时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/airport-train/
+
 
 
 
@@ -412,3 +420,6 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - [Phone scrolling while waiting at the hair or nail salon for adults and kids (English)](https://ripplefocus.github.io/en/hair-salon/): Outing or weekend schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
 - [咖啡馆奶茶店排队落座刷手机停不下来：等出餐、坐着等人时刷怎么设 (中文)](https://ripplefocus.github.io/cafe-tea-shop/): Adults set outing or weekend schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set outing or weekend windows with Anti-Uninstall. iPhone v0.1.5 schedules.
 - [Phone scrolling while waiting or seated at a cafe or tea shop for adults and kids (English)](https://ripplefocus.github.io/en/cafe-tea-shop/): Outing or weekend schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
+- [机场候机高铁站候车刷手机停不下来：刷短视频短剧、带孩子出行也刷怎么设 (中文)](https://ripplefocus.github.io/airport-train/): Adults set travel or waiting schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set travel or waiting windows with Anti-Uninstall. iPhone v0.1.5 schedules.
+- [Phone scrolling while waiting at the airport or train station for adults and kids (English)](https://ripplefocus.github.io/en/airport-train/): Travel or waiting schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
+

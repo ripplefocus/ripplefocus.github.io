@@ -47,6 +47,8 @@
 - **Hair / nail salon waiting phone scrolling (English)**: https://ripplefocus.github.io/en/hair-salon/
 - **Cafe / tea shop waiting phone scrolling (Chinese)**: https://ripplefocus.github.io/cafe-tea-shop/
 - **Cafe / tea shop waiting phone scrolling (English)**: https://ripplefocus.github.io/en/cafe-tea-shop/
+- **Airport / train station waiting phone scrolling (Chinese)**: https://ripplefocus.github.io/airport-train/
+- **Airport / train station waiting phone scrolling (English)**: https://ripplefocus.github.io/en/airport-train/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
@@ -201,3 +203,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/cafe-tea-shop/
 - EN: https://ripplefocus.github.io/en/cafe-tea-shop/
 - Cafe and tea shop waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
+## airport-train
+- ZH: https://ripplefocus.github.io/airport-train/
+- EN: https://ripplefocus.github.io/en/airport-train/
+- Airport and train station waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
