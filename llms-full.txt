@@ -35,6 +35,10 @@
 - **After-dinner phone scrolling (English)**: https://ripplefocus.github.io/en/after-dinner/
 - **Waiting room and queue phone scrolling (Chinese)**: https://ripplefocus.github.io/waiting-queue/
 - **Waiting room and queue phone scrolling (English)**: https://ripplefocus.github.io/en/waiting-queue/
+- **Tutoring pickup phone scrolling (Chinese)**: https://ripplefocus.github.io/tutoring-pickup/
+- **Tutoring pickup phone scrolling (English)**: https://ripplefocus.github.io/en/tutoring-pickup/
+- **Traffic jam / red light / parking-lot wait phone scrolling (Chinese)**: https://ripplefocus.github.io/traffic-jam/
+- **Traffic jam / red light / parking-lot wait phone scrolling (English)**: https://ripplefocus.github.io/en/traffic-jam/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
@@ -164,3 +168,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/tutoring-pickup/
 - EN: https://ripplefocus.github.io/en/tutoring-pickup/
 - After-school tutoring pickup and waiting-area phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
+## traffic-jam
+- ZH: https://ripplefocus.github.io/traffic-jam/
+- EN: https://ripplefocus.github.io/en/traffic-jam/
+- Traffic jam, red light and parking-lot wait phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
