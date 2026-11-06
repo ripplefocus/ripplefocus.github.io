@@ -128,6 +128,9 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 - Q: Keep scrolling short video while cooking until the pan burns, or the kid scrolls while waiting for dinner. What can I set?
   A: On Ripple for Android v0.1.13, add a cooking schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. One-tap focus can clear the stove when two dishes are going. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set a wait-for-dinner window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/cooking/
 
+- Q: Keep scrolling short video on a park bench or by the playground while the kid plays, or the kid scrolls as soon as they get the phone outdoors. What can I set?
+  A: On Ripple for Android v0.1.13, add an outing or weekend outdoor schedule with short video on the list, then set daily limits (1 minute to 12 hours) and open limits, or 0 minutes for the worst apps. One-tap focus can clear a stretch when you need to push the swing. WeChat Channels can start with a short allowance and a written reason to extend up to 3 times a day. For a firmer rule, turn on strict mode with an unlock code held by someone else. For a child, set an outing or weekend outdoor window, keep the unlock code with parents and turn on Anti-Uninstall. iPhone v0.1.5 blocks apps by schedule and has no daily limits. See https://ripplefocus.github.io/en/playground-park/
+
 
 
 
@@ -218,6 +221,9 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - Q: 做饭时刷不停，菜糊了才抬头，孩子等开饭也刷，怎么设？
   答：用涟漪安卓 v0.1.13 建做饭时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。两道菜同时在做时可以开一键专注。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设等饭或晚饭前时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/cooking/
+
+- Q: 公园长椅或游乐场边刷不停，带娃出门自己刷、孩子一拿到手机也刷，怎么设？
+  答：用涟漪安卓 v0.1.13 建出门或周末外出时段，把短视频放进名单，再设每日时长（1 分钟到 12 小时）和打开次数，特别停不下来的可以设 0 分钟。要专心陪孩子可以开一键专注。微信视频号可以先给几分钟，用完写理由再续，每天最多 3 次。怕自己关掉就开严格模式，把解锁码交给别人。孩子设出门或周末外出时段，解锁码由家长保管并打开防卸载。iPhone 版 v0.1.5 可以按时段屏蔽，没有每日时长。详细见 https://ripplefocus.github.io/playground-park/
 
 
 
@@ -386,3 +392,5 @@ Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https:/
 
 - [做饭时刷手机停不下来：边做菜边刷、等开饭也刷怎么设 (中文)](https://ripplefocus.github.io/cooking/): Adults set cooking schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set wait-for-dinner windows with Anti-Uninstall. iPhone v0.1.5 schedules.
 - [Phone scrolling while cooking and waiting for dinner for adults and kids (English)](https://ripplefocus.github.io/en/cooking/): Cooking schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
+- [公园游乐场带娃时刷手机停不下来：长椅边刷、孩子一拿到也刷怎么设 (中文)](https://ripplefocus.github.io/playground-park/): Adults set outing schedules on Android v0.1.13, with daily limits, open limits, one-tap focus, Channels allowance and strict mode; parents set outing or weekend outdoor windows with Anti-Uninstall. iPhone v0.1.5 schedules.
+- [Phone scrolling at the park and playground with kids for adults and kids (English)](https://ripplefocus.github.io/en/playground-park/): Outing schedules, daily limits, open limits, one-tap focus, Channels allowance and strict mode on Android v0.1.13; iPhone schedules.
