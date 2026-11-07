@@ -227,3 +227,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/parcel-pickup/
 - EN: https://ripplefocus.github.io/en/parcel-pickup/
 - Parcel station and locker pickup phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
+## ev-charging
+- ZH: https://ripplefocus.github.io/ev-charging/
+- EN: https://ripplefocus.github.io/en/ev-charging/
+- EV charging station and highway service area waiting phone limits for adults and kids (parked charging only). Android v0.1.13 daily limits, open limits, one-tap focus after plugging in, Channels allowance, strict mode, trip schedules with Anti-Uninstall for kids; iPhone v0.1.5 schedules.
