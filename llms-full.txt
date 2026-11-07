@@ -51,6 +51,8 @@
 - **Airport / train station waiting phone scrolling (English)**: https://ripplefocus.github.io/en/airport-train/
 - **Restaurant waiting phone scrolling (Chinese)**: https://ripplefocus.github.io/restaurant-wait/
 - **Restaurant waiting phone scrolling (English)**: https://ripplefocus.github.io/en/restaurant-wait/
+- **Supermarket grocery phone scrolling (Chinese)**: https://ripplefocus.github.io/supermarket/
+- **Supermarket grocery phone scrolling (English)**: https://ripplefocus.github.io/en/supermarket/
 
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
@@ -213,3 +215,7 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/restaurant-wait/
 - EN: https://ripplefocus.github.io/en/restaurant-wait/
 - Airport and train station waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+## supermarket
+- ZH: https://ripplefocus.github.io/supermarket/
+- EN: https://ripplefocus.github.io/en/supermarket/
+- Supermarket grocery aisle and checkout phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
