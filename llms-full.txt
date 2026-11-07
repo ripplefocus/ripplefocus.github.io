@@ -211,11 +211,19 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 ## airport-train
 - ZH: https://ripplefocus.github.io/airport-train/
 - EN: https://ripplefocus.github.io/en/airport-train/
+- Airport and train station waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
 ## restaurant-wait
 - ZH: https://ripplefocus.github.io/restaurant-wait/
 - EN: https://ripplefocus.github.io/en/restaurant-wait/
-- Airport and train station waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Restaurant waiting phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
 ## supermarket
 - ZH: https://ripplefocus.github.io/supermarket/
 - EN: https://ripplefocus.github.io/en/supermarket/
 - Supermarket grocery aisle and checkout phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+
+## parcel-pickup
+- ZH: https://ripplefocus.github.io/parcel-pickup/
+- EN: https://ripplefocus.github.io/en/parcel-pickup/
+- Parcel station and locker pickup phone limits for adults and kids. Android v0.1.13 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
