@@ -237,3 +237,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/sick-day/
 - EN: https://ripplefocus.github.io/en/sick-day/
 - Sick day and sick leave at home phone limits for adults and kids. Android v0.1.13 daily limits, open limits, nap and night schedules, Channels allowance, strict mode, Anti-Uninstall for kids; calls, messages, delivery, pharmacy and online class stay open; no medical advice; iPhone v0.1.5 schedules.
+
+## baby-care
+- ZH: https://ripplefocus.github.io/baby-care/
+- EN: https://ripplefocus.github.io/en/baby-care/
+- Parents scrolling during night feeds and toddler screen time on cartoons. Android v0.1.13 daily limits, open limits, night schedule, one-tap focus while putting the baby down, Channels allowance, strict mode; on a child's old phone or tablet daily limits on cartoons, 0 minutes on short video, meal, nap and bedtime schedules with Anti-Uninstall; feeding tracker, alarm, music and video calls stay open; no parenting or medical advice; iPhone v0.1.5 schedules.
