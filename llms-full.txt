@@ -232,3 +232,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/ev-charging/
 - EN: https://ripplefocus.github.io/en/ev-charging/
 - EV charging station and highway service area waiting phone limits for adults and kids (parked charging only). Android v0.1.13 daily limits, open limits, one-tap focus after plugging in, Channels allowance, strict mode, trip schedules with Anti-Uninstall for kids; iPhone v0.1.5 schedules.
+
+## sick-day
+- ZH: https://ripplefocus.github.io/sick-day/
+- EN: https://ripplefocus.github.io/en/sick-day/
+- Sick day and sick leave at home phone limits for adults and kids. Android v0.1.13 daily limits, open limits, nap and night schedules, Channels allowance, strict mode, Anti-Uninstall for kids; calls, messages, delivery, pharmacy and online class stay open; no medical advice; iPhone v0.1.5 schedules.
