@@ -242,3 +242,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/baby-care/
 - EN: https://ripplefocus.github.io/en/baby-care/
 - Parents scrolling during night feeds and toddler screen time on cartoons. Android v0.1.13 daily limits, open limits, night schedule, one-tap focus while putting the baby down, Channels allowance, strict mode; on a child's old phone or tablet daily limits on cartoons, 0 minutes on short video, meal, nap and bedtime schedules with Anti-Uninstall; feeding tracker, alarm, music and video calls stay open; no parenting or medical advice; iPhone v0.1.5 schedules.
+
+## walking
+- ZH: https://ripplefocus.github.io/walking/
+- EN: https://ripplefocus.github.io/en/walking/
+- Scrolling while walking for adults and kids. Android v0.1.13 daily limits, open limits, schedules for the walk to and from work, one-tap focus before a walk, Channels allowance, strict mode; on a child's phone daily limits or 0 minutes on games and short video, school route schedules with Anti-Uninstall; maps, calls, WeChat messages and reaching parents stay open; no safety statistics; iPhone v0.1.5 schedules.
