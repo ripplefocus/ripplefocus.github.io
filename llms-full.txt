@@ -263,3 +263,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/chores/
 - EN: https://ripplefocus.github.io/en/chores/
 - Scrolling while washing dishes, mopping, doing laundry and tidying up, for adults and kids. Android v0.1.14 one-tap focus before chores, daily limits, open limits, a schedule for fixed weekend cleaning, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, a chores schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot make anyone do chores; iPhone v0.1.5 schedules.
+
+## stress-scrolling
+- ZH: https://ripplefocus.github.io/stress-scrolling/
+- EN: https://ripplefocus.github.io/en/stress-scrolling/
+- Scrolling short video, short drama, trending news and games when upset or stressed, for adults and kids. Android v0.1.14 daily limits, open limits with a short wait, a night schedule, Channels allowance, strict mode; for a child, talk first, then daily limits or 0 minutes on games and short video on a tablet or old phone, a night schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot fix a bad mood, and lasting low mood needs real help; iPhone v0.1.5 schedules.
