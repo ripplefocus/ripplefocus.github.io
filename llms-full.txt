@@ -248,3 +248,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/walking/
 - EN: https://ripplefocus.github.io/en/walking/
 - Scrolling while walking for adults and kids. Android v0.1.14 daily limits, open limits, schedules for the walk to and from work, one-tap focus before a walk, Channels allowance, strict mode; on a child's phone daily limits or 0 minutes on games and short video, school route schedules with Anti-Uninstall; maps, calls, WeChat messages and reaching parents stay open; no safety statistics; iPhone v0.1.5 schedules.
+
+## tv-second-screen
+- ZH: https://ripplefocus.github.io/tv-second-screen/
+- EN: https://ripplefocus.github.io/en/tv-second-screen/
+- Scrolling the phone while the TV is on, for adults and kids. Android v0.1.14 daily limits, open limits, evening TV schedules, one-tap focus when a show or match starts, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, TV time schedules, split screen and picture-in-picture blocking, Anti-Uninstall; Ripple cannot control the TV, TV boxes or casting; no statistics; iPhone v0.1.5 schedules.
