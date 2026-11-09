@@ -279,3 +279,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/rainy-cold-days/
 - EN: https://ripplefocus.github.io/en/rainy-cold-days/
 - Scrolling short video, short drama and games all day at home when rain or cold keeps people indoors, for adults and for kids who cannot play outside. Android v0.1.15 daily limits, open limits with a short wait, Take a Break, one-tap focus, strict mode (unlock code succeeds at most 3 times a day); for a child, plan indoor activities and agree on tablet time, then daily limits or 0 minutes on games and short video, Take a Break, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple does not read the weather; iPhone v0.1.5 schedules.
+
+## home-arrival
+- ZH: https://ripplefocus.github.io/home-arrival/
+- EN: https://ripplefocus.github.io/en/home-arrival/
+- Scrolling on the sofa from the moment people get home from work or school until dinner, for adults and for kids who ask for the phone first and push homework late. Android v0.1.15 schedules for the stretch before dinner (for example 17:30 to 19:00), daily limits and open limits with a short wait on short video, one-tap focus, strict mode (unlock code succeeds at most 3 times a day, also turns on Anti-Uninstall); for a child, agree on the order, then an after school schedule until homework is done, 0 minutes on the hardest game, parent-held unlock code, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); iPhone v0.1.5 schedules after school.
