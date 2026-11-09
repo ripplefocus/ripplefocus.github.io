@@ -1158,4 +1158,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-gathering/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-gathering/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/chores/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/chores/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/chores/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chores/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chores/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/chores/"/>
+  </url>
 </urlset>
