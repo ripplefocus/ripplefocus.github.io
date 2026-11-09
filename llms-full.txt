@@ -268,3 +268,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/stress-scrolling/
 - EN: https://ripplefocus.github.io/en/stress-scrolling/
 - Scrolling short video, short drama, trending news and games when upset or stressed, for adults and kids. Android v0.1.14 daily limits, open limits with a short wait, a night schedule, Channels allowance, strict mode; for a child, talk first, then daily limits or 0 minutes on games and short video on a tablet or old phone, a night schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot fix a bad mood, and lasting low mood needs real help; iPhone v0.1.5 schedules.
+
+## hotel-stay
+- ZH: https://ripplefocus.github.io/hotel-stay/
+- EN: https://ripplefocus.github.io/en/hotel-stay/
+- Scrolling short video, short drama and games in bed at a hotel or guesthouse, for adults on work trips and kids on family trips. Android v0.1.15 night schedule, daily limits, open limits with a short wait, one-tap focus, strict mode; for a child, agree rules before the trip, then daily limits or 0 minutes on games and short video on a tablet or old phone, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); settings stay on the device with no account, so hotel Wi-Fi changes nothing; iPhone v0.1.5 schedules.
