@@ -274,3 +274,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/hotel-stay/
 - EN: https://ripplefocus.github.io/en/hotel-stay/
 - Scrolling short video, short drama and games in bed at a hotel or guesthouse, for adults on work trips and kids on family trips. Android v0.1.15 night schedule, daily limits, open limits with a short wait, one-tap focus, strict mode; for a child, agree rules before the trip, then daily limits or 0 minutes on games and short video on a tablet or old phone, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); settings stay on the device with no account, so hotel Wi-Fi changes nothing; iPhone v0.1.5 schedules.
+
+## rainy-cold-days
+- ZH: https://ripplefocus.github.io/rainy-cold-days/
+- EN: https://ripplefocus.github.io/en/rainy-cold-days/
+- Scrolling short video, short drama and games all day at home when rain or cold keeps people indoors, for adults and for kids who cannot play outside. Android v0.1.15 daily limits, open limits with a short wait, Take a Break, one-tap focus, strict mode (unlock code succeeds at most 3 times a day); for a child, plan indoor activities and agree on tablet time, then daily limits or 0 minutes on games and short video, Take a Break, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple does not read the weather; iPhone v0.1.5 schedules.
