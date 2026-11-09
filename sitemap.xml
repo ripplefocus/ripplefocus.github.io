@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ripplefocus.github.io/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/"/>
@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/"/>
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/block-short-videos/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/"/>
@@ -30,7 +30,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/block-short-videos/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/"/>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/keep-alive-guide/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/keep-alive-guide/"/>
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/keep-alive-guide/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/keep-alive-guide/"/>
@@ -57,7 +57,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/parental-control/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parental-control/"/>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/parental-control/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parental-control/"/>
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/vs-appblock-stayfocused/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-appblock-stayfocused/"/>
@@ -84,7 +84,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/vs-appblock-stayfocused/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-appblock-stayfocused/"/>
@@ -105,7 +105,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/kids-phone-by-age/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/kids-phone-by-age/"/>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/kids-phone-by-age/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/kids-phone-by-age/"/>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/stop-clock-change/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stop-clock-change/"/>
@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/stop-clock-change/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stop-clock-change/"/>
@@ -141,7 +141,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/exam-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-focus/"/>
@@ -150,7 +150,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/exam-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-focus/"/>
@@ -168,7 +168,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/ios/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/ios/"/>
@@ -177,7 +177,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/wechat-channels-parental-control/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/wechat-channels-parental-control/"/>
@@ -186,7 +186,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/wechat-channels-parental-control/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/wechat-channels-parental-control/"/>
@@ -195,14 +195,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/school-hours/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/school-hours/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/school-hours/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/school-hours/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/school-hours/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/school-hours/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/school-hours/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/school-hours/"/>
@@ -210,238 +210,238 @@
 
   <url>
     <loc>https://ripplefocus.github.io/travel/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/travel/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/live-streaming/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/live-streaming/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/live-streaming/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/live-streaming/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/live-streaming/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/live-streaming/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/live-streaming/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/live-streaming/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/mobile-games/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/mobile-games/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/mobile-games/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/mobile-games/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/mobile-games/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/mobile-games/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/mobile-games/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/mobile-games/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/short-dramas/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-dramas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-dramas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-dramas/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/short-dramas/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-dramas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-dramas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-dramas/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/exam-season/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-season/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/exam-season/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/exam-season/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/exam-season/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/exam-season/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/exam-season/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/exam-season/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/adhd-focus/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/adhd-focus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/adhd-focus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/adhd-focus/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/adhd-focus/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/adhd-focus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/adhd-focus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/adhd-focus/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/mealtime/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/mealtime/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/mealtime/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/mealtime/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/mealtime/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/mealtime/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/mealtime/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/mealtime/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/elderly-parents/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/elderly-parents/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/elderly-parents/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/elderly-parents/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/morning/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/morning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/morning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/morning/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/morning/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/morning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/morning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/morning/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/weekend/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/weekend/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/weekend/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/weekend/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/weekend/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/weekend/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/weekend/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/weekend/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/strict-mode/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/strict-mode/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/strict-mode/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/strict-mode/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/strict-mode/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/strict-mode/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/strict-mode/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/strict-mode/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/bedtime/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bedtime/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bedtime/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bedtime/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/bedtime/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bedtime/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bedtime/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bedtime/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/social-media-detox/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/social-media-detox/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/social-media-detox/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/social-media-detox/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/social-media-detox/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/social-media-detox/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/social-media-detox/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/social-media-detox/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/work-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/work-focus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/work-focus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/work-focus/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/work-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/work-focus/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/work-focus/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/work-focus/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/commute/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/commute/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/commute/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/commute/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/commute/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/commute/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/commute/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/commute/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/short-drama-games/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-drama-games/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-drama-games/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-drama-games/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/short-drama-games/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/short-drama-games/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/short-drama-games/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/short-drama-games/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/cet-winter-break/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cet-winter-break/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cet-winter-break/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/cet-winter-break/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/cet-winter-break/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cet-winter-break/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cet-winter-break/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/cet-winter-break/"/>
@@ -462,7 +462,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/quick-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/quick-focus/"/>
@@ -471,7 +471,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/quick-focus/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/quick-focus/"/>
@@ -494,7 +494,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/faq/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/faq/"/>
@@ -502,7 +502,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/faq/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/faq/"/>
@@ -540,49 +540,49 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/split-screen/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/split-screen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/split-screen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/split-screen/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/split-screen/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/split-screen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/split-screen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/split-screen/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/family-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/family-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/bathroom/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bathroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bathroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bathroom/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/bathroom/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bathroom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bathroom/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bathroom/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/anti-addiction-apps/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/anti-addiction-apps/"/>
@@ -591,7 +591,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/anti-addiction-apps/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/anti-addiction-apps/"/>
@@ -600,343 +600,343 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/wechat-time-allowance/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/wechat-time-allowance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/wechat-time-allowance/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/wechat-time-allowance/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/wechat-time-allowance/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/wechat-time-allowance/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/wechat-time-allowance/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/wechat-time-allowance/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/workout/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/workout/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/workout/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/workout/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/workout/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/workout/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/workout/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/workout/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/shopping/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/shopping/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/shopping/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/shopping/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/shopping/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/shopping/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/shopping/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/shopping/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/trending-news/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/trending-news/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/trending-news/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/trending-news/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/trending-news/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/trending-news/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/trending-news/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/trending-news/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/web-novels/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/web-novels/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/web-novels/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/web-novels/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/web-novels/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/web-novels/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/web-novels/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/web-novels/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/homework-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/homework-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/homework-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/homework-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/homework-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/homework-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/homework-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/homework-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/binge-watching/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/binge-watching/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/binge-watching/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/binge-watching/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/binge-watching/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/binge-watching/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/binge-watching/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/binge-watching/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/chat-apps/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chat-apps/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chat-apps/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/chat-apps/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/chat-apps/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chat-apps/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chat-apps/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/chat-apps/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/xiaomi-redmi/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/xiaomi-redmi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/xiaomi-redmi/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/xiaomi-redmi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/xiaomi-redmi/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/practice-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/practice-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/practice-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/practice-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/practice-time/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/practice-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/practice-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/practice-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/eye-break/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/eye-break/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/eye-break/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/eye-break/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/eye-break/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/eye-break/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/eye-break/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/eye-break/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/block-websites/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-websites/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/block-websites/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/block-websites/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/block-websites/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-websites/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/block-websites/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/block-websites/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/digital-minimalism/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/digital-minimalism/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/huawei-honor/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/huawei-honor/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/huawei-honor/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/huawei-honor/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/huawei-honor/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/huawei-honor/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/huawei-honor/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/huawei-honor/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/oppo-coloros/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/oppo-coloros/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/oppo-coloros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/oppo-coloros/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/oppo-coloros/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/oppo-coloros/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/oppo-coloros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/oppo-coloros/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/vivo-originos/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vivo-originos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vivo-originos/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vivo-originos/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/vivo-originos/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vivo-originos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vivo-originos/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vivo-originos/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/couples-phone/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/couples-phone/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/couples-phone/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/couples-phone/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/back-to-routine/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/back-to-routine/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/back-to-routine/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/back-to-routine/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/library-study/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/library-study/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/library-study/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/library-study/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/library-study/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/library-study/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/library-study/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/library-study/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/bedtime-morning/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bedtime-morning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bedtime-morning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bedtime-morning/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/bedtime-morning/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/bedtime-morning/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/bedtime-morning/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/bedtime-morning/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/after-dinner/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/after-dinner/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/after-dinner/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/after-dinner/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/after-dinner/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/after-dinner/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/after-dinner/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/after-dinner/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/waiting-queue/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/waiting-queue/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/waiting-queue/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/waiting-queue/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/waiting-queue/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/waiting-queue/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/waiting-queue/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/waiting-queue/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/tutoring-pickup/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/tutoring-pickup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/tutoring-pickup/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/tutoring-pickup/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/tutoring-pickup/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/tutoring-pickup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/tutoring-pickup/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/tutoring-pickup/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/traffic-jam/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/traffic-jam/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/traffic-jam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/traffic-jam/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/traffic-jam/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/traffic-jam/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/traffic-jam/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/traffic-jam/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/cooking/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cooking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cooking/"/>
@@ -944,7 +944,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/cooking/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cooking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cooking/"/>
@@ -952,7 +952,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/playground-park/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/playground-park/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/playground-park/"/>
@@ -960,7 +960,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/playground-park/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/playground-park/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/playground-park/"/>
@@ -968,7 +968,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/hair-salon/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/hair-salon/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/hair-salon/"/>
@@ -976,7 +976,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/hair-salon/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/hair-salon/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/hair-salon/"/>
@@ -984,7 +984,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/cafe-tea-shop/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cafe-tea-shop/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cafe-tea-shop/"/>
@@ -992,7 +992,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/cafe-tea-shop/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cafe-tea-shop/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cafe-tea-shop/"/>
@@ -1000,7 +1000,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/airport-train/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/airport-train/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/airport-train/"/>
@@ -1008,7 +1008,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/airport-train/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/airport-train/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/airport-train/"/>
@@ -1016,7 +1016,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/restaurant-wait/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/restaurant-wait/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/restaurant-wait/"/>
@@ -1024,7 +1024,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/restaurant-wait/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/restaurant-wait/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/restaurant-wait/"/>
@@ -1032,7 +1032,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/supermarket/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/supermarket/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/supermarket/"/>
@@ -1040,7 +1040,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/supermarket/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/supermarket/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/supermarket/"/>
@@ -1048,7 +1048,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/parcel-pickup/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parcel-pickup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/parcel-pickup/"/>
@@ -1056,7 +1056,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/parcel-pickup/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parcel-pickup/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/parcel-pickup/"/>
@@ -1064,7 +1064,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/ev-charging/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/ev-charging/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/ev-charging/"/>
@@ -1072,7 +1072,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/ev-charging/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/ev-charging/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/ev-charging/"/>
@@ -1080,7 +1080,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/sick-day/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/sick-day/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/sick-day/"/>
@@ -1088,7 +1088,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/sick-day/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/sick-day/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/sick-day/"/>
@@ -1096,7 +1096,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/baby-care/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/baby-care/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/baby-care/"/>
@@ -1104,7 +1104,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/baby-care/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/baby-care/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/baby-care/"/>
@@ -1112,7 +1112,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/walking/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/walking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/walking/"/>
@@ -1120,7 +1120,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/walking/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/walking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/walking/"/>
@@ -1128,7 +1128,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/tv-second-screen/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/tv-second-screen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/tv-second-screen/"/>
@@ -1136,7 +1136,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/tv-second-screen/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/tv-second-screen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/tv-second-screen/"/>
@@ -1144,7 +1144,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/family-gathering/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-gathering/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-gathering/"/>
@@ -1152,7 +1152,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/family-gathering/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-gathering/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-gathering/"/>
@@ -1160,7 +1160,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/chores/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chores/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chores/"/>
@@ -1168,7 +1168,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/chores/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/chores/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/chores/"/>
