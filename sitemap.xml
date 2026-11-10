@@ -480,14 +480,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/open-limit/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/open-limit/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/open-limit/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/open-limit/"/>
@@ -1285,5 +1285,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/sunday-night/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/sunday-night/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/sunday-night/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/reward-scrolling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/reward-scrolling/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/reward-scrolling/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/reward-scrolling/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/reward-scrolling/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/reward-scrolling/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/reward-scrolling/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/reward-scrolling/"/>
   </url>
 </urlset>

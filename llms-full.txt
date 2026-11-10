@@ -300,3 +300,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/sunday-night/
 - EN: https://ripplefocus.github.io/en/sunday-night/
 - Sunday night scrolling for adults who dread Monday and kids who leave homework to Sunday night. Schedules can be set for Sunday only on Android and iPhone (for example 22:30 to 23:59), with WeChat on the allowlist if needed; kids get a Sunday afternoon homework schedule and an earlier Sunday evening schedule. Android adds strict mode (unlock code, max 3 successful uses a day) and Complete Lock (v0.1.16). Android daily limits apply every day. iPhone v0.1.5 has schedules, block deleting apps, clock change protection and unlock code only.
+
+## reward-scrolling
+- ZH: https://ripplefocus.github.io/reward-scrolling/
+- EN: https://ripplefocus.github.io/en/reward-scrolling/
+- Reward scrolling: adults who plan ten minutes of short videos after work and lose two hours, kids who get half an hour of games after homework and will not stop. Android: daily limits in minutes (1 minute to 12 hours, or 0), pause before opening with open count, open limits, an evening schedule, a school day homework schedule, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day). iPhone v0.1.5: schedules only, so play time sits between a homework schedule and a bedtime schedule, plus block deleting apps, clock change protection and unlock code.
