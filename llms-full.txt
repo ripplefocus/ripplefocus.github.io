@@ -316,3 +316,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/study-apps/
 - EN: https://ripplefocus.github.io/en/study-apps/
 - Studying on the phone: adults who use the phone for vocabulary, language practice and courses but drift into short videos, parents whose kids use study apps and online classes on the phone and switch to games. Ripple only limits listed apps, so study apps stay off the list. Android v0.1.17: study and homework schedules, daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, website limits since v0.1.12 for some browsers, keep alive settings on Chinese brand phones. Complete Lock leaves only system essential apps, so it is not for studying on the phone. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## procrastination
+- ZH: https://ripplefocus.github.io/procrastination/
+- EN: https://ripplefocus.github.io/en/procrastination/
+- Scrolling before starting a task: adults who pick up the phone for five minutes before work, study or chores and lose an hour, kids who want to play before homework. Android v0.1.17: Quick Focus to lock listed apps right away, schedules, open limits with a pause before opening, daily limits in minutes (1 minute to 12 hours, or 0), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
