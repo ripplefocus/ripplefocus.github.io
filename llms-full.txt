@@ -336,3 +336,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/checking-likes/
 - EN: https://ripplefocus.github.io/en/checking-likes/
 - Checking likes and comments after posting: adults who reopen Xiaohongshu, TikTok, Weibo or WeChat Moments every few minutes after posting, kids who keep refreshing video views during homework. Android v0.1.17: daily open limits, pause before opening that shows today's open count and usage, daily limits in minutes (1 minute to 12 hours, or 0), Moments and Channels allowance with written reason (v0.1.9+), Quick Focus, homework and bedtime schedules, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## work-from-home
+- ZH: https://ripplefocus.github.io/work-from-home/
+- EN: https://ripplefocus.github.io/en/work-from-home/
+- Working from home and kids home alone: adults who scroll short videos between work messages at home, kids home alone during holidays while parents work. Android v0.1.17: weekday work-hour schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Moments and Channels allowance with written reason (v0.1.9+), Complete Lock for deadline hours (not for online class hours), Quick Focus, homework and sleep schedules with online class apps on the allowed list, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
