@@ -341,3 +341,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/work-from-home/
 - EN: https://ripplefocus.github.io/en/work-from-home/
 - Working from home and kids home alone: adults who scroll short videos between work messages at home, kids home alone during holidays while parents work. Android v0.1.17: weekday work-hour schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Moments and Channels allowance with written reason (v0.1.9+), Complete Lock for deadline hours (not for online class hours), Quick Focus, homework and sleep schedules with online class apps on the allowed list, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## dorm-life
+- ZH: https://ripplefocus.github.io/dorm-life/
+- EN: https://ripplefocus.github.io/en/dorm-life/
+- College dorms and boarding school: adults who scroll in bed after dorm lights out, boarding school kids who spend the whole weekend at home on the phone. Android v0.1.17: lights-out schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus, Complete Lock for exam study hours, weekend-only homework and sleep schedules, class and lights-out schedules if the phone goes to school, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
