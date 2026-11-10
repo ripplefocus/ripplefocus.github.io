@@ -305,3 +305,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/reward-scrolling/
 - EN: https://ripplefocus.github.io/en/reward-scrolling/
 - Reward scrolling: adults who plan ten minutes of short videos after work and lose two hours, kids who get half an hour of games after homework and will not stop. Android: daily limits in minutes (1 minute to 12 hours, or 0), pause before opening with open count, open limits, an evening schedule, a school day homework schedule, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day). iPhone v0.1.5: schedules only, so play time sits between a homework schedule and a bedtime schedule, plus block deleting apps, clock change protection and unlock code.
+
+## new-phone
+- ZH: https://ripplefocus.github.io/new-phone/
+- EN: https://ripplefocus.github.io/en/new-phone/
+- New phone: adults who switch phones and want to leave old scrolling habits behind, parents setting up a child's first phone or tablet before handing it over. Android v0.1.16: daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, evening, school, homework and bedtime schedules (optional Complete Lock), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. Settings stay on the device with no account or cloud sync, so a new phone needs to be set up again. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
