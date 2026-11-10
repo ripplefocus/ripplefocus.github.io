@@ -295,3 +295,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/complete-lock/
 - EN: https://ripplefocus.github.io/en/complete-lock/
 - Complete Lock (Android v0.1.16) for people who keep leaving themselves a way out of focus schedules and for kids who beg for the unlock code. While a schedule with Complete Lock runs only system essentials open, the allowlist is ignored, unlock codes and early end cannot lift it, and ending, skipping, pausing, deleting or shortening is blocked; it ends on its own. WeChat and browsers are blocked too, so use it for exam review, deadline, homework or sleep hours, not online class hours. Not absolute on every phone (brief flash on some phones, Xiaomi not retested). iPhone v0.1.5 has no Complete Lock.
+
+## sunday-night
+- ZH: https://ripplefocus.github.io/sunday-night/
+- EN: https://ripplefocus.github.io/en/sunday-night/
+- Sunday night scrolling for adults who dread Monday and kids who leave homework to Sunday night. Schedules can be set for Sunday only on Android and iPhone (for example 22:30 to 23:59), with WeChat on the allowlist if needed; kids get a Sunday afternoon homework schedule and an earlier Sunday evening schedule. Android adds strict mode (unlock code, max 3 successful uses a day) and Complete Lock (v0.1.16). Android daily limits apply every day. iPhone v0.1.5 has schedules, block deleting apps, clock change protection and unlock code only.
