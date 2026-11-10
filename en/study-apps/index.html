@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>You open your phone to study and end up scrolling: adults learning on the phone and kids using study apps (Android and iPhone) - Ripple</title>
+<meta name="description" content="You open the phone to review vocabulary or take a lesson and end up in short videos? Your child uses the phone for homework and study apps and keeps switching to videos and games? Ripple Android v0.1.17 limits only the apps that distract you, so study apps keep working. iPhone v0.1.5 blocks apps by schedule. Free, no ads, no account.">
+<meta name="keywords" content="studying on phone distraction,language learning app distraction,study apps,kids homework on phone,stop scrolling while studying,phone study time,daily app limit,open limit,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/study-apps/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/study-apps/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/study-apps/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/study-apps/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="You open your phone to study and end up scrolling: adults learning on the phone and kids using study apps (Android and iPhone) - Ripple">
+<meta property="og:description" content="You open the phone to review vocabulary or take a lesson and end up in short videos? Your child uses the phone for homework and study apps and keeps switching to videos and games? Ripple Android v0.1.17 limits only the apps that distract you, so study apps keep working. iPhone v0.1.5 blocks apps by schedule. Free, no ads, no account.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/study-apps/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "Use Ripple to limit only distracting apps while studying on the phone: on Android use study schedules, daily limits, 0 minutes, open limits and strict mode with study apps left off the list; on iPhone use schedules, block deleting apps and an unlock code", "step": [{"@type": "HowToStep", "name": "Install Ripple", "text": "On Android download the latest APK and turn on the accessibility service as the app guides you. On iPhone install v0.1.5, which needs iOS 16 or later."}, {"@type": "HowToStep", "name": "Decide which apps to limit", "text": "Study apps stay off the list. Short videos, short dramas, games and social feeds go on it."}, {"@type": "HowToStep", "name": "Add a study schedule and daily limits", "text": "Add a study or homework schedule so listed apps do not open then. On Android also give them a daily limit or 0 minutes. On iPhone use schedules."}, {"@type": "HowToStep", "name": "Set an unlock code", "text": "Adults give the code to a family member or friend, and parents keep the code for a child's phone. On Android turn on strict mode for a firmer setup, and on iPhone turn on block deleting apps."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "I open my phone to review vocabulary and end up in short videos. What can I do?", "acceptedAnswer": {"@type": "Answer", "text": "Put only the distracting apps such as short videos and short dramas on Ripple's list and leave study apps off it. Add a study schedule so listed apps do not open then. On Android you can also give short video apps a daily limit and an open limit."}}, {"@type": "Question", "name": "My child uses the phone for homework and study apps. How do I stop them switching to games?", "acceptedAnswer": {"@type": "Answer", "text": "Leave study apps off the list, put games and short videos on it, and add a homework schedule. On Android turn on strict mode and Anti-Uninstall and keep the unlock code yourself, so the child cannot change or delete it."}}, {"@type": "Question", "name": "Will study apps be blocked?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ripple only blocks the apps on your list. If a schedule uses Complete Lock, only system essential apps work and study apps will not open either, so do not use Complete Lock when you need the phone to study."}}, {"@type": "Question", "name": "Does this work on iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone v0.1.5 blocks selected apps by schedule, so unselected study apps keep working. It can also block deleting apps, protect against clock changes and use an unlock code. It has no daily limits or open limits."}}, {"@type": "Question", "name": "Can video websites in a browser be blocked?", "acceptedAnswer": {"@type": "Answer", "text": "Android has had website limits since v0.1.12. Add the video site and Ripple covers it with a block screen when it is opened in a browser. This was tested on Chrome in an emulator. Some Chinese brand built in browsers, UC and QQ Browser have not been checked on real phones and may not be blocked. See the website limits page. The iPhone app does not have this."}}, {"@type": "Question", "name": "Is it free? Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "It is free with no ads and no account. See the FAQ for more."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../faq/">FAQ</a>
+    <a href="./" style="color:var(--primary);font-weight:600">Study on phone</a>
+    <a href="../online-class/">Online class</a>
+    <a href="../homework-time/">Homework</a>
+    <span class="lang-switch"><a href="../../study-apps/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">You open your phone to study and end up somewhere else</h1>
+  <p class="lead" style="max-width:680px">Vocabulary, language practice, lessons and research all happen on the phone now. The trouble is that the study app and the short video app live on the same phone. You open it to review twenty words, see a notification, tap it, and half an hour is gone. Kids are the same. They look up homework or do exercises in a study app, and a minute later they are in videos or games. Taking the phone away does not work, because the studying needs the phone. Ripple can limit only the few apps that distract you. Study apps stay off the list and keep working. The first part is for adults studying on their own and the second part is for parents whose kids study on a phone. Android is on v0.1.17 and iPhone on v0.1.5, with different features, so they are described separately.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">Download iPhone v0.1.5 (.ipa)</a>
+    <div class="meta">Android v0.1.17 + iPhone v0.1.5 (iOS 16+) · Free, no ads · No account · Settings stay on your phone</div>
+  </div>
+</section>
+<section>
+  <h2>Adults: study on the phone without drifting off</h2>
+  <div class="grid">
+    <div class="card"><h3>Leave study apps alone, limit the distracting ones</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple only limits the apps you put on the list. Vocabulary, language, course and reading apps stay off the list and open any time. Short videos, short dramas and social feeds go on the list and do not open during study time.</p></div>
+    <div class="card"><h3>Keep a fixed study time</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">For example 7:00 to 7:40 in the morning and 20:00 to 21:30 in the evening. Add those as schedules and listed apps will not open then. Schedules can be set by weekday, with a different one for weekends.</p></div>
+    <div class="card"><h3>Keep the rest of the day in check</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Give short video apps a daily limit in minutes, for example 30 minutes a day, and they stay closed once it is used up. The one you can never put down can be set to 0 minutes so it does not open all day.</p></div>
+    <div class="card"><h3>The quick check habit</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If you keep switching out to take a look, cap how many times that app can open per day and turn on the pause before opening. During the pause the screen shows how many times you opened it today and how long you used it, and often you just close it. See the <a href="../open-limit/">open limit page</a>.</p></div>
+    <div class="card"><h3>Exam prep that needs to hold</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If you tend to undo your own rules, turn on <a href="../strict-mode/">strict mode</a> on Android. Rules can then only be loosened with the unlock code. In strict mode the code is at least 8 characters and works at most 3 times a day. Give it to a family member or friend. Strict mode turns on Anti-Uninstall too, and if you forget the code you can request removal, which takes effect after 72 hours.</p></div>
+    <div class="card"><h3>If you use an iPhone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">iPhone v0.1.5 blocks apps by schedule, so short videos do not open during study time while unselected study apps keep working. It can also block deleting apps, protect against clock changes and use an unlock code. It has no daily limits, open limits or strict mode.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Parents: the child needs the phone to study but keeps switching to play</h2>
+  <div class="grid">
+    <div class="card"><h3>Keep study apps, list games and videos</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Study apps, dictionaries and the teacher's video lessons stay off the list. Games, short videos and short dramas go on it and do not open during the homework schedule. See the <a href="../homework-time/">homework page</a> for that schedule.</p></div>
+    <div class="card"><h3>During online classes</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">The class app works as usual, while games and short videos are closed for the same hours, so switching out does not help. See the <a href="../online-class/">online class page</a> for details.</p></div>
+    <div class="card"><h3>How long to play after studying</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Agree with your child how long they can play each day and give games and short videos a daily limit, such as 30 minutes on school days and 1 hour on weekends. A game you do not want them to play can be set to 0 minutes.</p></div>
+    <div class="card"><h3>The child cannot change it</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android with strict mode on, rules can only be loosened with the unlock code, which the parent keeps. With Anti-Uninstall on the child cannot delete Ripple. Ripple on Android counts time since boot, so changing the system clock gives no extra time. Listed apps are also blocked in split screen, floating windows and picture in picture. On OPPO phones a floating window can only be covered and muted and has to be closed by hand.</p></div>
+    <div class="card"><h3>Keep alive settings on Chinese brand phones</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Xiaomi, OPPO, vivo, Huawei and Honor phones may stop Ripple in the background. After installing, follow the <a href="../keep-alive-guide/">keep alive guide</a> to allow autostart and turn off battery optimization.</p></div>
+    <div class="card"><h3>If the child uses an iPhone or iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">iPhone v0.1.5 blocks apps by schedule. Select only games and short videos for the homework schedule and leave study apps unselected. It can also block deleting apps, protect against clock changes and use an unlock code. It has no daily limits. See the <a href="../parental-control/">parental control page</a> for an overview.</p></div>
+  </div>
+</section>
+<section>
+  <h2>How to set it up</h2>
+  <div class="grid">
+    <div class="card"><h3>Install Ripple</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android download the latest APK and turn on the accessibility service as the app guides you. On iPhone install v0.1.5, which needs iOS 16 or later.</p></div>
+    <div class="card"><h3>Decide which apps to limit</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Study apps stay off the list. Short videos, short dramas, games and social feeds go on it.</p></div>
+    <div class="card"><h3>Add a study schedule and daily limits</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Add a study or homework schedule so listed apps do not open then. On Android also give them a daily limit or 0 minutes. On iPhone use schedules.</p></div>
+    <div class="card"><h3>Set an unlock code</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Adults give the code to a family member or friend, and parents keep the code for a child's phone. On Android turn on strict mode for a firmer setup, and on iPhone turn on block deleting apps.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>I open my phone to review vocabulary and end up in short videos. What can I do?</summary><p>Put only the distracting apps such as short videos and short dramas on Ripple's list and leave study apps off it. Add a study schedule so listed apps do not open then. On Android you can also give short video apps a daily limit and an open limit.</p></details><details><summary>My child uses the phone for homework and study apps. How do I stop them switching to games?</summary><p>Leave study apps off the list, put games and short videos on it, and add a homework schedule. On Android turn on strict mode and Anti-Uninstall and keep the unlock code yourself, so the child cannot change or delete it.</p></details><details><summary>Will study apps be blocked?</summary><p>No. Ripple only blocks the apps on your list. If a schedule uses Complete Lock, only system essential apps work and study apps will not open either, so do not use Complete Lock when you need the phone to study.</p></details><details><summary>Does this work on iPhone?</summary><p>iPhone v0.1.5 blocks selected apps by schedule, so unselected study apps keep working. It can also block deleting apps, protect against clock changes and use an unlock code. It has no daily limits or open limits.</p></details><details><summary>Can video websites in a browser be blocked?</summary><p>Android has had website limits since v0.1.12. Add the video site and Ripple covers it with a block screen when it is opened in a browser. This was tested on Chrome in an emulator. Some Chinese brand built in browsers, UC and QQ Browser have not been checked on real phones and may not be blocked. See the <a href="../block-websites/">website limits page</a>. The iPhone app does not have this.</p></details><details><summary>Is it free? Do I need an account?</summary><p>It is free with no ads and no account. See the <a href="../faq/">FAQ</a> for more.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">Back to English home</a> · <a href="../online-class/">Online class</a> · <a href="../homework-time/">Homework</a> · <a href="../library-study/">Library study</a> · <a href="../open-limit/">Open limit</a> · <a href="../strict-mode/">Strict mode</a> · <a href="../parental-control/">Parental control</a> · <a href="../faq/">FAQ</a> · <a href="../../study-apps/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>

@@ -510,7 +510,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/online-class/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/online-class/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/online-class/"/>
@@ -518,7 +518,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/online-class/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/online-class/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/online-class/"/>
@@ -1317,5 +1317,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/new-phone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/new-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/new-phone/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/study-apps/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/study-apps/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/study-apps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/study-apps/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/study-apps/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/study-apps/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/study-apps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/study-apps/"/>
   </url>
 </urlset>
