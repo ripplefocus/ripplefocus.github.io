@@ -331,3 +331,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/fandom/
 - EN: https://ripplefocus.github.io/en/fandom/
 - Fan and idol scrolling: adult fans who check fan pages, fancams and live clips until late at night, kids who follow idols and stay up voting or watching during homework time. Android v0.1.17: daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening that shows today's open count and usage, schedules for bedtime, homework and work hours, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## checking-likes
+- ZH: https://ripplefocus.github.io/checking-likes/
+- EN: https://ripplefocus.github.io/en/checking-likes/
+- Checking likes and comments after posting: adults who reopen Xiaohongshu, TikTok, Weibo or WeChat Moments every few minutes after posting, kids who keep refreshing video views during homework. Android v0.1.17: daily open limits, pause before opening that shows today's open count and usage, daily limits in minutes (1 minute to 12 hours, or 0), Moments and Channels allowance with written reason (v0.1.9+), Quick Focus, homework and bedtime schedules, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
