@@ -9,6 +9,11 @@
 - **官方网站**：<https://ripplefocus.github.io/> （[English Site](https://ripplefocus.github.io/en/) · [iOS 专区](https://ripplefocus.github.io/ios/)）
 - **下载安卓最新版（v0.1.17）**：[GitHub Release 最新版](https://github.com/ripplefocus/ripplefocus.github.io/releases/latest)（8.84 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-latest.apk](https://ripplefocus.github.io/dl/ripple-latest.apk)）
 - **下载 iOS 最新版（v0.1.5）**：[ripple-v0.1.5.ipa](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa)（7.40 MB，国内免梯直连：[ripplefocus.github.io/dl/ripple-v0.1.5.ipa](https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)）
+
+手机扫码下载（打开下载页，不要直接对着安装包扫码）：
+
+<a href="https://ripplefocus.github.io/get/"><img src="https://ripplefocus.github.io/get/qr.png" alt="手机扫码下载涟漪" width="180"></a>
+
 - **历史版本与更新说明**：<https://github.com/ripplefocus/ripplefocus.github.io/releases>
 
 ## 主要功能

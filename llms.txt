@@ -7,6 +7,7 @@
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
 - [Direct APK Download (v0.1.17)](https://github.com/ripplefocus/ripplefocus.github.io/releases/latest): Latest signed release (v0.1.17, 8.84 MB, SHA-256: `3e379ff666959beeabe555790dd3250351e13f9aeb376f9b501865c2295038d3`).
+- [Scan-to-download page / 扫码下载页](https://ripplefocus.github.io/get/): Landing page for the phone QR code. Detects WeChat and QQ in-app browsers and asks the user to open the system browser. Android gets the latest APK; the iPhone build is the unsigned v0.1.5 IPA. English: https://ripplefocus.github.io/en/get/.
 - [Direct iOS IPA Download (v0.1.5)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa): Latest iOS 16.0+ Screen Time release (`ripple-v0.1.5.ipa`, 7.40 MB, SHA-256: `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: `https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa`).
 - [GitHub Releases](https://github.com/ripplefocus/ripplefocus.github.io/releases): Release notes, version history, and SHA-256 checksums.
 - [Short-Video Detox Guide (中文戒短视频指南)](https://ripplefocus.github.io/block-short-videos/): How to cap Douyin, Kuaishou, Xiaohongshu, and WeChat Channels (视频号) without blocking WeChat messaging.

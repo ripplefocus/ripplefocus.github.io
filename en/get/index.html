@@ -1,0 +1,221 @@
+<!doctype html>
+<!--
+  Ripple scan-to-download landing page. The QR code always points to /get/; this is the English version.
+  Version labels are read from /version.json first. FALLBACK below is used if that file cannot be loaded.
+  If you change the fallback version numbers, update them here on the next release.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Download Ripple · Scan to get the Android and iPhone builds</title>
+<meta name="description" content="Download Ripple. On Android you can install the latest APK directly. If you opened this page in WeChat or QQ, use Open in Browser first. The iPhone build is the unsigned v0.1.5 IPA.">
+<meta name="theme-color" content="#F9FAFD">
+<link rel="canonical" href="https://ripplefocus.github.io/en/get/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/get/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/get/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/get/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ripple">
+<meta property="og:title" content="Download Ripple">
+<meta property="og:description" content="Scan to download Ripple. On Android you can install it directly. If this page opened in WeChat or QQ, switch to your system browser first.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/get/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Download Ripple">
+<meta name="twitter:description" content="Scan to download Ripple. On Android you can install it directly. If this page opened in WeChat or QQ, switch to your system browser first.">
+<meta name="twitter:image" content="https://ripplefocus.github.io/og-preview.png">
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:28px 0 8px}
+.hero img.logo{width:88px;height:88px;border-radius:22px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:32px;line-height:1.25;margin:18px 0 8px}
+.lead{margin:0;color:var(--ink2);font-size:15.5px}
+.tip{display:none;margin:20px 0 0;background:#FFF6E8;border:1px solid rgba(224,134,0,.28);border-radius:16px;padding:16px 18px;text-align:left;color:var(--ink);font-size:15.5px}
+.tip strong{display:block;font-size:17px;margin-bottom:6px;color:#9A5B00}
+body.in-app .tip{display:block}
+.panel{background:var(--card);border-radius:var(--radius);padding:22px 20px;margin:16px 0 0;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05);text-align:center}
+.panel h2{margin:0 0 10px;font-size:18px}
+.panel p{margin:8px 0 0;color:var(--ink2);font-size:14.5px;text-align:left}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25);margin-top:6px}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.btn.wide{width:100%;max-width:360px}
+.meta{font-size:13px;color:var(--ink3);margin-top:10px;line-height:1.5}
+.sha{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 12px;border-radius:100px;display:inline-block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+.dl-actions{margin-top:4px}
+body.in-app .dl-actions,body.in-app .sha{display:none}
+body.in-app .panel .inapp-note{display:block}
+.inapp-note{display:none;color:var(--ink2);font-size:14.5px;margin:8px 0 0;text-align:left}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+body.android:not(.ios) .panel-ios{opacity:.96}
+body.ios:not(.android) .panel-android{opacity:.96}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../ios/">iOS</a>
+    <a href="../faq/">FAQ</a>
+    <span class="lang-switch" aria-label="Language switcher">
+      <a href="../../get/">中文</a>
+      <a href="./" class="active">EN</a>
+    </span>
+  </nav>
+</header>
+
+<section class="hero">
+  <img class="logo" src="../../logo.png" alt="Ripple icon">
+  <h1>Download Ripple</h1>
+  <p class="lead">On Android you can download the APK directly. If you opened this page in WeChat or QQ, switch to your system browser first.</p>
+  <div class="tip" id="inappTip" role="status">
+    <strong>Open this page in your browser</strong>
+    Tap the ⋯ menu in the top right, then choose Open in Browser. WeChat and QQ cannot download the install file directly.
+  </div>
+</section>
+
+<section class="panel panel-android" id="panelAndroid">
+  <h2>Android</h2>
+  <div class="dl-actions">
+    <a class="btn wide" id="apkBtn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 19.5h14"/></svg>
+      <span id="apkLabel">Download Android APK v0.1.17 (8.84 MB)</span>
+    </a>
+  </div>
+  <p class="inapp-note">The download button will show up after you open this page in your system browser.</p>
+  <p>Requires Android 8.0 or later. After install, open Ripple and follow the prompts to turn on Accessibility. If you already have an older version, use Settings › About › Check for updates to upgrade in place. Your rules are kept.</p>
+  <div class="meta" id="apkMeta">English and Chinese UI · Free, no ads</div>
+  <div class="sha" id="apkSha">APK SHA-256: <code>3e379ff666959beeabe555790dd3250351e13f9aeb376f9b501865c2295038d3</code></div>
+</section>
+
+<section class="panel panel-ios" id="panelIos">
+  <h2>iPhone</h2>
+  <div class="dl-actions">
+    <a class="btn ghost wide" id="ipaBtn" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">
+      <span id="ipaLabel">Download iOS IPA v0.1.5 (7.4 MB)</span>
+    </a>
+  </div>
+  <p class="inapp-note">The download button will show up after you open this page in your system browser.</p>
+  <p>The iPhone build is still v0.1.5 and needs iOS 16 or later. It is not signed by Apple and is not on the App Store. You cannot install it like a normal app. It has to be signed first. See the <a href="../ios/">iOS guide</a> for details.</p>
+  <div class="meta" id="ipaMeta">Free, no ads</div>
+  <div class="sha" id="ipaSha">IPA SHA-256: <code>3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f</code></div>
+</section>
+</div>
+<footer>
+  Ripple · Slow down, one ripple at a time<br>
+  <a href="../">English home</a> ·
+  <a href="../../">中文首页</a> ·
+  <a href="../ios/">iOS guide</a> ·
+  <a href="../faq/">FAQ</a> ·
+  <a href="mailto:dzytmk@qq.com">Contact</a>
+</footer>
+<script>
+(function(){
+  var FALLBACK = {
+    version: "0.1.17",
+    apkSize: "8.84 MB",
+    sha256: "3e379ff666959beeabe555790dd3250351e13f9aeb376f9b501865c2295038d3",
+    iosVersion: "0.1.5",
+    ipaSize: "7.4 MB",
+    ipaSha256: "3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f",
+    ipaUrl: "https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa"
+  };
+  function fmtSize(bytes, fallback){
+    if(!bytes || !isFinite(bytes)) return fallback;
+    var mb = bytes / (1024 * 1024);
+    var one = Math.round(mb * 10) / 10;
+    if(Math.abs(mb - one) < 0.02){
+      return (one % 1 === 0 ? one.toFixed(0) : one.toFixed(1)) + " MB";
+    }
+    return mb.toFixed(2) + " MB";
+  }
+  function apply(info){
+    var apkLabel = document.getElementById("apkLabel");
+    var ipaLabel = document.getElementById("ipaLabel");
+    var apkSha = document.getElementById("apkSha");
+    var ipaSha = document.getElementById("ipaSha");
+    var ipaBtn = document.getElementById("ipaBtn");
+    if(apkLabel) apkLabel.textContent = "Download Android APK v" + info.version + " (" + info.apkSize + ")";
+    if(ipaLabel) ipaLabel.textContent = "Download iOS IPA v" + info.iosVersion + " (" + info.ipaSize + ")";
+    if(apkSha && info.sha256) apkSha.innerHTML = "APK SHA-256: <code>" + info.sha256 + "</code>";
+    if(ipaSha && info.ipaSha256) ipaSha.innerHTML = "IPA SHA-256: <code>" + info.ipaSha256 + "</code>";
+    if(ipaBtn && info.ipaUrl) ipaBtn.href = info.ipaUrl;
+  }
+  apply(FALLBACK);
+  try{
+    fetch("../../version.json", {cache: "no-store"}).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){
+      if(!j) return;
+      apply({
+        version: j.version || FALLBACK.version,
+        apkSize: fmtSize(j.apkSizeBytes, FALLBACK.apkSize),
+        sha256: j.sha256 || FALLBACK.sha256,
+        iosVersion: j.iosVersion || FALLBACK.iosVersion,
+        ipaSize: fmtSize(j.ipaSizeBytes, FALLBACK.ipaSize),
+        ipaSha256: j.ipaSha256 || FALLBACK.ipaSha256,
+        ipaUrl: j.iosDownloadUrl || FALLBACK.ipaUrl
+      });
+    }).catch(function(){});
+  }catch(e){}
+})();
+(function(){
+  var ua = navigator.userAgent || "";
+  var isWeChat = /MicroMessenger/i.test(ua);
+  var isQQ = /QQ\//i.test(ua) || (/\sQQ/i.test(ua) && /MQQBrowser/i.test(ua));
+  var isIOS = /iPhone|iPad|iPod/i.test(ua);
+  var isAndroid = /Android/i.test(ua);
+  if(isWeChat || isQQ) document.body.classList.add("in-app");
+  if(isWeChat) document.body.classList.add("wechat");
+  if(isQQ) document.body.classList.add("qq");
+  if(isIOS) document.body.classList.add("ios");
+  if(isAndroid) document.body.classList.add("android");
+})();
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>

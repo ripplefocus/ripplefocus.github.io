@@ -121,6 +121,8 @@ details ul{padding-left:20px}
 footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
 footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
 footer a:hover{color:var(--primary)}
+
+.dl-qr{display:none}
 @media (min-width:720px){
   h1{font-size:50px}
   .hero{padding:48px 0 34px}
@@ -130,6 +132,12 @@ footer a:hover{color:var(--primary)}
   .shot-card{flex:initial}
   .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
   .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+
+  .dl-qr{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;margin-top:4px}
+  .dl-qr a{display:block;line-height:0}
+  .dl-qr img{width:148px;height:148px;background:#fff;border-radius:12px;padding:8px;box-shadow:0 0 0 1px var(--sep)}
+  .dl-qr span{font-size:13px;color:var(--ink2)}
+
 }
 
 @media (max-width:640px){.hero{padding-top:14px}.hero .ripple{transform:scale(.68);margin:-21px auto -21px}.hero h1{margin-top:4px}}
@@ -173,6 +181,10 @@ footer a:hover{color:var(--primary)}
     <a class="btn ghost" href="obtainium://add/https://github.com/ripplefocus/ripplefocus.github.io" title="Track GitHub Releases updates automatically in Obtainium">Add to Obtainium</a>
     <div class="meta">Android v0.1.17 · 8.84 MB · Updated 2026-11-10 · iPhone v0.1.5 · English &amp; Chinese UI · Android 8.0+ &amp; iOS 16.0+ · 100% Free &amp; No Ads</div>
     <div class="sha-box-wrap"><span class="sha-box">APK SHA-256: <code>3e379ff666959beeabe555790dd3250351e13f9aeb376f9b501865c2295038d3</code> · IPA SHA-256: <code>3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f</code></span></div>
+    <div class="dl-qr">
+      <a href="get/"><img src="../get/qr.png" width="148" height="148" alt="Scan on your phone to download Ripple"></a>
+      <span>Scan on your phone to download</span>
+    </div>
   </div>
   <p class="lead">A free, local-only Android and iOS (Screen Time API) app blocker built for moments when your willpower drops. Tightening rules takes effect immediately; relaxing limits or uninstalling requires waiting through a mandatory cooldown first. Works for adults quitting short-form video and parents managing a child’s phone.</p>
 </section>
