@@ -786,14 +786,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/digital-minimalism/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/digital-minimalism/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
@@ -856,14 +856,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/back-to-routine/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/back-to-routine/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/back-to-routine/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/back-to-routine/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/back-to-routine/"/>
@@ -1447,5 +1447,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/dorm-life/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/dorm-life/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/dorm-life/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/new-year-goals/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/new-year-goals/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/new-year-goals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/new-year-goals/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/new-year-goals/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/new-year-goals/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/new-year-goals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/new-year-goals/"/>
   </url>
 </urlset>

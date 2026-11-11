@@ -347,3 +347,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/dorm-life/
 - EN: https://ripplefocus.github.io/en/dorm-life/
 - College dorms and boarding school: adults who scroll in bed after dorm lights out, boarding school kids who spend the whole weekend at home on the phone. Android v0.1.18: lights-out schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus, Complete Lock for exam study hours, weekend-only homework and sleep schedules, class and lights-out schedules if the phone goes to school, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## new-year-goals
+- ZH: https://ripplefocus.github.io/new-year-goals/
+- EN: https://ripplefocus.github.io/en/new-year-goals/
+- New Year goals and family phone agreements: adults who promise to scroll less and give up, parents who agree on phone rules with their kids for the new year. Android v0.1.18: daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, sleep and work schedules, school day or weekend only schedules, Complete Lock for revision hours (from v0.1.18 a loosening request sent before the lock cannot be confirmed during it), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
