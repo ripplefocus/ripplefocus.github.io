@@ -354,14 +354,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/weekend/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/weekend/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/weekend/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/weekend/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/weekend/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/weekend/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/weekend/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/weekend/"/>
@@ -572,14 +572,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/family-time/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/family-time/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
@@ -786,14 +786,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/digital-minimalism/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/digital-minimalism/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/digital-minimalism/"/>
@@ -1274,7 +1274,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/complete-lock/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/complete-lock/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/complete-lock/"/>
@@ -1282,7 +1282,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/complete-lock/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/complete-lock/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/complete-lock/"/>
@@ -1575,5 +1575,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/screen-time-report/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/screen-time-report/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/screen-time-report/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/phone-free-day/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/phone-free-day/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/phone-free-day/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/phone-free-day/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/phone-free-day/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/phone-free-day/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/phone-free-day/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/phone-free-day/"/>
   </url>
 </urlset>
