@@ -5,7 +5,8 @@
 ## 1. Overview (产品基本信息)
 - **Name**: 涟漪 (Chinese) / Ripple (English)
 - **Package Name**: `com.slowisle.app`
-- **Current Version**: `v0.1.17` (`versionCode: 38`, updated 2026-11-10)
+- **Current Version**: `v0.1.18` (`versionCode: 39`, updated 2026-11-11)
+- **New in Android v0.1.18** (2026-11-11): fixes a Complete Lock gap. A loosen request (pause, turn off or delete a schedule, turn off Complete Lock) submitted before the lock started, then confirmed after its wait while the lock was active, used to lift the whole lock; it is now refused and kept until the period ends. Complete Lock checks use Ripple's own trusted time. The once-a-day anonymous count now goes to both GoatCounter and PostHog with a random install ID generated on the phone (not a serial, IMEI or ad ID; changes on reinstall); tap the version 7 times in Settings to mark a test device. Known: not yet retested on a Xiaomi phone; background freeze and accessibility shutdowns still need real-device checks; on some phones a blocked app may still show briefly. Android only, iPhone stays v0.1.5.
 - **New in Android v0.1.17** (2026-11-10): mostly fixes. The schedule editor icon row and weekday row no longer overflow on small screens or when system display size is increased. While Complete Lock is active, an unlock code still cannot skip, pause, or turn off that schedule, and those rejected attempts do not use unlock quota. App icons that fail to decode show a fallback. Known: not yet retested on a Xiaomi phone; background freeze and autostart limits on Xiaomi, OPPO, and similar devices still need real-device checks; on some phones a blocked app may still show briefly. Android only, iPhone stays v0.1.5.
 - **New in Android v0.1.16** (2026-11-10): optional Complete Lock for schedules. While it runs only system essentials can open, the personal allowlist is ignored, and unlock codes and early end buttons cannot lift it; it ends when the schedule ends. Schedules without it keep the old early end options. Unlock codes still succeed at most 3 times per day. Known: on some phones a blocked app may still show briefly; Xiaomi issues not yet retested on a real device. Android only, iPhone stays v0.1.5. Guide: https://ripplefocus.github.io/en/complete-lock/
 - **New in Android v0.1.15** (2026-11-10): reworked app limits page layout and clearer unlock dialogs; fixed repeated update prompts; fixed two recent task cards on some phones such as OPPO; fixed usage undercount after delayed ticks without counting sleep or lock gaps; unlock codes can succeed at most 3 times per day (was 5, not adjustable, shared by all entry points, wrong code or cancel does not count). Known: on some phones a blocked app may still show briefly; Xiaomi issues not yet retested on a real device. Android only, iPhone stays v0.1.5.
@@ -61,11 +62,11 @@
 - **Direct Same-Origin CDN APK (No Proxy Required)**: https://ripplefocus.github.io/dl/ripple-latest.apk
 - **Direct APK Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/latest
 - **Direct iOS IPA Download**: https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa (7,764,400 bytes / 7.40 MB, SHA-256 `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa)
-- **APK File Size & SHA-256**: 9,265,369 bytes (8.84 MB), SHA-256 `3e379ff666959beeabe555790dd3250351e13f9aeb376f9b501865c2295038d3`
+- **APK File Size & SHA-256**: 9,270,405 bytes (8.84 MB), SHA-256 `b7226a403a65f8255139fd41cd9a7668af8c58740f93b1163e910ad32f0157df`
 - **Signing Certificate SHA-256**: `cdd6dc8607ac787b0ba29cbce1f77a41d03e2519aa56659376d9070f241006a1` (kept consistent across versions so updates install directly over existing installations without turning off anti-uninstall)
 
 ## 1b. Features by Platform (每个功能在哪个平台有)
-| Feature | Android v0.1.17 | iPhone v0.1.5 |
+| Feature | Android v0.1.18 | iPhone v0.1.5 |
 |---|---|---|
 | Block apps on a schedule (sleep, class, work hours) | Yes | Yes |
 | Loosening rules needs a cooldown (15 min to 2 h) or an unlock code | Yes | Yes |
@@ -84,7 +85,7 @@
 FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en/faq/
 
 ### 1c. 选防沉迷 App 时看的三点（中文）
-想放松规则有没有门槛；改手机时间有没有用；能不能卸载。系统自带的数字健康和屏幕使用时间到点可以直接忽略；App 自带的青少年模式只管自己；AppBlock、Stay Focused、Opal 这类工具的严格模式和防卸载多数要付费。涟漪全部免费：安卓 v0.1.17 有每日时长（可自定义分钟数和 0 分钟）、严格模式、防卸载、防改时间、只关视频号朋友圈；iPhone v0.1.5 有按时段屏蔽、禁止删除 App、防改时间和解锁码。完整对比：https://ripplefocus.github.io/anti-addiction-apps/
+想放松规则有没有门槛；改手机时间有没有用；能不能卸载。系统自带的数字健康和屏幕使用时间到点可以直接忽略；App 自带的青少年模式只管自己；AppBlock、Stay Focused、Opal 这类工具的严格模式和防卸载多数要付费。涟漪全部免费：安卓 v0.1.18 有每日时长（可自定义分钟数和 0 分钟）、严格模式、防卸载、防改时间、只关视频号朋友圈；iPhone v0.1.5 有按时段屏蔽、禁止删除 App、防改时间和解锁码。完整对比：https://ripplefocus.github.io/anti-addiction-apps/
  with Standard Screen-Time Apps (常见屏幕时间软件的局限)
 1. **Instant Bypass**: Built-in tools like Digital Wellbeing allow tapping "Ignore limit for today" with zero delay.
 2. **Quick Permission Removal**: Users or children can open Android Settings, disable Accessibility or Device Admin, or uninstall the blocker in a few seconds.
@@ -185,122 +186,122 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 ## tutoring-pickup
 - ZH: https://ripplefocus.github.io/tutoring-pickup/
 - EN: https://ripplefocus.github.io/en/tutoring-pickup/
-- After-school tutoring pickup and waiting-area phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- After-school tutoring pickup and waiting-area phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## traffic-jam
 - ZH: https://ripplefocus.github.io/traffic-jam/
 - EN: https://ripplefocus.github.io/en/traffic-jam/
-- Traffic jam, red light and parking-lot wait phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Traffic jam, red light and parking-lot wait phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## cooking
 - ZH: https://ripplefocus.github.io/cooking/
 - EN: https://ripplefocus.github.io/en/cooking/
-- Cooking and wait-for-dinner phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Cooking and wait-for-dinner phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## playground-park
 - ZH: https://ripplefocus.github.io/playground-park/
 - EN: https://ripplefocus.github.io/en/playground-park/
-- Park and playground phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Park and playground phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## hair-salon
 - ZH: https://ripplefocus.github.io/hair-salon/
 - EN: https://ripplefocus.github.io/en/hair-salon/
-- Hair and nail salon waiting phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Hair and nail salon waiting phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## cafe-tea-shop
 - ZH: https://ripplefocus.github.io/cafe-tea-shop/
 - EN: https://ripplefocus.github.io/en/cafe-tea-shop/
-- Cafe and tea shop waiting phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Cafe and tea shop waiting phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## airport-train
 - ZH: https://ripplefocus.github.io/airport-train/
 - EN: https://ripplefocus.github.io/en/airport-train/
-- Airport and train station waiting phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Airport and train station waiting phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## restaurant-wait
 - ZH: https://ripplefocus.github.io/restaurant-wait/
 - EN: https://ripplefocus.github.io/en/restaurant-wait/
-- Restaurant waiting phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Restaurant waiting phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## supermarket
 - ZH: https://ripplefocus.github.io/supermarket/
 - EN: https://ripplefocus.github.io/en/supermarket/
-- Supermarket grocery aisle and checkout phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Supermarket grocery aisle and checkout phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## parcel-pickup
 - ZH: https://ripplefocus.github.io/parcel-pickup/
 - EN: https://ripplefocus.github.io/en/parcel-pickup/
-- Parcel station and locker pickup phone limits for adults and kids. Android v0.1.17 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
+- Parcel station and locker pickup phone limits for adults and kids. Android v0.1.18 schedules, daily limits, open limits, one-tap focus, Channels allowance, strict mode; iPhone v0.1.5 schedules.
 
 ## ev-charging
 - ZH: https://ripplefocus.github.io/ev-charging/
 - EN: https://ripplefocus.github.io/en/ev-charging/
-- EV charging station and highway service area waiting phone limits for adults and kids (parked charging only). Android v0.1.17 daily limits, open limits, one-tap focus after plugging in, Channels allowance, strict mode, trip schedules with Anti-Uninstall for kids; iPhone v0.1.5 schedules.
+- EV charging station and highway service area waiting phone limits for adults and kids (parked charging only). Android v0.1.18 daily limits, open limits, one-tap focus after plugging in, Channels allowance, strict mode, trip schedules with Anti-Uninstall for kids; iPhone v0.1.5 schedules.
 
 ## sick-day
 - ZH: https://ripplefocus.github.io/sick-day/
 - EN: https://ripplefocus.github.io/en/sick-day/
-- Sick day and sick leave at home phone limits for adults and kids. Android v0.1.17 daily limits, open limits, nap and night schedules, Channels allowance, strict mode, Anti-Uninstall for kids; calls, messages, delivery, pharmacy and online class stay open; no medical advice; iPhone v0.1.5 schedules.
+- Sick day and sick leave at home phone limits for adults and kids. Android v0.1.18 daily limits, open limits, nap and night schedules, Channels allowance, strict mode, Anti-Uninstall for kids; calls, messages, delivery, pharmacy and online class stay open; no medical advice; iPhone v0.1.5 schedules.
 
 ## baby-care
 - ZH: https://ripplefocus.github.io/baby-care/
 - EN: https://ripplefocus.github.io/en/baby-care/
-- Parents scrolling during night feeds and toddler screen time on cartoons. Android v0.1.17 daily limits, open limits, night schedule, one-tap focus while putting the baby down, Channels allowance, strict mode; on a child's old phone or tablet daily limits on cartoons, 0 minutes on short video, meal, nap and bedtime schedules with Anti-Uninstall; feeding tracker, alarm, music and video calls stay open; no parenting or medical advice; iPhone v0.1.5 schedules.
+- Parents scrolling during night feeds and toddler screen time on cartoons. Android v0.1.18 daily limits, open limits, night schedule, one-tap focus while putting the baby down, Channels allowance, strict mode; on a child's old phone or tablet daily limits on cartoons, 0 minutes on short video, meal, nap and bedtime schedules with Anti-Uninstall; feeding tracker, alarm, music and video calls stay open; no parenting or medical advice; iPhone v0.1.5 schedules.
 
 ## walking
 - ZH: https://ripplefocus.github.io/walking/
 - EN: https://ripplefocus.github.io/en/walking/
-- Scrolling while walking for adults and kids. Android v0.1.17 daily limits, open limits, schedules for the walk to and from work, one-tap focus before a walk, Channels allowance, strict mode; on a child's phone daily limits or 0 minutes on games and short video, school route schedules with Anti-Uninstall; maps, calls, WeChat messages and reaching parents stay open; no safety statistics; iPhone v0.1.5 schedules.
+- Scrolling while walking for adults and kids. Android v0.1.18 daily limits, open limits, schedules for the walk to and from work, one-tap focus before a walk, Channels allowance, strict mode; on a child's phone daily limits or 0 minutes on games and short video, school route schedules with Anti-Uninstall; maps, calls, WeChat messages and reaching parents stay open; no safety statistics; iPhone v0.1.5 schedules.
 
 ## tv-second-screen
 - ZH: https://ripplefocus.github.io/tv-second-screen/
 - EN: https://ripplefocus.github.io/en/tv-second-screen/
-- Scrolling the phone while the TV is on, for adults and kids. Android v0.1.17 daily limits, open limits, evening TV schedules, one-tap focus when a show or match starts, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, TV time schedules, split screen and picture-in-picture blocking, Anti-Uninstall; Ripple cannot control the TV, TV boxes or casting; no statistics; iPhone v0.1.5 schedules.
+- Scrolling the phone while the TV is on, for adults and kids. Android v0.1.18 daily limits, open limits, evening TV schedules, one-tap focus when a show or match starts, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, TV time schedules, split screen and picture-in-picture blocking, Anti-Uninstall; Ripple cannot control the TV, TV boxes or casting; no statistics; iPhone v0.1.5 schedules.
 
 ## family-gathering
 - ZH: https://ripplefocus.github.io/family-gathering/
 - EN: https://ripplefocus.github.io/en/family-gathering/
-- Scrolling at family gatherings, relatives' homes and dinners with friends, for adults and kids. Android v0.1.17 one-tap focus before leaving, daily limits, open limits, a schedule for a fixed weekly gathering, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video set before the visit, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking; relatives' phones, tablets and TVs are out of scope; no statistics; iPhone v0.1.5 schedules.
+- Scrolling at family gatherings, relatives' homes and dinners with friends, for adults and kids. Android v0.1.18 one-tap focus before leaving, daily limits, open limits, a schedule for a fixed weekly gathering, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video set before the visit, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking; relatives' phones, tablets and TVs are out of scope; no statistics; iPhone v0.1.5 schedules.
 
 ## chores
 - ZH: https://ripplefocus.github.io/chores/
 - EN: https://ripplefocus.github.io/en/chores/
-- Scrolling while washing dishes, mopping, doing laundry and tidying up, for adults and kids. Android v0.1.17 one-tap focus before chores, daily limits, open limits, a schedule for fixed weekend cleaning, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, a chores schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot make anyone do chores; iPhone v0.1.5 schedules.
+- Scrolling while washing dishes, mopping, doing laundry and tidying up, for adults and kids. Android v0.1.18 one-tap focus before chores, daily limits, open limits, a schedule for fixed weekend cleaning, Channels allowance, strict mode; on a child's tablet or old phone daily limits or 0 minutes on games and short video, a chores schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot make anyone do chores; iPhone v0.1.5 schedules.
 
 ## stress-scrolling
 - ZH: https://ripplefocus.github.io/stress-scrolling/
 - EN: https://ripplefocus.github.io/en/stress-scrolling/
-- Scrolling short video, short drama, trending news and games when upset or stressed, for adults and kids. Android v0.1.17 daily limits, open limits with a short wait, a night schedule, Channels allowance, strict mode; for a child, talk first, then daily limits or 0 minutes on games and short video on a tablet or old phone, a night schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot fix a bad mood, and lasting low mood needs real help; iPhone v0.1.5 schedules.
+- Scrolling short video, short drama, trending news and games when upset or stressed, for adults and kids. Android v0.1.18 daily limits, open limits with a short wait, a night schedule, Channels allowance, strict mode; for a child, talk first, then daily limits or 0 minutes on games and short video on a tablet or old phone, a night schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple cannot fix a bad mood, and lasting low mood needs real help; iPhone v0.1.5 schedules.
 
 ## hotel-stay
 - ZH: https://ripplefocus.github.io/hotel-stay/
 - EN: https://ripplefocus.github.io/en/hotel-stay/
-- Scrolling short video, short drama and games in bed at a hotel or guesthouse, for adults on work trips and kids on family trips. Android v0.1.17 night schedule, daily limits, open limits with a short wait, one-tap focus, strict mode; for a child, agree rules before the trip, then daily limits or 0 minutes on games and short video on a tablet or old phone, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); settings stay on the device with no account, so hotel Wi-Fi changes nothing; iPhone v0.1.5 schedules.
+- Scrolling short video, short drama and games in bed at a hotel or guesthouse, for adults on work trips and kids on family trips. Android v0.1.18 night schedule, daily limits, open limits with a short wait, one-tap focus, strict mode; for a child, agree rules before the trip, then daily limits or 0 minutes on games and short video on a tablet or old phone, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); settings stay on the device with no account, so hotel Wi-Fi changes nothing; iPhone v0.1.5 schedules.
 
 ## rainy-cold-days
 - ZH: https://ripplefocus.github.io/rainy-cold-days/
 - EN: https://ripplefocus.github.io/en/rainy-cold-days/
-- Scrolling short video, short drama and games all day at home when rain or cold keeps people indoors, for adults and for kids who cannot play outside. Android v0.1.17 daily limits, open limits with a short wait, Take a Break, one-tap focus, strict mode (unlock code succeeds at most 3 times a day); for a child, plan indoor activities and agree on tablet time, then daily limits or 0 minutes on games and short video, Take a Break, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple does not read the weather; iPhone v0.1.5 schedules.
+- Scrolling short video, short drama and games all day at home when rain or cold keeps people indoors, for adults and for kids who cannot play outside. Android v0.1.18 daily limits, open limits with a short wait, Take a Break, one-tap focus, strict mode (unlock code succeeds at most 3 times a day); for a child, plan indoor activities and agree on tablet time, then daily limits or 0 minutes on games and short video, Take a Break, a bedtime schedule, parent-held unlock code, Anti-Uninstall, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); Ripple does not read the weather; iPhone v0.1.5 schedules.
 
 ## home-arrival
 - ZH: https://ripplefocus.github.io/home-arrival/
 - EN: https://ripplefocus.github.io/en/home-arrival/
-- Scrolling on the sofa from the moment people get home from work or school until dinner, for adults and for kids who ask for the phone first and push homework late. Android v0.1.17 schedules for the stretch before dinner (for example 17:30 to 19:00), daily limits and open limits with a short wait on short video, one-tap focus, strict mode (unlock code succeeds at most 3 times a day, also turns on Anti-Uninstall); for a child, agree on the order, then an after school schedule until homework is done, 0 minutes on the hardest game, parent-held unlock code, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); iPhone v0.1.5 schedules after school.
+- Scrolling on the sofa from the moment people get home from work or school until dinner, for adults and for kids who ask for the phone first and push homework late. Android v0.1.18 schedules for the stretch before dinner (for example 17:30 to 19:00), daily limits and open limits with a short wait on short video, one-tap focus, strict mode (unlock code succeeds at most 3 times a day, also turns on Anti-Uninstall); for a child, agree on the order, then an after school schedule until homework is done, 0 minutes on the hardest game, parent-held unlock code, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); iPhone v0.1.5 schedules after school.
 
 ## night-waking
 - ZH: https://ripplefocus.github.io/night-waking/
 - EN: https://ripplefocus.github.io/en/night-waking/
-- Waking up in the middle of the night, checking the time and scrolling until sleep is gone, for adults and for kids who take the phone back after parents are asleep. Android v0.1.17 schedules from the middle of the night until morning (for example 00:30 to 06:30) with the clock, phone and messages kept off the list, WeChat Channels and Moments closed while chats work, daily limits and open limits for the daytime, strict mode (unlock code succeeds at most 3 times a day, also turns on Anti-Uninstall); for a child, the phone charges in the living room, a 21:30 to 06:30 schedule, parent-held unlock code, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); iPhone v0.1.5 schedules at night.
+- Waking up in the middle of the night, checking the time and scrolling until sleep is gone, for adults and for kids who take the phone back after parents are asleep. Android v0.1.18 schedules from the middle of the night until morning (for example 00:30 to 06:30) with the clock, phone and messages kept off the list, WeChat Channels and Moments closed while chats work, daily limits and open limits for the daytime, strict mode (unlock code succeeds at most 3 times a day, also turns on Anti-Uninstall); for a child, the phone charges in the living room, a 21:30 to 06:30 schedule, parent-held unlock code, clock change protection, split screen and picture-in-picture blocking (OPPO floating windows only covered and muted); iPhone v0.1.5 schedules at night.
 
 ## complete-lock
 - ZH: https://ripplefocus.github.io/complete-lock/
 - EN: https://ripplefocus.github.io/en/complete-lock/
-- Complete Lock (Android v0.1.17) for people who keep leaving themselves a way out of focus schedules and for kids who beg for the unlock code. While a schedule with Complete Lock runs only system essentials open, the allowlist is ignored, unlock codes and early end cannot lift it, and ending, skipping, pausing, deleting or shortening is blocked; it ends on its own. WeChat and browsers are blocked too, so use it for exam review, deadline, homework or sleep hours, not online class hours. Not absolute on every phone (brief flash on some phones, Xiaomi not retested). iPhone v0.1.5 has no Complete Lock.
+- Complete Lock (Android v0.1.18) for people who keep leaving themselves a way out of focus schedules and for kids who beg for the unlock code. While a schedule with Complete Lock runs only system essentials open, the allowlist is ignored, unlock codes and early end cannot lift it, and ending, skipping, pausing, deleting or shortening is blocked; it ends on its own. WeChat and browsers are blocked too, so use it for exam review, deadline, homework or sleep hours, not online class hours. Not absolute on every phone (brief flash on some phones, Xiaomi not retested). iPhone v0.1.5 has no Complete Lock.
 
 ## sunday-night
 - ZH: https://ripplefocus.github.io/sunday-night/
 - EN: https://ripplefocus.github.io/en/sunday-night/
-- Sunday night scrolling for adults who dread Monday and kids who leave homework to Sunday night. Schedules can be set for Sunday only on Android and iPhone (for example 22:30 to 23:59), with WeChat on the allowlist if needed; kids get a Sunday afternoon homework schedule and an earlier Sunday evening schedule. Android adds strict mode (unlock code, max 3 successful uses a day) and Complete Lock (v0.1.17). Android daily limits apply every day. iPhone v0.1.5 has schedules, block deleting apps, clock change protection and unlock code only.
+- Sunday night scrolling for adults who dread Monday and kids who leave homework to Sunday night. Schedules can be set for Sunday only on Android and iPhone (for example 22:30 to 23:59), with WeChat on the allowlist if needed; kids get a Sunday afternoon homework schedule and an earlier Sunday evening schedule. Android adds strict mode (unlock code, max 3 successful uses a day) and Complete Lock (v0.1.18). Android daily limits apply every day. iPhone v0.1.5 has schedules, block deleting apps, clock change protection and unlock code only.
 
 ## reward-scrolling
 - ZH: https://ripplefocus.github.io/reward-scrolling/
@@ -310,39 +311,39 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 ## new-phone
 - ZH: https://ripplefocus.github.io/new-phone/
 - EN: https://ripplefocus.github.io/en/new-phone/
-- New phone: adults who switch phones and want to leave old scrolling habits behind, parents setting up a child's first phone or tablet before handing it over. Android v0.1.17: daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, evening, school, homework and bedtime schedules (optional Complete Lock), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. Settings stay on the device with no account or cloud sync, so a new phone needs to be set up again. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- New phone: adults who switch phones and want to leave old scrolling habits behind, parents setting up a child's first phone or tablet before handing it over. Android v0.1.18: daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, evening, school, homework and bedtime schedules (optional Complete Lock), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. Settings stay on the device with no account or cloud sync, so a new phone needs to be set up again. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## study-apps
 - ZH: https://ripplefocus.github.io/study-apps/
 - EN: https://ripplefocus.github.io/en/study-apps/
-- Studying on the phone: adults who use the phone for vocabulary, language practice and courses but drift into short videos, parents whose kids use study apps and online classes on the phone and switch to games. Ripple only limits listed apps, so study apps stay off the list. Android v0.1.17: study and homework schedules, daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, website limits since v0.1.12 for some browsers, keep alive settings on Chinese brand phones. Complete Lock leaves only system essential apps, so it is not for studying on the phone. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Studying on the phone: adults who use the phone for vocabulary, language practice and courses but drift into short videos, parents whose kids use study apps and online classes on the phone and switch to games. Ripple only limits listed apps, so study apps stay off the list. Android v0.1.18: study and homework schedules, daily limits in minutes (1 minute to 12 hours, or 0), open limits with a pause before opening, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, website limits since v0.1.12 for some browsers, keep alive settings on Chinese brand phones. Complete Lock leaves only system essential apps, so it is not for studying on the phone. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## procrastination
 - ZH: https://ripplefocus.github.io/procrastination/
 - EN: https://ripplefocus.github.io/en/procrastination/
-- Scrolling before starting a task: adults who pick up the phone for five minutes before work, study or chores and lose an hour, kids who want to play before homework. Android v0.1.17: Quick Focus to lock listed apps right away, schedules, open limits with a pause before opening, daily limits in minutes (1 minute to 12 hours, or 0), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Scrolling before starting a task: adults who pick up the phone for five minutes before work, study or chores and lose an hour, kids who want to play before homework. Android v0.1.18: Quick Focus to lock listed apps right away, schedules, open limits with a pause before opening, daily limits in minutes (1 minute to 12 hours, or 0), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## boredom
 - ZH: https://ripplefocus.github.io/boredom/
 - EN: https://ripplefocus.github.io/en/boredom/
-- Scrolling out of boredom: adults who pick up the phone in every idle moment (waiting, after dinner, before bed), kids who say I'm bored and ask for the phone on weekend afternoons and holidays. Android v0.1.17: pause before opening that shows today's open count and usage, daily open limits, daily limits in minutes (1 minute to 12 hours, or 0), schedules, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Scrolling out of boredom: adults who pick up the phone in every idle moment (waiting, after dinner, before bed), kids who say I'm bored and ask for the phone on weekend afternoons and holidays. Android v0.1.18: pause before opening that shows today's open count and usage, daily open limits, daily limits in minutes (1 minute to 12 hours, or 0), schedules, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## fandom
 - ZH: https://ripplefocus.github.io/fandom/
 - EN: https://ripplefocus.github.io/en/fandom/
-- Fan and idol scrolling: adult fans who check fan pages, fancams and live clips until late at night, kids who follow idols and stay up voting or watching during homework time. Android v0.1.17: daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening that shows today's open count and usage, schedules for bedtime, homework and work hours, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Fan and idol scrolling: adult fans who check fan pages, fancams and live clips until late at night, kids who follow idols and stay up voting or watching during homework time. Android v0.1.18: daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening that shows today's open count and usage, schedules for bedtime, homework and work hours, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## checking-likes
 - ZH: https://ripplefocus.github.io/checking-likes/
 - EN: https://ripplefocus.github.io/en/checking-likes/
-- Checking likes and comments after posting: adults who reopen Xiaohongshu, TikTok, Weibo or WeChat Moments every few minutes after posting, kids who keep refreshing video views during homework. Android v0.1.17: daily open limits, pause before opening that shows today's open count and usage, daily limits in minutes (1 minute to 12 hours, or 0), Moments and Channels allowance with written reason (v0.1.9+), Quick Focus, homework and bedtime schedules, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Checking likes and comments after posting: adults who reopen Xiaohongshu, TikTok, Weibo or WeChat Moments every few minutes after posting, kids who keep refreshing video views during homework. Android v0.1.18: daily open limits, pause before opening that shows today's open count and usage, daily limits in minutes (1 minute to 12 hours, or 0), Moments and Channels allowance with written reason (v0.1.9+), Quick Focus, homework and bedtime schedules, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## work-from-home
 - ZH: https://ripplefocus.github.io/work-from-home/
 - EN: https://ripplefocus.github.io/en/work-from-home/
-- Working from home and kids home alone: adults who scroll short videos between work messages at home, kids home alone during holidays while parents work. Android v0.1.17: weekday work-hour schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Moments and Channels allowance with written reason (v0.1.9+), Complete Lock for deadline hours (not for online class hours), Quick Focus, homework and sleep schedules with online class apps on the allowed list, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Working from home and kids home alone: adults who scroll short videos between work messages at home, kids home alone during holidays while parents work. Android v0.1.18: weekday work-hour schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Moments and Channels allowance with written reason (v0.1.9+), Complete Lock for deadline hours (not for online class hours), Quick Focus, homework and sleep schedules with online class apps on the allowed list, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
 
 ## dorm-life
 - ZH: https://ripplefocus.github.io/dorm-life/
 - EN: https://ripplefocus.github.io/en/dorm-life/
-- College dorms and boarding school: adults who scroll in bed after dorm lights out, boarding school kids who spend the whole weekend at home on the phone. Android v0.1.17: lights-out schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus, Complete Lock for exam study hours, weekend-only homework and sleep schedules, class and lights-out schedules if the phone goes to school, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- College dorms and boarding school: adults who scroll in bed after dorm lights out, boarding school kids who spend the whole weekend at home on the phone. Android v0.1.18: lights-out schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus, Complete Lock for exam study hours, weekend-only homework and sleep schedules, class and lights-out schedules if the phone goes to school, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day) with Anti-Uninstall, keep alive settings on Chinese brand phones. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
