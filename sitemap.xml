@@ -1624,4 +1624,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/museum/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/museum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/museum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/museum/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/museum/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/museum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/museum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/museum/"/>
+  </url>
 </urlset>
