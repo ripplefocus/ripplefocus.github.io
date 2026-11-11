@@ -228,14 +228,14 @@
 
   <url>
     <loc>https://ripplefocus.github.io/travel/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/travel/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/travel/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/travel/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/travel/"/>
@@ -970,7 +970,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/playground-park/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/playground-park/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/playground-park/"/>
@@ -978,7 +978,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/playground-park/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/playground-park/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/playground-park/"/>
@@ -1130,7 +1130,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/walking/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/walking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/walking/"/>
@@ -1138,7 +1138,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/walking/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/walking/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/walking/"/>
@@ -1607,5 +1607,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/cinema/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/cinema/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/cinema/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/outdoor-trip/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/outdoor-trip/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/outdoor-trip/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/outdoor-trip/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/outdoor-trip/"/>
   </url>
 </urlset>
