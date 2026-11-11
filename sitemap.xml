@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/block-short-videos/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/"/>
@@ -48,7 +48,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/block-short-videos/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/block-short-videos/"/>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/kids-phone-by-age/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/kids-phone-by-age/"/>
@@ -132,7 +132,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/kids-phone-by-age/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/kids-phone-by-age/"/>
@@ -1559,5 +1559,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/writing-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/writing-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/writing-time/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/screen-time-report/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/screen-time-report/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/screen-time-report/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/screen-time-report/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/screen-time-report/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/screen-time-report/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/screen-time-report/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/screen-time-report/"/>
   </url>
 </urlset>
