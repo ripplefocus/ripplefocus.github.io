@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/parental-control/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parental-control/"/>
@@ -84,7 +84,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/parental-control/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/parental-control/"/>
@@ -572,14 +572,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/family-time/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/family-time/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/family-time/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/family-time/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/family-time/"/>
@@ -842,14 +842,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/couples-phone/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/couples-phone/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/couples-phone/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/couples-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/couples-phone/"/>
@@ -1463,5 +1463,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/new-year-goals/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/new-year-goals/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/new-year-goals/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/role-model/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/role-model/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/role-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/role-model/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/role-model/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/role-model/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/role-model/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/role-model/"/>
   </url>
 </urlset>

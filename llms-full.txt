@@ -352,3 +352,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/new-year-goals/
 - EN: https://ripplefocus.github.io/en/new-year-goals/
 - New Year goals and family phone agreements: adults who promise to scroll less and give up, parents who agree on phone rules with their kids for the new year. Android v0.1.18: daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, sleep and work schedules, school day or weekend only schedules, Complete Lock for revision hours (from v0.1.18 a loosening request sent before the lock cannot be confirmed during it), strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## role-model
+- ZH: https://ripplefocus.github.io/role-model/
+- EN: https://ripplefocus.github.io/en/role-model/
+- Parents who want their kids on the phone less but keep scrolling themselves. Android v0.1.18 on the parent's phone: schedules for the hours kids are home (chat apps can stay off the list), daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall and the partner keeping the code. On the child's Android phone: daily limits, homework and sleep schedules lined up with the parent's, 0 minutes for a dropped game, strict mode, Complete Lock for revision hours. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
