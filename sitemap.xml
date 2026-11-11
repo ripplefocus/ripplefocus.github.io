@@ -326,14 +326,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/elderly-parents/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/elderly-parents/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/elderly-parents/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/elderly-parents/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/elderly-parents/"/>
@@ -1495,5 +1495,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/friends-hangout/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/friends-hangout/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/friends-hangout/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/grandparents-house/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/grandparents-house/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/grandparents-house/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/grandparents-house/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/grandparents-house/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/grandparents-house/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/grandparents-house/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/grandparents-house/"/>
   </url>
 </urlset>

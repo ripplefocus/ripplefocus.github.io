@@ -362,3 +362,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/friends-hangout/
 - EN: https://ripplefocus.github.io/en/friends-hangout/
 - Adults whose meetups with friends turn into everyone scrolling, and kids who game all afternoon when classmates visit. Android v0.1.18: Quick Focus locking only chosen apps (calls and WeChat keep working), schedules for regular meetups, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. On the child's Android phone: daily limit for games such as 90 minutes at weekends, a schedule for afternoons classmates visit, strict mode with the parent keeping the code. Ripple only manages the phone it is installed on. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## grandparents-house
+- ZH: https://ripplefocus.github.io/grandparents-house/
+- EN: https://ripplefocus.github.io/en/grandparents-house/
+- Adults who scroll all day when visiting their parents, and kids on the phone nonstop while staying with grandparents. Android v0.1.18: schedules for meals and evenings, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus locking only chosen apps, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. For kids: set daily limits, meal and night schedules and strict mode before they go, parent keeps the code; no remote management. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
