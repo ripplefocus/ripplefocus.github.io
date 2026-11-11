@@ -870,14 +870,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/library-study/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/library-study/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/library-study/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/library-study/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/library-study/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/library-study/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/library-study/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/library-study/"/>
@@ -1354,7 +1354,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/procrastination/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/procrastination/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/procrastination/"/>
@@ -1362,7 +1362,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/procrastination/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/procrastination/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/procrastination/"/>
@@ -1543,5 +1543,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/night-shift/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/night-shift/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/night-shift/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/writing-time/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/writing-time/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/writing-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/writing-time/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/writing-time/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/writing-time/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/writing-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/writing-time/"/>
   </url>
 </urlset>
