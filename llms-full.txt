@@ -367,3 +367,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/grandparents-house/
 - EN: https://ripplefocus.github.io/en/grandparents-house/
 - Adults who scroll all day when visiting their parents, and kids on the phone nonstop while staying with grandparents. Android v0.1.18: schedules for meals and evenings, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus locking only chosen apps, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. For kids: set daily limits, meal and night schedules and strict mode before they go, parent keeps the code; no remote management. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## summer-vacation
+- ZH: https://ripplefocus.github.io/summer-vacation/
+- EN: https://ripplefocus.github.io/en/summer-vacation/
+- Adults who scroll all summer when off at home (college students, teachers, people on leave), and kids on the phone all summer break while parents work. Android v0.1.18: morning and bedtime schedules, daily limits in minutes (1 minute to 12 hours, or 0), daily open limits, pause before opening, Quick Focus locking only chosen apps, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. For kids: schedules following a summer routine, daily limits, 0 minute limit for one game, strict mode with the parent keeping the code; no remote management. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
