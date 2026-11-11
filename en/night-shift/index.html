@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scrolling instead of sleeping after a night shift, and kids up on the phone while parents work nights (Android and iPhone) - Ripple</title>
+<meta name="description" content="Nurses, factory workers, security guards, call center staff and drivers on night or rotating shifts get home and should sleep, then lose two or three hours to the phone. Parents working nights are not home, and kids stay up on the phone past midnight. Ripple Android v0.1.18 lets you add schedules that follow your shifts, daily limits and strict mode. iPhone v0.1.5 blocks apps by schedule. Free, no ads, no account.">
+<meta name="keywords" content="night shift scrolling,can't sleep after night shift phone,shift work phone addiction,daytime sleep phone,parents working nights kids phone,kids on phone late at night,night shift parent screen time,app schedule,daily app limit,strict mode,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/night-shift/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/night-shift/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/night-shift/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/night-shift/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scrolling instead of sleeping after a night shift, and kids up on the phone while parents work nights (Android and iPhone) - Ripple">
+<meta property="og:description" content="Nurses, factory workers, security guards, call center staff and drivers on night or rotating shifts get home and should sleep, then lose two or three hours to the phone. Parents working nights are not home, and kids stay up on the phone past midnight. Ripple Android v0.1.18 lets you add schedules that follow your shifts, daily limits and strict mode. iPhone v0.1.5 blocks apps by schedule. Free, no ads, no account.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/night-shift/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "How to sleep instead of scrolling after night or rotating shifts and keep kids off the phone at night while a parent works: schedules, daily limits, 0 minute limits, Quick Focus and strict mode on Android; schedules, block deleting apps and unlock code on iPhone", "step": [{"@type": "HowToStep", "name": "Install Ripple", "text": "On Android download the latest APK and turn on the accessibility service as guided. On iPhone install v0.1.5, which needs iOS 16 or later."}, {"@type": "HowToStep", "name": "Set up your own phone", "text": "Add a sleep schedule based on when your shift ends, one per shift type if you rotate, give short video a daily limit, and use Quick Focus when you lie down."}, {"@type": "HowToStep", "name": "Set up your child's phone", "text": "Before the night shift add bedtime and homework schedules, set daily limits for games and short video, then turn on strict mode and Anti-Uninstall and keep the code yourself."}, {"@type": "HowToStep", "name": "Check after a week", "text": "After a week see whether the schedules and limits fit. When your shift changes, turn on the matching schedule."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "I scroll instead of sleeping after night shifts. What can I do?", "acceptedAnswer": {"@type": "Answer", "text": "On Android add a sleep schedule that starts when you get home with short video, short dramas and games on the list, give short video a daily limit, and use Quick Focus when you lie down. On iPhone v0.1.5 use schedules."}}, {"@type": "Question", "name": "My shifts rotate. How do I set schedules?", "acceptedAnswer": {"@type": "Answer", "text": "Add one schedule per shift type, turn on the one for this week and pause the others."}}, {"@type": "Question", "name": "Will I miss calls from work while I sleep?", "acceptedAnswer": {"@type": "Answer", "text": "Calls always work. Apps that are not on the list, such as the alarm, phone and messaging apps, are not blocked."}}, {"@type": "Question", "name": "I work nights and my child stays up on the phone. What can I do?", "acceptedAnswer": {"@type": "Answer", "text": "Before you leave, add a bedtime schedule on your child's Android phone or tablet, set daily limits for games and short video, and turn on strict mode and Anti-Uninstall. The apps close on their own."}}, {"@type": "Question", "name": "Can I change the settings from work?", "acceptedAnswer": {"@type": "Answer", "text": "Not at the moment. Ripple's settings stay on that phone and there is no remote management, so set things up on your child's phone in advance."}}, {"@type": "Question", "name": "Does this work on iPhone?", "acceptedAnswer": {"@type": "Answer", "text": "iPhone v0.1.5 blocks selected apps by schedule, can block deleting apps, protects against clock changes and has an unlock code. It has no daily limits, open limits, Quick Focus, Complete Lock or strict mode."}}, {"@type": "Question", "name": "Is it free? Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "It is free with no ads and no account. More in the FAQ."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../faq/">FAQ</a>
+    <a href="./" style="color:var(--primary);font-weight:600">Night shifts</a>
+    <a href="../strict-mode/">Strict mode</a>
+    <a href="../parental-control/">Parental control</a>
+    <span class="lang-switch"><a href="../../night-shift/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">Scrolling instead of sleeping after a night shift, and kids up on the phone while you work nights</h1>
+  <p class="lead" style="max-width:680px">After a night shift you get home in the morning and should go straight to sleep. You lie down, pick up the phone to relax for a minute, and it is noon. You wake up groggy in the afternoon and go back to work in the evening. Nurses, factory line workers, security guards, call center staff and ride hailing drivers know this well. With kids it gets harder. A parent leaves for the night shift, the child is home alone or with grandparents, nobody is watching, and the phone stays on until one or two in the morning before a school day. This page first covers adults setting limits around their shifts, then what parents can set before they leave for work. Android is on v0.1.18 and iPhone on v0.1.5, with different features, so they are described separately.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">Download iPhone v0.1.5 (.ipa)</a>
+    <div class="meta">Android v0.1.18 + iPhone v0.1.5 (iOS 16+) · Free, no ads · No account · Settings stay on your phone</div>
+  </div>
+</section>
+<section>
+  <h2>Adults: night or rotating shifts</h2>
+  <div class="grid">
+    <div class="card"><h3>A sleep schedule that starts when you get home</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If your shift ends at 8 a.m., add a schedule from 8:30 to 14:30 with short video, short dramas, live streams and games on the list. They stay closed during those hours, so lying down means sleeping. Leave the alarm, phone and messaging apps off the list so work can still reach you.</p></div>
+    <div class="card"><h3>Several schedules for rotating shifts</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">With rotating shifts, add one schedule for daytime sleep after nights and one for nighttime sleep after day shifts. Turn on the one that matches this week and pause the other. More on the <a href="../bedtime/">bedtime page</a>.</p></div>
+    <div class="card"><h3>Set an amount for scrolling</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Some time to unwind after work is fine. Give short video a daily limit, for example 30 minutes, after which it stays closed for the day. For an app you open out of habit, set a daily open limit and the pause before opening. See the <a href="../open-limit/">open limit page</a>.</p></div>
+    <div class="card"><h3>Lock as soon as you lie down</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">When you get home and want to sleep right away, <a href="../quick-focus/">Quick Focus</a> locks the phone at once. Choose to lock only the apps you pick and set the time to how long you plan to sleep. Calls always work.</p></div>
+    <div class="card"><h3>If you might undo it when tired</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">With <a href="../strict-mode/">strict mode</a> on, the unlock code is the only way to loosen rules. In strict mode the code is at least 8 characters with at most 3 successful uses a day, and someone in your family can keep it. Strict mode also turns on Anti-Uninstall. If you forget the code you can request removal, which takes effect after 72 hours.</p></div>
+    <div class="card"><h3>Adults on iPhone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">iPhone v0.1.5 blocks apps by schedule, for example short video during the hours you sleep after a night shift. It can also block deleting apps, protect against clock changes and use an unlock code. It has no daily limits, open limits, pause before opening, Quick Focus, Complete Lock or strict mode.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Kids: at home while a parent works nights</h2>
+  <div class="grid">
+    <div class="card"><h3>Apps close at bedtime</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Before you leave for the night shift, add a bedtime schedule on your child's phone, for example 21:30 to 6:30, with games, short video and cartoon apps on the list. You do not have to worry at work about them playing past midnight.</p></div>
+    <div class="card"><h3>Cover homework time too</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Add another schedule between school and bedtime, for example 18:30 to 20:30, and leave study apps off the list. More on the <a href="../homework-time/">homework page</a>.</p></div>
+    <div class="card"><h3>Agree on daily play time in advance</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Give games and short video a daily limit, for example 45 minutes a day, after which they stay closed for the day. A game they cannot stop can get a 0 minute limit so it does not open that day.</p></div>
+    <div class="card"><h3>Kids cannot undo it</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Turn on strict mode and keep the unlock code to yourself. With Anti-Uninstall on, your child cannot delete Ripple. Android counts time since boot, so changing the system clock gives no extra time. On Xiaomi, OPPO, vivo, Huawei and Honor phones follow the <a href="../keep-alive-guide/">keep alive guide</a> for auto start and battery settings.</p></div>
+    <div class="card"><h3>Child on iPhone or iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">iPhone v0.1.5 blocks apps by schedule, so games and short video stay closed at bedtime. It can block deleting apps, protect against clock changes and use an unlock code, with no daily limits or open limits. See the <a href="../parental-control/">parental control page</a>.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Setup steps</h2>
+  <div class="grid">
+    <div class="card"><h3>Install Ripple</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android download the latest APK and turn on the accessibility service as guided. On iPhone install v0.1.5, which needs iOS 16 or later.</p></div>
+    <div class="card"><h3>Set up your own phone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Add a sleep schedule based on when your shift ends, one per shift type if you rotate, give short video a daily limit, and use Quick Focus when you lie down.</p></div>
+    <div class="card"><h3>Set up your child's phone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Before the night shift add bedtime and homework schedules, set daily limits for games and short video, then turn on strict mode and Anti-Uninstall and keep the code yourself.</p></div>
+    <div class="card"><h3>Check after a week</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">After a week see whether the schedules and limits fit. When your shift changes, turn on the matching schedule.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>I scroll instead of sleeping after night shifts. What can I do?</summary><p>On Android add a sleep schedule that starts when you get home with short video, short dramas and games on the list, give short video a daily limit, and use Quick Focus when you lie down. On iPhone v0.1.5 use schedules.</p></details><details><summary>My shifts rotate. How do I set schedules?</summary><p>Add one schedule per shift type, turn on the one for this week and pause the others.</p></details><details><summary>Will I miss calls from work while I sleep?</summary><p>Calls always work. Apps that are not on the list, such as the alarm, phone and messaging apps, are not blocked.</p></details><details><summary>I work nights and my child stays up on the phone. What can I do?</summary><p>Before you leave, add a bedtime schedule on your child's Android phone or tablet, set daily limits for games and short video, and turn on strict mode and Anti-Uninstall. The apps close on their own.</p></details><details><summary>Can I change the settings from work?</summary><p>Not at the moment. Ripple's settings stay on that phone and there is no remote management, so set things up on your child's phone in advance.</p></details><details><summary>Does this work on iPhone?</summary><p>iPhone v0.1.5 blocks selected apps by schedule, can block deleting apps, protects against clock changes and has an unlock code. It has no daily limits, open limits, Quick Focus, Complete Lock or strict mode.</p></details><details><summary>Is it free? Do I need an account?</summary><p>It is free with no ads and no account. More in the <a href="../faq/">FAQ</a>.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">Back to English home</a> · <a href="../bedtime/">Bedtime</a> · <a href="../night-waking/">Waking at night</a> · <a href="../homework-time/">Homework time</a> · <a href="../summer-vacation/">Summer break</a> · <a href="../parental-control/">Parental control</a> · <a href="../faq/">FAQ</a> · <a href="../../night-shift/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>
