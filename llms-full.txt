@@ -161,13 +161,15 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 
 | Feature | **Ripple (涟漪)** | Google Digital Wellbeing | AppBlock / Stay Focused | Opal / One Sec | Built-in Teen Mode |
 |---|---|---|---|---|---|
-| **Price** | **Free, No Ads** | Free | Paid Strict Mode ($30 to $60/yr) | Subscription ($50 to $100/yr) | Free |
-| **Rule Relaxation Delay** | **15m to 2h monotonic cooldown or PIN** | 1-tap ignore | Paid tier only | Short delay or paid tier | 4-digit PIN |
+| **Price** | **Free, No Ads** | Free | Paid Strict Mode ($30 to $60/yr) | one sec free for 1 app, Pro $19.99/yr or $99.99 lifetime (US); Opal paid tiers | Free |
+| **Rule Relaxation Delay** | **15m to 2h monotonic cooldown or PIN** | 1-tap ignore | Paid tier only | Pause before opening; settings lock in some paid tiers | 4-digit PIN |
 | **Clock Tamper Protection** | **Yes (`elapsedRealtime`)** | No | Partial | Partial | Partial |
 | **Whitelist Session Cap** | **Yes (30m per session)** | No | Paid tier only | No | N/A |
-| **Anti-Uninstall Without PC** | **Yes (Admin + On-device Wireless Debugging)** | None | Device Admin | Easy to revoke permission | Per-app only |
-| **Auto-Heal After Task Kill** | **~2.5s via `ripple_ss` daemon** | N/A | Often stopped on Chinese ROMs | Often stopped on Android | N/A |
-| **Data Storage** | **Local-only, No Account** | Google Account | Cloud sync & analytics | Account & cloud telemetry | Platform account |
+| **Anti-Uninstall Without PC** | **Yes (Admin + On-device Wireless Debugging)** | None | Device Admin | Not documented | Per-app only |
+| **Auto-Heal After Task Kill** | **~2.5s via `ripple_ss` daemon** | N/A | Often stopped on Chinese ROMs | Not documented | N/A |
+| **Data Storage** | **Settings on phone, No Account, one anonymous daily count since v0.1.6** | Google Account | Cloud sync & analytics | See each app's privacy policy | Platform account |
+
+ScreenZen (not in the table) is free and donation supported, runs on iPhone, Android, Mac and Windows, and has a pause before opening, open limits, strict blocks, settings locks with an accountability partner and uninstall protection. On iPhone it does much more than Ripple for iPhone v0.1.5. See https://ripplefocus.github.io/en/vs-one-sec-screenzen/
 
 ## 5. Common Questions (常见问答)
 
@@ -432,3 +434,8 @@ FAQ page: https://ripplefocus.github.io/faq/ · https://ripplefocus.github.io/en
 - ZH: https://ripplefocus.github.io/vs-built-in/
 - EN: https://ripplefocus.github.io/en/vs-built-in/
 - Honest comparison of Ripple with built in Android app timers (Digital Wellbeing and brand screen time settings), Google Family Link and iPhone Screen Time with Family Sharing, for adults and for parents. Built in tools are free and enough if you stop when time is up; Family Link and Family Sharing offer remote management, app approvals and location, which Ripple lacks. Ripple for Android v0.1.18 needs no Google services or account and adds strict mode (unlock code at least 8 characters, max 3 successful uses a day, 72 hour removal), Anti-Uninstall, clock change protection, 0 minute limits, open limits, Quick Focus and closing only WeChat Channels/Moments, Shorts or Reels. iPhone v0.1.5 has schedule blocking, block deleting apps, clock change protection and unlock code only. They can be used together.
+
+## vs-one-sec-screenzen
+- ZH: https://ripplefocus.github.io/vs-one-sec-screenzen/
+- EN: https://ripplefocus.github.io/en/vs-one-sec-screenzen/
+- Honest comparison of Ripple with one sec and ScreenZen, for adults and for parents. one sec: breathing pause before apps open, research backed, free for one app, Pro for more (US App Store $19.99/yr or $99.99 lifetime), iPhone, Android and desktop browser. ScreenZen: free and donation supported, pause that can grow each open, open limits, strict blocks, settings lock with accountability partner, uninstall protection, iPhone, Android, Mac, Windows. On iPhone both do more than Ripple for iPhone v0.1.5 (schedule blocking, block deleting apps, clock protection, unlock code only). Ripple for Android v0.1.18 is free with no in-app purchases, installs from the website without Google Play, has a pause before opening (5 to 30 s, optional growth up to 60 s), open limits, daily limits, 0 minute limits, Quick Focus, closing only WeChat Channels/Moments, Shorts or Reels, and strict mode (unlock code at least 8 characters, max 3 successful uses a day, Anti-Uninstall, 72 hour removal). No remote management.

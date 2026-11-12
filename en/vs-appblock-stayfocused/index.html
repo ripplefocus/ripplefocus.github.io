@@ -169,28 +169,28 @@ footer a:hover{color:var(--primary)}
           <td><b>Delay Before Relaxing Rules</b></td>
           <td class="hi">15m–2h monotonic cooldown (2× for short-video apps) or Friend/Parent PIN</td>
           <td>Configurable in Strict Mode (paid tiers)</td>
-          <td>5–30s launch delay before opening an app; easy to turn off in settings</td>
+          <td>Pause before opening (one sec breathing pause, ScreenZen wait that can grow each open). ScreenZen can lock settings until a set time or an accountability partner unlocks</td>
           <td>Zero delay (“Ignore limit for today”)</td>
         </tr>
         <tr>
           <td><b>System Clock Tamper Protection</b></td>
           <td class="hi">Yes (uses <code>SystemClock.elapsedRealtime()</code> since boot)</td>
           <td>Partial (can sometimes be bypassed after reboot before service starts)</td>
-          <td>No / Partial</td>
+          <td>Not documented</td>
           <td>No (changing date resets daily timer)</td>
         </tr>
         <tr>
           <td><b>Anti-Uninstall &amp; Self-Healing</b></td>
           <td class="hi">Accessibility + Device Admin + optional On-Device Wireless Debugging / Shizuku daemon (~2.5s auto-heal)</td>
           <td>Device Admin option, but Accessibility can drop when swiped from Recents on Chinese ROMs</td>
-          <td>Standard Accessibility service (can be revoked in Settings in 5 seconds)</td>
+          <td>Accessibility service on Android; ScreenZen lock mode can prevent uninstalling</td>
           <td>Built-in, toggled off in Settings</td>
         </tr>
         <tr>
           <td><b>Whitelist Per-Session Cap</b></td>
           <td class="hi">In-App Feed Blocker (Shorts / Reels / WeChat Channels) + 30m session cap</td>
           <td>Paid schedules only</td>
-          <td>No</td>
+          <td>one sec (Android) and ScreenZen can remove Shorts or Reels inside apps; WeChat Channels not mentioned</td>
           <td>No</td>
         </tr>
         <tr>
@@ -209,9 +209,9 @@ footer a:hover{color:var(--primary)}
         </tr>
         <tr>
           <td><b>Privacy &amp; Telemetry</b></td>
-          <td class="hi">Local-only storage, no account, zero analytics SDKs</td>
-          <td>Account sync + analytics SDKs</td>
-          <td>Account &amp; cloud telemetry</td>
+          <td class="hi">Settings stay on the phone, no account. Since v0.1.6 one anonymous count a day (version, days since install, random install ID, no usage content)</td>
+          <td>See each app's privacy policy</td>
+          <td>one sec says data stays on the device; ScreenZen offers Google or email sign in</td>
           <td>Tied to Google Account</td>
         </tr>
       </tbody>
@@ -222,7 +222,7 @@ footer a:hover{color:var(--primary)}
 <section>
   <h2>When to Choose Each Tool</h2>
   <div class="grid">
-    <div class="card"><h3>Choose ScreenZen or One Sec if…</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">You only need a 10-second breathing pause before opening Instagram or Reddit, and you do not struggle with going into Android Settings to disable or uninstall the blocker late at night.</p></div>
+    <div class="card"><h3>Choose ScreenZen or One Sec if…</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">You mainly want a pause before opening Instagram or Reddit, your phone has Google Play or the App Store, or you use an iPhone. ScreenZen is free and also has settings locks and uninstall protection. one sec is free for one app. See <a href="../vs-one-sec-screenzen/">Ripple vs one sec and ScreenZen</a>.</p></div>
     <div class="card"><h3>Choose Ripple if…</h3><p style="color:var(--ink2);font-size:14.5px;margin:6px 0 0">You need a hard daily cap and sleep schedule where your midnight self is forced to wait 15 minutes to 2 hours (or ask a friend/parent for a PIN) before relaxing any rule or uninstalling, and you want optional on-device wireless debugging or Shizuku auto-healing without paying a yearly subscription.</p></div>
   </div>
 </section>
@@ -230,7 +230,7 @@ footer a:hover{color:var(--primary)}
 <footer>
   <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
   
-  Ripple (涟漪) · <a href="../">Back to English Home</a> · <a href="../block-short-videos/">Short-Video Detox Guide</a> · <a href="../parental-control/">Parental Control Guide</a> · <a href="../anti-addiction-apps/">Choosing an app blocker</a> · <a href="../../vs-appblock-stayfocused/">中文对比页</a> · <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">GitHub Releases</a> · <a href="../vs-built-in/">vs built in tools</a>
+  Ripple (涟漪) · <a href="../">Back to English Home</a> · <a href="../block-short-videos/">Short-Video Detox Guide</a> · <a href="../parental-control/">Parental Control Guide</a> · <a href="../anti-addiction-apps/">Choosing an app blocker</a> · <a href="../../vs-appblock-stayfocused/">中文对比页</a> · <a href="https://github.com/ripplefocus/ripplefocus.github.io/releases">GitHub Releases</a> · <a href="../vs-built-in/">vs built in tools</a> · <a href="../vs-one-sec-screenzen/">vs one sec &amp; ScreenZen</a>
 </footer>
 <script>
 document.addEventListener("click",function(e){

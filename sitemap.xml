@@ -498,14 +498,14 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/open-limit/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/open-limit/"/>
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/open-limit/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/open-limit/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/open-limit/"/>
@@ -1719,5 +1719,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-built-in/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-built-in/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-built-in/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/vs-one-sec-screenzen/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-one-sec-screenzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-one-sec-screenzen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-one-sec-screenzen/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/vs-one-sec-screenzen/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-one-sec-screenzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-one-sec-screenzen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-one-sec-screenzen/"/>
   </url>
 </urlset>
