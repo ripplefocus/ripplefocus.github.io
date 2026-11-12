@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ripple vs StayFree and ActionDash: screen time stats and app limits for adults and parents - Ripple</title>
+<meta name="description" content="StayFree and ActionDash are popular screen time trackers. This page compares their stats, limits and blocking with Ripple, for adults limiting their own phone and for parents setting up a child's phone. Ripple is free, Android v0.1.19, iPhone v0.1.5, with no remote management.">
+<meta name="keywords" content="StayFree alternative,ActionDash alternative,screen time tracker Android free,app usage stats Android,app open count Android,screen time app with strict mode,app blocker with anti uninstall,child screen time Android free,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/vs-stayfree-actiondash/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-stayfree-actiondash/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-stayfree-actiondash/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-stayfree-actiondash/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ripple vs StayFree and ActionDash: screen time stats and app limits for adults and parents - Ripple">
+<meta property="og:description" content="StayFree and ActionDash are popular screen time trackers. This page compares their stats, limits and blocking with Ripple, for adults limiting their own phone and for parents setting up a child's phone. Ripple is free, Android v0.1.19, iPhone v0.1.5, with no remote management.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/vs-stayfree-actiondash/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "Choosing between StayFree, ActionDash and Ripple for adults and for parents", "step": [{"@type": "HowToStep", "name": "You mainly want to see where your time goes, across phone, computer and websites", "text": "Choose StayFree. Totals across devices and website stats are its strongest points."}, {"@type": "HowToStep", "name": "You want unlock counts and to know which app sends the most notifications", "text": "Choose ActionDash. It counts launches, notifications and unlocks."}, {"@type": "HowToStep", "name": "After looking at the stats, you want rules that you or your child cannot casually switch off", "text": "Install Ripple for Android, find the apps that take the most time in the usage calendar, then set schedules, daily limits or open limits. Turn on strict mode and give the unlock code to someone else."}, {"@type": "HowToStep", "name": "You only want WeChat Channels and Moments closed while chat keeps working", "text": "Use Ripple for Android. See also <a href=\"../vs-built-in/\">vs built in tools</a>."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Ripple a StayFree alternative?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on what you need. For stats across computers, websites and phones, StayFree fits better, because Ripple only counts apps on this Android phone. For stats plus limits that are hard to undo, Ripple for Android does both for free."}}, {"@type": "Question", "name": "Are Ripple's usage stats uploaded?", "acceptedAnswer": {"@type": "Answer", "text": "No. The usage calendar data stays on the phone and needs no new permissions. Since v0.1.6 Ripple counts once a day, anonymously, on first open, with only the platform, version, days since install, new install or update, app language and a random install ID made on the phone. No usage content is sent."}}, {"@type": "Question", "name": "Can I use Ripple with StayFree or ActionDash?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Some people use them for stats across devices and Ripple for blocking in strict mode. Each app asks for accessibility or usage access, so grant them as each one explains."}}, {"@type": "Question", "name": "Can Ripple show a child's screen time on my phone?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ripple has no remote management, so check it on the child's phone."}}, {"@type": "Question", "name": "Does it cost anything?", "acceptedAnswer": {"@type": "Answer", "text": "Ripple is free, with no ads and no in-app purchases. More in the FAQ."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../faq/">FAQ</a>
+    <a href="./" style="color:var(--primary);font-weight:600">vs StayFree &amp; ActionDash</a>
+    <a href="../usage-calendar/">Usage calendar</a>
+    <a href="../vs-built-in/">vs built in tools</a>
+    <span class="lang-switch"><a href="../../vs-stayfree-actiondash/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">Ripple vs StayFree and ActionDash</h1>
+  <p class="lead" style="max-width:680px">When people want to know how much time they spend on their phone, many start with StayFree or ActionDash. Both are made by Sensor Tower. Since Ripple for Android v0.1.19 added a usage calendar, people ask how they differ. This page says where they do more than Ripple and who Ripple suits, first for adults limiting their own phone and then for parents. Ripple for Android is v0.1.19 and Ripple for iPhone is v0.1.5. Competitor details come from their websites and store pages in November 2026, so check their latest notes.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone v0.1.5 (.ipa)</a>
+    <div class="meta">Android v0.1.19 + iPhone v0.1.5 (iOS 16 or later) · Free, no ads · No account · Settings stay on the phone</div>
+  </div>
+</section>
+<section>
+  <h2>Adults limiting their own phone</h2>
+  <div class="grid">
+    <div class="card"><h3>What StayFree does well</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Its stats go deep. It runs on Android, iPhone, Windows, Mac and Linux, with Chrome, Firefox and Safari extensions and a Wear OS app, and connected devices add up to one total. It shows which websites you used and can export a CSV. Limits include block now, scheduled blocks, daily limits and session limits, and settings can be locked with a password.</p></div>
+    <div class="card"><h3>What ActionDash does well</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Besides time per app, it counts app launches, notifications and unlocks, so you can see which app is noisiest and how often you pick up the phone. Focus mode and sleep mode pause distracting apps with one tap or on a schedule, and apps can get daily limits. It is available in 17 languages. Some features are in the paid Plus tier, so check the app for details.</p></div>
+    <div class="card"><h3>Where Ripple for Android overlaps</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">The <a href="../usage-calendar/">usage calendar</a> in Ripple v0.1.19 shows each day's total time. Tap a day to see time per app, open counts and how many times an app was blocked. Records stay on the phone for 365 days. For limits it has schedules, daily limits and <a href="../quick-focus/">Quick Focus</a>. All of it is free, with no ads, no in-app purchases and no account.</p></div>
+    <div class="card"><h3>Where Ripple for Android differs</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Its rules are harder to get around. In strict mode, rules can only be loosened with an unlock code of at least 8 characters, used successfully at most 3 times a day, which you can give to a partner or friend. Anti-Uninstall turns on with it, changing the clock does not help, and a forgotten code can be requested and is lifted after 72 hours. Apps can get an <a href="../open-limit/">open limit</a> or a pause before opening, and it can close only WeChat Channels and Moments. A 0 minute limit keeps an app closed all day.</p></div>
+    <div class="card"><h3>What Ripple cannot do</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">It only counts this phone. There is no desktop app, browser extension or watch app, and it cannot add devices together. Stats are per app, with no website time, notification counts or unlock counts, and there is no export yet. Ripple for iPhone v0.1.5 only blocks by schedule, blocks deleting apps, protects the clock and uses an unlock code, with no usage stats or daily limits. The APK comes from the website, so you will not find Ripple in app stores.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Parents setting up a child's phone</h2>
+  <div class="grid">
+    <div class="card"><h3>First: Ripple has no remote management</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple's settings and stats live on that phone, so you check and set them on the child's phone directly. To see a child's screen time from your own phone, use your phone maker's parental controls or Google Family Link on Android, and Family Sharing on iPhone.</p></div>
+    <div class="card"><h3>You want to see how long the child plays each day</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">All three show time per app on a child's Android phone. In Ripple, open the Time used today card on the Today page and tap a day to see how long games and short videos were used. Right after install it can fill in about the last 10 days from system usage records.</p></div>
+    <div class="card"><h3>After looking, you want to set limits</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">In the same app, Ripple can block on a schedule, for example closing games and short video apps from 7 pm to 9 pm every day, or give one game 0 minutes. Turn on strict mode and keep the unlock code yourself, and the child cannot switch it off or uninstall it.</p></div>
+    <div class="card"><h3>The child also takes online classes on a computer</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple does not cover computers. For website time and blocking on a computer, StayFree has desktop apps and browser extensions that connect with the phone.</p></div>
+    <div class="card"><h3>The child uses an iPhone or iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple for iPhone can block by schedule on the child's device, for homework time and bedtime, with the unlock code kept by a parent. For screen time stats and daily limits, iPhone Screen Time with Family Sharing covers more.</p></div>
+  </div>
+</section>
+<section>
+  <h2>How to choose</h2>
+  <div class="grid">
+    <div class="card"><h3>You mainly want to see where your time goes, across phone, computer and websites</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Choose StayFree. Totals across devices and website stats are its strongest points.</p></div>
+    <div class="card"><h3>You want unlock counts and to know which app sends the most notifications</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Choose ActionDash. It counts launches, notifications and unlocks.</p></div>
+    <div class="card"><h3>After looking at the stats, you want rules that you or your child cannot casually switch off</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Install Ripple for Android, find the apps that take the most time in the usage calendar, then set schedules, daily limits or open limits. Turn on strict mode and give the unlock code to someone else.</p></div>
+    <div class="card"><h3>You only want WeChat Channels and Moments closed while chat keeps working</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Use Ripple for Android. See also <a href="../vs-built-in/">vs built in tools</a>.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Is Ripple a StayFree alternative?</summary><p>It depends on what you need. For stats across computers, websites and phones, StayFree fits better, because Ripple only counts apps on this Android phone. For stats plus limits that are hard to undo, Ripple for Android does both for free.</p></details><details><summary>Are Ripple's usage stats uploaded?</summary><p>No. The usage calendar data stays on the phone and needs no new permissions. Since v0.1.6 Ripple counts once a day, anonymously, on first open, with only the platform, version, days since install, new install or update, app language and a random install ID made on the phone. No usage content is sent.</p></details><details><summary>Can I use Ripple with StayFree or ActionDash?</summary><p>Yes. Some people use them for stats across devices and Ripple for blocking in strict mode. Each app asks for accessibility or usage access, so grant them as each one explains.</p></details><details><summary>Can Ripple show a child's screen time on my phone?</summary><p>No. Ripple has no remote management, so check it on the child's phone.</p></details><details><summary>Does it cost anything?</summary><p>Ripple is free, with no ads and no in-app purchases. More in the <a href="../faq/">FAQ</a>.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">English home</a> · <a href="../usage-calendar/">Usage calendar</a> · <a href="../vs-offphone-forest/">vs Forest &amp; OffPhone</a> · <a href="../vs-opal-freedom/">vs Opal &amp; Freedom</a> · <a href="../vs-built-in/">vs built in tools</a> · <a href="../faq/">FAQ</a> · <a href="../../vs-stayfree-actiondash/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>
