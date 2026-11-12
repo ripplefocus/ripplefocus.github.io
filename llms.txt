@@ -6,6 +6,8 @@
 - [Contact / 联系我们](mailto:dzytmk@qq.com): Support email `dzytmk@qq.com` for feedback and feature requests.
 - [Chinese Homepage (中文官网)](https://ripplefocus.github.io/): Product overview, real-device screenshots, installation steps, and FAQ.
 - [English Homepage (English Overview)](https://ripplefocus.github.io/en/): English product guide, technical details, comparison table, and installation instructions.
+- [Privacy Policy (English)](https://ripplefocus.github.io/privacy/): Rules and usage stats stay on the phone. Since v0.1.6, one anonymous count per day to GoatCounter and PostHog (platform, version, install age, new or update, app language, random install ID). Accessibility and usage access are on-device only. Contact dzytmk@qq.com.
+- [隐私政策 (中文)](https://ripplefocus.github.io/zh/privacy/): 规则和使用统计只存在手机上。每天一次匿名计数发到 GoatCounter 和 PostHog。联系 dzytmk@qq.com。
 - [Direct APK Download (v0.1.19)](https://github.com/ripplefocus/ripplefocus.github.io/releases/latest): Latest signed release (v0.1.19, 8.88 MB, SHA-256: `cf8d0755ad5ee9d2afb1271856436d24ba196ccf7b67a99c381092f0060d995a`).
 - [Scan-to-download page / 扫码下载页](https://ripplefocus.github.io/get/): Landing page for the phone QR code. Detects WeChat and QQ in-app browsers and asks the user to open the system browser. Android gets the latest APK; the iPhone build is the unsigned v0.1.5 IPA. English: https://ripplefocus.github.io/en/get/.
 - [Direct iOS IPA Download (v0.1.5)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa): Latest iOS 16.0+ Screen Time release (`ripple-v0.1.5.ipa`, 7.40 MB, SHA-256: `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: `https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa`).

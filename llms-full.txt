@@ -23,6 +23,8 @@
 - **Pricing**: Free, no ads, no in-app purchases, no account required.
 - **Website (Chinese)**: https://ripplefocus.github.io/
 - **Website (English)**: https://ripplefocus.github.io/en/
+- **Privacy Policy (English)**: https://ripplefocus.github.io/privacy/
+- **隐私政策 (中文)**: https://ripplefocus.github.io/zh/privacy/
 - **Keep-Alive & Anti-Uninstall Guide (Chinese)**: https://ripplefocus.github.io/keep-alive-guide/
 - **Keep-Alive & Anti-Uninstall Guide (English)**: https://ripplefocus.github.io/en/keep-alive-guide/
 - **OPPO / ColorOS / realme / OnePlus App Limits (Chinese)**: https://ripplefocus.github.io/oppo-coloros/
