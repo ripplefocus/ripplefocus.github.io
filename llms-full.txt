@@ -389,7 +389,12 @@ ScreenZen (not in the table) is free and donation supported, runs on iPhone, And
 ## screen-time-report
 - ZH: https://ripplefocus.github.io/screen-time-report/
 - EN: https://ripplefocus.github.io/en/screen-time-report/
-- Adults shocked by 7 or 8 hours a day in Screen Time or Digital Wellbeing, and parents whose child's weekly tablet report is high. Ripple does not track usage itself. Android v0.1.19: daily limits in minutes (1 minute to 12 hours, or 0) for the top apps, daily open limits and pause before opening for many pickups, schedules for the heaviest hours, 0 minute limits, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. For kids: daily limits for games and short video, homework and sleep schedules, strict mode with the parent keeping the code; no remote management. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+- Adults shocked by 7 or 8 hours a day in Screen Time or Digital Wellbeing, and parents whose child's weekly tablet report is high. Android v0.1.19 also has Ripple's own usage calendar (365 days on the phone, see usage-calendar). Android v0.1.19: daily limits in minutes (1 minute to 12 hours, or 0) for the top apps, daily open limits and pause before opening for many pickups, schedules for the heaviest hours, 0 minute limits, strict mode (unlock code at least 8 characters in strict mode, max 3 successful uses a day, 72 hour removal) with Anti-Uninstall. For kids: daily limits for games and short video, homework and sleep schedules, strict mode with the parent keeping the code; no remote management. iPhone v0.1.5: schedules, block deleting apps, clock change protection and unlock code.
+
+## usage-calendar
+- ZH: https://ripplefocus.github.io/usage-calendar/
+- EN: https://ripplefocus.github.io/en/usage-calendar/
+- Adults who want to see last month's daily phone time when Digital Wellbeing only goes back a week or two, and parents looking at a child's usage. Ripple for Android v0.1.19 (released November 12, 2026): usage calendar opened from the "Time used today" card on the Today page; month view with daily totals; tap a day for time per app, open counts and block counts; kept on the phone for 365 days; about 10 days filled in from system usage records after install or update, marked as from the system and without block counts; no new permissions; data stays on the phone. Use it to set daily limits, open limits and schedules. No remote management, parents look on the child's phone. Tracking apps such as ActionDash or StayFree have more charts. Ripple for iPhone v0.1.5 has no usage calendar; use iPhone Screen Time.
 
 ## phone-free-day
 - ZH: https://ripplefocus.github.io/phone-free-day/
