@@ -1738,7 +1738,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/vs-opal-freedom/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-opal-freedom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-opal-freedom/"/>
@@ -1746,7 +1746,7 @@
   </url>
   <url>
     <loc>https://ripplefocus.github.io/en/vs-opal-freedom/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-opal-freedom/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-opal-freedom/"/>
@@ -1767,5 +1767,21 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/usage-calendar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/usage-calendar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/usage-calendar/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/vs-offphone-forest/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-offphone-forest/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-offphone-forest/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-offphone-forest/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/vs-offphone-forest/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-offphone-forest/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-offphone-forest/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-offphone-forest/"/>
   </url>
 </urlset>
