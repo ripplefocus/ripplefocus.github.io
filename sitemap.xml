@@ -1848,4 +1848,36 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/borrowed-phone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/borrowed-phone/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/revenge-bedtime/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/revenge-bedtime/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/revenge-bedtime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/revenge-bedtime/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/revenge-bedtime/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/revenge-bedtime/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/revenge-bedtime/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/revenge-bedtime/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/vs-blocksite-lockmeout/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-blocksite-lockmeout/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-blocksite-lockmeout/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-blocksite-lockmeout/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/vs-blocksite-lockmeout/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-blocksite-lockmeout/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-blocksite-lockmeout/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-blocksite-lockmeout/"/>
+  </url>
 </urlset>
