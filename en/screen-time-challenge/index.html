@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A 30 day screen time challenge for adults and for the whole family (Android and iPhone) - Ripple</title>
+<meta name="description" content="A four week plan to cut phone time, for adults on their own phone and for parents doing it with their kids. Start from the usage calendar, add one rule a week, and compare at the end. Ripple for Android v0.1.19 and iPhone v0.1.5.">
+<meta name="keywords" content="30 day screen time challenge,reduce screen time challenge,30 day digital detox,family screen time challenge,screen time challenge for kids,cut phone time in a month,usage calendar android,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/screen-time-challenge/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/screen-time-challenge/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/screen-time-challenge/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/screen-time-challenge/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A 30 day screen time challenge for adults and for the whole family (Android and iPhone) - Ripple">
+<meta property="og:description" content="A four week plan to cut phone time, for adults on their own phone and for parents doing it with their kids. Start from the usage calendar, add one rule a week, and compare at the end. Ripple for Android v0.1.19 and iPhone v0.1.5.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/screen-time-challenge/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "Running a 30 day screen time challenge with Ripple", "step": [{"@type": "HowToStep", "name": "Install or update", "text": "On Android download the latest APK and turn on the accessibility service when asked, or update to v0.1.19 in Settings › About › Check for updates. On iPhone install v0.1.5, which needs iOS 16 or later."}, {"@type": "HowToStep", "name": "Adults: note day 1", "text": "Check the usage calendar, write down your usual daily total, then add one rule per week as above."}, {"@type": "HowToStep", "name": "Parents: set up both phones", "text": "Set the child's schedules and game limit, set one rule on your own phone, turn on strict mode on the child's phone and keep the code."}, {"@type": "HowToStep", "name": "Compare on day 30", "text": "Open the calendar, compare with day 1 and keep what worked."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why 30 days and not a single detox day?", "acceptedAnswer": {"@type": "Answer", "text": "One rule a week gives you time to see what each rule does before adding the next. The usage calendar shows the effect day by day, so you can tell which rule helped."}}, {"@type": "Question", "name": "Do I need to track anything by hand?", "acceptedAnswer": {"@type": "Answer", "text": "On Android no. The usage calendar records each day's total, time per app, opens and blocks on the phone. On iPhone v0.1.5 use Screen Time in Settings for the numbers."}}, {"@type": "Question", "name": "Can parents see the child's numbers from their own phone?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ripple has no remote management. Open the calendar on the child's phone together."}}, {"@type": "Question", "name": "What if I break the challenge one night?", "acceptedAnswer": {"@type": "Answer", "text": "If strict mode is off you can loosen a rule after the wait or with the code. Check the calendar the next day and carry on. Strict mode with the code kept by someone else makes that night less likely."}}, {"@type": "Question", "name": "Does it cost anything?", "acceptedAnswer": {"@type": "Answer", "text": "Ripple is free, with no ads and no account. More in the FAQ."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../faq/">FAQ</a>
+    <a href="./" style="color:var(--primary);font-weight:600">30 day challenge</a>
+    <a href="../usage-calendar/">Usage calendar</a>
+    <a href="../digital-minimalism/">Digital minimalism</a>
+    <span class="lang-switch"><a href="../../screen-time-challenge/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">A 30 day screen time challenge, for yourself or with your kids</h1>
+  <p class="lead" style="max-width:680px">Many people try to cut phone time all at once on a Monday and are back to the old numbers by Thursday. A month gives you room to add one rule at a time and see what each one does. This page lays out four weeks on Ripple. The first part is for adults doing it on their own phone. The second part is for parents doing it with their kids, where the parents follow the same plan on their own phones. Ripple for Android is v0.1.19 and Ripple for iPhone is v0.1.5.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone v0.1.5 (.ipa)</a>
+    <div class="meta">Android v0.1.19 + iPhone v0.1.5 (iOS 16 or later) · Free, no ads · No account · Settings stay on the phone</div>
+  </div>
+</section>
+<section>
+  <h2>Adults: four weeks on your own phone</h2>
+  <div class="grid">
+    <div class="card"><h3>Day 1: write down where you start</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Open the usage calendar from the "Time used today" card on the Today page. After install it fills in about the last 10 days from system usage records, so you can see your usual daily total and which apps take it before you change anything. Note the number somewhere.</p></div>
+    <div class="card"><h3>Week 1: one schedule and one limit</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Add a sleep schedule, for example 23:30 to 7:00, with short video, short drama and game apps on the list. Give the app that takes the most time a daily limit a bit below your usual, such as 60 minutes if you normally spend 90.</p></div>
+    <div class="card"><h3>Week 2: fewer quick checks</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">For the app you open without thinking, add a daily open limit and a pause before opening. Each open waits 5 to 30 seconds and shows how long you have used the app today. Lower last week's daily limit by 15 minutes if it went well. See <a href="../open-limit/">open limits</a>.</p></div>
+    <div class="card"><h3>Week 3: make it harder to undo</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Most challenges end on the night you switch the rules off. Without strict mode, loosening a rule needs a wait of 15 minutes by default, up to 2 hours, or the unlock code. With strict mode on, only the unlock code works, at most 3 successful uses a day, so hand it to a friend or partner. Strict mode also turns on Anti-Uninstall.</p></div>
+    <div class="card"><h3>Week 4: one app at 0 minutes</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">If one app kept coming back in the calendar, set its daily limit to 0 minutes so it stays closed all day for the last week. For hours when you want to focus right now, Quick Focus locks the phone at once.</p></div>
+    <div class="card"><h3>Day 30: compare and keep what worked</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Look at the calendar again and compare your daily totals with day 1. Keep the rules that helped and drop the ones that only annoyed you. The calendar keeps records on the phone for 365 days.</p></div>
+    <div class="card"><h3>On iPhone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple for iPhone v0.1.5 blocks apps by schedule, so the sleep schedule in week 1 works, and it can block deleting apps, protect against clock changes and use an unlock code. It has no usage calendar, daily limits, open limits, strict mode or Quick Focus, so use Screen Time in iPhone Settings for the numbers.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Parents: doing it as a family</h2>
+  <div class="grid">
+    <div class="card"><h3>Everyone in, parents included</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Kids take a challenge more seriously when the parents' phones are part of it. Each person picks one app to cut down and sets the same kind of rule on their own phone. Rules apply to the whole phone, so a parent's phone that a child borrows follows them too.</p></div>
+    <div class="card"><h3>Week 1: homework and bedtime</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On the child's phone add school day schedules for homework time and for the night, with games, short video and live streaming on the list. Phone calls, messages and alarms always work.</p></div>
+    <div class="card"><h3>Week 2: a daily amount for games</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Give the child's main game a daily limit you agree on together, for example 30 minutes, or a few opens a day with an open limit. A 0 minute limit keeps a game closed all day on Android.</p></div>
+    <div class="card"><h3>Week 3: no switching it off</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Turn on strict mode on the child's phone and keep the unlock code yourself. Anti-Uninstall turns on with it, and time is counted from device uptime, so changing the clock does not end a schedule. A forgotten code can be requested and is lifted after 72 hours.</p></div>
+    <div class="card"><h3>Sunday check with the calendar</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Once a week sit down together and open the usage calendar on each phone. Daily totals, time per app and block counts give everyone the same numbers to talk about. Ripple has no remote management, so you look on the child's phone in person.</p></div>
+    <div class="card"><h3>Day 30: decide what stays</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Compare the last week with the first. Agree which rules stay for the school term and which ones can be relaxed, and change them together.</p></div>
+    <div class="card"><h3>Child on iPhone or iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple for iPhone v0.1.5 can block games and video apps by schedule, block deleting apps, protect the clock and use an unlock code. Daily limits and the calendar are Android only, so use Screen Time with Family Sharing on iPhone for amounts and reports.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Setup steps</h2>
+  <div class="grid">
+    <div class="card"><h3>Install or update</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">On Android download the latest APK and turn on the accessibility service when asked, or update to v0.1.19 in Settings › About › Check for updates. On iPhone install v0.1.5, which needs iOS 16 or later.</p></div>
+    <div class="card"><h3>Adults: note day 1</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Check the usage calendar, write down your usual daily total, then add one rule per week as above.</p></div>
+    <div class="card"><h3>Parents: set up both phones</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Set the child's schedules and game limit, set one rule on your own phone, turn on strict mode on the child's phone and keep the code.</p></div>
+    <div class="card"><h3>Compare on day 30</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Open the calendar, compare with day 1 and keep what worked.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Why 30 days and not a single detox day?</summary><p>One rule a week gives you time to see what each rule does before adding the next. The usage calendar shows the effect day by day, so you can tell which rule helped.</p></details><details><summary>Do I need to track anything by hand?</summary><p>On Android no. The usage calendar records each day's total, time per app, opens and blocks on the phone. On iPhone v0.1.5 use Screen Time in Settings for the numbers.</p></details><details><summary>Can parents see the child's numbers from their own phone?</summary><p>No. Ripple has no remote management. Open the calendar on the child's phone together.</p></details><details><summary>What if I break the challenge one night?</summary><p>If strict mode is off you can loosen a rule after the wait or with the code. Check the calendar the next day and carry on. Strict mode with the code kept by someone else makes that night less likely.</p></details><details><summary>Does it cost anything?</summary><p>Ripple is free, with no ads and no account. More in the <a href="../faq/">FAQ</a>.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">English home</a> · <a href="../usage-calendar/">Usage calendar</a> · <a href="../open-limit/">Open limits</a> · <a href="../strict-mode/">Strict mode</a> · <a href="../digital-minimalism/">Digital minimalism</a> · <a href="../new-year-goals/">New Year goals</a> · <a href="../faq/">FAQ</a> · <a href="../../screen-time-challenge/">中文版</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>

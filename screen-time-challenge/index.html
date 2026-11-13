@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>30 天减少屏幕时间挑战：大人自己做，或者全家一起做（安卓与 iPhone）- 涟漪</title>
+<meta name="description" content="四周减少刷手机时间的安排，写给自己设限制的大人，也写给带着孩子一起做的家长。先看使用统计日历记下起点，每周加一条规则，最后对比。涟漪安卓 v0.1.19 和 iPhone v0.1.5 分开写。">
+<meta name="keywords" content="30天戒手机挑战,减少屏幕时间挑战,戒短视频30天,全家减少手机时间,孩子屏幕时间挑战,一个月少刷手机,安卓使用统计日历,涟漪">
+<link rel="canonical" href="https://ripplefocus.github.io/screen-time-challenge/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/screen-time-challenge/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/screen-time-challenge/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/screen-time-challenge/">
+<link rel="icon" href="../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="30 天减少屏幕时间挑战：大人自己做，或者全家一起做（安卓与 iPhone）- 涟漪">
+<meta property="og:description" content="四周减少刷手机时间的安排，写给自己设限制的大人，也写给带着孩子一起做的家长。先看使用统计日历记下起点，每周加一条规则，最后对比。涟漪安卓 v0.1.19 和 iPhone v0.1.5 分开写。">
+<meta property="og:url" content="https://ripplefocus.github.io/screen-time-challenge/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "用涟漪做 30 天减少屏幕时间挑战", "step": [{"@type": "HowToStep", "name": "装上或升级", "text": "安卓下载最新版 APK，按提示开启无障碍服务，或在「设置 › 关于 › 检查更新」里升到 v0.1.19。iPhone 装 v0.1.5，需要 iOS 16 及以上。"}, {"@type": "HowToStep", "name": "大人：记下第 1 天", "text": "看使用统计日历，记下平时一天用多久，然后按上面每周加一条。"}, {"@type": "HowToStep", "name": "家长：两台手机都设", "text": "设好孩子的时段和游戏时长，自己手机上也设一条，孩子手机开严格模式，解锁码自己留着。"}, {"@type": "HowToStep", "name": "第 30 天对比", "text": "打开日历和第 1 天比，有用的留下。"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "为什么是 30 天，一天断网不行吗？", "acceptedAnswer": {"@type": "Answer", "text": "每周加一条，能看出每条规则起了多大作用再加下一条。使用统计日历按天记录，哪条有用一看就知道。"}}, {"@type": "Question", "name": "要自己手动记数吗？", "acceptedAnswer": {"@type": "Answer", "text": "安卓不用，使用统计日历在手机上记下每天总时长、每个 App 的时长、打开次数和拦截次数。iPhone v0.1.5 用系统设置里的屏幕使用时间看。"}}, {"@type": "Question", "name": "家长能在自己手机上看孩子的数据吗？", "acceptedAnswer": {"@type": "Answer", "text": "不能，涟漪没有远程管理，要在孩子手机上一起看日历。"}}, {"@type": "Question", "name": "哪天晚上没忍住怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "没开严格模式的话，等一段时间或者输解锁码可以放松规则。第二天看看日历接着来就行。开严格模式、码交给别人保管，这种晚上会少一些。"}}, {"@type": "Question", "name": "要钱吗？", "acceptedAnswer": {"@type": "Answer", "text": "涟漪免费，没有广告，不用注册账号。更多见 常见问题。"}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../logo.png" alt="涟漪图标"><b>涟漪</b></a>
+  <nav>
+    <a href="../">首页</a>
+    <a href="../faq/">常见问题</a>
+    <a href="./" style="color:var(--primary);font-weight:600">30 天挑战</a>
+    <a href="../usage-calendar/">使用统计日历</a>
+    <a href="../digital-minimalism/">数字极简</a>
+    <span class="lang-switch"><a href="./" class="active">中文</a><a href="../en/screen-time-challenge/">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">30 天减少刷手机时间，自己做或者带孩子一起做</h1>
+  <p class="lead" style="max-width:680px">很多人周一下决心一下子全戒掉，到周四又回到原来的时长。拉长到一个月，每周只加一条规则，能看清每条规则到底管不管用。这一页按四周写涟漪怎么设。前一部分写大人在自己手机上做，后一部分写家长带孩子一起做，家长自己的手机也照着来。涟漪安卓最新是 v0.1.19，iPhone 是 v0.1.5。</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">安卓免梯直连下载最新版</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">GitHub 下载最新版</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone 版下载 v0.1.5 (.ipa)</a>
+    <div class="meta">安卓 v0.1.19 + iPhone v0.1.5（iOS 16 及以上）· 免费无广告 · 无需注册账号 · 设置只存在手机本地</div>
+  </div>
+</section>
+<section>
+  <h2>大人：在自己手机上做四周</h2>
+  <div class="grid">
+    <div class="card"><h3>第 1 天：先记下起点</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">在「今天」页点「今天用了多久」卡片，打开使用统计日历。刚装上时会从系统使用记录补回最近大约 10 天，改规则之前就能看到平时一天用多久、时间花在哪些 App 上。把这个数记下来。</p></div>
+    <div class="card"><h3>第 1 周：一个时段，一个时长</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">建一个睡觉的自律时段，比如 23:30 到第二天 7:00，把短视频、短剧和游戏 App 放进名单。给最花时间的那个 App 设每日时长，比平时少一点，平时用 90 分钟就先设 60 分钟。</p></div>
+    <div class="card"><h3>第 2 周：少点开几次</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">对那个不过脑子就点开的 App，设每天最多打开几次，再加打开前停一下。每次打开先等 5 到 30 秒，屏幕上显示今天已经用了多久。上周的时长要是守住了，再减 15 分钟。见 <a href="../open-limit/">打开次数</a>。</p></div>
+    <div class="card"><h3>第 3 周：让自己不好改回去</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">挑战大多断在某天晚上自己把规则关掉。不开严格模式时，放松规则要先等一段时间，默认 15 分钟，最长 2 小时，或者输解锁码。开了严格模式就只能输解锁码，每天最多成功用 3 次，码交给朋友或另一半保管。开严格模式会同时开防卸载。</p></div>
+    <div class="card"><h3>第 4 周：一个 App 设成 0 分钟</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">日历里总是排在前面的那个 App，最后一周把每日时长设成 0 分钟，整天打不开。临时要专心一会儿，可以用一键专注马上锁机。</p></div>
+    <div class="card"><h3>第 30 天：对比，留下有用的</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">再打开日历，拿每天的总时长和第 1 天比。帮上忙的规则留着，只让人烦的去掉。日历的记录在手机上保留 365 天。</p></div>
+    <div class="card"><h3>用 iPhone 的话</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">涟漪 iPhone 版 v0.1.5 可以按时段屏蔽 App，第 1 周的睡觉时段能用，还能禁止删除 App、防改时间和设解锁码。没有使用统计日历、每日时长、打开次数、严格模式和一键专注，看数字用系统设置里的屏幕使用时间。</p></div>
+  </div>
+</section>
+<section>
+  <h2>家长：全家一起做</h2>
+  <div class="grid">
+    <div class="card"><h3>全家都参加，家长也算</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">家长的手机也在挑战里，孩子会更当回事。每个人挑一个想少用的 App，在自己手机上设同一类规则。规则对整台手机生效，孩子借家长的手机也一样受限。</p></div>
+    <div class="card"><h3>第 1 周：写作业和睡觉</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">在孩子手机上建上学日写作业的时段和晚上的时段，把游戏、短视频和直播放进名单。电话、短信和闹钟一直能用。</p></div>
+    <div class="card"><h3>第 2 周：游戏给个量</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">孩子最常玩的游戏，一起商量一个每日时长，比如 30 分钟，或者用打开次数限制每天开几次。安卓上设成 0 分钟就整天打不开。</p></div>
+    <div class="card"><h3>第 3 周：关不掉</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">孩子手机开严格模式，解锁码家长自己留着，防卸载会一起打开。按开机以来的时间计时，改手机时间不会提前结束时段。忘了码可以申请，72 小时后解除。</p></div>
+    <div class="card"><h3>每周日一起看日历</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">每周找一天坐下来，打开每台手机上的使用统计日历。每天一共多久、每个 App 多久、被拦了几次，大家看的是同一组数字，聊起来不靠猜。涟漪没有远程管理，要在孩子手机上当面看。</p></div>
+    <div class="card"><h3>第 30 天：商量哪些留下</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">拿最后一周和第一周比，一起定哪些规则这个学期接着用，哪些可以放宽，一起改。</p></div>
+    <div class="card"><h3>孩子用 iPhone 或 iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">涟漪 iPhone 版 v0.1.5 可以按时段屏蔽游戏和视频 App，还能禁止删除 App、防改时间和设解锁码。每日时长和日历只有安卓有，iPhone 上的时长和报告用屏幕使用时间和家人共享。</p></div>
+  </div>
+</section>
+<section>
+  <h2>设置步骤</h2>
+  <div class="grid">
+    <div class="card"><h3>装上或升级</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">安卓下载最新版 APK，按提示开启无障碍服务，或在「设置 › 关于 › 检查更新」里升到 v0.1.19。iPhone 装 v0.1.5，需要 iOS 16 及以上。</p></div>
+    <div class="card"><h3>大人：记下第 1 天</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">看使用统计日历，记下平时一天用多久，然后按上面每周加一条。</p></div>
+    <div class="card"><h3>家长：两台手机都设</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">设好孩子的时段和游戏时长，自己手机上也设一条，孩子手机开严格模式，解锁码自己留着。</p></div>
+    <div class="card"><h3>第 30 天对比</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">打开日历和第 1 天比，有用的留下。</p></div>
+  </div>
+</section>
+<section>
+  <h2>常见问题</h2>
+  <details><summary>为什么是 30 天，一天断网不行吗？</summary><p>每周加一条，能看出每条规则起了多大作用再加下一条。使用统计日历按天记录，哪条有用一看就知道。</p></details><details><summary>要自己手动记数吗？</summary><p>安卓不用，使用统计日历在手机上记下每天总时长、每个 App 的时长、打开次数和拦截次数。iPhone v0.1.5 用系统设置里的屏幕使用时间看。</p></details><details><summary>家长能在自己手机上看孩子的数据吗？</summary><p>不能，涟漪没有远程管理，要在孩子手机上一起看日历。</p></details><details><summary>哪天晚上没忍住怎么办？</summary><p>没开严格模式的话，等一段时间或者输解锁码可以放松规则。第二天看看日历接着来就行。开严格模式、码交给别人保管，这种晚上会少一些。</p></details><details><summary>要钱吗？</summary><p>涟漪免费，没有广告，不用注册账号。更多见 <a href="../faq/">常见问题</a>。</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">联系 dzytmk@qq.com</a> ·
+  涟漪 · <a href="../">首页</a> · <a href="../usage-calendar/">使用统计日历</a> · <a href="../open-limit/">打开次数</a> · <a href="../strict-mode/">严格模式</a> · <a href="../digital-minimalism/">数字极简</a> · <a href="../new-year-goals/">新年目标</a> · <a href="../faq/">常见问题</a> · <a href="../en/screen-time-challenge/">English</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>
