@@ -206,7 +206,7 @@ footer a:hover{color:var(--primary)}
       <li><b>Automatic Accessibility restoration in ~2.5 seconds</b><span>The daemon grants Ripple <code>WRITE_SECURE_SETTINGS</code> and monitors its process via Binder death notifications. If you swipe Ripple away from Recents, <code>ripple_ss</code> automatically re-writes <code>enabled_accessibility_services</code> and re-binds the Accessibility service within about <b>2.5 seconds</b>. It also recovers automatically within about 1 minute after a device reboot.</span></li>
     </ol>
   </div>
-  <div class="note"><b>Clean Uninstallation Anytime:</b> Whenever you legitimately want to remove Ripple, open <code>Ripple › Settings › Anti-Uninstall › I want to uninstall Ripple</code>. Once your mandatory monotonic cooldown timer (15 minutes to 2 hours via <code>SystemClock.elapsedRealtime()</code>) finishes or your friend/parent enters the Unlock Code, Ripple automatically unlocks package removal and opens the standard Android uninstall prompt.</div>
+  <div class="note"><b>Clean Uninstallation Anytime:</b> Whenever you legitimately want to remove Ripple, open <code>Ripple › Settings › Anti-Uninstall › I want to uninstall Ripple</code>. Once your mandatory monotonic cooldown timer (a fixed 15 minutes via <code>SystemClock.elapsedRealtime()</code>) finishes or your friend/parent enters the Unlock Code, Ripple automatically unlocks package removal and opens the standard Android uninstall prompt.</div>
 </section>
 </div>
 <footer>
