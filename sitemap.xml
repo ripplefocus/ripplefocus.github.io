@@ -2040,4 +2040,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-yourhour-regain/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-yourhour-regain/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/vs-olauncher-minimalist/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-olauncher-minimalist/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-olauncher-minimalist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-olauncher-minimalist/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/vs-olauncher-minimalist/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-olauncher-minimalist/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-olauncher-minimalist/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-olauncher-minimalist/"/>
+  </url>
 </urlset>
