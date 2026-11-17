@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-18T06:10:00+08:00</updated>
+  <updated>2026-11-18T08:10:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs Bu Zuo Shou Ji Kong and Tomato ToDo: Chinese focus apps compared</title>
+    <link href="https://ripplefocus.github.io/en/vs-buzuoshoujikong-tomatodo/"/>
+    <id>https://ripplefocus.github.io/en/vs-buzuoshoujikong-tomatodo/</id>
+    <updated>2026-11-18T08:10:00+08:00</updated>
+    <summary>Tomato ToDo is best for timed study sessions and study rooms. Bu Zuo Shou Ji Kong gives the most control on Android, with many settings and a membership. Ripple is free with no account and gives each app a plain daily cap, with an unlock code someone else can keep.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪、不做手机控和番茄ToDo怎么选：大人管自己和家长管孩子</title>
+    <link href="https://ripplefocus.github.io/vs-buzuoshoujikong-tomatodo/"/>
+    <id>https://ripplefocus.github.io/vs-buzuoshoujikong-tomatodo/</id>
+    <updated>2026-11-18T08:10:00+08:00</updated>
+    <summary>番茄ToDo 适合按番茄钟学习和进自习室，不做手机控在安卓上管得最细但设置多、有会员。涟漪免费不用注册，给每个 App 设简单的每日时长，解锁码可以交给别人保管。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Ripple vs Microsoft Family Safety: app limits for parents and adults</title>
     <link href="https://ripplefocus.github.io/en/vs-microsoft-family-safety/"/>
