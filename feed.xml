@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ripple / 涟漪</title>
+  <subtitle>Guides and comparisons from the developer of Ripple, a free app blocker for Android and iPhone, for adults and for parents.</subtitle>
+  <link href="https://ripplefocus.github.io/feed.xml" rel="self"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <link href="https://ripplefocus.github.io/"/>
+  <id>https://ripplefocus.github.io/</id>
+  <updated>2026-11-17T22:10:00+08:00</updated>
+  <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs Flipd and SPACE: study timer, habit tracker or app blocker</title>
+    <link href="https://ripplefocus.github.io/en/vs-flipd-space/"/>
+    <id>https://ripplefocus.github.io/en/vs-flipd-space/</id>
+    <updated>2026-11-17T22:10:00+08:00</updated>
+    <summary>Flipd times study sessions and locks apps while one runs, SPACE tracks screen time and unlocks. Ripple sets rules that stay on all day, for adults studying or working and for parents setting homework time on a child's phone.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪和 Flipd、SPACE 怎么选：学习计时、习惯记录还是 App 限制</title>
+    <link href="https://ripplefocus.github.io/vs-flipd-space/"/>
+    <id>https://ripplefocus.github.io/vs-flipd-space/</id>
+    <updated>2026-11-17T22:10:00+08:00</updated>
+    <summary>Flipd 计时期间锁 App，SPACE 记录屏幕时间和解锁次数，涟漪设整天有效的规则。写给考试季的大人，也写给给孩子设写作业时段的家长。</summary>
+  </entry>
+  <entry xml:lang="en">
+    <title>Ripple vs Kidslox and FamiSafe</title>
+    <link href="https://ripplefocus.github.io/en/vs-kidslox-famisafe/"/>
+    <id>https://ripplefocus.github.io/en/vs-kidslox-famisafe/</id>
+    <updated>2026-11-17T20:00:00+08:00</updated>
+    <summary>Paid parental control with remote management and monitoring, or a free app blocker with no account, for parents and for adults.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪和 Kidslox、FamiSafe 怎么选</title>
+    <link href="https://ripplefocus.github.io/vs-kidslox-famisafe/"/>
+    <id>https://ripplefocus.github.io/vs-kidslox-famisafe/</id>
+    <updated>2026-11-17T20:00:00+08:00</updated>
+    <summary>带监控的付费家长控制，还是不用注册的免费 App 限制，写给家长和大人自己。</summary>
+  </entry>
+  <entry xml:lang="en">
+    <title>Ripple vs Olauncher and minimalist phone</title>
+    <link href="https://ripplefocus.github.io/en/vs-olauncher-minimalist/"/>
+    <id>https://ripplefocus.github.io/en/vs-olauncher-minimalist/</id>
+    <updated>2026-11-14T14:20:00+08:00</updated>
+    <summary>Minimalist launchers hide icons, an app blocker sets limits. What each does for adults and on a child's phone.</summary>
+  </entry>
+  <entry xml:lang="en">
+    <title>Ripple vs YourHour and Regain</title>
+    <link href="https://ripplefocus.github.io/en/vs-yourhour-regain/"/>
+    <id>https://ripplefocus.github.io/en/vs-yourhour-regain/</id>
+    <updated>2026-11-14T12:15:00+08:00</updated>
+    <summary>Floating timers, Reels blocking and Pro plans compared with a free Android app blocker with daily limits and an unlock code.</summary>
+  </entry>
+  <entry xml:lang="en">
+    <title>Ripple FAQ</title>
+    <link href="https://ripplefocus.github.io/en/faq/"/>
+    <id>https://ripplefocus.github.io/en/faq/</id>
+    <updated>2026-11-17T22:10:00+08:00</updated>
+    <summary>What Ripple for Android v0.1.20 and Ripple for iPhone v0.1.5 can and cannot do.</summary>
+  </entry>
+</feed>
