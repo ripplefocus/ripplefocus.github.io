@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-18T00:10:00+08:00</updated>
+  <updated>2026-11-18T02:10:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs OurPact and Norton Family: phone limits for parents and adults</title>
+    <link href="https://ripplefocus.github.io/en/vs-ourpact-norton-family/"/>
+    <id>https://ripplefocus.github.io/en/vs-ourpact-norton-family/</id>
+    <updated>2026-11-18T02:10:00+08:00</updated>
+    <summary>OurPact and Norton Family are paid parental control services with remote rules, monitoring and location. Ripple is free with no account and sets per app limits on the phone itself, for a child's phone you can set up in person or for your own. OurPact skips Xiaomi, Oppo, Honor and OnePlus phones.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪和 OurPact、Norton Family 怎么选：家长管孩子手机和大人管自己</title>
+    <link href="https://ripplefocus.github.io/vs-ourpact-norton-family/"/>
+    <id>https://ripplefocus.github.io/vs-ourpact-norton-family/</id>
+    <updated>2026-11-18T02:10:00+08:00</updated>
+    <summary>OurPact 和 Norton Family 是付费家长管控服务，能远程改规则、监控和定位。涟漪免费不用注册，在手机上按 App 设时长，适合能当面设置的孩子手机，也适合自己用。OurPact 不支持小米、OPPO、荣耀、一加。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Ripple vs FocusMe and BlockerX: strict app blockers compared</title>
     <link href="https://ripplefocus.github.io/en/vs-focusme-blockerx/"/>
