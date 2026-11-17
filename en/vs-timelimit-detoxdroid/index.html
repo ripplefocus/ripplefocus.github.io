@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ripple vs TimeLimit.io and DetoxDroid: free app limits on Android for parents and for adults - Ripple</title>
+<meta name="description" content="An honest comparison of TimeLimit.io, an open source parental control app on F-Droid with categories, time rules and an optional connected mode, DetoxDroid, an open source digital detox app with grayscale, doom scrolling breaks and an emergency brake, and Ripple, a free app blocker with no account. For parents limiting a child's phone and for adults limiting their own. What Ripple for Android v0.1.20 and Ripple for iPhone v0.1.5 can and cannot do.">
+<meta name="keywords" content="TimeLimit alternative,DetoxDroid alternative,open source app blocker android,F-Droid parental control,free app time limit android no account,app blocker for myself,Ripple">
+<link rel="canonical" href="https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/">
+<link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-timelimit-detoxdroid/">
+<link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/">
+<link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/">
+<link rel="icon" href="../../logo.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ripple vs TimeLimit.io and DetoxDroid: free app limits on Android for parents and for adults - Ripple">
+<meta property="og:description" content="An honest comparison of TimeLimit.io, an open source parental control app on F-Droid with categories, time rules and an optional connected mode, DetoxDroid, an open source digital detox app with grayscale, doom scrolling breaks and an emergency brake, and Ripple, a free app blocker with no account. For parents limiting a child's phone and for adults limiting their own. What Ripple for Android v0.1.20 and Ripple for iPhone v0.1.5 can and cannot do.">
+<meta property="og:url" content="https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/">
+<meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "How to choose between TimeLimit.io, DetoxDroid and Ripple", "step": [{"@type": "HowToStep", "name": "Choose TimeLimit.io", "text": "You want open source parental control with several child profiles or devices and maybe changes from another device."}, {"@type": "HowToStep", "name": "Choose DetoxDroid", "text": "You want open source tools that make your own phone duller to use, with grayscale and breaks from scrolling."}, {"@type": "HowToStep", "name": "Choose Ripple", "text": "You want hard per app limits on Android with no account and nothing sent off the phone, plus an unlock code someone else can keep, for yourself or a child's phone you can set up in person."}, {"@type": "HowToStep", "name": "Try it first", "text": "Install the latest APK, turn on the accessibility service when asked, give one app 30 minutes a day and open it to see the block screen."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Ripple open source?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ripple is free with no ads and no account, but its source code is not published and it is not on F-Droid. If open source matters most to you, TimeLimit.io and DetoxDroid are good choices."}}, {"@type": "Question", "name": "Can I use Ripple and DetoxDroid together?", "acceptedAnswer": {"@type": "Answer", "text": "They can both be installed, but both rely on an accessibility service, so test on your phone first. I have not tested the pair."}}, {"@type": "Question", "name": "Is Ripple really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. No ads, no subscription and no account. More in the FAQ."}}, {"@type": "Question", "name": "What does the iPhone version do?", "acceptedAnswer": {"@type": "Answer", "text": "Ripple for iPhone v0.1.5 blocks apps by schedule, blocks deleting apps, protects the clock and uses an unlock code. It has no daily amounts."}}]}]}</script>
+<style>
+:root{
+  --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
+  --primary:#3F72B0;--tint:#E6EEF8;--green:#1FA855;--orange:#E08600;--sep:#EEF1F6;
+  --radius:20px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonyOS Sans SC","MiSans","Noto Sans CJK SC","Noto Sans SC","Microsoft YaHei",sans-serif;
+  line-height:1.6;font-size:16px}
+a{color:var(--primary)}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+.lang-banner{display:none;background:var(--tint);color:var(--ink);font-size:14px;padding:10px 16px;border-radius:12px;margin-top:12px;align-items:center;justify-content:space-between;gap:12px}
+.lang-banner a{font-weight:600;text-decoration:none}
+.lang-banner button{background:none;border:none;color:var(--ink2);cursor:pointer;font-size:16px;padding:0 4px}
+header.top{display:flex;align-items:center;gap:10px;padding:16px 0;flex-wrap:wrap}
+header.top img{width:32px;height:32px;border-radius:9px}
+header.top b{font-size:18px}
+header.top nav{margin-left:auto;display:flex;align-items:center;gap:14px;font-size:14.5px;flex-wrap:wrap}
+header.top nav a{text-decoration:none;color:var(--ink2)}
+header.top nav a:hover{color:var(--primary)}
+.lang-switch{display:inline-flex;align-items:center;background:#EEF2F8;border-radius:100px;padding:3px;font-size:13px;font-weight:600}
+.lang-switch a{padding:3px 10px;border-radius:100px;color:var(--ink2);text-decoration:none}
+.lang-switch a.active{background:var(--card);color:var(--primary);box-shadow:0 1px 3px rgba(20,40,80,.08)}
+.hero{text-align:center;padding:32px 0 26px;position:relative}
+.ripple{width:132px;height:132px;margin:0 auto;position:relative;display:flex;align-items:center;justify-content:center}
+.ripple:before,.ripple:after{content:"";position:absolute;inset:-26px;border-radius:50%;border:1px solid rgba(63,114,176,.16)}
+.ripple:after{inset:-56px;border-color:rgba(63,114,176,.08)}
+.ripple img{width:104px;height:104px;border-radius:26px;box-shadow:0 10px 30px rgba(63,114,176,.18)}
+h1{font-size:40px;line-height:1.2;margin:42px 0 6px;letter-spacing:.02em}
+.slogan{font-size:19px;color:var(--ink2);margin:0}
+.lead{max-width:580px;margin:14px auto 0;color:var(--ink2);font-size:15.5px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 28px;border-radius:26px;
+  background:var(--primary);color:#fff;font-size:17px;font-weight:600;white-space:nowrap;text-decoration:none;box-shadow:0 6px 18px rgba(63,114,176,.25)}
+.btn svg{width:20px;height:20px}
+.btn.ghost{background:transparent;color:var(--primary);box-shadow:none;border:1.5px solid rgba(63,114,176,.35)}
+.cta{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.meta{font-size:13px;color:var(--ink3);line-height:1.5}
+.sha-box{font-size:12px;color:var(--ink3);background:#F2F5FA;padding:6px 14px;border-radius:100px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sha-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:var(--ink2);font-size:11.5px}
+section{padding:26px 0}
+h2{font-size:24px;margin:0 0 14px}
+.sec-sub{color:var(--ink2);font-size:15px;margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:12px}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:none;width:44px;height:44px;border-radius:13px;background:var(--tint);color:var(--primary);display:flex;align-items:center;justify-content:center}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;margin:0 0 3px}
+.feat p{margin:0;color:var(--ink2);font-size:14.5px}
+.shots-row{display:flex;gap:16px;overflow-x:auto;padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shot-card{flex:0 0 260px;scroll-snap-align:start;background:var(--card);border-radius:20px;padding:14px;box-shadow:0 0 0 1px var(--sep),0 2px 8px rgba(20,40,80,.05);display:flex;flex-direction:column;align-items:center}
+.shot-frame{width:210px;height:455px;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px rgba(20,40,80,.14),0 0 0 4px #1E293B;background:#12171F}
+.shot-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shot-cap{margin-top:12px;text-align:center}
+.shot-cap b{display:block;font-size:15px;color:var(--ink)}
+.shot-cap span{display:block;font-size:13.5px;color:var(--ink2);margin-top:3px;line-height:1.45}
+ol.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:0 0 14px 44px}
+ol.steps li:last-child{padding-bottom:0}
+ol.steps li:before{content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--primary);color:#fff;
+  font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+ol.steps li b{display:block;font-size:16px}
+ol.steps li span{color:var(--ink2);font-size:14.5px}
+.brands{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.brand h4{margin:0 0 4px;font-size:15.5px}
+.brand p{margin:0;font-size:14px;color:var(--ink2)}
+.note{background:var(--tint);border-radius:14px;padding:12px 14px;font-size:14px;color:var(--ink2);margin-top:12px}
+.table-wrap{overflow-x:auto;background:var(--card);border-radius:var(--radius);box-shadow:0 0 0 1px var(--sep),0 1px 3px rgba(20,40,80,.05)}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;min-width:580px}
+table.cmp th,table.cmp td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--sep)}
+table.cmp th{background:#F4F7FC;font-weight:700;color:var(--ink)}
+table.cmp tr:last-child td{border-bottom:none}
+table.cmp td.hi{font-weight:600;color:var(--primary);background:rgba(63,114,176,.04)}
+details{background:var(--card);border-radius:16px;box-shadow:0 0 0 1px var(--sep);padding:0 16px;margin-bottom:10px}
+summary{cursor:pointer;list-style:none;padding:15px 0;font-weight:600;font-size:16px;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"＋";color:var(--ink3);font-weight:400}
+details[open] summary:after{content:"－"}
+details p,details ul{margin:0 0 14px;color:var(--ink2);font-size:14.5px}
+details ul{padding-left:20px}
+.en-card{background:linear-gradient(180deg,#FFFFFF 0%,#F5F8FD 100%);border-radius:22px;padding:24px;box-shadow:0 0 0 1.5px #D6E3F3,0 4px 14px rgba(20,40,80,.05)}
+.en-card h2{margin:0 0 6px;font-size:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.en-card ul{margin:12px 0 18px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+.en-card li{margin-bottom:7px}
+footer{padding:30px 0 40px;text-align:center;color:var(--ink3);font-size:13px;line-height:1.8}
+footer a{color:var(--ink2);text-decoration:none;margin:0 6px}
+footer a:hover{color:var(--primary)}
+@media (min-width:720px){
+  h1{font-size:50px}
+  .hero{padding:48px 0 34px}
+  .grid{grid-template-columns:1fr 1fr}
+  .brands{grid-template-columns:1fr 1fr}
+  .shots-row{display:grid;grid-template-columns:repeat(3,1fr);overflow-x:visible;padding:4px 0}
+  .shot-card{flex:initial}
+  .cta{flex-direction:row;flex-wrap:wrap;justify-content:center}
+  .cta .meta,.cta .sha-box-wrap{width:100%;text-align:center}
+}
+</style>
+<script data-goatcounter="https://ripplefocus.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a href="../" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="../../logo.png" alt="Ripple icon"><b>Ripple</b></a>
+  <nav>
+    <a href="../">Home</a>
+    <a href="../faq/">FAQ</a>
+    <a href="./" style="color:var(--primary);font-weight:600">vs TimeLimit, DetoxDroid</a>
+    <a href="../vs-ourpact-norton-family/">vs OurPact, Norton Family</a>
+    <a href="../vs-olauncher-minimalist/">vs Olauncher, Minimalist</a>
+    <span class="lang-switch"><a href="../../vs-timelimit-detoxdroid/">中文</a><a href="./" class="active">EN</a></span>
+  </nav>
+</header>
+<section class="hero" style="padding:28px 0 18px">
+  <h1 style="font-size:30px;margin:12px 0 10px">Ripple vs TimeLimit.io and DetoxDroid</h1>
+  <p class="lead" style="max-width:680px">TimeLimit.io and DetoxDroid are free, open source Android apps that people on F-Droid and GitHub often recommend. TimeLimit.io is built around parents and children. DetoxDroid is built around making your own phone calmer. Ripple is free too, works on one phone with no account, and covers both a parent setting up a child's phone and an adult limiting their own. I make Ripple, so read this with that in mind. Ripple for Android is v0.1.20 and Ripple for iPhone is v0.1.5. Facts about TimeLimit.io come from its F-Droid listing (v7.9.0) and facts about DetoxDroid from its GitHub README (v3.0.1), both read in November 2026.</p>
+  <div class="cta">
+    <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">Download the latest Android APK</a>
+    <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">Latest release on GitHub</a>
+    <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone v0.1.5 (.ipa)</a>
+    <div class="meta">Android v0.1.20 + iPhone v0.1.5 (iOS 16 or later) · Free, no ads · No account · Settings stay on the phone</div>
+  </div>
+</section>
+<section>
+  <h2>What each one is</h2>
+  <div class="grid">
+    <div class="card"><h3>TimeLimit.io</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Open source (GPL-3.0) and on F-Droid, Android 8.0 or later. Apps go into categories, and each category gets allowed hours and time rules, for a day or across several days such as a weekend. Parents can give extra time as a bonus or switch limits off for an hour or a day. It has parent and child user profiles on one device, and one child can be counted across several devices. A connected mode lets a parent view and change settings from another device. Some connected features cost 1 euro a month or 10 euros a year in Germany unless you run your own server. Its listing says it does not work well on some brands, mostly Huawei and Wiko.</p></div>
+    <div class="card"><h3>DetoxDroid</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Open source (GPL-3.0), installed from its GitHub releases. It makes chosen apps grayscale, dimmed and blurred, keeps Do Not Disturb on, interrupts long scrolling sessions and locks that feed for a cooldown, and can make an app wait a few seconds before opening, block it behind a warning or switch it off. A daily time budget locks an app when the budget runs out. It has a pause button with a minimum gap between pauses, an emergency brake that closes the ways out for a set time, a commitment password for settings, a minimal launcher widget and a screen time widget. It is made for your own phone and has no parent and child setup.</p></div>
+    <div class="card"><h3>Ripple</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">A free app with no ads, no account and no subscription. It is not open source and is not on F-Droid. On Android (8.0 or later) it has schedules, a daily amount per app including 0 minutes, open limits, a break rule, quick focus, blocked websites, a usage calendar, a mode that closes only WeChat Channels and Moments, and strict mode. On iPhone v0.1.5 it only blocks by schedule, stops apps being deleted, protects the clock and uses an unlock code. It has no parent app and sends no reports.</p></div>
+  </div>
+</section>
+<section>
+  <h2>For a child's phone</h2>
+  <div class="grid">
+    <div class="card"><h3>Several children or a shared tablet</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">TimeLimit.io handles this well with child profiles and limits counted across devices. Ripple has one set of rules per phone, so a shared tablet gets the same rules for everyone.</p></div>
+    <div class="card"><h3>Changing rules from your own phone</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">TimeLimit.io can do this in connected mode. Ripple cannot. You change rules on the child's phone with the phone in your hand.</p></div>
+    <div class="card"><h3>Rules the child cannot undo</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Turn on strict mode in Ripple and keep the unlock code yourself. Anti-Uninstall turns on with strict mode and needs Android 11 or later. Changing the clock does not end a schedule. A forgotten code is lifted 72 hours after a request. TimeLimit.io uses device admin to notice if it is uninstalled.</p></div>
+    <div class="card"><h3>Blocking one game completely</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">In Ripple set the game to 0 minutes and it will not open all day, while other apps keep their own amounts.</p></div>
+    <div class="card"><h3>Child on iPhone or iPad</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">TimeLimit.io and DetoxDroid are Android apps. Ripple for iPhone v0.1.5 only blocks apps by schedule with a code you keep. Screen Time with Family Sharing is free and built in and does more.</p></div>
+  </div>
+</section>
+<section>
+  <h2>For your own phone</h2>
+  <div class="grid">
+    <div class="card"><h3>Making the phone less tempting</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">DetoxDroid does things Ripple does not, such as grayscale, blur and breaking long scrolling sessions. If you still want to open apps but find them less pulling, start there.</p></div>
+    <div class="card"><h3>A hard daily limit per app</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Ripple gives each app its own daily amount, for example 20 minutes of Instagram and 0 minutes of a game on weekdays, plus a cap on how many times an app opens.</p></div>
+    <div class="card"><h3>Making the limit stick</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">In Ripple, loosening a rule or removing the app needs a 15 minute wait or the unlock code. With strict mode only the code works, at most 3 successful uses a day, and a partner or friend can keep it. DetoxDroid has its emergency brake and commitment password for a similar purpose.</p></div>
+  </div>
+</section>
+<section>
+  <h2>How to choose</h2>
+  <div class="grid">
+    <div class="card"><h3>Choose TimeLimit.io</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">You want open source parental control with several child profiles or devices and maybe changes from another device.</p></div>
+    <div class="card"><h3>Choose DetoxDroid</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">You want open source tools that make your own phone duller to use, with grayscale and breaks from scrolling.</p></div>
+    <div class="card"><h3>Choose Ripple</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">You want hard per app limits on Android with no account and nothing sent off the phone, plus an unlock code someone else can keep, for yourself or a child's phone you can set up in person.</p></div>
+    <div class="card"><h3>Try it first</h3><p style="margin:6px 0 0;color:var(--ink2);font-size:14px">Install the latest APK, turn on the accessibility service when asked, give one app 30 minutes a day and open it to see the block screen.</p></div>
+  </div>
+</section>
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Is Ripple open source?</summary><p>No. Ripple is free with no ads and no account, but its source code is not published and it is not on F-Droid. If open source matters most to you, TimeLimit.io and DetoxDroid are good choices.</p></details><details><summary>Can I use Ripple and DetoxDroid together?</summary><p>They can both be installed, but both rely on an accessibility service, so test on your phone first. I have not tested the pair.</p></details><details><summary>Is Ripple really free?</summary><p>Yes. No ads, no subscription and no account. More in the <a href="../faq/">FAQ</a>.</p></details><details><summary>What does the iPhone version do?</summary><p>Ripple for iPhone v0.1.5 blocks apps by schedule, blocks deleting apps, protects the clock and uses an unlock code. It has no daily amounts.</p></details>
+</section>
+</div>
+<footer>
+  <a href="mailto:dzytmk@qq.com">Contact dzytmk@qq.com</a> ·
+  Ripple · <a href="../">English home</a> · <a href="../vs-ourpact-norton-family/">vs OurPact, Norton Family</a> · <a href="../vs-olauncher-minimalist/">vs Olauncher, Minimalist</a> · <a href="../vs-built-in/">vs built-in tools</a> · <a href="../strict-mode/">Strict mode</a> · <a href="../faq/">FAQ</a> · <a href="../../vs-timelimit-detoxdroid/">中文</a></footer>
+<script>
+document.addEventListener("click",function(e){
+  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
+  if(!a)return;
+  var h=a.getAttribute("href")||"";
+  var k=null;
+  if(h.indexOf("/dl/")!==-1&&h.indexOf(".apk")!==-1)k="apk_direct_dl";
+  else if(h.indexOf("/dl/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_direct_dl";
+  else if((h.indexOf("/releases/download/")!==-1&&h.indexOf(".apk")!==-1)||/\/releases\/latest\/?$/.test(h))k="apk_gh_click";
+  else if(h.indexOf("/releases/download/")!==-1&&h.indexOf(".ipa")!==-1)k="ipa_gh_click";
+  if(k){
+    var ev={apk_direct_dl:"dl-apk",ipa_direct_dl:"dl-ipa",apk_gh_click:"gh-apk",ipa_gh_click:"gh-ipa"}[k];
+    try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:ev,title:ev,event:true});}catch(_){}
+    var go=true;
+    try{var t=new Date(),d=t.getFullYear()+"-"+(t.getMonth()+1)+"-"+t.getDate(),sk="rf_dl_"+k;if(localStorage.getItem(sk)===d)go=false;else localStorage.setItem(sk,d);}catch(_){go=true;}
+    if(go){try{fetch("https://abacus.jasoncameron.dev/hit/ripplefocus.github.io/"+k,{mode:"no-cors",keepalive:true});}catch(_){}}
+  }
+},true);
+</script>
+</body>
+</html>

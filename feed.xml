@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-18T02:10:00+08:00</updated>
+  <updated>2026-11-18T04:10:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs TimeLimit.io and DetoxDroid: free app limits on Android</title>
+    <link href="https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/"/>
+    <id>https://ripplefocus.github.io/en/vs-timelimit-detoxdroid/</id>
+    <updated>2026-11-18T04:10:00+08:00</updated>
+    <summary>TimeLimit.io is open source parental control with child profiles and a connected mode. DetoxDroid is an open source detox app with grayscale and doom scrolling breaks. Ripple is free with no account but not open source, and sets hard per app limits with an unlock code someone else can keep.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪和 TimeLimit.io、DetoxDroid 怎么选：安卓免费限制 App</title>
+    <link href="https://ripplefocus.github.io/vs-timelimit-detoxdroid/"/>
+    <id>https://ripplefocus.github.io/vs-timelimit-detoxdroid/</id>
+    <updated>2026-11-18T04:10:00+08:00</updated>
+    <summary>TimeLimit.io 是开源家长管控，能建多个孩子用户和联网管理。DetoxDroid 是开源数字排毒 App，有黑白屏和打断刷屏。涟漪免费不用注册但不开源，按 App 设硬上限，解锁码可以交给别人保管。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Ripple vs OurPact and Norton Family: phone limits for parents and adults</title>
     <link href="https://ripplefocus.github.io/en/vs-ourpact-norton-family/"/>
