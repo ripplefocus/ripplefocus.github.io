@@ -207,7 +207,7 @@ footer a:hover{color:var(--primary)}
       <li><b>划掉后台约 2.5 秒自动恢复无障碍服务</b><span><code>ripple_ss</code> 会自动为涟漪授予 <code>WRITE_SECURE_SETTINGS</code> 权限并监听应用存活状态。哪怕你在最近任务里把涟漪卡片划掉，守护进程也会在约 <b>2.5 秒</b>内重新拉起服务并写回 <code>enabled_accessibility_services</code>，无障碍拦截立即恢复；手机重启解锁后约 1 分钟内同样会自动自愈。</span></li>
     </ol>
   </div>
-  <div class="note"><b>需要正常卸载时怎么办？</b>涟漪绝不恶意锁机。打开「涟漪 › 设置 › 防卸载 › 我想卸载涟漪」，等完你设定的冷静期倒计时（基于开机单调时钟 <code>SystemClock.elapsedRealtime()</code>，默认 15 分钟）或输入亲友解锁码后，涟漪会自动解除系统卸载锁与设备管理器，弹出标准卸载确认框。</div>
+  <div class="note"><b>需要正常卸载时怎么办？</b>涟漪绝不恶意锁机。打开「涟漪 › 设置 › 防卸载 › 我想卸载涟漪」，等完你设定的冷静期倒计时（基于开机单调时钟 <code>SystemClock.elapsedRealtime()</code>，15 分钟）或输入亲友解锁码后，涟漪会自动解除系统卸载锁与设备管理器，弹出标准卸载确认框。</div>
 </section>
 </div>
 <footer>

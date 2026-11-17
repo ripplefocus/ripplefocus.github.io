@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-17T22:10:00+08:00</updated>
+  <updated>2026-11-18T00:10:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs FocusMe and BlockerX: strict app blockers compared</title>
+    <link href="https://ripplefocus.github.io/en/vs-focusme-blockerx/"/>
+    <id>https://ripplefocus.github.io/en/vs-focusme-blockerx/</id>
+    <updated>2026-11-18T00:10:00+08:00</updated>
+    <summary>FocusMe has strict plans and computer sync, BlockerX filters adult content and tells a partner about uninstalls, Ripple sets free per app limits on Android with an unlock code. For adults who keep turning their blocker off and for parents.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪和 FocusMe、BlockerX 怎么选：难以绕过的 App 限制对比</title>
+    <link href="https://ripplefocus.github.io/vs-focusme-blockerx/"/>
+    <id>https://ripplefocus.github.io/vs-focusme-blockerx/</id>
+    <updated>2026-11-18T00:10:00+08:00</updated>
+    <summary>FocusMe 计划可以设得很严还能和电脑同步，BlockerX 过滤成人内容并在卸载时通知伙伴，涟漪在安卓上免费按 App 设限制，用解锁码管住放松。写给总关掉限制的大人，也写给家长。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Ripple vs Flipd and SPACE: study timer, habit tracker or app blocker</title>
     <link href="https://ripplefocus.github.io/en/vs-flipd-space/"/>
