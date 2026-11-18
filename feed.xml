@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-18T16:20:00+08:00</updated>
+  <updated>2026-11-19T02:10:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Ripple vs TiedSiren and Holdfast: strict Android blockers and short video feed blockers</title>
+    <link href="https://ripplefocus.github.io/en/vs-tiedsiren-holdfast/"/>
+    <id>https://ripplefocus.github.io/en/vs-tiedsiren-holdfast/</id>
+    <updated>2026-11-19T02:10:00+08:00</updated>
+    <summary>TiedSiren locks timed sessions on Android and its Strict Mode needs a Pro subscription. Holdfast blocks Reels, Shorts and TikTok For You inside the apps. Ripple is free with no account, has strict mode with an unlock code someone else can keep, and can limit only Shorts, Reels or WeChat Channels.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪、TiedSiren 和 Holdfast 怎么选：严格的安卓限制 App 和只关短视频的 App</title>
+    <link href="https://ripplefocus.github.io/vs-tiedsiren-holdfast/"/>
+    <id>https://ripplefocus.github.io/vs-tiedsiren-holdfast/</id>
+    <updated>2026-11-19T02:10:00+08:00</updated>
+    <summary>TiedSiren 能在安卓上锁住一段时间，严格模式要订阅 Pro。Holdfast 在 App 里只关 Reels、Shorts 和 TikTok 推荐页。涟漪免费不用注册，严格模式的解锁码可以交给别人保管，也能只限制 Shorts、Reels 或视频号。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Broke your phone limits again? How to start over on your own phone and your child's phone</title>
     <link href="https://ripplefocus.github.io/en/start-again/"/>
