@@ -599,3 +599,9 @@ Zenze（安卓，Atmana Tech；单个 App 和网站设时长、按时间排计�
 - EN: https://ripplefocus.github.io/en/stopped-blocking/
 Checklist for when app limits stop blocking, for adults and parents: accessibility service turned off by the system, battery saving freezing the app, rules loosened after the 15 minute wait or with the unlock code, old versions. Android v0.1.21 adds Export Diagnostic Log in Settings › About (page names, switch and permission states, blocking and timing steps; no chat content; stays on the phone until exported) and reads usage records for WeChat Channels opened from Official Account articles (tested only on an emulator so far). iPhone v0.1.5: schedules via Screen Time, block deleting apps, clock protection, unlock code. No remote management.
 限制不拦了的排查清单，大人和家长都适用：无障碍服务被系统关掉、省电冻结 App、规则在等完 15 分钟或输解锁码后被放松、版本太旧。安卓 v0.1.21 在「设置 › 关于」加了导出诊断日志（记页面名称、开关和权限状态、拦截和计时过程，不记聊天内容，导出前只存在手机上），并读系统使用记录补拦从公众号文章点开的视频号（目前只在模拟器上测过）。iPhone v0.1.5：通过屏幕使用时间按时段屏蔽、防删除 App、防改时间、解锁码。没有远程管理。
+
+## start-again
+- ZH: https://ripplefocus.github.io/start-again/
+- EN: https://ripplefocus.github.io/en/start-again/
+After a slip (blocker turned off or uninstalled, or a child found a way around the rules), how adults and parents set limits up again: look back with the usage calendar (Android), start with one daily amount or one schedule, 0 minute amounts, open count limits, uninstall protection, strict mode on Android (unlock code only, 72 hour removal if the code is lost), a new unlock code kept by the parent (at most 3 successful uses a day). Stricter rules apply at once; loosening needs a 15 minute wait or the code. iPhone v0.1.5: schedules via Screen Time, system uninstall protection, clock protection, unlock code. No remote management.
+破戒以后（自己关了或删了自律软件，或者孩子绕过了规则）大人和家长怎么重新设限制：用使用统计日历回看（安卓），先只设一条每日时长或一个时段，0 分钟限额，打开次数上限，防卸载，安卓严格模式（只能用解锁码，忘码可申请 72 小时后解除），家长换新解锁码自己保管（每天最多成功用 3 次）。改严立刻生效，放松要等 15 分钟或输码。iPhone v0.1.5 按时段屏蔽，系统级防卸载、防改时间、解锁码。没有远程管理。
