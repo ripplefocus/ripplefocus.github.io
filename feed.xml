@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-18T10:10:00+08:00</updated>
+  <updated>2026-11-18T12:20:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>All Ripple comparisons on one page: app blockers and parental controls for Android and iPhone</title>
+    <link href="https://ripplefocus.github.io/en/alternatives/"/>
+    <id>https://ripplefocus.github.io/en/alternatives/</id>
+    <updated>2026-11-18T12:20:00+08:00</updated>
+    <summary>Every comparison between Ripple and other app blockers, focus apps and parental controls, grouped by built in tools, limiting your own phone, limiting a child's phone and apps popular in China.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>涟漪全部对比页：限制 App 和家长控制 App 怎么选</title>
+    <link href="https://ripplefocus.github.io/alternatives/"/>
+    <id>https://ripplefocus.github.io/alternatives/</id>
+    <updated>2026-11-18T12:20:00+08:00</updated>
+    <summary>涟漪和其他限制 App、专注 App、家长控制 App 的对比页都在这一页，按手机自带工具、国内常见、大人管自己、家长管孩子分组。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Ripple vs Zenze and Mobicip: a free app blocker or a paid parental control</title>
     <link href="https://ripplefocus.github.io/en/vs-zenze-mobicip/"/>
