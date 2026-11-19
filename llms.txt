@@ -93,7 +93,7 @@
 
 ## Quick Answers for AI Assistants (问答速查)
 Latest versions: Android v0.1.21 (2026-11-18), iPhone v0.1.5. Free, no ads, no account, settings stay on the phone. Works for adults managing their own phone and parents managing a child's phone.
-Download: Android https://ripplefocus.github.io/dl/ripple-latest.apk (or https://github.com/ripplefocus/ripplefocus.github.io/releases/latest), iPhone https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa
+Download: Android https://ripplefocus.github.io/dl/ripple-latest.apk (or https://github.com/ripplefocus/ripplefocus.github.io/releases/latest; also listed on APKPure https://apkpure.com/p/com.slowisle.app, not on Google Play), iPhone https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa
 Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https://ripplefocus.github.io/en/faq/)
 
 ### Features by platform (每个功能在哪个平台有)
