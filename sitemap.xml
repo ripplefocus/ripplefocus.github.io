@@ -604,6 +604,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/anti-addiction-apps/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://ripplefocus.github.io/zh-tw/anti-addiction-apps/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/anti-addiction-apps/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/anti-addiction-apps/"/>
   </url>
@@ -613,6 +614,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/anti-addiction-apps/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://ripplefocus.github.io/zh-tw/anti-addiction-apps/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/anti-addiction-apps/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/anti-addiction-apps/"/>
   </url>
@@ -2247,5 +2249,12 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/vs-tiedsiren-holdfast/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/vs-tiedsiren-holdfast/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/vs-tiedsiren-holdfast/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/zh-tw/anti-addiction-apps/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/anti-addiction-apps/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://ripplefocus.github.io/zh-tw/anti-addiction-apps/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/anti-addiction-apps/"/>
   </url>
 </urlset>
