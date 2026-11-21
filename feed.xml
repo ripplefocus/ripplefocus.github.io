@@ -27,28 +27,28 @@
     <link href="https://ripplefocus.github.io/en/start-again/"/>
     <id>https://ripplefocus.github.io/en/start-again/</id>
     <updated>2026-11-18T16:20:00+08:00</updated>
-    <summary>Why phone limits fall apart, how adults and parents set them up again with one rule at a time, the usage calendar, strict mode and a new unlock code, and a plan for the first week. Ripple Android v0.1.21, iPhone v0.1.5.</summary>
+    <summary>Why phone limits fall apart, how adults and parents set them up again with one rule at a time, the usage calendar, strict mode and a new unlock code, and a plan for the first week. Ripple Android v0.1.22, iPhone v0.1.5.</summary>
   </entry>
   <entry xml:lang="zh-CN">
     <title>又没管住手机怎么办：自己破戒和孩子绕过限制以后怎么重新开始</title>
     <link href="https://ripplefocus.github.io/start-again/"/>
     <id>https://ripplefocus.github.io/start-again/</id>
     <updated>2026-11-18T16:20:00+08:00</updated>
-    <summary>限制为什么会崩，大人和家长怎么一条一条重新设，用使用统计日历、严格模式和新解锁码，以及第一周怎么安排。涟漪安卓 v0.1.21，iPhone v0.1.5。</summary>
+    <summary>限制为什么会崩，大人和家长怎么一条一条重新设，用使用统计日历、严格模式和新解锁码，以及第一周怎么安排。涟漪安卓 v0.1.22，iPhone v0.1.5。</summary>
   </entry>
   <entry xml:lang="en">
     <title>App limits suddenly stopped working? A checklist for your own phone and your child's phone</title>
     <link href="https://ripplefocus.github.io/en/stopped-blocking/"/>
     <id>https://ripplefocus.github.io/en/stopped-blocking/</id>
     <updated>2026-11-18T14:10:00+08:00</updated>
-    <summary>Common reasons a blocker stops blocking (accessibility service off, battery saving, a loosened rule, an old version), steps to check on Android and iPhone, and the diagnostic log export added in Ripple for Android v0.1.21.</summary>
+    <summary>Common reasons a blocker stops blocking (accessibility service off, battery saving, a loosened rule, an old version), steps to check on Android and iPhone, and the diagnostic log export added in Ripple for Android v0.1.22.</summary>
   </entry>
   <entry xml:lang="zh-CN">
     <title>手机限制突然不管用了怎么办：自己的手机和孩子的手机都能照着查</title>
     <link href="https://ripplefocus.github.io/stopped-blocking/"/>
     <id>https://ripplefocus.github.io/stopped-blocking/</id>
     <updated>2026-11-18T14:10:00+08:00</updated>
-    <summary>限制不拦了的常见原因（无障碍服务被关、省电冻结、规则被放松、版本旧），安卓和 iPhone 的排查步骤，以及涟漪安卓 v0.1.21 新加的导出诊断日志。</summary>
+    <summary>限制不拦了的常见原因（无障碍服务被关、省电冻结、规则被放松、版本旧），安卓和 iPhone 的排查步骤，以及涟漪安卓 v0.1.22 新加的导出诊断日志。</summary>
   </entry>
   <entry xml:lang="en">
     <title>All Ripple comparisons on one page: app blockers and parental controls for Android and iPhone</title>
@@ -195,6 +195,6 @@
     <link href="https://ripplefocus.github.io/en/faq/"/>
     <id>https://ripplefocus.github.io/en/faq/</id>
     <updated>2026-11-17T22:10:00+08:00</updated>
-    <summary>What Ripple for Android v0.1.21 and Ripple for iPhone v0.1.5 can and cannot do.</summary>
+    <summary>What Ripple for Android v0.1.22 and Ripple for iPhone v0.1.5 can and cannot do.</summary>
   </entry>
 </feed>
