@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-22T14:30:00+08:00</updated>
+  <updated>2026-11-22T18:30:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>When an app is blocked, open sleep sounds or slow breathing, for you and your kid</title>
+    <link href="https://ripplefocus.github.io/en/blocked-relax/"/>
+    <id>https://ripplefocus.github.io/en/blocked-relax/</id>
+    <updated>2026-11-22T18:30:00+08:00</updated>
+    <summary>What Android v0.1.24 adds on block screens (sleep sounds and slow breathing, no way back to the blocked app), how adults and parents can use it, what was not tested on a real phone, and what iPhone v0.1.5 can do.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>被拦住以后不想干等：去听雨声或做慢呼吸，大人孩子都能用</title>
+    <link href="https://ripplefocus.github.io/blocked-relax/"/>
+    <id>https://ripplefocus.github.io/blocked-relax/</id>
+    <updated>2026-11-22T18:30:00+08:00</updated>
+    <summary>安卓 v0.1.24 拦截页上的听助眠音和慢呼吸，大人和家长怎么用，哪些还没在真机上测过，以及 iPhone v0.1.5 能做什么。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Slow breathing and sleep sounds on the phone break screen, for you and your kid</title>
     <link href="https://ripplefocus.github.io/en/slow-breathing/"/>

@@ -614,6 +614,12 @@ Checklist for when app limits stop blocking, for adults and parents: accessibili
 During a phone break, Ripple for Android v0.1.23 offers sleep sounds and slow breathing on the single app Take a Break screen and the whole phone eye rest screen. The break keeps counting down, the relax page has no way back to the restricted app, sleep sounds fade out at break end, breathing rounds fit the time left, 5 breathing background sounds with 5 second previews. Adults and parents. Relax entry checked only on an emulator and in unit tests. iPhone v0.1.5 has no break screen: schedules via Screen Time, uninstall protection, clock protection, unlock code. No remote management.
 休息时做慢呼吸：涟漪安卓 v0.1.24 在单个 App 的「歇一会儿」页和整台手机的护眼休息页加了听助眠音和慢呼吸，倒计时照走，放松页回不到被限制的 App，助眠音歇完就停并在最后 30 秒渐弱，慢呼吸按剩余时间算轮数，5 种呼吸背景音可试听 5 秒。大人和家长都适用。放松入口只在模拟器和单元测试里验证过。iPhone v0.1.5 没有休息页，只有按时段屏蔽、防卸载、防改时间、解锁码。没有远程管理。
 
+## blocked-relax
+- ZH: https://ripplefocus.github.io/blocked-relax/
+- EN: https://ripplefocus.github.io/en/blocked-relax/
+When a schedule, daily limit, Quick Focus, Complete Lock, session cap, opens cap or Wait a moment blocks an app, Ripple for Android v0.1.24 offers sleep sounds and slow breathing on that screen. The relax page has no way back to the blocked app. Tapping relax on Wait a moment gives up this open and does not count it. Adults and parents. Relax card checked on a real phone only on Wait a moment; other block screens, long sleep-sound playback with the screen off, calls and unplugging headphones have not been tested on a real phone. iPhone v0.1.5 has schedules via Screen Time, uninstall protection, clock protection and an unlock code. No remote management.
+被拦住时去放松：涟漪安卓 v0.1.24 在自律时段、一键专注、完全锁定、今日时长用完、单次上限、打开次数用完和「打开前停一下」这些拦截页上，可以听助眠音或做慢呼吸。放松页回不到被拦的 App。在「打开前停一下」页点放松等于放弃这次打开，也不计数。大人和家长都适用。放松卡片只在「打开前停一下」页用真机看过；其他拦截页、助眠音息屏长播、来电和拔耳机还没在真机测过。iPhone v0.1.5 只有按时段屏蔽、防卸载、防改时间、解锁码。没有远程管理。
+
 ## start-again
 - ZH: https://ripplefocus.github.io/start-again/
 - EN: https://ripplefocus.github.io/en/start-again/
