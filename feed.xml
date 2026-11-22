@@ -13,14 +13,14 @@
     <link href="https://ripplefocus.github.io/en/slow-breathing/"/>
     <id>https://ripplefocus.github.io/en/slow-breathing/</id>
     <updated>2026-11-22T14:30:00+08:00</updated>
-    <summary>What the Android v0.1.23 break screen offers (sleep sounds and slow breathing while the timer runs), how adults and parents can use it, what was not tested on a real phone, and what iPhone v0.1.5 can do.</summary>
+    <summary>What the Android v0.1.24 break screen offers (sleep sounds and slow breathing while the timer runs), how adults and parents can use it, what was not tested on a real phone, and what iPhone v0.1.5 can do.</summary>
   </entry>
   <entry xml:lang="zh-CN">
     <title>刷手机停不下来：休息页上做几轮慢呼吸，大人孩子都能用</title>
     <link href="https://ripplefocus.github.io/slow-breathing/"/>
     <id>https://ripplefocus.github.io/slow-breathing/</id>
     <updated>2026-11-22T14:30:00+08:00</updated>
-    <summary>安卓 v0.1.23 休息页上的听助眠音和慢呼吸，大人和家长怎么用，哪些还没在真机上测过，以及 iPhone v0.1.5 能做什么。</summary>
+    <summary>安卓 v0.1.24 休息页上的听助眠音和慢呼吸，大人和家长怎么用，哪些还没在真机上测过，以及 iPhone v0.1.5 能做什么。</summary>
   </entry>
   <entry xml:lang="en">
     <title>Ripple vs TiedSiren and Holdfast: strict Android blockers and short video feed blockers</title>
@@ -41,14 +41,14 @@
     <link href="https://ripplefocus.github.io/en/start-again/"/>
     <id>https://ripplefocus.github.io/en/start-again/</id>
     <updated>2026-11-18T16:20:00+08:00</updated>
-    <summary>Why phone limits fall apart, how adults and parents set them up again with one rule at a time, the usage calendar, strict mode and a new unlock code, and a plan for the first week. Ripple Android v0.1.23, iPhone v0.1.5.</summary>
+    <summary>Why phone limits fall apart, how adults and parents set them up again with one rule at a time, the usage calendar, strict mode and a new unlock code, and a plan for the first week. Ripple Android v0.1.24, iPhone v0.1.5.</summary>
   </entry>
   <entry xml:lang="zh-CN">
     <title>又没管住手机怎么办：自己破戒和孩子绕过限制以后怎么重新开始</title>
     <link href="https://ripplefocus.github.io/start-again/"/>
     <id>https://ripplefocus.github.io/start-again/</id>
     <updated>2026-11-18T16:20:00+08:00</updated>
-    <summary>限制为什么会崩，大人和家长怎么一条一条重新设，用使用统计日历、严格模式和新解锁码，以及第一周怎么安排。涟漪安卓 v0.1.23，iPhone v0.1.5。</summary>
+    <summary>限制为什么会崩，大人和家长怎么一条一条重新设，用使用统计日历、严格模式和新解锁码，以及第一周怎么安排。涟漪安卓 v0.1.24，iPhone v0.1.5。</summary>
   </entry>
   <entry xml:lang="en">
     <title>App limits suddenly stopped working? A checklist for your own phone and your child's phone</title>
@@ -209,6 +209,6 @@
     <link href="https://ripplefocus.github.io/en/faq/"/>
     <id>https://ripplefocus.github.io/en/faq/</id>
     <updated>2026-11-17T22:10:00+08:00</updated>
-    <summary>What Ripple for Android v0.1.23 and Ripple for iPhone v0.1.5 can and cannot do.</summary>
+    <summary>What Ripple for Android v0.1.24 and Ripple for iPhone v0.1.5 can and cannot do.</summary>
   </entry>
 </feed>
