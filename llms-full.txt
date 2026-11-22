@@ -620,6 +620,12 @@ During a phone break, Ripple for Android v0.1.23 offers sleep sounds and slow br
 When a schedule, daily limit, Quick Focus, Complete Lock, session cap, opens cap or Wait a moment blocks an app, Ripple for Android v0.1.24 offers sleep sounds and slow breathing on that screen. The relax page has no way back to the blocked app. Tapping relax on Wait a moment gives up this open and does not count it. Adults and parents. Relax card checked on a real phone only on Wait a moment; other block screens, long sleep-sound playback with the screen off, calls and unplugging headphones have not been tested on a real phone. iPhone v0.1.5 has schedules via Screen Time, uninstall protection, clock protection and an unlock code. No remote management.
 被拦住时去放松：涟漪安卓 v0.1.24 在自律时段、一键专注、完全锁定、今日时长用完、单次上限、打开次数用完和「打开前停一下」这些拦截页上，可以听助眠音或做慢呼吸。放松页回不到被拦的 App。在「打开前停一下」页点放松等于放弃这次打开，也不计数。大人和家长都适用。放松卡片只在「打开前停一下」页用真机看过；其他拦截页、助眠音息屏长播、来电和拔耳机还没在真机测过。iPhone v0.1.5 只有按时段屏蔽、防卸载、防改时间、解锁码。没有远程管理。
 
+## sleepover
+- ZH: https://ripplefocus.github.io/sleepover/
+- EN: https://ripplefocus.github.io/en/sleepover/
+Sleepovers: kids up all night on phones at a friend's house, adults scrolling in a guest bed. Ripple for Android v0.1.24: a night schedule only on the weekday of the sleepover (games, short video and social apps closed, calls and messages open), rules stored on the phone so they work at another house, uninstall and clock change protection, Quick Focus that locks only chosen apps, wait (15 min default, 30 min, 1 h, 2 h) or unlock code to loosen, strict mode. iPhone v0.1.5: schedules via Screen Time, uninstall protection, clock protection, unlock code; no daily limits. No remote management.
+去同学或朋友家过夜：孩子熄灯后一群人玩手机到半夜，大人借住也躺着刷。涟漪安卓 v0.1.24：只给过夜那天加夜间时段（关游戏、短视频和社交，电话消息留着），规则存在手机上到别人家照样生效，防卸载、防改时间，一键专注只锁选中的 App，放宽要先等（默认15分钟，可选30分钟、1小时、2小时）或输解锁码，严格模式。iPhone v0.1.5：屏幕使用时间按时段屏蔽、防卸载、防改时间、解锁码，没有每日时长。没有远程管理。
+
 ## winter-break
 - ZH: https://ripplefocus.github.io/winter-break/
 - EN: https://ripplefocus.github.io/en/winter-break/
