@@ -2293,4 +2293,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/blocked-relax/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/blocked-relax/"/>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/winter-break/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/winter-break/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/winter-break/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/winter-break/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/winter-break/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/winter-break/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/winter-break/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/winter-break/"/>
+  </url>
 </urlset>

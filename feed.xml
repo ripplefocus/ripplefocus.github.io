@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-22T18:30:00+08:00</updated>
+  <updated>2026-11-22T22:30:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Winter break at home: kids on the tablet all day, adults scrolling through year-end leave</title>
+    <link href="https://ripplefocus.github.io/en/winter-break/"/>
+    <id>https://ripplefocus.github.io/en/winter-break/</id>
+    <updated>2026-11-22T22:30:00+08:00</updated>
+    <summary>How adults and parents can set Ripple for a winter break schedule on Android v0.1.24 and iPhone v0.1.5, and what Ripple cannot do.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>放寒假在家刷一整天手机，孩子写完一点作业就捧着平板，怎么设</title>
+    <link href="https://ripplefocus.github.io/winter-break/"/>
+    <id>https://ripplefocus.github.io/winter-break/</id>
+    <updated>2026-11-22T22:30:00+08:00</updated>
+    <summary>大人和家长寒假怎么在涟漪安卓 v0.1.24 和 iPhone v0.1.5 上设规则，以及涟漪做不到什么。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>When an app is blocked, open sleep sounds or slow breathing, for you and your kid</title>
     <link href="https://ripplefocus.github.io/en/blocked-relax/"/>
