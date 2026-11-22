@@ -2261,4 +2261,20 @@
     <loc>https://ripplefocus.github.io/zh-tw/mobile-games/</loc>
     <lastmod>2026-11-21</lastmod>
   </url>
+  <url>
+    <loc>https://ripplefocus.github.io/slow-breathing/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/slow-breathing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/slow-breathing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/slow-breathing/"/>
+  </url>
+  <url>
+    <loc>https://ripplefocus.github.io/en/slow-breathing/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/slow-breathing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ripplefocus.github.io/en/slow-breathing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ripplefocus.github.io/en/slow-breathing/"/>
+  </url>
 </urlset>
