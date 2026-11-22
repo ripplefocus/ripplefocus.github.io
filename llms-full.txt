@@ -620,6 +620,12 @@ During a phone break, Ripple for Android v0.1.23 offers sleep sounds and slow br
 When a schedule, daily limit, Quick Focus, Complete Lock, session cap, opens cap or Wait a moment blocks an app, Ripple for Android v0.1.24 offers sleep sounds and slow breathing on that screen. The relax page has no way back to the blocked app. Tapping relax on Wait a moment gives up this open and does not count it. Adults and parents. Relax card checked on a real phone only on Wait a moment; other block screens, long sleep-sound playback with the screen off, calls and unplugging headphones have not been tested on a real phone. iPhone v0.1.5 has schedules via Screen Time, uninstall protection, clock protection and an unlock code. No remote management.
 被拦住时去放松：涟漪安卓 v0.1.24 在自律时段、一键专注、完全锁定、今日时长用完、单次上限、打开次数用完和「打开前停一下」这些拦截页上，可以听助眠音或做慢呼吸。放松页回不到被拦的 App。在「打开前停一下」页点放松等于放弃这次打开，也不计数。大人和家长都适用。放松卡片只在「打开前停一下」页用真机看过；其他拦截页、助眠音息屏长播、来电和拔耳机还没在真机测过。iPhone v0.1.5 只有按时段屏蔽、防卸载、防改时间、解锁码。没有远程管理。
 
+## reasons-plans
+- ZH: https://ripplefocus.github.io/reasons-plans/
+- EN: https://ripplefocus.github.io/en/reasons-plans/
+Reasons and plans: when the time for WeChat Channels or similar content runs out and you ask for more, or when you enter the unlock code, Ripple for Android v0.1.24 asks you to tap a reason or write one (no minimum length) and can set a plan with a reminder notification that gives no extra time. Settings, My reasons and plans shows the last 7 days (top reasons, busiest hours, notes), stored only on the phone, cleared in one tap. Extra time amounts and strict mode unchanged. Reason screens not yet checked on a real phone. iPhone v0.1.5 does not have it. No remote management.
+原因和计划：视频号这类内容时间用完想续或输解锁码时，涟漪安卓 v0.1.24 让你点选或自己写一个原因（不再要求满10字），可定个计划到点发提醒（只是通知，不多给时间）。设置「我的原因和计划」看最近7天原因分布、集中时段和写过的话，只存在手机上，可一键清除。能续多少时间和严格模式不变。点选原因页面这一版未在真机上看过。iPhone v0.1.5 没有此功能。没有远程管理。
+
 ## sleepover
 - ZH: https://ripplefocus.github.io/sleepover/
 - EN: https://ripplefocus.github.io/en/sleepover/
