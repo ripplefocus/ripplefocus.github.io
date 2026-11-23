@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>手机限制突然不管用了怎么办：自己的手机和孩子的手机都能照着查（安卓与 iPhone）- 涟漪 Ripple</title>
-<meta name="description" content="App 限制、屏幕时间限额突然不拦了，常见原因是无障碍服务被关、省电冻结、权限被撤或者版本太旧。给大人自律和家长管孩子手机的排查清单，并照实写涟漪安卓 v0.1.25、iPhone v0.1.5 能做和不能做的。">
+<meta name="description" content="App 限制、屏幕时间限额突然不拦了，常见原因是无障碍服务被关、省电冻结、权限被撤或者版本太旧。给大人自律和家长管孩子手机的排查清单，并照实写涟漪安卓 v0.1.26、iPhone v0.1.5 能做和不能做的。">
 <meta name="keywords" content="手机限制不管用了,屏幕时间限额失效,无障碍服务老是自动关闭,孩子手机限制失效,自律软件拦不住,涟漪诊断日志">
 <link rel="canonical" href="https://ripplefocus.github.io/stopped-blocking/">
 <link rel="alternate" hreflang="zh-CN" href="https://ripplefocus.github.io/stopped-blocking/">
@@ -13,11 +13,11 @@
 <link rel="icon" href="../logo.png">
 <meta property="og:type" content="article">
 <meta property="og:title" content="手机限制突然不管用了怎么办：自己的手机和孩子的手机都能照着查（安卓与 iPhone）- 涟漪 Ripple">
-<meta property="og:description" content="App 限制、屏幕时间限额突然不拦了，常见原因是无障碍服务被关、省电冻结、权限被撤或者版本太旧。给大人自律和家长管孩子手机的排查清单，并照实写涟漪安卓 v0.1.25、iPhone v0.1.5 能做和不能做的。">
+<meta property="og:description" content="App 限制、屏幕时间限额突然不拦了，常见原因是无障碍服务被关、省电冻结、权限被撤或者版本太旧。给大人自律和家长管孩子手机的排查清单，并照实写涟漪安卓 v0.1.26、iPhone v0.1.5 能做和不能做的。">
 <meta property="og:url" content="https://ripplefocus.github.io/stopped-blocking/">
 <meta property="og:image" content="https://ripplefocus.github.io/og-preview.png">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "一步步排查 App 限制为什么不拦了", "step": [{"@type": "HowToStep", "name": "1. 先升级", "text": "从官网或 GitHub 装最新版。签名证书没变，规则会保留。"}, {"@type": "HowToStep", "name": "2. 看无障碍开关（安卓）", "text": "关了就重新打开。Android 13 及以上可能要先给涟漪解除「受限设置」。"}, {"@type": "HowToStep", "name": "3. 允许后台运行", "text": "按品牌把涟漪的耗电设成不限制，在最近任务里把卡片加锁。"}, {"@type": "HowToStep", "name": "4. 再看一遍规则", "text": "看时段、每日时长和自律可用名单。放松过的规则会显示新的数值。"}, {"@type": "HowToStep", "name": "5. 导出日志发给我们", "text": "还是拦不住，就在「设置 › 关于」导出诊断日志，发邮件给我们。"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "无障碍服务为什么老是自己关掉？", "acceptedAnswer": {"@type": "Answer", "text": "多数是手机省电或者在最近任务里划掉了。打开本机无线调试守护以后，涟漪被停掉几秒内能自己恢复。保活设置指南里有各个品牌的步骤。"}}, {"@type": "Question", "name": "孩子能把涟漪关掉吗？", "acceptedAnswer": {"@type": "Answer", "text": "关规则要等 15 分钟或者输解锁码，严格模式下只能输码。开了防卸载，删掉涟漪也要等倒计时或者输码。码家长自己保管。"}}, {"@type": "Question", "name": "诊断日志会自动上传吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。日志存在手机上，你导出并选好发给谁才会发出去。"}}, {"@type": "Question", "name": "公众号文章点开视频号的修复确认有效了吗？", "acceptedAnswer": {"@type": "Answer", "text": "还没有。v0.1.25 只在模拟器上用模拟页面测过，没有在真机上用真实微信测。文章里直接播放的视频暂时拦不到。"}}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "HowTo", "name": "一步步排查 App 限制为什么不拦了", "step": [{"@type": "HowToStep", "name": "1. 先升级", "text": "从官网或 GitHub 装最新版。签名证书没变，规则会保留。"}, {"@type": "HowToStep", "name": "2. 看无障碍开关（安卓）", "text": "关了就重新打开。Android 13 及以上可能要先给涟漪解除「受限设置」。"}, {"@type": "HowToStep", "name": "3. 允许后台运行", "text": "按品牌把涟漪的耗电设成不限制，在最近任务里把卡片加锁。"}, {"@type": "HowToStep", "name": "4. 再看一遍规则", "text": "看时段、每日时长和自律可用名单。放松过的规则会显示新的数值。"}, {"@type": "HowToStep", "name": "5. 导出日志发给我们", "text": "还是拦不住，就在「设置 › 关于」导出诊断日志，发邮件给我们。"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "无障碍服务为什么老是自己关掉？", "acceptedAnswer": {"@type": "Answer", "text": "多数是手机省电或者在最近任务里划掉了。打开本机无线调试守护以后，涟漪被停掉几秒内能自己恢复。保活设置指南里有各个品牌的步骤。"}}, {"@type": "Question", "name": "孩子能把涟漪关掉吗？", "acceptedAnswer": {"@type": "Answer", "text": "关规则要等 15 分钟或者输解锁码，严格模式下只能输码。开了防卸载，删掉涟漪也要等倒计时或者输码。码家长自己保管。"}}, {"@type": "Question", "name": "诊断日志会自动上传吗？", "acceptedAnswer": {"@type": "Answer", "text": "不会。日志存在手机上，你导出并选好发给谁才会发出去。"}}, {"@type": "Question", "name": "公众号文章点开视频号的修复确认有效了吗？", "acceptedAnswer": {"@type": "Answer", "text": "还没有。v0.1.26 只在模拟器上用模拟页面测过，没有在真机上用真实微信测。文章里直接播放的视频暂时拦不到。"}}]}]}</script>
 <style>
 :root{
   --bg:#F9FAFD;--card:#FFFFFF;--ink:#36475A;--ink2:#61718A;--ink3:#8C99AD;
@@ -135,12 +135,12 @@ footer a:hover{color:var(--primary)}
 </header>
 <section class="hero" style="padding:28px 0 18px">
   <h1 style="font-size:30px;margin:12px 0 10px">手机限制突然不管用了，先查这几处</h1>
-  <p class="lead" style="max-width:680px">限制设好了，前几天好好的，某天晚上 App 照样打开，像什么都没设。大人一般是发现自己又刷过了点。家长往往是孩子先发现的。我是涟漪的开发者，涟漪是免费、不用注册的自律和家长管控 App，下面的例子用涟漪来讲，大部分检查别的软件也适用。涟漪安卓版 v0.1.25，iPhone 版 v0.1.5。</p>
+  <p class="lead" style="max-width:680px">限制设好了，前几天好好的，某天晚上 App 照样打开，像什么都没设。大人一般是发现自己又刷过了点。家长往往是孩子先发现的。我是涟漪的开发者，涟漪是免费、不用注册的自律和家长管控 App，下面的例子用涟漪来讲，大部分检查别的软件也适用。涟漪安卓版 v0.1.26，iPhone 版 v0.1.5。</p>
   <div class="cta">
     <a class="btn" href="https://ripplefocus.github.io/dl/ripple-latest.apk">下载最新安卓版 APK</a>
     <a class="btn ghost" href="https://github.com/ripplefocus/ripplefocus.github.io/releases/latest">GitHub 最新版本</a>
     <a class="btn ghost" href="https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa">iPhone v0.1.5（.ipa）</a>
-    <div class="meta">安卓 v0.1.25 + iPhone v0.1.5（iOS 16 及以上）· 免费无广告 · 不用注册 · 设置只存在手机上</div>
+    <div class="meta">安卓 v0.1.26 + iPhone v0.1.5（iOS 16 及以上）· 免费无广告 · 不用注册 · 设置只存在手机上</div>
   </div>
 </section>
 <section>
@@ -182,7 +182,7 @@ footer a:hover{color:var(--primary)}
 </section>
 <section>
   <h2>常见问题</h2>
-  <details><summary>无障碍服务为什么老是自己关掉？</summary><p>多数是手机省电或者在最近任务里划掉了。打开本机无线调试守护以后，涟漪被停掉几秒内能自己恢复。保活设置指南里有各个品牌的步骤。</p></details><details><summary>孩子能把涟漪关掉吗？</summary><p>关规则要等 15 分钟或者输解锁码，严格模式下只能输码。开了防卸载，删掉涟漪也要等倒计时或者输码。码家长自己保管。</p></details><details><summary>诊断日志会自动上传吗？</summary><p>不会。日志存在手机上，你导出并选好发给谁才会发出去。</p></details><details><summary>公众号文章点开视频号的修复确认有效了吗？</summary><p>还没有。v0.1.25 只在模拟器上用模拟页面测过，没有在真机上用真实微信测。文章里直接播放的视频暂时拦不到。</p></details>
+  <details><summary>无障碍服务为什么老是自己关掉？</summary><p>多数是手机省电或者在最近任务里划掉了。打开本机无线调试守护以后，涟漪被停掉几秒内能自己恢复。保活设置指南里有各个品牌的步骤。</p></details><details><summary>孩子能把涟漪关掉吗？</summary><p>关规则要等 15 分钟或者输解锁码，严格模式下只能输码。开了防卸载，删掉涟漪也要等倒计时或者输码。码家长自己保管。</p></details><details><summary>诊断日志会自动上传吗？</summary><p>不会。日志存在手机上，你导出并选好发给谁才会发出去。</p></details><details><summary>公众号文章点开视频号的修复确认有效了吗？</summary><p>还没有。v0.1.26 只在模拟器上用模拟页面测过，没有在真机上用真实微信测。文章里直接播放的视频暂时拦不到。</p></details>
 </section>
 </div>
 <footer>
