@@ -6,8 +6,36 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-23T06:40:00+08:00</updated>
+  <updated>2026-11-23T16:50:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Is there a free Android app blocker with no ads?</title>
+    <link href="https://ripplefocus.github.io/en/free-android-app-no-ads/"/>
+    <id>https://ripplefocus.github.io/en/free-android-app-no-ads/</id>
+    <updated>2026-11-23T16:50:00+08:00</updated>
+    <summary>Ripple for Android v0.1.26 is free with no ads: per app daily limits, uninstall protection, clock change resistance. iPhone v0.1.5 only blocks by schedule.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>有没有免费又没广告的安卓戒手机 App</title>
+    <link href="https://ripplefocus.github.io/free-android-app-no-ads/"/>
+    <id>https://ripplefocus.github.io/free-android-app-no-ads/</id>
+    <updated>2026-11-23T16:50:00+08:00</updated>
+    <summary>涟漪安卓 v0.1.26 免费无广告，能设每个 App 每天用多久、防卸载、防改时间。iPhone v0.1.5 只能按时段屏蔽。</summary>
+  </entry>
+  <entry xml:lang="en">
+    <title>How to limit one app on a child's phone to a set time a day</title>
+    <link href="https://ripplefocus.github.io/en/limit-kid-app-time/"/>
+    <id>https://ripplefocus.github.io/en/limit-kid-app-time/</id>
+    <updated>2026-11-23T16:50:00+08:00</updated>
+    <summary>Set a daily minute limit on the child's Android phone with Ripple, split weekdays and weekends, parent keeps the code. iPhone v0.1.5 has no daily limit.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>怎么限制孩子手机上某个 App 每天用多久</title>
+    <link href="https://ripplefocus.github.io/limit-kid-app-time/"/>
+    <id>https://ripplefocus.github.io/limit-kid-app-time/</id>
+    <updated>2026-11-23T16:50:00+08:00</updated>
+    <summary>在孩子的安卓手机上用涟漪设每日分钟数，工作日周末分开，家长保管解锁码。iPhone v0.1.5 没有每日时长。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Why did I ask for more time? Writing down the reason and a plan when the limit runs out</title>
     <link href="https://ripplefocus.github.io/en/reasons-plans/"/>

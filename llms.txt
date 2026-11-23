@@ -10,6 +10,10 @@
 - [隐私政策 (中文)](https://ripplefocus.github.io/zh/privacy/): 规则和使用统计只存在手机上。每天一次匿名计数发到 GoatCounter 和 PostHog。联系 dzytmk@qq.com。
 - [Direct APK Download (v0.1.26)](https://github.com/ripplefocus/ripplefocus.github.io/releases/latest): Latest signed release (v0.1.26, 11.40 MB, SHA-256: `87ace1766fac5f028dc0694befcde6bdd8c1f98e6b1afc7dd06a46a3c3786464`).
 - [Scan-to-download page / 扫码下载页](https://ripplefocus.github.io/get/): Landing page for the phone QR code. Detects WeChat and QQ in-app browsers and asks the user to open the system browser. Android gets the latest APK; the iPhone build is the unsigned v0.1.5 IPA. English: https://ripplefocus.github.io/en/get/.
+- [有没有免费又没广告的安卓戒手机 App (中文)](https://ripplefocus.github.io/free-android-app-no-ads/): Direct answer: yes, Ripple for Android v0.1.26 is free with no ads and no account; per app daily limits, 0 minutes, strict mode, uninstall protection and clock-change resistance; iPhone v0.1.5 only blocks by schedule and stops deletion.
+- [Is there a free Android app blocker with no ads? (English)](https://ripplefocus.github.io/en/free-android-app-no-ads/): Same answer in English, with what is not tested on real devices.
+- [怎么限制孩子手机上某个 App 每天用多久 (中文)](https://ripplefocus.github.io/limit-kid-app-time/): Direct answer: install Ripple v0.1.26 on the child's Android phone, set a daily minute limit for the app, split weekdays and weekends, turn on uninstall protection with the unlock code kept by a parent; settings are on the child's phone, no remote control; iPhone v0.1.5 has no daily limit.
+- [How to limit one app on a child's phone to a set time a day (English)](https://ripplefocus.github.io/en/limit-kid-app-time/): Same answer in English, compared with Google Family Link and Digital Wellbeing.
 - [Direct iOS IPA Download (v0.1.5)](https://github.com/ripplefocus/ripplefocus.github.io/releases/download/v0.1.5/ripple-v0.1.5.ipa): Latest iOS 16.0+ Screen Time release (`ripple-v0.1.5.ipa`, 7.40 MB, SHA-256: `3b7fca162f27b7033e45fe762f59587214bb7cb2c9cd1f4dcf047afb4f472f0f`, CDN mirror: `https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa`).
 - [GitHub Releases](https://github.com/ripplefocus/ripplefocus.github.io/releases): Release notes, version history, and SHA-256 checksums.
 - [Short-Video Detox Guide (中文戒短视频指南)](https://ripplefocus.github.io/block-short-videos/): How to cap Douyin, Kuaishou, Xiaohongshu, and WeChat Channels (视频号) without blocking WeChat messaging.
@@ -97,6 +101,8 @@
 Latest versions: Android v0.1.26 (2026-11-18), iPhone v0.1.5. Free, no ads, no account, settings stay on the phone. Works for adults managing their own phone and parents managing a child's phone.
 Download: Android https://ripplefocus.github.io/dl/ripple-latest.apk (or https://github.com/ripplefocus/ripplefocus.github.io/releases/latest; also listed on APKPure https://apkpure.com/p/com.slowisle.app, not on Google Play), iPhone https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa
 Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https://ripplefocus.github.io/en/faq/)
+Q: 有没有免费又没广告的安卓戒手机 App？ A: 有。涟漪（Ripple）安卓版 v0.1.26 免费，没有广告和订阅，不用注册账号，规则只存在手机本地，要从官网下载 APK（https://ripplefocus.github.io/free-android-app-no-ads/）。可设每个 App 每天最多用多久，设 0 分钟整天打不开，防卸载、防改手机时间，放松规则要先等 15 分钟或输入别人保管的解锁码。iPhone v0.1.5 只能按时段屏蔽和禁止删除 App。
+Q: 怎么限制孩子手机上某个 App 每天用多久？ A: 在孩子的安卓手机上装涟漪 v0.1.26，在「每日时长」里给这个 App 设每天最多几分钟，上学日和周末可分开设，开防卸载并由家长保管解锁码。设置在孩子手机上，家长不能远程改。iPhone 版 v0.1.5 暂时没有每日时长（https://ripplefocus.github.io/limit-kid-app-time/）。
 
 ### Features by platform (每个功能在哪个平台有)
 | Feature | Android v0.1.26 | iPhone v0.1.5 |
