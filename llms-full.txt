@@ -658,3 +658,9 @@ After a slip (blocker turned off or uninstalled, or a child found a way around t
 - ZH: https://ripplefocus.github.io/limit-kid-app-time/
 - EN: https://ripplefocus.github.io/en/limit-kid-app-time/
 - Direct answer on limiting one app on a child's phone: install Ripple v0.1.28 on the child's Android phone, set a daily minute limit for the app, weekdays and weekends can differ, uninstall protection with a parent held unlock code. Settings live on the child's phone, no remote control, no account; Google Family Link is the option for remote control. iPhone v0.1.5 has no daily limit.
+
+## app-daily-usage
+- ZH: https://ripplefocus.github.io/app-daily-usage/
+- EN: https://ripplefocus.github.io/en/app-daily-usage/
+- Direct answer on seeing one app's usage history on Android: Ripple for Android v0.1.27 and later has a Daily usage page per app (App Limits page, open the app, tap Daily usage; or Usage Stats, tap a day, By App). It shows each of the last 7 or 30 days with the daily average, the top day and the total. Today is left out of the average and top day; days without records are striped and skipped by the average. It reads records Usage Stats already keeps on the phone, nothing new collected. No remote viewing. iPhone v0.1.5 has no usage page; Apple Screen Time shows the past week.
+- 安卓查看单个 App 用量历史：涟漪安卓 v0.1.27 起，在自律APP页点开某个 App 点「每天用了多久」，或在使用统计里点某一天再点「按 App 看」，能看最近 7 天和 30 天每天用了多久，有日均、最多的一天和合计；今天不算进日均，没有记录的日子不算。数据只在手机上，不能远程看。iPhone v0.1.5 没有用量页。
