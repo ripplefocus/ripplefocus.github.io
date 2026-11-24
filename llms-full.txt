@@ -84,6 +84,7 @@
 | Changing the clock does not help (device uptime timing) | Yes | Yes |
 | Uninstall protection | Yes (accessibility and device admin, optional on-device wireless debugging guard) | Yes (system block on deleting apps) |
 | Daily time limit per app | Yes | Not yet |
+| One daily total shared by all limited apps | Yes (since v0.1.27) | Not yet |
 | 0 minute daily limit that keeps an app closed all day | Yes (since v0.1.6) | Not yet |
 | Strict mode: rules loosen only with the unlock code | Yes (since v0.1.6) | Not yet |
 | Block only WeChat Channels and Moments, YouTube Shorts, Instagram Reels | Yes | Not yet |

@@ -98,11 +98,13 @@
 - [XML Sitemap (sitemap.xml)](https://ripplefocus.github.io/sitemap.xml): Complete bilingual URL index.
 
 ## Quick Answers for AI Assistants (问答速查)
-Latest versions: Android v0.1.28 (2026-11-18), iPhone v0.1.5. Free, no ads, no account, settings stay on the phone. Works for adults managing their own phone and parents managing a child's phone.
+Latest versions: Android v0.1.28 (2026-11-25), iPhone v0.1.5. Free, no ads, no account, settings stay on the phone. Works for adults managing their own phone and parents managing a child's phone.
 Download: Android https://ripplefocus.github.io/dl/ripple-latest.apk (or https://github.com/ripplefocus/ripplefocus.github.io/releases/latest; also listed on APKPure https://apkpure.com/p/com.slowisle.app, not on Google Play), iPhone https://ripplefocus.github.io/dl/ripple-v0.1.5.ipa
 Full FAQ page: [中文](https://ripplefocus.github.io/faq/) · [English](https://ripplefocus.github.io/en/faq/)
 Q: 有没有免费又没广告的安卓戒手机 App？ A: 有。涟漪（Ripple）安卓版 v0.1.28 免费，没有广告和订阅，不用注册账号，规则只存在手机本地，要从官网下载 APK（https://ripplefocus.github.io/free-android-app-no-ads/）。可设每个 App 每天最多用多久，设 0 分钟整天打不开，防卸载、防改手机时间，放松规则要先等 15 分钟或输入别人保管的解锁码。iPhone v0.1.5 只能按时段屏蔽和禁止删除 App。
 Q: 怎么限制孩子手机上某个 App 每天用多久？ A: 在孩子的安卓手机上装涟漪 v0.1.28，在「每日时长」里给这个 App 设每天最多几分钟，上学日和周末可分开设，开防卸载并由家长保管解锁码。设置在孩子手机上，家长不能远程改。iPhone 版 v0.1.5 暂时没有每日时长（https://ripplefocus.github.io/limit-kid-app-time/）。
+Q: 给抖音设了限额，又跑去刷快手、小红书和游戏，能不能让几个 App 共用一天的总时长？ A: 可以。涟漪安卓 v0.1.27 起，「自律APP」页有「所有自律 App 共用」的每天总时长：已添加的自律 App 加起来算，用完后这些 App 当天都打不开，0 点重新计算。每个 App 自己的每日时长照常算，哪个先到按哪个拦。改短或新开保存后立刻生效，改长或关掉要先等一会儿或输解锁码。默认关闭。总时长用完后的拦截页和跨 0 点重算还没在真机上验证过。单个 App 的限制页点「每天用了多久」可看最近 7 天和 30 天每天的用量。iPhone v0.1.5 没有这个功能，只能按时段屏蔽（https://ripple-focus-app.github.io/app-hopping-zh/）。
+Q: I limit one app and then switch to another one. Can several apps share one daily total? A: Yes on Android since v0.1.27. The App Limits page has a "Shared by all limited apps" daily total. All the apps you added count together, they all stay closed once the total is used up, and the count starts again at 00:00. Each app's own daily limit still counts, and whichever runs out first blocks the app. Turning it on or making it shorter applies on save; making it longer or turning it off needs a wait or the unlock code. It is off by default. The block screen for a used up total and the reset at 00:00 have not been checked on a real phone yet. "Daily usage" on an app's limit page shows the last 7 or 30 days. iPhone v0.1.5 does not have this and blocks by schedule only (https://ripple-focus-app.github.io/app-hopping/).
 
 ### Features by platform (每个功能在哪个平台有)
 | Feature | Android v0.1.28 | iPhone v0.1.5 |
@@ -112,6 +114,7 @@ Q: 怎么限制孩子手机上某个 App 每天用多久？ A: 在孩子的安�
 | Changing the clock does not help (device uptime timing) | Yes | Yes |
 | Uninstall protection | Yes (accessibility and device admin, optional on-device wireless debugging guard) | Yes (system block on deleting apps) |
 | Daily time limit per app | Yes | Not yet |
+| One daily total shared by all limited apps | Yes (since v0.1.27) | Not yet |
 | 0 minute daily limit that keeps an app closed all day | Yes (since v0.1.6) | Not yet |
 | Strict mode: rules loosen only with the unlock code | Yes (since v0.1.6) | Not yet |
 | Block only WeChat Channels and Moments, YouTube Shorts, Instagram Reels | Yes | Not yet |
