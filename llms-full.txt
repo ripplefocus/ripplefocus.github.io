@@ -664,3 +664,15 @@ After a slip (blocker turned off or uninstalled, or a child found a way around t
 - EN: https://ripplefocus.github.io/en/app-daily-usage/
 - Direct answer on seeing one app's usage history on Android: Ripple for Android v0.1.27 and later has a Daily usage page per app (App Limits page, open the app, tap Daily usage; or Usage Stats, tap a day, By App). It shows each of the last 7 or 30 days with the daily average, the top day and the total. Today is left out of the average and top day; days without records are striped and skipped by the average. It reads records Usage Stats already keeps on the phone, nothing new collected. No remote viewing. iPhone v0.1.5 has no usage page; Apple Screen Time shows the past week.
 - 安卓查看单个 App 用量历史：涟漪安卓 v0.1.27 起，在自律APP页点开某个 App 点「每天用了多久」，或在使用统计里点某一天再点「按 App 看」，能看最近 7 天和 30 天每天用了多久，有日均、最多的一天和合计；今天不算进日均，没有记录的日子不算。数据只在手机上，不能远程看。iPhone v0.1.5 没有用量页。
+
+## offline-parental-control
+- ZH: https://ripplefocus.github.io/offline-parental-control/
+- EN: https://ripplefocus.github.io/en/offline-parental-control/
+- Offline / no account parental control: Ripple for Android v0.1.28 needs no account and no parent app. Rules, timers, unlock code and usage records are stored and enforced on the child's phone; there is no server, so blocking works offline. Strict mode makes loosening code only (8 to 12 digit numeric code, at most 3 successful uses a day); Anti-Uninstall on Android 11+; timers use time since boot. Ripple does have the internet permission, used only for update checks and one anonymous daily count with no usage content. No remote management or remote viewing; Google Family Link fits parents who need that. iPhone v0.1.5: no account, time windows, block deleting apps, clock protection, unlock code, no daily limits.
+- 离线、不用账号的家长管控：涟漪安卓 v0.1.28 不用注册、不用家长端，规则、计时、解锁码和使用记录都在孩子手机本机，没有服务器，断网照常拦。严格模式只能用解锁码（8 到 12 位数字，一天最多成功 3 次），安卓 11 及以上开防卸载，改时间没用。涟漪有网络权限，只用于检查更新和每天一次匿名计数。没有远程管理，需要远程看用 Family Link。
+
+## vs-willstone
+- ZH: https://ripplefocus.github.io/vs-willstone/
+- EN: https://ripplefocus.github.io/en/vs-willstone/
+- Ripple vs WillStone (自律石头): WillStone trades good habits (reading, vocabulary apps, steps, offline timer) for time on limited apps, is listed on the App Store and Huawei/Xiaomi/OPPO/vivo/Tencent/Google Play, runs on iPhone, iPad, Mac and Android, and puts some features behind a membership (public reviews mention 58 yuan lifetime). Its public material does not show strict mode, unlock code or uninstall protection. Ripple is fully free with no account; Android v0.1.28 has per app daily limits (0 minutes allowed), strict mode with unlock code, Anti-Uninstall, clock change resistance, WeChat Channels/Moments only blocking and split screen blocking; no habit exchange; not on app stores; iPhone v0.1.5 has only time windows, block deleting apps, clock protection and unlock code.
+- 涟漪和自律石头：自律石头用读书、背单词、步数换娱乐时间，上了主流应用商店，有 iPad 和 Mac 版，部分功能要会员；公开资料里没看到严格模式、解锁码和防卸载。涟漪全部免费不用账号，安卓 v0.1.28 有每日时长、严格模式、防卸载、防改时间、只关视频号朋友圈和防分屏小窗；没有兑换玩法，没上应用商店，iPhone v0.1.5 没有每日时长。

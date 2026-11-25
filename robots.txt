@@ -60,6 +60,15 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
 # 国内搜索与 AI 联网检索相关爬虫（Baiduspider 和 Bytespider 已在上方）
 User-agent: Sogou web spider
 Allow: /
