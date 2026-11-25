@@ -6,8 +6,22 @@
   <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="https://ripplefocus.github.io/"/>
   <id>https://ripplefocus.github.io/</id>
-  <updated>2026-11-25T08:50:00+08:00</updated>
+  <updated>2026-11-25T18:30:00+08:00</updated>
   <author><name>Ripple developer</name></author>
+  <entry xml:lang="en">
+    <title>Who should hold the unlock code of a phone limit app, and what if it is lost</title>
+    <link href="https://ripplefocus.github.io/en/unlock-code/"/>
+    <id>https://ripplefocus.github.io/en/unlock-code/</id>
+    <updated>2026-11-25T18:30:00+08:00</updated>
+    <summary>Adults give the Ripple unlock code to a partner or friend, parents keep it for a kid's phone. Android v0.1.28: Unlock code only needs 8 to 12 digits, 5 wrong tries mean a 1 minute wait, a lost code is removed by request after 72 hours. iPhone v0.1.5 also has an unlock code.</summary>
+  </entry>
+  <entry xml:lang="zh-CN">
+    <title>戒手机 App 的解锁码交给谁保管，忘了或输错怎么办</title>
+    <link href="https://ripplefocus.github.io/unlock-code/"/>
+    <id>https://ripplefocus.github.io/unlock-code/</id>
+    <updated>2026-11-25T18:30:00+08:00</updated>
+    <summary>大人把涟漪解锁码交给另一半或朋友，孩子手机上的码家长留着。安卓 v0.1.28「只能用解锁码」要 8 到 12 位数字，连续输错 5 次等 1 分钟，忘了申请 72 小时后解除。iPhone v0.1.5 也有解锁码。</summary>
+  </entry>
   <entry xml:lang="en">
     <title>Offline parental control for Android with no account, no cloud and no parent app</title>
     <link href="https://ripplefocus.github.io/en/offline-parental-control/"/>

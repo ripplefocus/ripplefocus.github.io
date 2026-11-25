@@ -659,6 +659,12 @@ After a slip (blocker turned off or uninstalled, or a child found a way around t
 - EN: https://ripplefocus.github.io/en/limit-kid-app-time/
 - Direct answer on limiting one app on a child's phone: install Ripple v0.1.28 on the child's Android phone, set a daily minute limit for the app, weekdays and weekends can differ, uninstall protection with a parent held unlock code. Settings live on the child's phone, no remote control, no account; Google Family Link is the option for remote control. iPhone v0.1.5 has no daily limit.
 
+## unlock-code
+- ZH: https://ripplefocus.github.io/unlock-code/
+- EN: https://ripplefocus.github.io/en/unlock-code/
+- Who keeps the unlock code: adults give it to a partner, roommate or friend who types it while they look away; parents keep the code for a kid's phone, use 8 or more digits, avoid birthdays, and can read it out on a call when away (no remote management), then change it. Android v0.1.28: without strict mode a rule loosens after a wait (15 min default, 30 min, 1 h or 2 h) or with the code; strict mode accepts only the code; Unlock code only needs 8 to 12 digits, the friend code may have letters but must be changed first; 5 wrong tries in a row mean a 1 minute wait; at most 3 successful unlocks a day in strict mode; a lost code can be removed by request after 72 hours while rules keep working. Codes set in 0.1.27 or earlier on phones like OPPO may have lost their letters; skip letters and type the digits, or use the full keyboard button (entry page verified in tests only). iPhone v0.1.5 has an unlock code, schedules, app deletion block and clock protection, no strict mode or daily limits.
+- 解锁码交给谁：大人交给另一半、室友或一起戒手机的朋友，设码时让对方输；孩子手机的码家长留着，8 位以上、别用生日，不在身边可电话念给孩子再改码（没有远程管理）。安卓 v0.1.28 不开严格模式可等 15 分钟（可选 30 分钟、1 小时、2 小时）或输码；严格模式只认码；「只能用解锁码」要 8 到 12 位数字；连续输错 5 次等 1 分钟；严格模式一天最多成功 3 次；忘了申请 72 小时后解除。iPhone v0.1.5 有解锁码，没有严格模式。
+
 ## app-daily-usage
 - ZH: https://ripplefocus.github.io/app-daily-usage/
 - EN: https://ripplefocus.github.io/en/app-daily-usage/
